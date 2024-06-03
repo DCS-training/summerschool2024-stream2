@@ -1,5 +1,4 @@
-# CDCS Summer School 2024
-# Text & Data Analysis in the Wild
+# CDCS Summer School 2024 // Text & Data Analysis in the Wild
 
 Welcome to the CDCS Summer School Stream 2 Repository. Here you will be able to access all the material, data, and instructions connected to the school. 
 
