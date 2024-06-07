@@ -56,7 +56,7 @@ For the Whisky focused Data Wrangling, Null Hypothesis Testing, and Data Visuali
 
 The Wikipedia dataset was scraped using the [Convert Wiki Tables to CSV](https://wikitable2csv.ggor.de/) webtool by [Gregor Weichbrodt](https://github.com/gambolputty/wikitable2csv). Whilst the Scotch Reviews dataset was originally sourced from [Whisky Advocate](https://whiskyadvocate.com/). 
 
-Through these datasets, we will work on extracting numerical data from unstructured text (i.e., the Whisky ABV % from the whisky name description), other tidying methods, and on using Fuzzy Join methods to bind datasets. From there we will use Null Hypothesis Testing to investigate what factors of the dataset influence the review scores given to each Whisky. The use of the dataset will finish with data visualisation methods, to communicate our findings in informative, interesting, and eye catching ways.
+Through these datasets, we will work on extracting numerical data from unstructured text (i.e., the Whisky ABV % from the whisky name description), other tidying methods, and on using "Fuzzy Join" methods to bind datasets. From there we will use Null Hypothesis Testing to investigate what factors of the dataset influence the review scores given to each Whisky. The use of the dataset will finish with data visualisation methods, to communicate our findings in informative, interesting, and eye catching ways.
 
 ## Licence of the material
 All the material collected here is covered by a CC-BY-NC 4.0 License
