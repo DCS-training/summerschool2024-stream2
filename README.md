@@ -43,7 +43,7 @@ Each day of the Summer School has its own folder. Within each day, you will find
 ## Summer School Format
 o The Summer School is meant to be interactive, and you will be prompted to replicate what the instructor is demonstrating on your own machine.
 
-o Besides the instructors, there will be helpers present in the call who are there to help you if you get stuck or if you run into an error. Please use your sticky notes to raise problems or issues and someone will help you with addressing it. During the introduction at the start of the Summer School we will cover how to ask for help in more detail.
+o Besides the instructors, there will be helpers who are there to help you if you get stuck or if you run into an error. Please use your sticky notes to raise problems or issues and someone will help you with addressing it. During the introduction at the start of the Summer School, we will cover how to ask for help in more detail.
 
 o We promote an inclusive and welcoming environment, so we ask you to be respectful towards our instructors, helpers and fellow participants. Disruptive behaviour will not be tolerated, and you will be asked to leave if it occurs. More information can be found in the Summer School Code of Conduct Document. 
 
@@ -56,7 +56,18 @@ For the Whisky focused Data Wrangling, Null Hypothesis Testing, and Data Visuali
 
 The Wikipedia dataset was scraped using the [Convert Wiki Tables to CSV](https://wikitable2csv.ggor.de/) webtool by [Gregor Weichbrodt](https://github.com/gambolputty/wikitable2csv). Whilst the Scotch Reviews dataset was originally sourced from [Whisky Advocate](https://whiskyadvocate.com/). 
 
-Through these datasets, we will work on extracting numerical data from unstructured text (i.e., the Whisky ABV % from the whisky name description), other tidying methods, and on using "Fuzzy Join" methods to bind datasets. From there we will use Null Hypothesis Testing to investigate what factors of the dataset influence the review scores given to each Whisky. The use of the dataset will finish with data visualisation methods, to communicate our findings in informative, interesting, and eye catching ways.
+Through these datasets, we will work on extracting numerical data from unstructured text (i.e., the Whisky ABV % from the whisky name description), other tidying methods, and on using "Fuzzy Join" methods to bind datasets. From there we will use Null Hypothesis Testing to investigate what factors of the dataset influence the review scores given to each Whisky. The use of the dataset will finish with data visualisation methods, to communicate our findings in informative, interesting, and eye-catching ways.
+
+For the Web scraping and Sentiment Analysis block, we are going to scrape and analyse the whisky reviews published on the [https://www.connosr.com/](https://www.connosr.com/) website.
+
+For the History of Scotland-focused text analysis, we are going to explore the [Statistical Accounts of Scotland](https://collectionsmanager.is.ed.ac.uk/handle/10683/119269). 
+More information on the dataset can be found on the [StatAccount Website](https://stataccscot.edina.ac.uk/static/statacc/dist/home). 
+The ‘Old’ Statistical Account (1791-99), under the direction of ​Sir John Sinclair of Ulbster, and the ‘New’ Statistical Account (1834-45) are reports of life In Scotland during the XVIII and XIX centuries. ​
+
+They offer uniquely rich and detailed parish reports for the whole of Scotland, covering a vast range of topics including agriculture, education, trades, religion and social customs.​
+
+For the Geographical Data Visualisation section, we are going to use edited data from the [National Records of Scotland](https://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/other-national-records-of-scotland-nrs-geographies-datasets/historic-civil-parishes-pre-1891)
+
 
 ## Licence of the material
 All the material collected here is covered by a CC-BY-NC 4.0 License
