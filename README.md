@@ -49,7 +49,7 @@ o We promote an inclusive and welcoming environment, so we ask you to be respect
 
 ## Summer School Data 
 
-Will be updated by June 10th. 
+ 
 
 ## Licence of the material
 All the material collected here is covered by a CC-BY-NC 4.0 License
