@@ -1,0 +1,22 @@
+
+<UNREADABLE>
+
+<TABLE=ERRATA.>
+
+Page   1,   line 11,   for ituation,    read Situation.
+      55,         7,       lease,            leases.
+      60,         9,       Thowallan,        Rowallan.
+     105,        25,       or,               nor.
+     357,         3,       to,               till.
+     364,         7,       clothes,          cloaks.
+     369,        16,       it,               them.
+     371,         2,       Emperour,         Usurper.
+     372,         6,       rescue,           rouse.
+                  1,       inferiour,        superiour.
+     373,         2,       distant,          different
+
+</TABLE>
+
+</UNREADABLE>
+
+

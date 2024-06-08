@@ -1,0 +1,39 @@
+
+     General Appendix to
+
+"ed a few days ago, the total amount of souls is 1949.
+"This is exactly 200 more than the population in Septem-
+"ber 1791, when the former return was made."  So consi-
+derable an increase, in a remote Highland parish, warrants
+the inference that the population of Scotland has in like
+manner greatly increased since the returns of most of the
+other parishes were made.
+   A table of the population of the principal towns of Scot-
+land is subjoined.
+
+\c
+<TABLE=Population of the Towns of Scotland, containing 300
+Souls and upwards.>
+
+Edinburgh,                68,045           Dalkeith, about     4,100
+Leith,                    13,241 81,286    Port Glasgow,       4,036
+Glasgow,                         64,743    Musselburgh,        4,015
+Dundee,                          22,500    Brechin, about      4,000
+Aberdeen,                        20,067    Falkirk,            3,892
+Paisley,                         19,903    Forsar,             3,800
+Perth & Bridgend, about          19,500    Hamilton,           3,601
+Greenock,                        15,000    Kelso,              3,557
+Dumfries & Bridgend,              6,902    Irvine, about       3,500
+Kilmarnock,                       5,670    St Ninians, about   3,500
+Air,                              5,560    Cupar Fife,         3,135
+Montrose,                         5,194    Alloa,              3,132
+Dunfermline,                      5,192    Stewartoun, about   3,000
+Arbroath,                         5,183    Elgin,              2,920
+Inverness,                        5,107    Banff,              2,860
+Stirling,                         5,000    Borrowstounness,    2,613
+Campbelltoun, about               5,000    Rothesay,           2,607
+Kirkaldy and Linkton,             4,267    Haddington,         2,567
+
+</TABLE>
+
+

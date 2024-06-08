@@ -1,0 +1,54 @@
+
+     of Tranent.
+
+   Expenditure to the parish poor for the last 12 years, in-
+cluding occasional charities.
+
+<TABLE>
+
+From November 1780 to November 1781   L.   81   12   0
+From ditto 1781 to ditto 1782              95   14   0
+From ditto 1782 to ditto 1783             144    0   0
+From ditto 1783 to ditto 1784             121    7   0
+From ditto 1784 to ditto 1785             120   13   0
+
+</TABLE>
+
+the emigration is completed, which may be supposed to be
+about 38 or 40, as to males, and about 28 or 30, as to females,
+yet sufficient data are given for making it correct, first, by add-
+ing the number of emigrants to the radices for each year, till
+the emigration commences, and afterwards deducting, along
+with the deaths, the proportion of emigrations thought nearest the
+truth; when all are subtracted, the numbers living and dying
+will coincide with the Table.  The number of persons living,
+of all ages, by the corrected Table, (after deducting the half of
+the births), divided by 30, (the number of years), will then
+be equal to the number of inhabitants: thus,
+
+<TABLE>
+
+Number of males at all ages who die in the parish   27084
+Deduct 1/2 of births                                  547
+                                                               26537
+To which add 31 times the number of male emigrants,
+being a medium between 25 and 37, the supposed
+years of emigration                                             9300
+
+                                            Divide by 30)      35837
+                                     Male inhabitants           1194
+
+Number of females at all ages who die in the parish   33687
+Deduct 1/2 of births                                    527
+                                                               33160
+Add 23 times the number of female emigrants, being a
+medium between 18 and 28, the supposed years of
+emigration                                                      5267
+                                            Divide by 30)      38427
+                                    Female inhabitants          1280
+                        Total male and female inhabitants       2474
+Wanting only 22 of the real number.
+
+</TABLE>
+
+

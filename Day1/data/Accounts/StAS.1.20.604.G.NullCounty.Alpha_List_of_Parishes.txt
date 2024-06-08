@@ -1,0 +1,56 @@
+
+     County of Fife, etc.
+
+<TABLE>
+
+Parish                  Population   Population in  Increase      Decrease
+                         in 1755      1790-1798
+
+45 Lesly                   1130         1212            82            
+   Leuchars                1691         1620                          75
+   Logie                    413          425            12
+   Markinch                2188         2790           602
+   Monimail                 884         1101           217
+50 Moonsie                  249          171                          78
+   Newburgh                1347         1644           317
+   Newburn                  438          456            18
+   Pittenweem               939         1157           218
+   St Andrew's and St          
+     Leonard's             4913         4335                         575
+55 St Monance               780          832            52
+   Salme                   1285          950                         335
+   Scoonie                 1528         1675           147       
+   Strathmiglo             1695          980                         715 
+   Torryburn               1635         1600                          35
+60 Wemyss                  3041         3025                          16
+                         ------       ------        ------          ----
+                         81,570       87,250        11,575          5895
+                                      81,570         5,895 
+                                      ------
+                           Increase,    5680    
+
+</TABLE>
+
+     County of Forfar
+
+<TABLE>
+
+1  Aberbrothwick          2098       4676          2575                  
+   Aberlemno               943       1033            90
+   Airly                  1013        865                           148          
+   Arubulot                865       1055           190           
+5  Auchterhouse            600        600  
+   Barry                   689        796           107
+   Brechin                3131       5000          1819
+   Carmyhe                 745        700                            45
+   Carraldstone            269        260                             9
+10 Cottachy               1233       1020 
+   Crarg                   935       1314           379
+   Dun                     657        500                           157
+   Dundee               12,477     23,500        11,023             
+   Dunnichen               653        872           219
+15 Edzell                  861        963           101
+
+</TABLE>
+
+

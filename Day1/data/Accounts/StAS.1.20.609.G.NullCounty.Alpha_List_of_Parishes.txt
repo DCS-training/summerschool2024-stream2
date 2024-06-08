@@ -1,0 +1,59 @@
+
+     County of Kirkcudbright, etc.
+
+<TABLE>
+
+Parish.            Population    Population in   Increase.   Decrease.
+                     in 1755.      1790-1798.
+ 
+   Irongray             895          762                         133
+   Kells                784          869              85
+   Kelton               811         1600             789
+   Kirkbean             529          660             131
+15 Kirkcudbrigt        1513         2295             782
+   Kirkgunion           489          520              31
+   Kirkmabreck          858         1088             230
+   Kirkpatrick Durham   699         1000             301
+   Lochrutton           564          528                        36 
+20 Minigaff            1209         1420             211
+   Newabbay             634          649              15
+   Orr                 1193         1354             161
+   Parton               396          409              13
+   Rerwick             1051         1050                         1
+25 Terregles            397          510             113
+   Troqueer            1391         2600            1209
+   Tungland             537          520                        17
+28 Twynhame             519          620             101
+                     -------      ------           -----      ---- 
+                     21,205       26,959            6205       454                                           
+                                  21,205             454
+                                  ------           -----
+                       Increase,    5754            5754
+
+</TABLE>
+
+<TABLE=COUNTY OF LANARK.>
+
+1  Avendale          3551           3343                      208
+   Biggar            1098            937                      161
+   Blantyre           496           1040        544   
+   Bothwell          1561           2707       1146
+5  Cadder            2396           1767                      629
+   Cambuslang         934           1288        354
+   Cambusnethan      1419           1684        265
+   Carluke           1459           1730        271
+   Carmichael         899            781                      118
+10 Carmunnock         471            570         99
+   Carnwath          2390           3000        610
+   Carstairs          845            924         79
+   Covington          521            484                       37
+   Crawford          2009           1490                      519
+16 Crawford John      765            590                      175
+   Culter             422            326                       96
+   Dalfers            765           1100        335
+   Dalziel            351            478        117
+   Dolphragton        302            210                      102
+
+</TABLE>
+
+

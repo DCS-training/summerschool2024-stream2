@@ -1,0 +1,679 @@
+---
+title: "Data Wrangling"
+author: "DCS"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+### Install Packages and set up
+
+On Noteable
+
+```{r Install, warning=FALSE, results='hide', message=FALSE}
+#install.packages("naniar") # used to work with missing data
+#install.packages("fuzzyjoin")  # Merging messy data
+#install.packages("gt")
+
+```
+
+On Noteable
+
+```{r Install2, warning=FALSE, results='hide', message=FALSE}
+#install.packages("tidyverse")
+#install.packages("naniar") # used to work with missing data
+#install.packages("fuzzyjoin")  # Merging messy data
+#install.packages("gt")
+#install.packages("data.table")
+#library(naniar) # used to work with missing data
+```
+
+Load the libraries
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(readr) # used to read in csv data
+library(tidyverse) # very useful data tidying and visualising package of packages
+#library(naniar) # used to work with missing data
+library(fuzzyjoin) # Merging messy data
+library(data.table)# working with tables
+library(gt) # used to make pretty tables
+
+```
+
+## Data Wrangling
+
+You may have come across the phrase like this: "90% of data analysis is data tidying". The bad news is... they're not wrong. But the good news is, that data wrangling is also a very playful part of data analysis. The skills developed during this stage also allow for greater freedom and creativity when it comes to running our analyses and creating our data visualisations. Our goal for today is to build your confidence and creativity when it comes to working with data in these crucial first steps.
+
+### Session aims
+
+-   Appreciating organised data (pre wrangling).
+
+-   Learn how to structure our data under the [Tidydata](https://vita.had.co.nz/papers/tidy-data.pdf) framework.
+
+-   Using R as a playground for our data (whilst keeping the raw data safe).
+
+-   Love the pipe!
+
+-   Understanding the importance of exploring our data during wrangling.
+
+-   Merging datasets
+
+-   Saving our tidy data.
+
+-   Using data wrangling skills to summarise our data and make pretty tables.
+
+### Useful tips/sources of solutions
+
+R will almost always bring up errors at some point - you're here, so you've definitely experienced them. Throughout this week, we might even make some coding errors ourselves... But errors and warnings are great! They can alert us to any moments of misbehaving code/analyses, and **if** the function is well designed, it should give us an idea of how to solve the problem. And if it doesn't, it gives something that's very easy to copy and paste into your favourite search engine / [stack overflow](https://stackoverflow.com/) to find if others have solutions to similar problems. If we're still stuck, the other trick we can do is to type the function name into our console, and throw a `?` after it. R will then take us to the function documentation, which will usually have decent instructions on what to do with the function.
+
+(I also use the `?` technique to see if the function has any extra tricks I don't know about)
+
+## Storing and Uploading our data
+
+When working with R, its very important that our data is stored in the same folder as our code scripts. This makes our life easier when it comes to re-running our code, as it allows R to accurately identify where the appropriate files are kept. After storing our data and scripts in the same folder, we need to go to `Session`, scroll down to `Set Working Directory`, and click `To Source File Location`. (If you are on Noteable, this wont be necessary. But it's essential when working on your own device.). This can feel like a intimidating aspect of R, but it will soon become an easy habit to follow. And the key aspect involves no coding at all! Just organising.
+
+### Code approach to setting working directory - live code
+
+```{r working_directory}
+#getwd() 
+#setwd()
+```
+
+After setting the working directory, we can upload our data! I tend to make life easier for myself at this stage - I use the graphic interface of R, then copy and paste the appropriate code into my code chunk.
+
+Today, we're going to work on tidying 2 separate datasets; which we will then merge together at the end to give us a nice dataset to work with.
+
+### Data Upload
+
+```{r data_upload}
+
+# Data Batch 1
+scotch_reviews <- read_csv(url("https://raw.github.com/DCS-training/SummerSchoolStream2ContentTesting/main/Day1/RMD_file_data/scotch_review_manual_clean.csv"))
+
+List_of_whisky_distilleries_in_Scotland <- read_csv(url("https://raw.github.com/DCS-training/SummerSchoolStream2ContentTesting/main/Day1/RMD_file_data/List_of_whisky_distilleries_in_Scotland_manual_clean.csv"))
+
+
+
+```
+
+## Inspecting our data
+
+Before cracking on with any data tidying, we first need to inspect, explore, scout, and have a good look around in our data. This will help us identify areas that need addressing, potential hiccups, and understand what needs to be done. We will also at this point be introduced to the pipe!
+
+### The pipe: `%>%` / `|>`
+
+This is a quick detour for the pipe! The pipe is an incredibly useful tool in R. It allows us to chain together commands, and makes our code more readable. I like to think of it as a "take this object on the **left**, and do this next **function** on it" tool. There are 2 different styles of pipe that we can use, which have identical functionality. One looks like this `%>%`. The other, looks like this `|>`. The choice of which to use is a matter of habit and visual preference. That being said:
+
+-   `|>` : Ceci n'est pas une pipe... `%>%` Ceci une pipe ;)
+
+In this next example, we are going to combine some data investigating functions with the **pipe** function. This is to **pipe** the output into the `gt()` function, to make prettier tables.
+
+### Scouting the data
+
+```{r}
+
+view(scotch_reviews) # View the entire dataset - useful, but can be overwhelming for large data.
+
+head(scotch_reviews, n = 5) %>% # head allows us to view the first `n` rows of a dataset
+  gt() # gt makes table pretty, and allows the code to run! (Description column contains too many characters for head() to manage)
+
+tail(scotch_reviews, n = 3) %>% # tail allows us to view the last `n` rows of a dataset
+  gt() # gt turns tibbles and dataframes into prettier `gt` objects
+
+summary(scotch_reviews) # summary allows to view an overall summary of each variable - very useful for spotting NA's 
+
+
+```
+
+### Visual exploring of the data
+
+We can also use R for some quick visual inspecting of our data - very useful for understanding the type of data we're working with. For example, we can see that from the `price` variable that it escalated very quickly from the 3rd Quarter value of **200**, to **157000**. This suggests the data is likely on an exponential scale, and may need transforming to facilitate reliable analysis. Lets have a look at our numeric variables with histograms and box-plots.
+
+```{r visual_explore}
+
+boxplot(scotch_reviews$price) # quick and easy boxplot
+hist(scotch_reviews$price)   # quick and easy histogram
+plot(scotch_reviews$price)   # Quick and easy scatter plot
+
+
+```
+
+#### Task
+
+1)  Reflect on what the implications are for the distribution on the `price` data.
+2)  Repeat the above plots with the `review.point` variable, and reflect on its data distribution.
+
+```{r Task_1_review.point}
+
+```
+
+## Reformatting data
+
+From our above steps, we can see some changes that might need to be done to the data. For one, we need to transform the price data to accommodate for its exponential structure. And we have some variables that will be easier to work with in a `factor` format (i.e., the aptly named `category` variable). Finally, we're going to do some text data magic, and create a new `ABV` variable from the `name` variable - this way we can compare the alcohol content in our analyses.
+
+One of my favourite features of R is that we can apply these changes without changing our raw data! And better yet, we can keep track of the changes we've made - as the entire code is our notebook!! (As a PhD researcher I'm a nerd who gets excited about this stuff).
+
+To apply our changes, we are going to use the `mutate()` function alongside our pipe from earlier. The `mutate()` function is an incredible useful tool, that allows us create new variables or change our existing variables. We are also going to assign reformatted data to a new object using `<-`.
+
+### mutate
+
+```{r mutate}
+
+scotch_reviews_2 <- scotch_reviews %>% # assigning our changes to a new object
+  mutate(
+    name = str_to_lower(name), # Forcing `name` to all lower case, so gsub has better chance
+    log_price = log(price), # using the `log()` function to apply the log transformation to price. This will create a new variable called `log_price`, whilst also keeping `price` as it is.
+    category = as.factor(category), # here we are forcing the `category` variable to be categorical (i.e., a `factor`)
+    ABV = as.numeric( # using as.numeric so R converts value from a string to a number
+      gsub(".*?(\\d+\\.?\\d*)%.*", "\\1", name) # This gets into the complicated coding grammar of the `gsub` function - the characters are the "rules", and the last part of the command is the variable it should be applied to.
+      ),
+    Age_of_Whisky = as.numeric(gsub(".*?(\\d+\\.?\\d*) year.*", "\\1", name))
+    )
+
+```
+
+From the code above, you'll notice that we're given a [`Warning`]{style="color: orange;"} about our `mutate()` command. This is actually very useful, as it's letting us know why we should be careful with its follow up message: [`Caused by warning: ! NAs introduced by coercion`]{style="color: orange;"} . This let's us know that we need to review our new variables to understand why the NA's are being formed, and whether we can take steps to fix it/impute the issue.
+
+\*Coding disclaimer: The `gsub()` function scares me. Thankfully, the lovely people of stack overflow were able to help me find a [solution](https://stackoverflow.com/questions/78234787/extracting-conditional-numeric-values-from-character-data-in-r) for this problem.
+
+### Reviewing changes
+
+After we've made our changes, it's time to review them again with the same functions from earlier.
+
+#### Task
+
+1)  Inspect the summary of `scotch_reviews_2`
+2)  Visually explore the new `log_price` variable, and interpret it.
+3)  Visually explore the new `ABV` variable and interpret it.
+4)  Visually explore the `Age_of_Whisky` variable and interpret it.
+
+```{r Explore_summary}
+
+```
+
+```{r Explore_log_price}
+
+```
+
+```{r Explore_ABV}
+
+```
+
+```{r Explore_Age_of_Whisky}
+
+```
+
+## Missing data
+
+We'll notice that our new ABV data has some missing points. Before moving on, we need to decide if this presence of missing data is problematic or not. To do so, we can use the `naniar()` package, which makes working with missing data very easy. For more information on `naniar` please check the following link: <https://naniar.njtierney.com/> .
+
+### Quantitative exploration of missing data
+
+```{r explore_missing_data}
+
+miss_var_summary(scotch_reviews_2) # To look at missing data by variable
+miss_case_summary(scotch_reviews_2) %>% # To look at missing data by ID
+gt()
+
+vis_miss(scotch_reviews_2) # matrix plot that lets us see where data is missing
+gg_miss_upset(scotch_reviews_2) # plot that allows us to see if the extent of overlaps with our missing data
+
+# We will cover ggplot in more depth on Friday - here we are using it to visualise to see what patterns may explain why data is missing
+
+ggplot(data = scotch_reviews_2, # setting data
+       aes(y = Age_of_Whisky,x = log_price)) + # setting coordinates
+  geom_miss_point(position = "jitter")+  # naniar function to visualise the missing data
+ # facet_wrap(~category) + # we can also facet our plot to see if patterns are consistent across groups in our data
+  theme(legend.position = "top") +
+  labs(title = "Missing data plot",
+       subtitle = "Here we can see how missing data is related to our other variables")
+
+```
+
+### Qualitative exploration of missing data
+
+Beyond exploring the quantitative overview of our missing data, it's also worth qualitative investigation. As we used the `gsub()` function on the `name` variable to extract our data, we are going to manually inspect our NA's to see if and what conditions may have been missed by the function.
+
+```{r preparing_for_evaluating_missing_data}
+Missing_ABV_scotch_review <- scotch_reviews_2 %>%
+  select(name, ABV) %>% 
+  bind_shadow() %>% # makes a new factor NA/!NA variable for each of our columns. 
+  filter(ABV_NA == "NA" ) # use this to filter so we only have the NA columns
+
+Missing_Age_scotch_review <- scotch_reviews_2 %>%
+  select(name, Age_of_Whisky) %>% 
+  bind_shadow() %>% # makes a new factor NA/!NA variable for each of our columns. 
+  filter(Age_of_Whisky_NA == "NA" )
+
+Missing_ABV_scotch_review %>% gt() # Inspect the name to see if our gsub function missed any useful values of ABV
+
+Missing_Age_scotch_review %>% gt() # Inspect the name to see if our gsub function missed any useful values of Age_of_Whisky
+```
+
+From here we can see that we do need to change the `Bruichladdich Full Strength, 1989 vintage, 13 years old, 57.1 ABV %` row - but I'd say 1/2242 not meeting our rule is pretty decent! For such a rare event, we can manually change this entry after our data cleaning.
+
+### Manual impute
+
+This is more complex, as we're using base R. But here we are telling are to change the `ABV` value of the `scotch_reviews_2` under conditions were name matches our rule. Generally, such specific decisions are avoided (or can be done in graphic user interfaces such as excel - we wont judge). But in cases like this, here is the solution:
+
+```{r}
+scotch_reviews_2$ABV[scotch_reviews_2$name == "bruichladdich full strength, 1989 vintage, 13 years old, 57.1 abv %"] <- 57.1
+
+# Checking our solution
+scotch_reviews_2 %>%
+  select(name, ABV) %>% 
+  bind_shadow() %>%  
+  filter(ABV_NA == "NA") %>% 
+  gt()
+```
+
+### Evaluating missing data
+
+As for the rest of the missing data, we need to decide if its problematic for future analyses or not. For this, we have 2 key steps:
+
+1)  Evaluate the nature of the missing data (is it missing completely at random, or is there a pattern?).
+2)  Evaluate the proportion of the missing data to determine its impact on the power of our analyses.
+
+```{r MCAR}
+scotch_reviews_2 %>% select(log_price, review.point, category, ABV) %>%
+mcar_test() # We use the MCAR test to determine if data is 
+
+scotch_reviews_2 %>% select(log_price, review.point, category, Age_of_Whisky) %>%
+mcar_test() # We use the MCAR test to determine if data is 
+
+pct_miss(scotch_reviews_2) # provides the % of missing data out of entire data set
+pct_miss(scotch_reviews_2$ABV) # provides the % of missing data by the variable
+pct_miss(scotch_reviews_2$Age_of_Whisky) # provides the % of missing data by the variable
+```
+
+As the MCAR test is \> .05 for `ABV`, the pattern of our missing data does not differ significantly from the missing completely at random structure (this is good). `ABV` also has a low % of missing data (which is also good). Cumulatively, this suggests the data is \*missing completley at random (MCAR). This gives us flexibility to ignore the missing values of `ABV` if we choose to do so.
+
+`Age_of_Whisky` on the other hand is a different story. The *p* of the MCAR test is \<.05, and it has a high proportion of missing data. This suggests that the data is likely to be *missing at random (MAR) or* missing not at random (MNAR). We will need to be careful when discussing any analyses from this variable, as it seems to be missing not at random (technical term, but generally bad news - more information [here](https://stefvanbuuren.name/fimd/sec-MCAR.html)).
+
+\*As with many things of stats, these terms are intimidating and scary. This is mostly due to statisticians being bad at naming things. As a simple summary:
+
+-   MCAR is when **there is no pattern** to the missing data, as it is completely random.
+-   MAR is when **there is a pattern** to the missing data, and we can determine what this pattern is (so not that random...).
+-   MNAR is **also when there is a pattern**, only in this case we cannot determine what this pattern is, and we are likely in trouble.
+
+## Tidying 2nd dataset
+
+Time to inspect and evaluate our 2nd dataset to make sure it's ready to merge with the one we've just worked with.
+
+```{r investigate_distillery_list}
+summary(List_of_whisky_distilleries_in_Scotland)
+head(List_of_whisky_distilleries_in_Scotland) %>% gt()
+tail(List_of_whisky_distilleries_in_Scotland) %>% gt()
+```
+
+### 2nd Dataset tweaks
+
+This dataset is ready to go! Which is a very rare occurrence. Before we move on, we'll quickly change some of our variables to be factors. However, we'll leave the `Distillery` variable as it is, as it has a special role to play in its **character** format in the next step.
+
+```{r}
+
+List_of_whisky_distilleries <- List_of_whisky_distilleries_in_Scotland %>%
+  mutate(Distillery = str_to_lower(Distillery), # converting to lower case so we can align with other dataset
+         Location = as.factor(Location), # Converting to factor
+         Region = as.factor(Region),
+         Owner = as.factor(Owner),
+         Age_of_Distillery = 2024 - Founded #calculating age to make analysis simpler
+         )
+
+
+summary(List_of_whisky_distilleries)
+hist(List_of_whisky_distilleries$Age_of_Distillery)
+boxplot(List_of_whisky_distilleries$Age_of_Distillery)
+```
+
+## Merging data
+
+Our aim here is to attribute a Region, Owner, Founding date, and location to every whisky review from the `scotch_reviews_2` dataset. This will provide us with some useful categorical data points for our future analyses - such as: do the review points differ by Region?
+
+Some of you may be asking yourselves a very important question right now... How do we merge data when we don't have any matching variables between our 2 datasets?! With a bit of coding magic, we have a solution:
+
+```{r fuzzyjoin}
+df_merge <- scotch_reviews_2 %>% 
+  fuzzy_inner_join(List_of_whisky_distilleries, 
+                   by=c("name" = "Distillery"), # identifying the names we want to fuzzyjoin by
+                   match_fun = str_detect) %>% # the rules by which we will match
+mutate(Distillery = as.factor(Distillery)) # Now we can transform Distillery to a factor variable
+```
+
+### Fuzzy Logic
+
+So what is going on here? And why is it soooo cool?! So the `fuzzy_inner_join()` allows us to merge 2 datasets on the conditions of another function. It will keep all the values of the first data set, and add the values of the 2nd dataset to the rules we apply. In this case, we are asking it to look inside all values of `name` from `scotch_reviews_2`, and match it under any scenario that it contains the values of the `Distillery` variable of `List_of_Distilleries`. This rule is driven by the `str_detect` function, which has been set as the matching function.
+
+```{r inspect_merged_data}
+summary(df_merge)
+head(df_merge) %>% gt()
+
+```
+
+## Saving our tidied data
+
+Now that our dataset is prepared and ready for analysis, its time to save it. Doing so allows us to have separate R scripts for the different stages of our project, making it easier for us to navigate our own work, and to get the most out of our data. This is the finishing touch - the frosting to our cake/data baking efforts.
+
+However, saving our newly created data will have some risks. When saving your csv in R, you will not receive any warning messages about potentially overwriting previous data (a lesson I've learnt the hard way...). And so, you need to be careful when naming the file, and be careful not to run the code accidentally. You'll also want to make sure you can find your dataset. With that in mind, here are my tips about saving your new dataset:
+
+-   Make sure you know which directory you are working in. This allows you to find your data.
+-   Make sure to provide a meaningful file name, so that it cannot be confused with the raw data.
+-   **Take any precaution you can not to accidentally overwrite the raw data - otherwise you will cry when you spot a mistake.**
+-   Comment out the code after you have ran it. This prevents accidental/unnecessary overwriting of your tidy data - very important as the tidy data will underpin your analysis.
+-   Make sure to type ".csv" at the end of your file name, otherwise you'll end up with a formatless dataset that cannot be opened by any software (Unless you manually type ".csv" to the end of the file name).
+
+```{r saving_data}
+
+###  Uncomment to run. Comment out again after for safety. 
+
+#write_csv(df_merge, "tidied_whisky_data.csv")
+
+```
+
+And there we go! We now have the `tidied_whisky_data` saved and ready for our future work.
+
+# Wrangling Unstructured data
+
+Unstructured data are even more fiddling to play with and each dataset would require different steps.
+
+The constant tool that would be very useful to familiarise with is (Regex)[<https://librarycarpentry.org/lc-data-intro/01-regular-expressions.html>]. A regular expression is a sequence of characters that specifies a match pattern in text. Usually such patterns are used by string-searching algorithms for "find" or "find and replace" operations on strings, or for input validation. Basically it will allow you to find patterns of letters in unstructured texts. It is the same principle behind find and replace in word
+
+## Our Dataset
+
+The Statistical Accounts of Scotland are a series of documentary publications, related in subject matter though published at different times, covering life in Scotland in the 18th and 19th.
+
+The Old (or First) Statistical Account of Scotland was published between 1791 and 1799 by Sir John Sinclair of Ulbster. The New (or Second) Statistical Account of Scotland published under the auspices of the General Assembly of the Church of Scotland between 1834 and 1845. These first two Statistical Accounts of Scotland are unique records of life during the agricultural and industrial revolutions in Europe.
+
+## Structure of the dataset
+
+The original publication has been scanned and OCRed and each single record has been collected in a .txt file. The name of each file contain information about the document itself. For example StAS.2.15.91.P.Orkney.Cross_and_Burness
+
+-   StAs.2.15.91 -\> Second Statistical Account
+-   P -\> Parish (Contain information from the Parish)
+-   Orkney -\> Area of interest (Scotland has been divided in 33 Areas)
+-   Cross_and_Burness -\> Parish
+
+We are going to see how to use this to extract information about all our text later but the first thing we need to do is to create a single dataframe (table) that will contain all the texts otherwise it will be very difficult to manage the data.
+
+## Prepare the dataset
+
+All our .txt files are in a directory named Account so I can write a function that will loop through each of the files extract the text and the tile of each file and put them all in a table. Doing it manually would take a ridiculous amount of time but that is what computer are for so let's see what we can do.
+
+### 1. Create a new object that contain the path to our directory
+
+```{r,results=FALSE}
+text_files_dir <- "data/Accounts"
+```
+
+### 2. Create an empty data.table that we are going to populate with the info we are going to extract
+
+```{r,results=FALSE}
+text_files <- list.files(text_files_dir, pattern = "\\.txt$", full.names = TRUE)#search for .txt
+Scotdata <- data.table(title = character(), text = character())# create a table with two column one named title and one text
+```
+
+### 3. Iterate through each text file We do this by using a for loop function
+
+```{r,results=FALSE}
+for (file in text_files) {
+  # Specify the encoding (e.g., "latin1")
+  text <- tolower(iconv(readLines(file, warn = FALSE), from = "latin1", to = "UTF-8", sub = ""))# tolower gets all text low cap 
+  title <- gsub(".txt$", "", basename(file))# gsub extracts the pattern define so the tile of the files before .txt
+  Scotdata <- rbindlist(list(Scotdata, data.table(title = title, text = paste(text, collapse = " "))))# bind them together
+}
+```
+
+### 4. look at the first 5 row of our file and save the table as a .csv so I do not have to do it every single time
+
+```{r,results=FALSE}
+head(Scotdata)
+write.csv(Scotdata, "Export/text_data.csv", row.names = FALSE)
+```
+
+## Fix some formatting issues
+
+Fix the going to the next line issue. i.e. sub "-" with nothing "" There are a lot of formatting errors (next line, next paragraph) that we want to clean up
+
+```{r,results=FALSE}
+ScotdataClean <- mutate_if(Scotdata, 
+                           is.character, #apply the changes only if the data is a "character" type (e.g. text)
+                           str_replace_all, 
+                           pattern = "-[[:space:]]+","") #What I am searching for+ what I am subbing with 
+```
+
+## Extract More info from the dataset
+
+To do the following steps we are using regex. Short for regular expression, a regex is a string of text that lets you create patterns that help match, locate, and manage text. Think find and replace in Word
+
+### 1. Extract area and parish from the title
+
+-   P=Parish
+-   C=Miscellanea
+-   G=General Observations
+-   A=Appendix
+-   F=General
+-   I=Index
+-   M=Map
+
+I want to be able to subset the dataset by those and I also want to have them both as a code as a description to do so I need to write a if else clause
+
+```{r,results=FALSE}
+ScotdataClean$Type<- sub(".*(P|C|G|A|F|M|I)\\.(.*?)\\..*", "\\1", ScotdataClean$title)#This is selecting the P|C|G|A|F|M|I
+ScotdataClean$TypeDescriptive<- ifelse(
+  ScotdataClean$Type =="P", "Parish",ifelse(
+    ScotdataClean$Type =="C","Miscellanea", ifelse(
+      ScotdataClean$Type =="G","General Observations", ifelse(
+        ScotdataClean$Type =="A", "Appendix", ifelse(
+          ScotdataClean$Type =="F","General", ifelse(
+            ScotdataClean$Type =="I", "Index","Map"))))))
+```
+
+### 2. I want the first bit of the title as the RecordId of the document
+
+```{r,results=FALSE}
+ScotdataClean$RecordID<- sub("^(StAS\\.\\d+\\.\\d+\\.\\d+).*","\\1",  ScotdataClean$title)
+```
+
+### 3. I also want to extract the area that is the bit after p/c/g/a/f/m/i
+
+```{r,results=FALSE}
+ScotdataClean$Area<- sub(".*(P|C|G|A|F|M|I)\\.(.*?)\\..*", "\\2", ScotdataClean$title)# //2 cause I want to select the second bit so after the letters
+```
+
+### 4. Extract the Parish. I can do so by extracting the last bit up until the full stop
+
+```{r,results=FALSE}
+ScotdataClean$Parish<- sub(".*\\.", "", ScotdataClean$title)
+```
+
+## Subset the dataset to only keep the text with information from the parishes
+
+We will now start to look at what is inside but before starting our analysis we want to work only on the parish observations since a lot of the other documents are part of indexes or summaries
+
+```{r,results=FALSE}
+Parish<-subset(ScotdataClean, Type =="P")
+```
+
+And save the final result
+
+```{r,results=FALSE}
+write_csv(Parish,"Export/parish.csv")
+```
+
+## Bonus material - Other uses for data wrangling
+
+This is a slight deviation from data wrangling, but it's intended to showcase how the skills of data wrangling can be applied to other aspects of our research. And it should provide you with the foundational skills to create pretty presentation tables.
+
+Now one of the things you may have noticed about the tidy data format, is that it is built for working with data in a systematic and efficient process. This is perfect for computers to read what is going on, and perfect for us to command our research needs with the computers. As a result, tidy data structures all makes our programming much easier and effective.
+
+However makes for awful communication with non-nerds/non-computers/people in general. As the end aim of our research is to communicate our findings with the world, we need to know how to do this. Thankfully, our data wrangling tools are perfect for the job. Let's learn how to break the rules for great effect.
+
+To demonstrate, we are going to create a stratified summary table of our merged whisky dataset. We will divide the whiskies into two groups - Oldest Whiskies, and Newest Whiskies, and stratify the results by these groups. We will also stratify by Region within this new Age grouping, and rank the presentation by number of whiskies per region... so a lot of different challenges to manage!
+
+A quick histogram of the `Founded` variable from the whisky dataset shows an abrupt stop in new distilleries from 1900, which then reemerges towards the 1950's. Historically, this abrupt stop has been attributed [to the Pattinson Whisky crash of 1898, but also to other factors of the time, including oversupply and two world wars](https://www.edinburghwhiskyacademy.com/blogs/feature/the-1898-pattison-crash-and-50-difficult-years-for-scotch). It's very interesting to see the influence of this difficult time to the whisky industry so clearly in the data! You might also notice a peak in Distilleries being "Founded" in the 1820's. This aligns with the ["Excise Act of 1823"](https://www.whisky.com/the-history-of-whisky.html), where the production of Whisky was finally legalised in the UK. It seems very likely that this rapid emergence was the result of Bandit/Smuggler distilleries quickly trying to formalise themselves as legal producers.
+
+As the Whisky industry is enschrined in romanticism of its products, let's investigate how the age grouping of these distilleries has influenced the pricing of their whiskies.
+
+```{r, preparing_data}
+
+hist(df_merge$Founded)
+
+summary_data <- df_merge %>% 
+  mutate(Old_v_new = case_when(Founded <= 1900 ~ "Old Distilleries", 
+                               Founded > 1900 ~ "New Distilleries")) %>%
+  group_by(Old_v_new, Region) %>% # stratifying data by two levels
+  summarise(n_per_strata = n(),
+            mean_price = mean(price)
+            ) %>%
+           mutate(across(where(is.numeric), round, 2)) %>% # round all numeric variables to 2 decimal places
+            arrange(Old_v_new, desc(n_per_strata)) # arrange by n, but keep Old_v_new grouping
+
+summary_data
+```
+
+This is a good starting point, and now to apply some `gt` magic to make it prettier.
+
+### GT o clock
+
+```{r gt_ification}
+summary_data %>% 
+  gt(rowname_col = "Region") %>% # gt for pretty table - making a specific row divider for `Region`
+  tab_header( # create title and subtitle 
+    title = md("*Whisky Summary Table*"), # using md() to use markdown functions
+    subtitle = md("Stratified by **Age Group** and **Region**")
+  ) %>%
+  opt_align_table_header(align = "left") %>% # aligning titles
+  tab_footnote( # addomg a footbote to explain the data
+    footnote  = md("*'Old'* Distileries founded before 1900.<br> 'Newer' Distilleries founded after 1900.")
+  )
+```
+
+### Deliberately wide data
+
+So we have our summary data, and it's looking reasonably pretty. But we can do more to make it prettier. So now its time to really break some tidy data guidelines in order to present our stratified data. We are going to widen our data, and group our columns by subheading. Hadley Wickham will be shaking his fists in anger! But... We will be able to beautifully present our data.
+
+```{r data_wideification}
+
+wide_data <- summary_data %>% 
+  pivot_wider( # using pivot_wider to make wide data
+    id_cols = "Region", names_from = "Old_v_new",
+    values_from = c(n_per_strata:mean_price)
+  ) %>% 
+  select( # using select to reorder table - this way we can group by age
+          Region, 
+          `n_per_strata_Old Distilleries`,
+         `mean_price_Old Distilleries`,
+         `n_per_strata_New Distilleries`, 
+         `mean_price_New Distilleries`
+         ) %>% 
+  arrange(desc(`mean_price_Old Distilleries`)) %>% #arranging values of old
+  gt(rowname_col = "Region") %>%
+  tab_header(
+    title = md("*Whisky Summary Table*"),
+    subtitle = md("Stratified by **Age Group** and **Region**")
+  ) %>%
+  opt_align_table_header(align = "left") %>% # aligning titles
+  tab_footnote( # addimg a footbote to explain the data
+    footnote  = md("*'Old'* Distileries founded before 1900.<br> 'Newer' Distilleries founded after 1900.")
+  )
+
+wide_data
+```
+
+### Ugly data, beautiful table.
+
+This is friendlier, but still has some issues with interpretability. We can see that our data is grouped by distillery age, but it's a little messy visually to interpret. So lets address that with some spanner headers to group the data.
+
+```{r spanning_headers}
+
+prettier_table <- wide_data %>% 
+  tab_spanner(
+          label = "Older Distilleries", # label for second spanning header
+          columns = c( # selecting columns to be spanned
+         `n_per_strata_Old Distilleries`, 
+         `mean_price_Old Distilleries`)
+         ) %>%
+  tab_spanner( # spanning by group
+         label = "Newer Distilleries", # label for first spanning header
+         columns = c( # selecting columns to be spanned
+         `n_per_strata_New Distilleries`,
+         `mean_price_New Distilleries`)
+        ) 
+  
+
+prettier_table
+
+```
+
+### The finishing touches
+
+Perfect... almost! Now to relabel our columns so that it's quicker to read with less clutter. We will make use of more `markdown` and `html` language here - but nothing complicated! We will use `*` for *italicising*, and <br> to create a line break.
+
+```{r relabelling tables}
+
+prettier_table %>%
+  cols_label(
+    `n_per_strata_Old Distilleries` = md("*n*<br> Bottles"), 
+    `mean_price_Old Distilleries` = md("*Mean*<br> Price ($)"),
+    `n_per_strata_New Distilleries` = md("*n*<br> Bottles"),
+    `mean_price_New Distilleries` = md("*Mean*<br> Price ($)")
+  ) %>%
+  cols_align(align = "center") %>%
+  cols_align(align = "left", columns = matches("Region")) 
+
+```
+
+## Task time (if time...)
+
+In your tables, work together to make a stratified sample comparing `review.point` by `Region` and by `Old_v_new`.
+
+```{r wrangle_new_summary_data}
+
+```
+
+```{r apply_initial_gt_style}
+
+```
+
+```{r wideification}
+
+
+```
+
+```{r spanning_header_time}
+
+```
+
+```{r relabel_and_style}
+
+
+```
+
+## Review of data wrangling
+
+There we have it! A pretty table that is easy to read and easy on the eyes. And with R-markdown, we can render this table directly into a word doc, or a pdf, or a html, or a power-point presentation... and so many other formats. This allows us to save soooo much time and effort after learning the initial tips and tricks.
+
+I hope this has showcased the other uses we can have for data wrangling, and to highlight the time and place for "messy" data.
+
+We also explored the use of `gt` for presenting our data tables with more panache. There are other cool tricks that can be done with this package, such as colouring our rows and including plots in our tables. If you would like to learn more about working with `gt`(in my opinion - the ggplot of table making), we recommend these resources:
+
+-   <https://gt.rstudio.com/articles/gt.html>
+-   <https://www.youtube.com/watch?v=z0UGmMOxl-c>
+
+That's the end of our journey with data wrangling for today. We have covered:
+
+-   Tidy data principles for programming.
+-   Breaking tidy data principles for communicating.
+-   The power of the pipe.
+-   Exploring our data.
+-   Creating new variables and extracting information.
+-   Understanding our missing data with [Naniar](https://cran.r-project.org/web/packages/naniar/vignettes/getting-started-w-naniar.html).
+-   Fuzzy logic and merging data.
+-   Saving your data.
+-   Working with unstructured data.
+-   Using data wrangling for making pretty tables.
+
+## End of session!
+
+Time to go rest your brains!

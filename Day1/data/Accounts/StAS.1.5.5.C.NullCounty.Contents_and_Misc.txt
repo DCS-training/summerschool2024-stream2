@@ -1,0 +1,45 @@
+
+<TABLE=CONTENTS.>
+
+No.   Name.   Population in 1755.   in 1791-2.   Increase.   Dec.   Page.
+
+ 1 Elgin,                    6306    4534                    1772       1 
+ 2 Montrofe,                 4150    6194        2044                  23     
+ 3 Moulin,                   2109    1749                     360      50
+ 4 Logierait,                2487    2200                     287      75    
+ 5 Gordon,                    737     912         175                  88 
+ 6 Pitsligo,                 1224    1300          76                  96    
+ 7 Scoonie,                  1528    1675         147                 106
+ 8 Dumfries,                 4517    5600        1083                 119
+ 9 Menmuir,                   743     900         157                 145 
+10 Portmoak,                  996    1105         109                 156  
+11 Laurence-kirk,             757    1200         443                 175 
+12 Unst,                     1368    1988         620                 132  
+13 Urquhart and Log-
+     gy Wester,              2590    2901         311                 203   
+14 Mains of Fintry,           709     878         169                 218 
+15 Old Kilpatrick,           1281    2452        1171                 229    
+16 Cambuslang,                934    1288         354                 241  
+17 Slains,                   1286    1117                     169     275  
+18 Inveraray,                2751    1832                     919     287 
+19 Tarves,                   2346    1690                     656     309
+20 Currie,                   1227    1300          73                 313 
+21 Fettercairn,              1950    2000          50                 330     
+22 Cathcart,                  499     697         198                 336
+23 Lochlee,                   686     608                      78     357    
+24 Craigie,                   551     700         149                 369
+25 Strachan,                  796     700                      96     375 
+26 Ceres,                    2540    2320                     220     379    
+27 Symington,                 359     610         251                 394
+28 Holme,                    1185     702                     483     406    
+29 Keith,                    2683    3057         374                 414
+30 Cruden,                   2549    2028                     501     431    
+31 North Berwick,            1412    1300                     112     440 
+32 Ochiltree                 1210    1150                      60     446
+33 Spott,                     727     619                     108     451    
+                            -----   -----       -----       -----    
+           Carried over,    57193   59306        7954        5841 
+
+</TABLE>
+
+

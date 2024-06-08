@@ -1,0 +1,28 @@
+
+<TABLE=POPULATION>
+
+Containing a List of Dwelling Houses, Souls, Births, and Deaths, for the following Years, which the Minister knows to be exact.                             S
+                                         Births.                                                                                                            t   
+Years.   Dwelling houses.   Souls.   Mal. Fem. Tot.    Deaths.   EPIDEMICAL DISEASES.                                                                       a  
+1758           96            411      7    5    12                                                                                                          t      
+1759           98            430      7    4    11               **(Lists only taken of examinable of examinable persons, and therefore not here stated.)   i 
+1760                         430      2    8    10                                                                                                          s 
+1761                          *       6    5    11                                                                                                          t  
+1762                          *       8    3    11                                                                                                          i 
+1763           93            412      4    6    10       8       A fever, chiefly about Auchronie, whre the ground is wet, and the                          c 
+1764          102            442      5    9    14      12       habitations poor, was very prevalent.                                                      a
+1765          100            443      6    3     9       7       and a stranger.                                                                            l 
+1766          102            443      6    5    11       3                                                                                              
+1767          100            419      6    4    10       3                                                                                                  A
+1768          102            420      5    8    13       8                                                                                                  c
+1769          100            430      2    6     8       8       A putrid fever cut off many in this parish, and in Skene: 33 burials with                  c
+1770           97            411      4    7    11       7       in 3 weeks, in these two parishes. A stop was put to it, when it came near                 o 
+1771           96            409      4    2     6      13       the manse, by the minister's sister, who gave a bottle of strong been warmed,              u
+1772           93            424      2   11    13       4       in the beginning.  This produced a great perspiration, and carried off the                 n
+1773           95            419      4    7    11      11       fever from all that took it, after severals had died who used the bark, nad                t  
+                                    ------------------------     other medicines.                                                                      
+                                     78   93   171      84       Small-pox and a fever.                                                                
+                                                                                                                                                         
+</TABLE>
+
+

@@ -1,0 +1,48 @@
+
+     County of Bute, etc.
+
+<TABLE=COUNTY OF BUTE>
+
+Parish          Population     Polulaiton in      Increase      Decrease,
+                 in 1755        1790-1798
+
+      Rothfay      2222            4032              1810
+Bute        
+      Kingarth      998             727                            171
+
+                   3220            4759              1810          171
+
+      Kilbride     1369            2545              1176
+Arran 
+      Kilmorie     2277            3259               982
+ 
+                   3646            5804              2158        
+                   ----          ------              ----          ---
+        Total,     6866          10,563              3968          271
+                                   6866               271  
+                                 ------              ----               
+                     Increase      3697              3697
+
+</TABLE>
+
+<TABLE=COUNTY OF CAITHNESS.>
+
+1  Bower      1287     1592    305
+   Canisbay   1481     1950    469 
+   Dunnet     1235     1399    164 
+   Halkirk    3075     3180    105
+5  Latheron   3675     4008    331
+   Olrick      875     1001    126 
+   Reay       2262     2298     36
+   Thurso     2963     3146    153
+   Wattin     1424     1230          194
+10 Wick       3938     5000   1062   
+            ------   ------   ----   ---
+            22,215   24,802   2781   194
+                     22,215    194
+                     ------   ----
+           Increase,   2587   2587
+
+</TABLE>
+
+

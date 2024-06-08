@@ -1,0 +1,28 @@
+
+     of Kilmadock or Doune.
+
+     REGISTER of the WEATHER.
+
+     Kept by Mr Edward Burn at Coldoch.
+
+Years.                   1790.                                 1791.                        1792.                                          1793.
+           
+Months      Fair.   Frosty.   Rain.     Wind      Fair.   Frosty.   Rain.     Wind      Fair.   Frosty.   Rain.     Wind      Fair.   Frosty.   Rain.     Wind    
+                                      westerly                              westerly                              westerly                              westerly    
+ 
+Jan.         15        8        8        24         8                23        21         9       13        9        11        16       11        4        16         
+Feb.         11        2       15        27         7         6      15        21        15        8        6        16         8        3       17        20 
+March        14       10        7        19        20                11        27         8                23        23        22                 9        12
+April,       13       13        4         8        25                10         9        25                 5        14        26                 4         4
+May,         25                 6        18        25                 6        20        21                10        15        28                 3        17   
+June,        17                13        16        26                 4        16        25                 5        11        24                 6        17
+July,        18                13        15        23                 9        24        18                13        16        26                 5        14   
+August,      14                17        12        27                 4        17        22                 9         6        20                11        16
+Sept.        19                11        21        28                 2        15        14                16        19        27                 3        18
+Oct.         23                 8        20        16                15        10        12                19         9        19                12        27 
+Nov.         15        9        6         6        18                12        14        12        8       10        15        16         6       8         2 
+Dec.         11       10       10        24         2        17      12        26         8        7       16        20        11                11        12 
+
+Total.      195       52      118       210       219        23     123       220       189       36      141       175       243        20      93       175 
+
+

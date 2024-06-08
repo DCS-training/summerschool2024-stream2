@@ -1,0 +1,45 @@
+
+     Statistical Account
+
+rule for calculation, the city does not appear to have re-
+covered the same population it had in 1659, until near
+the year 1720.
+   The register of deaths appears to have been very regu-
+lartly kept, from the year 1694 to 1777, after which there
+is a blank for five years, owing to the person who kept the
+register having become superannuated; but from 1783, it
+has again been kept very regularly and exactly.  At the
+beginning of this century, there were only two burying
+grounds, but since that time others have been opened both
+in the city and suburbs.  And, as a number of the inhabi-
+tants of Glasgow are buried in these church-yards in the
+suburbs, and some of the inhabitants of the suburbs are in-
+terred within the city, it is necessary to take the numbers
+in all these burying grounds, in order to ascertain the popu-
+lation and increase of the inhabitants.  The following ta-
+ble exhibits the average number for every 10 years, from
+the beginning of this century to the present time, of bap-
+tisms, proclamations of banns and burials.  But it must be
+remarked, that the register of baptisms and proclamations
+relate only to the royalty, whereas the bills of mortality
+include also the suburbs.
+
+<TABLE>
+
+                        Proclamations.  Baptisms.  Burials.
+In the year 1700,             110          415       361
+Average from 1701 to 1710,           
+             inclusive,       120          500       493
+             1711 to 1720,    137          576       639
+             1721 to 1730,    147          609       711
+             1731 to 1740,    139          503       728
+             1741 to 1750,    193          712       823
+             1751 to 1760,    258          890      1003 
+             1761 to 1770,    309         1040      1159
+             1771 to 1780,    324         1038      1484
+             1781 to 1790,    416         1222      1924
+In the year 1790,             481         1402      2079
+
+</TABLE>
+
+

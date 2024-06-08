@@ -1,0 +1,51 @@
+
+     of the Parishes, etc.
+
+<TABLE>
+
+No. Parish          Presbytery.   County.             Vol.     No. Page
+
+827 Skirling        Biggar        Peebles             III.     35   254
+828 Slains          Ellon         Aberdeen            V.       17   275
+829 Slamannan       Linhthgow     Stirling            XIV.      4    78
+830 Sleat           Sky           Inverness           XVI.     27   534
+831 Smallholm       Lauder        Roxburgh            III.     25   216
+832 Small Isles     Sky           Invern & Argyle     XVIII.    8   181
+834 Sorbie          Wigton        Wigton              I.       29   242
+835 Sorn            Air           Air                 XX.       7   138
+836 Southdean       Jedburgh      Roxburgh            XII.      6    67
+837 Southend        Kintyre       Argyle              III.     55   363
+838 Speymouth       Elgin         Elgin               XIV.     22   374
+839 Spott           Dunbar        Haddington          V.       33   451
+840 Sproaston       Kelso         Roxburgh            I.        6    65
+841 Spynie          Elgin         Elgin               X.       40   623
+842 Stair           Air           Air                 VI.      16   112
+843 Stenton         Dunbar        Haddington          III.     28   231
+844 Stevenston      Irvine        Air                 VII.      1     1
+845 Stewartown      Irvine        Air                 IX.      24   377
+846,847, Stirling,  Stirling      Stirling            VIII.    15   271
+  2 ministers
+848 Stitchell       Kelso         Roxb. & Berwick     III.     43   290
+849 Stobo           Peebles       Peebles             III.     49   324
+850 Stonehouse      Hamilton      Lanark              II.      17   223
+851 Stonykirk       Stranraer     Wigton              II        6    51
+852 Stornoway       Lewis         Ross                XIX.      6   241
+853 Stow            Lauder        Edinburgh           VII.     10   133
+854 Strachan        Kincard.      O'Niel Kincardine   V.       25   375
+855 Strachur        Dunoon        Argyle              IV.      71   555
+856 Strarton        Air           Air                 III.     80   586
+857 Stranraer       Stranraer     Wigton              I.       38   357
+858 Strath          Sky           Inverness           XVI.     10   222
+859 Strathblane     Dumbarton     Stirling            XVIII.   21   563
+860 Strathdon       Alford        Aberdeen            XIII.    14   171
+861 Strathmartin    Dundee        Forfar              XIII.     8    95
+862 Strathmiglo     Cupar         Fise                IV.      53   400
+863 Strichen        Deer          Aberdeen            VII.     43   416
+864 Strickathrow    Brekin        Forfar              IV.      28   209
+865 Stromness       Carston       Orkney              XVI.     21   409
+866 Stronsay        North Isles   Orkney & Shetl.     XV.      20   387
+867 Swinton         Chrinfide     Berwick             VI.      36   322
+
+</TABLE>
+
+

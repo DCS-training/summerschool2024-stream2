@@ -1,0 +1,55 @@
+
+     Alphabetical List
+
+<TABLE>
+
+No. Parish.           Presbytery.    County.          Vol.     No. Page.
+
+353 Fintry            Dumbarton      Stirling          XI.     28   371
+354 Futh              Carston        Orkney            XIV.     9   125
+355 Flusk             Cupar          Fise              III.    34   252
+356 Fodderty          Dingwall       Cromarty & Ross   VII.    42   410
+357 Fogo              Dunse          Betwick           XX.     13   270
+358 Forbes            Alford         Aberdeen          XI.     12   189
+359 Fordice           Fordyce        Banff             III.     4    45
+360 Fordoun           Fordoun        Kincardine        IV.     64   494
+361 Forfar            Forfar         Forfar            VI.     52   510
+362 Forgan            St Andrews     Fise              XVI.     4    88
+363 Forgandenny       Perth          Perth             III.    45   298
+364 Forglen           Turress        Banff             XIV.    32   530
+365 Forgue            Turress        Aberdeen          XII.    22   279
+366 Forres            Forres         Banff             XVII.   29   447
+367 Forteviot         Perth          Perth             XX.      5   117
+368 Fortingal         Dunkeld        Perth             II.     40   445
+369 Fossaway          Auchtenarder   Perth & Kinross   XVIII   17   445
+370 Foulden           Chunfide       Berwick           XI.      7   116
+371 Foulis (Wester)   Auchterarder   Perth             XV.     28   594
+372 Foveran           Ellon          Aberdeen          VI.      8    62
+373 Fraserburgh       Deer           Aberdeen          VI.      1     1
+374 Fywe              Turress        Aberdeen          IX.     31   459
+
+</TABLE>
+
+     G
+
+<TABLE>
+
+375 Gairloch          Lochcarcon      Ross              III.      7    89
+376 Galashiels        Selkurk         Roxb. & Selkurk   II.      23   299
+377 Galston           Air             Air               II.       8    71
+378 Gamrie            Turress         Banff             I.       50   469
+379 Gargunnoch        Stirling        Stirling          XVIII.    3    90
+380 Gartly            Starthbogie     Banff             XI.       9   138
+381 Garvald           Haddington      Haddington        XIII.    24   353
+382 Garvock           Fordoun         Kincardine        III.     75   545
+383 Gafk              Auchterarder    Perth             I.       51   479
+384 Gigha             Kintyre         Argyle            VIII.     3    37
+385 Girthoa           Kirkcudbright   Kirkcudbright     XI.      24   308
+386 Girvan            Air             Air               XII.    App.  621
+387 Gladfmuir         Haddington      Haddington        VII      30   311
+388 Glammiss          Forfar          Forfar            III.     13   124
+                                                        III.    App.  611
+
+</TABLE>
+
+

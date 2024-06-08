@@ -1,0 +1,51 @@
+
+     Alphabetical List
+
+<TABLE>
+
+No. Parish.              Presbytery.       County.            Vol.     No. Page.
+
+504 Kilmadan             Dunoon            Argyle              IV.      46   337
+505 Kilmadock            Dunblane          Perth               XX.       3    40
+506 Kilmalcolm           Paisley           Rensrew             IV.      36   274
+                                                               IV.     App.  579
+507 Kilmalie             Abertarf          Invern. & Argyle    VIII.    24   407
+508 Kilmanivaig          Abertarf          Inveress            XVII.    39   543
+509 Kilmany              Cupar             Fise                XIX.     19   420
+510,511, Kilmarnock,     Irvine            Air                 II.       9    84
+   2 ministers,
+512 Kilmaronock          Dumbarton         Dumbarton           XI.      14   202
+513 Kilmartin            Inveraray         Argyle              VIII.     7    90
+514 Kilmaurs             Inveraray         Argyle              IX.      23   350
+515 Kilmorack            Dingwall          Inveress            XX.      19   401
+516 Kilmore              Loin              Argyle              XI.       8   121
+517 Kilmory              Kintyre           Bute                IX.      12   165
+518 Kilmuir              Sky               Inverness           II.      48   547
+519 Kilmuir (Easter)     Tain              Ross & Cromarty     VI.      24   183
+520 Kilmuir (Wester)     Chanomy           Ross                XII.     21   262
+521 Kilninian            Mull              Argyle              XIV.     10   139
+522 Kilninver            Lorn              Argyle              X.       26   315
+523 Kilpatrick (New)     Dunbarton         Dunbart. & Stirl.   VII.      6    99
+       or East)
+524 Kilpatrick (Old Or   Dunbarton         Dunbarton           V.       15   229
+     West)
+525 Kilrenney            St Andrews        Fise                I.       41   409
+526 Kilspindie           Perth             Perth               IV.      27   202
+527 Kilsyth              Glasgow           Stirling            XVIII.   11   214
+528 Kiltarlity           Inverness         Inverness           XIII.    32   507
+529 Kiltearn             Dingwall          Ross                I.       30   259
+530 Kilwinning           Irvine            Air                 XI.      10   142
+531 Kincardine           Dunblane          Perth               VI.      50   477
+532 Kincardine           Tain              Ross & Cromarty     III.     71   505
+533 Kincardine O'Neil    Kincard. O'Neil   Aberdeen            VI        6    55
+534 Kinclaven            Dunkeld           Perth               XIX      14   327
+535 Kinfauns             Perth             Perth               XIV.     13   212
+536 Kingarth             Dunoon            Bute                I.       32   308
+537 King-Edward          Turress           Aberdeen            XI.      31   398
+538 Kinghorn             Kirkaldy          Fise                XI.      19   229
+539 Kinglaffie           Kirkaldy          Fise                IV.      65   501
+540 Kingoldrum           Meigle            Forfar              IX.       9   131
+
+</TABLE>
+
+

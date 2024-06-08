@@ -1,0 +1,59 @@
+
+18				PERTHSHIRE.
+
+<TABLE>
+	     Minimum	    Point of     Relative 	No. of grains of moisture
+ Months.    temperature.   deposition.  humidity.         in 1000 cub. inches.
+_________   ____________   ___________  _________       _________________________
+
+January,       30.1          30.5         .863                 1.31
+February,      32.5          31.4         .838                 1.41
+March,         34.4          31.7         .779                 1.36
+April          37.1          37.7         .743                 1.67
+May,           43.6          41.7         .786                 1.91
+June           47.9          46.6         .762                 2.25
+July,          51.6          51.1         .797                 2.55
+August,        51.2          50.8         .798                 2.51
+September,     46.6          46.8         .787                 2.17
+October,       42.2          41.1         .812                 1.90
+November,      37.3          37.8         .867                 1.66
+December,      32.0          31.9         .834                 1.39
+               ______       ______       _____                ______
+ Means         40.5          39.8         .805                 1.80
+
+   The absolute quantity of moisture which exists in a vaporou\ps
+state in the atmosphere, depending chiefly upon the temperature,
+is greatest, as might have been expected, in the month of July,
+and least in January. The month of April appears to possess the
+smallest relative humiditx, and is therefore, in the ordinary accep-
+tation of the expression, the driest month of the year; while the
+month of November is the dampest. The mean hygrometric state
+of the air, at Perth, appears to be when the atmosphere is charg-
+ed with .805, or about four-fifths of the entire quantitx of mois-
+ture it is capable of holding in solution at the mean temperature.
+   The coincidence between the point of deposition and the mi-
+nimum temperature of the night, so well exemplified in the above
+table, is a result that might have been anticipated from the gene-
+ral principles of hygrometry; but it was first established by Dr
+Anderson that the quantity of moisture existing in the air, over
+any district, operates as a check upon the diminution of tempera-
+ture,-the transition of the aqueous vapour to the liquid form
+causing its latent, caloric to assume the sensible state, and thus ef-
+fectually counteracting the tendency of the cooling processes to
+which the nocturnal air is exposed in the absence of the sun.
+This fact, so important in meteorology, affords a fine illustration
+of the reason why the windward sides of continents and extensive
+islands are warmer than their leeward sides in the same parallel
+of latitude; and why dry and parched tracts of land are always
+found to be liable to severe cold during the night. *-See Edin.
+Phhl. Journal, No. xxi. p. 161.
+
+<FOOTNOTE>Sir David Brewster has endeavoured,,with much ingenuity and some appearance
+of plausibillty, to establish a relarion between the magnetic poles and the poles of
+greatest cold, which, like the former, be conceives shift their position on the surface
+of the earth according to some secular law of variation. He has accordingly pro-
+posed an equation, which has the merit of expressing the mean temperature of a
+place with considerable accuracy. It must not, however, be regarded on that account
+as confirming the hypothesis; but merely as an empirical formula, which embraces
+
+

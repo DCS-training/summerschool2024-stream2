@@ -1,0 +1,55 @@
+
+     Alphabetical List
+
+<TABLE>
+
+No. Parish      Presbytery   Count    Vol.    No.  Page.
+
+868 Symington   Air          Air      V.       7   394
+869 Symington   Biggar       Lanark   VIII.   39   585   
+
+</TABLE>
+
+     T
+
+<TABLE>
+
+870 Tain           Tain               Ross            III.    58   389  
+871 Tannadice      Forfar             Forfar          XIX.    16   372
+872 Tarbat         Tainn              Ross            VI.     45   417
+873 Tarbolton      Air                Air             XIX.    23   453
+874 Tarland        Kincaird. O'Niel   Aberdeen        VI.     27   222
+875 Tarves         Ellon              Aberdeen        V.      19   309
+876 Tealing        Dundee             Forfar          IV.     12    91
+877 Temple         Dalkeith           Edinburg        XVI.    24   497
+878 Terregles      Dumsries           Kirkcudbright   I.      14   277 
+879 Thurso         Caithness          Caithness       XX.     21   493
+880 Tibbermuir     Perth              Perth           I.      44   631
+881 Tillicoultry   Dunblane           Clackmannam     XV.     12   189
+882 Tingwald       Shetland           Orkney          XX.     14   277
+883 Tinwald        Dumsries           Dumsries        I.      20   159
+884 Tiry           Mull               Argyle          X.      19   393
+885 Tongland       Kirkcudbright      Kirkcudbright   IX.     21   312
+886 Tongue         Tongue             Sutherland      III.    72   517
+887 Torosay        Mull               Mull            III.    38   265
+889 Torphichen     Dunsermline        Fife            VIII.   25   448
+888 Torphichem     Linlithgow         Linlithgow      IV.     61   465
+890 Torthorwald    Dumfries           Dumsries        II.      1     1
+891 Tough          Alford             Aberdeen        VIII.   13   161
+892 Towie          Alford             Aberdeen        IV      20   547
+893 Tranent        Haddington         Haddington      X.       6    83
+894 Traquair       Traquair           Peebles         XII.    28   369  
+895 Trinity Gask   Auchterarder       Perth           XVIII.  18   482
+896 Troquire       Dumsries           Kirkcubright    I.      24   194
+897 Tullianllan    Dunbland           Perth           XI.     47   546
+898 Tullynessle    Alford             Aberdeen        IV.      3    27
+899 Tondergarth    Lochmaber          Dumfries        XIX.    21   443
+900 Turress        Turress            Aberdeen        XVII.   27   394
+901 Tweedsmuir     Tweedfmuir         Peebles         VIII     6    86 
+902 Twyneholm      Kirkcudbright      Kirkcubright    XIV.     4    75 
+903 Tynron         Penpont            Dumsries        XIV     16    73
+904 Tyrie          Deer               Aberdeen        VI.     19   138
+
+</TABLE>
+
+

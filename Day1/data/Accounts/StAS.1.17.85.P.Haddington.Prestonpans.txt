@@ -1,0 +1,46 @@
+
+     of Preston-pans.
+
+<TABLE>
+
+                Masters.   Journeymen.   Apprent.     Total.
+Smiths              9           0           2           11
+Masons              5           9           2           16
+Carpenters          7           8           7           22
+Weavers            12           0           1           13
+Shoemakers         14           4           1           19
+Taylors             8           3           2           13
+Watchmakers         1           0           2            3
+Ropemakers          1           1           2            4
+Candlemaker                                              1
+Bakers                                                  10
+Coopers                                                  2
+Slaters                                                  3
+Midwives                                                 2
+Washer-women                                             8
+Carriers                                                 4
+
+                          Males.      Females.        Total.
+
+Domestic servants           9           73              83
+Farm servants*             24            5              29
+Day-labourers                                           19
+Coal-drivers                                             3
+Seamen                                                  20
+Regular fishermen                                       23
+Persons employed in the potteries, and their families  252
+                      vitriol works, with ditto        188
+                      regular fishery, with ditto       94
+                      salt-pans, with ditto             47
+                      brick and tile works, with ditto  33
+
+</TABLE>
+
+<FOOTNOTE>
+
+*Some of the land is rented by persons who do not reside
+in the parish Their servants are not taken into account.  Some
+of it is parcelled into lots of a few acres among different te-
+nants, who labour it themselves.
+
+

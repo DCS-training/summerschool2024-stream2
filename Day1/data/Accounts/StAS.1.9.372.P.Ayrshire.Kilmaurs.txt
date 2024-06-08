@@ -1,0 +1,53 @@
+
+     Statistical Account
+
+is found in the human constitution, should operate in fa-
+vour of virtue as well as vice; and therefore, as in every
+society there are some virtuously inclined, why should the
+influence of good example be less powerful than that which
+is bad?  Human nature should never be disparaged too
+much, nor more expected from it than what consists with
+the situation in which it is placed.
+
+   The inhabitants of Kilmaurs town are in number 514,
+of which 226 are males, 288 females.
+
+<TABLE>
+
+Husbands between   Wives between
+
+15 and 20,    1     20 and 30,   16
+20 and 30,   13     30 and 40,   30
+30 and 40,   14     40 and 50,   24
+40 and 50,   22     50 and 60,   14
+50 and 60,   17     60 and 70,    5
+60 and 70,   11     70 and 80,    2
+70 and 80,    6
+80 and 90,    2
+
+</TABLE>
+
+<TABLE>
+
+Male children.   Female.           Males unmarried.
+
+ 1 &  5,   39     1 &  5,   29   15 & 20,  18   50 & 60,    2
+ 5 & 10,   21     5 & 10,   23   20 & 30,  12   60 & 70,    2
+10 & 15,   33    10 & 15,   32   40 & 50,   1              31
+          ----             ----           ----            ----
+           93               84             31              35
+
+</TABLE>
+
+<TABLE>
+
+   Widowers.       Widows.        Females unmarried.
+
+20 and 30,   1   30 and 40,   2   15 and 20,   27
+40 and 50,   1   40 and 50,   5   20 and 30,   23
+           ----             ----              ---- 
+Carry over,  2                7                50
+
+</TABLE>
+
+

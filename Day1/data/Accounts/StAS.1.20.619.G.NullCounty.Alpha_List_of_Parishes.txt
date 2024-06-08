@@ -1,0 +1,59 @@
+
+     County of Sutherland, etc.
+
+<TABLE=COUNTY OF SUTHERLAND.>
+
+    Parish.        Population    Population in   Increase.   Decrease.
+                     in 1755.      1790-1798.
+
+1   Assint           1934            3000          1066
+    Clyne            1406            1660           254
+    Crench           1705            1730            25
+    Durness          1000            1182           182
+5   Dornoch          2780            2541                       239
+    Edderachyhs       869            1024           155
+    Farr             2800            2600                       200
+    Golspie          1790            1700                        90
+    Kildonan         1433            1365                        68
+10  Lurg             1010            1350           340
+    Loth             1193            1370           177
+    Rogart           1761            2000           239
+13  Tongue           1093            1439           346
+                   ------          ------          ----         --- 
+                   20,774          22,961          2784         597
+                                   20,774           597
+                                   ------          ----
+                     Increase,       2187          2187
+
+</TABLE>
+
+<TABLE=COUNTY OF WIGTON.>
+
+1   Glasterton         809      900     91
+    Inch              1513     1450            63
+    Kirkcolm           765      945    180
+    Kirkinner          792     1152    360
+5   Kirkmaiden        1051     1380    329
+    Kirkowan           795      690           103
+    Leswalt            652     1194    542
+    Luce, New          459      400            59
+    Luce, Old         1509     1200           309
+10  Mochrum            828     1400    572
+    Penninghame       1509     2000    491
+    Port-Patrick       611      996    385
+    Sorbie             968     1069    101
+    Stranraer          610     1602    992
+15  Stoneykirk        1151     1365    214
+    Whithorn          1412     1890    478
+17  Wigton            1032     1350    318
+                    ------   ------   ----    ---
+                    16,466   20,983   5053    536
+                             16,466    536
+                             ------   ----
+                  Increase,    4517   4517
+
+</TABLE>
+
+     VOL. XX.   4K
+
+

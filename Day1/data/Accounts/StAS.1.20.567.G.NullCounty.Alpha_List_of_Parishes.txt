@@ -1,0 +1,51 @@
+
+     of the Parishes, etc.
+
+     K
+
+<TABLE>
+
+No. Parish.            Presbytery.     County.         Vol.    No. Page.
+
+469 Keig               Alford          Aberdeen        XI.     37   455
+470 Keir               Pepont          Dumsries        XII.     7    73
+471 Keith              Strathbogie     Banff           V.      29   414
+472 Keith-hall         Garioch         Aberdeen        II.     47   527
+473 Kells              Kukeudbright    Kukcudright     IV.     35   259
+                                                       IX.    App.  637
+474 Kelso              Kelso           Roxburgh        X.      37   576
+475 Kelton             Kirkcudbright   Kirkcudbright   VIII.   16   297
+476 Kemback            St Andrews      Fife            XIV.    18   297
+477 Kemnay             Garioch         Aberdeen        XII.    17   199
+                                                       XII.   App.  619
+478 Kenethmont         Alford          Aberdeen        XIII.    6    66
+479 Kenmore            Dunkeld         Perth           XVIII.  30   456
+480 Kennoway           Kirkaldy        Fise            XIII.   10   123
+481 Ketuns             Meikle          Forfar          XVII.    2    13
+482 Kettle             Cupar           Fise            I.      39   369
+                                                       II.          412
+483 Kilbarchan         Paifley         Rensrew         XV.     23   482
+484 Kilbuny            Irvine          Air             VII.    13   149
+485 Kilbrandon         Lorn            Argyle          XIV.    11   157
+486 Kilbride           Kintyre         Bute            VIII.   37   578
+487 Kilbridge (East)   Hamilton        Lanark          III.    62   421
+488 Kilbridge (West)   Irvine          Air             XII.    31   404
+489 Kilburdo           Biggar          Peebles         IV.     44   324
+490 Kilcalmonnell      Kintyre         Argyle          X.       3    54
+491 Kilchoman          Kintyre         Argyle          XI.     20   276
+492 Kilchrenan         Lorn            Argyle          VI.     31   266
+493 Kilconquhar        St Andrew       Fife            IX.     19   287
+494 Kildalton          Kintyre         Argyle          XI.     21   286
+495 Kildonan           Dornoch         Sutherland      III.    60   405
+496 Kildrummy          Alford          Aberdeen        XVIII.  15   411
+497 Kilfinan           Dunoon          Argyle          XIV.    14   229
+498 Kilfinichen        Mull            Argyle          XIV.    12   170
+499 Killarrow          Kintyre         Argyle          XI.     22   298
+500 Killean            Kintyre         Argyle          XIX.    32   627
+501 Killearn           Dumbarton       Stirling        XVI.     5   100
+502 Killearnan         Chanonry        Ross            XVII.   23   337
+503 Killin             Dunkeld         Pert            XVII.   25   368
+
+</TABLE>
+
+

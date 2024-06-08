@@ -1,0 +1,48 @@
+
+     Statiscal Account
+
+<TABLE>
+
+   Years.       Baptism.   Marriages.   Burials.
+
+   
+   1788            22          4          18       
+   1789            33         14          10
+   1790            25          3          14
+                  ----       ----        ----
+                  237         89         199
+                  ----       ----        ----
+   Yearly average  24          9          19
+
+</TABLE>
+
+   As the disproportion between the deaths of males and fe-
+males appears somewhat extraordianry, it is inserted from
+the grave-digger's Report.
+
+<TABLE>
+
+             Men.   Women.
+   1781       11      3 
+   1782       18      2
+   1783        9      3
+   1784       11      2
+   1785       27      3
+   1786       40      5
+   1787       12      2
+   1788       18      0
+   1789        7      3
+             ----   ----
+             153     23
+
+</TABLE>
+
+   Disproportion nearly 6 5/8 to one.
+
+   Mode of Cultivation and Produce.-This parish, like the rest
+of the country, has of late received considerable improve-
+ments in agriculture.  About 30 years ago, the old system
+began to be altered.  Leases, which formerly were few, and
+seldom granted for a longer term than 9 years, have lately
+
+

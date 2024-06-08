@@ -1,0 +1,29 @@
+
+     Scotland.
+
+<TABLE>
+
+     Counties.      Population    Population in    Increase.   Decrease.
+                     in 1755.      1790-1798.
+
+     Nairn              5694            6054            360
+     Orkney and
+       Shetland       38,591          43,239           4648
+25   Peebles            8908            8107                          801
+     Perth           118,903         133,274         14,371
+     Renfrew          26,645          62,853         36,208
+     Ross             42,493          50,146           7653
+     Roxburgh         31,273          32,020            747
+30   Seikirk            4368            4314                           54
+     Stirling         38,813          46,663           7850
+     Sutherland       20,774          22,961           2186
+33   Wigton           16,466          20,983           4517
+                   ---------       ---------        -------          ----
+      Total,       1,265,380       1,526,492        265,818          4706
+                                   1,265,380           4706
+                                   ---------        -------
+                    Increase,        261,112        261,112
+
+</TABLE>
+
+

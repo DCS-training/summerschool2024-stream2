@@ -1,0 +1,56 @@
+
+     of the Parishes, etc.
+
+<TABLE>
+
+No.       Parish.           Presbytery.     County.         Vol.    No.    Page.
+
+64,65   Air, a minister     Air             Air             I.      10      89
+                                                            II.     App.   577
+66      Ayton               Chirnside       Berwick         I.       9      79
+
+</TABLE>
+
+     B
+
+<TABLE>
+
+67  Ballantrae          Stranraer       Air             I.      13    103
+68  Baldernock          Dunbarton       Stirling        XV.     16    271
+69  Balfron             Dunbarton       Stirling        XVII.   37    530
+70  Ballingry           Kirkaldy        Fife            VII.    29    312
+71  Balmaclellan        Kirkcudbright   Kirkcudbright   VII.    21    223
+72  Balmaghie           Kirkcudbright   Kirkcudbright   XIII.   41    640
+73  Balmerino           Cupar           Fife            IX.     16    216
+74  Balquihidder        Dumblane        Perth           VI.     13     88
+75  Banchory Davinick   Aberdeen        Aber. & Kinc.   IV.     59    450
+76  Banchory Tarnan     Kincard O'Niel  Kincard. & Ab.  VII.    37    369
+77  Banff               Fordyce         Banff           XX.     17    319
+78  Barr                Air             Air             XII.     8     81
+79  Barray              Uist            Inverness       XIII.   22    326
+80  Barrie              Aberbrothwick   Forfar          IV.     32    236
+81  Barvas              Lewis           Ross            XLX.     7    263
+82  Bathgate            Linlithgow      Linlithgow      I.      37    348
+83  Beath               Dunsermline     Fise            III.    29    233
+84  Bedrule             Jedburgh        Roxburgh        XV.     27    556
+85  Beith               Irvine          Air and Ren-    VIII.   18    314
+                                          srew          VIII.   App.  651
+86  Belhelvie           Aberdeen        Aberdeen        VII.    20    218
+87  Bellie              Strathbogie     Banff & Elgin   XIV.    15    263
+88  Bendothy            Meigle          Perth           XIX.    15    334
+89  Benholme            Fordoun         Kincardine      XV.     13    217
+90  Biggar              Biggar          Lanark          I.      34    332
+91  Birnie              Elgin           Elgin           IX.     11    155
+92  Birse               Kincard O'Niel  Aberdeen        IX.      8    103
+93  Blackford           Auchterarder    Perth           III.    23    203
+94  Blair Atholl        Dunkeld         Perth           II.     41    461
+95  Blair Gowrie        Meigle          Perth           XVII.   14    191
+96  Blantyre            Hamilton        Lanark          II.     16    213
+97  Boharm              Aberlour        Banff and Elgin XVII.   24    358
+98  Boleskine           Abertars        Inverness       XX.      2     19
+99  Bolton              Haddington      Haddington      IV.     38    283
+100 Bonbit              Dunbarron       Dunbarton       III.    65    442
+
+</TABLE>
+
+

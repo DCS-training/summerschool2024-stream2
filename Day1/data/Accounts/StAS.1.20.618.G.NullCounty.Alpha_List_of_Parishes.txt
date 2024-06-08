@@ -1,0 +1,52 @@
+
+     County of Selkirk, etc.
+
+<TABLE=COUNTY OF SELKIRK.>
+
+    Parish.       Population    Population in    Increase.   Decrease.
+                   in 1755.      1790-1798.
+1   Etterick           397             470             73
+    Galashiels         998             914                         84
+    Selkirk           1793            1700                         93
+4   Yarrow            1180            1230             50
+                      ----            ----            ---         ---
+                      4368            4314            123         177
+                      4314                                        123
+                      ----                                        ---  
+          Decrease.     54                                         54
+
+</TABLE>
+
+<TABLE=COUNTY OF STIRLING.>
+
+1   Airth                  2316     2350      34
+    Alva                    436      612     176
+    Baldernock              621      620               1
+    Balfron                 755     1381     626
+5   Bothkennar              529      600      71
+    Buchanan               1699     1111             588
+    Campsie                1399     2517    1118
+    Denny                  1392     1400       8
+    Drymen                 2789     1607            1182
+10  Falkirk                3932     8020    4088
+    Fintry                  891      543             348
+    Gargunnock              956      830             126
+    Killearn                959      973      14
+    Kilsyth                1395     2450    1055
+15  Kippen                 1799     1777              22
+    Larbert and Dunipace   1864     4000    2136
+    Muiravonside           1539     1065             474
+    Polmont                1094     1400     306
+    St Ninians             6491     7079     588
+20  Slamannan              1209     1010             199
+    Stirling               3951     4698     747
+27  Strathblane             797      620             177
+                         ------   ------  ------    ----
+                         38,813   46,663  10,967    3117
+                                  38,813    3117
+                                  ------  ------ 
+                     Increase,      7850    7850
+
+</TABLE>
+
+

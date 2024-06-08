@@ -1,0 +1,48 @@
+
+     County of Perth.
+
+<TABLE=COUNTY OF PERTH.>
+
+    Parish.     Population    Population in   Increase.   Decrease.
+                 in 1755.      1790-1798.
+
+1  Aberdalgy           320              523         203
+   Abersoil            895              790                    105
+   Abernethy          1490             1415                     75
+   Abernyte            258              345          87
+5  Alyth              2680             2723          43
+   Arngask             736              554                    182
+   Auchterarder       1194             1670         476
+   Auchtergaven       1677             1784         107
+   Balquhidder        1592             1300                    292
+10 Blackford          1681             1360                    321
+   Blair Atholl       3257             3120                    137
+   Blairgowrie        1596             1651          55
+   Bendothy           1293              878                    415
+   Callander          1750             2100         350
+15 Caputh             2048             2045                      3
+   Cargill            1897             1720                    177
+   Clunie              905             1037         132
+   Collace             499              473                     26
+   Comrie             2546             3000         454
+20 Crieff             1414             2640        1226
+   Culross            1695             1442                    253
+   Cupar              1491             2076         585
+   Dron                598              450                    148
+   Dull               5748             4676                   1072
+25 Dumbarnie           764             1250         486
+   Dumblane           2728             2750          22
+   Dunkeld            1298             1773         475
+   Dunkeld, Little    2919             2705                    214
+   Dunning            1491             1600         109
+30 Enol               2229             2685         456
+   Forgandenny        1295              978                    317
+   Forteviot          1164              970                    194
+   Fortingal          3859             3914          55
+   Fossoway           1765             1505                    260
+35 Foulis, Wester     1706             1224                    482
+   Foulis, Easter      586              648          63      
+
+</TABLE>
+
+

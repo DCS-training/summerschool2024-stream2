@@ -1,0 +1,65 @@
+
+	10 				PERTSHIRE.
+
+	heads of, 1st, Atmospheric pressure, 2d, Temperature; and 3d,
+	Humidity.
+
+		1. Atmospheric Pressure.-The mean height of the barometer,
+	as deduced from a register of the state of the instrument for a period
+	of six years, viz. from the beginning of 1829 to the close of
+	1834, is given for each month in the subjoined table; the obser-
+
+	vations having been made daily, at nine o'clock in the morning,
+	and half-past eight o'clock in the evening. A column is annexed
+	to point out the deviations of the means, for each month, from the
+	mean height of the baromenter, during the entire period of observation.
+
+
+	Months.           Height at        Height at 1/2         Abberations of
+                          9 A. M.         past 8 P. M.           Monthly means.
+                            In.               In.                    In.
+
+	January,           29.884            29.889                 +.082
+	February,            .701              .749                 -.101
+	March,               .835              .851                 +.033
+	April,               .778              .786                 -.024
+	May,                 .922              .830                 +.122
+	June,                .792              .810                 -.010
+	July                 .859              .870                 +.057
+	August,              .764              .770                 -.057
+	September,           .792              .816                 -.010
+	October,             .809              .825                 +.007
+	November,            .726              .746                 -.076
+	December,            .763              .750                 -.039
+	---------         -------             ---,--
+	Means,             29.802             29.808
+
+		The mean pressure, derived from the means of the months, is
+        29,802 by the observations at nine A.M.; and 29,808 by the observations
+	at half-past eight P.M. The extreme range of the
+	means, on either side of the mean for the entire period of observation,
+	or the differences, in excess and defect, between the latter
+	mean, and the greatest and least means of each month, during the
+	six years of observation, are, in reference to the morning observations
+	as follows:
+
+	<TABLE>
+
+                Months.        Defect.        Excess.         Extreme range of Means.
+                                 In.             In.                    In.
+		January,        .511            .246                   .757
+		February,       .617            .001                   .618
+		March,          .216            .044                   .260
+		April,          .482            .251                   .733
+		May,            .137            .070                   .207
+		June,           .277           -.008                   .269
+		July,           .288            .078                   .366
+		August,         .205           -.070                   .135
+		September,      .365            .023                   .388
+		October,        .362            .126                   .488
+		November,       .334           -.010 		       .325
+		December,       .464            .367                   .771
+
+	It appears by these observations that the means, in defect, great-
+
+

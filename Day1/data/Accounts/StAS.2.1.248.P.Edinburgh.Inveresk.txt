@@ -1,0 +1,73 @@
+
+248                      EDINBURGHSHIRE.
+
+The following Meteorological Tables are compiled from a daily
+register kept at Admiral Sir David Milne's, Inveresk. Lat.
+55&deg; 56' 20", Long. 3\d1 2' 40"; level above the sea at high-
+water-mark 70 feet; distance from sea 1 mile.
+
+<TABLE>
+	   Means 	Means	     Means       Means
+	     of		 of 	      of          of	      Rain	   Rainy
+Year        Bar.        Ther.        Ther.       Ther.         in            or          Fair        Nights when
+1837.        at          at            at        during       inches       snowy         days.       Aurora seen.
+	   9 A. M.    10 A.M. 	     8 P.M.      night.                     days.
+
+Jan.      29.490      35.225 	      34.        30.354        1.666         10           21
+Feb.      29.281      39.571          37.357     33.535        2.111         13           15
+March     29.467      35.935          32.483     28.161        1.666         11           20
+April     29.195      40.266 	      36.266     32.400        2 333         15           15
+May       29.873      50.290 	      45.483     41.741        1.444         14           17
+June      29.854      57.266          54.8 	 47.300         2.5          12           18
+July      29.965      61.032 	      58.677  	 52.483         4.333        17           14
+Aug.      29.898      57.580 	      55.064 	 49.387         4.111        12           19
+Sept.     29.743      53,733 	      49.8         45.3           1.166         9           21       23d and 30th.
+Oct.      29.780      52.             48.645     44.090         2.333        12           19       6th, 18th, 23d.
+Nov.      29.500      40.             38.133 	 33.            1.75         14           16       5th and 12th.
+Dec.      29.724      40.225          39.903 	 36.032         2.           14           17           1 St.
+
+For       29.481      46.921          44.217     39.448         27.416       153          212        8 nights.
+year.     (Avg.)      (Avg.)          (Avg.)     (Avg.)         (Sum.)      (Sum.)       (Sum.)
+
+					     GENERAL REMARKS.
+
+  Barometer, at 9 A.M. highest on 1st January, 30.57. Wind, N.W. At 9 A.M.
+lowest 2d November, 28.45.  Wind, S.W.
+  Thermometer,at 10 A.M. highest 23d June,68&deg;.  Wind S.W.  At 10A.M. was
+lowest 14th March, 35&deg;.  Wind,  W.S.W.
+  Thermometer, at 8 P.M. highest 23d June, 66&deg;.  Wind, S.W. At 8 P.M. lowest
+11th January, 16&deg;.  Wind, S.W.
+Hottest month was July; coldest, March. Wettest month, July; dryest, Sept.
+
+<TABLE>
+			         Ther.         Ther.                 Fair       Snow
+        Bar.    Ther.   Ther.    least         highest      Rain      and        and      Nights on which
+Year    at 9    at 10   at 8      in             in          in       dry       rainy      Aurora seen.
+1838.   A.M.    A. M.   P.M.     night.         day.       inches.    days.     days.
+
+Jan.    29.87   29.967  28.806   25.161        33.677       .666      16        15
+Feb.    29.568  27.071  26.428   21.785        34.837       .222      18        10
+March   29.583  40.064  36.645   31.741        45.741      2.         18        13             16th.
+April   29.624 	44.833  37.366   34.1          50.233      1.5        18        12
+May     29.846  49.258  44.580   38.032        55.387      2.388      19        12
+June    29.67   54.866  52.3     47.4          58.933      4.5        11        19
+July    29.755  58.854  56.387   51.451        63.322      1.944      16        15
+Aug.    29.612  57.096  55.483   50.268        62.580      2.388      18        13         13,15,19,27,28.
+Sept.   29.823  53.7    51.266   46.5          58.166      3.777      16        14             14.
+Oct.    29.713. 47.096  45.225   40.903        52.929      2.         19        12
+Nov.    29.347  38.633  37.266   33.533        42.9        2.666      16        14
+Dec.    29.799  39.322  39.258   35.677        45.645       .5        22 	 9
+
+For     29.684  45.021  42.584   38.045        50.364     24.551     207       158             7 nights
+year    (Avg.)  (Avg.)  (Avg.)   (Avg.)        (Avg.)     (totl.)   (totl.)                    (total.)
+Deg.    below
+freez.  point	 265     356       708           65
+Deg.    above
+freez.  point    5082    4293      2756        6745
+
+			   GENERAL SUMMARY.
+
+  Barometer, at 9 A.M. was highest on the 3d Oct. 30.57. Wind, N. E. Was lowest
+on the 29th Nov. 27.70. Wind, S.
+
+

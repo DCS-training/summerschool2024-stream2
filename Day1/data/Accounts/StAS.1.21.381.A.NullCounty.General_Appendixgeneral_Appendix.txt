@@ -1,0 +1,32 @@
+
+     The Statistical Account.
+
+     Attempt to ascertain the POPULATION of SCOT-
+     LAND, anno 1792,
+
+     By the Rev. DAVID WILKIE, minister of Cults.
+
+   From a survey taken at the desire of Dr Webster, anno
+1743 to anno 1755, the Doctor found that there were
+1,265,380 inhabitants in Scotland, as in the 10 following
+decades.
+
+<TABLE>
+
+        Age.           No. of Persons.
+From  1 to 10             322,381
+     10    20             235,813
+     20    30             210,791
+     30    40             175,202
+     40    50             134,701
+     50    60              94,840
+     60    70              58,911
+     70    80              25,659
+     80    90               6,495
+     90   100                 587
+                        ---------
+                 Total, 1,265,380
+
+</TABLE>
+
+

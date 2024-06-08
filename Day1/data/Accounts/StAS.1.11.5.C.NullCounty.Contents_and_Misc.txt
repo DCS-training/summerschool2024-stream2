@@ -1,0 +1,63 @@
+
+<TABLE=CONTENTS.>
+
+No.         Name.                   Population in 1755 in 1791-3.   Increase.   Decr.   Page
+ 1.   Kircudright,                                1513     2295        782                1 
+ 2.   Borgue,                                      697      771         74               31  
+ 3.   Rerrick,                                    1051     1050                    1     45
+ 4.   Urr,                                        1193     1354        161               61
+ 5.   Preston Kirk,                               1318     1176                  142     83
+ 6.   Eccelesgreig, or St. Cyrus,                 1271     1763        492               89
+ 7.   Foulden,                                     465      344                  121    116
+ 8.   Kilmore and Kilbride,                       1200     1886        686              121
+ 9.   Gartley,                                    1328     1800        472              138
+10.   Kilwinning,                                 2541     2360                  181    142
+11.   Comrie,                                     2546     3000        454              178
+12.   Forbes and Kearn,                            436      370                   66    189
+13.   Cameron,                                    1295     1165                  130    198
+14.   Kilmaronock,                                1193      820                  373    202
+15.   Airly,                                      1012      865                  147    208
+16.   Dunnottar,                                  1570     1962        392              214
+17.   Eccles,                                     1489     1780        291              230
+18.   Dunnet,                                     1235     1399        164              243
+19.   Wattin                                      1424     1230                  194    259
+20.   Kilchoman,                                  5344     9500       4156              276
+21.   Kildalton,                                                                        286
+22.   Killarrow and Kilmeny,                                                            298
+23.   Edman,                                       387      600        213              303
+24.   Girthon,                                     567     1730       1363              308
+25.   Oxman,                                       760      690                   70    317
+26.   Rosemarkie,                                 1140     1262        122              333
+27.   Denino,                                      598      383                  215    352
+28.   Fintry,                                      451      543                  348    371
+29.   St. Mungo,                                   481      640        159              383
+30.   Cambray, or Cimbraes,                        259      509        250              391
+31.   King-Edward,                                1352     1577        225              401
+32.   Crimond,                                     765      917        152              409
+33.   Lochalsh,                                    613     1334        721              412
+34.   Auchinleck,                                  887      775                  112    430
+35.   Abernethy,                                  1490     1415                   75    435
+36.   Glenbervie,                                  938     1307        349              449
+37.   Keig,                                        499      475                   24    455
+38.   Edderton,                                    780     1000        220              461
+39.   Huntly,                                     1900     3600       1700              467
+40.   Carnock,                                     583      970        387              479
+41.   Chapel of Garioch,                          1351      986                  365    500
+42.   Inverkeithny,                                571      460                  111    505
+43.   Alves,                                      1691     1111                  580    508
+44.   Westerkirk,                                  549      655        106              514
+45.   Newton,                                     1199     1135                   64    532
+46.   Roberton,                                    651      629                   22    537
+47.   Tulliallan,                                 1321     2430       1109              546
+48.   Croy,                                       1901     1552                  349    560
+49.   Lairg,                                      1010     1350        340              569
+50.   Callander,                                  1750     2100        350              574
+                                                ------   -------   -------     ------     
+                                   Total,       56,825   69,025     15,890      3690
+                                                         56,825      3,690
+                                                        ---------  --------- 
+                      Increase,                          12,200     12,200
+
+</TABLE>
+
+

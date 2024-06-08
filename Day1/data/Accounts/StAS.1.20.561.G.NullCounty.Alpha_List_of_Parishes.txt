@@ -1,0 +1,30 @@
+
+     of the Parishes, etc.
+
+     D
+
+<TABLE>
+
+No.   Parish.      Presbytery.     County.         Vol.   No.  Page.
+
+221 Dailly         Air             Air             X.      2    34
+222 Dairsie        Cupar           Fise            III.   31   242
+223 Dalgety        Dunsermline     Fise            XV.    15   260
+224 Dalkeith       Dalkeith        Edinburgh       XII.    2    18
+225 Dallas         Forres          Elgin           IV.    13   105
+                                                   I.     28   227
+226 Dalmeny        Linhthgow       Linlithgow      IX.   App.  640
+227 Dalry          Irvine          Air             XII.    9    90
+228 Dalry          Kirkcudbright   Kirkcudbright   XIII.   5    45
+229 Dahymple       Air             Air             IV.    41   305
+230 Dalserf        Hamilton        Lanark          II.    31   371
+231 Dalton         Lochmaben       Dumsries        XIV.    6   101
+232 Dalziel        Hamilton        Lanark          III.   66   454
+233 Damelingtoun   Air             Air             VI.     9    71
+234 Daviot         Garioch         Aberdeen        VI.    12    85
+235 Daviot         Inverness       Invernes        XIV.    3    67
+236 Deer (Old)     Deer            Aberdeen        XVI.   22   469
+
+</TABLE>
+
+

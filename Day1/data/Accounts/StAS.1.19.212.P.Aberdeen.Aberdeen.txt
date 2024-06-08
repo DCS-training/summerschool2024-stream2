@@ -1,0 +1,25 @@
+
+     Statistical Account
+
+   PORT of ABERDEEN.-An Account of the total Number of Ships and Vessels their
+Tonnage and Number of Men, belonging to this Port, that traded to and from foreign
+Ports Coastwife, Fishing Smacks, &c. from 5th January 1787 to 5th January 1795,
+distinguishing each Year.
+
+<TABLE>
+
+                                        Foreign Trade.            Coast Trade.                Fisbery.
+                                    No. of     Tons.   Men.   No. of     Tons.   Men.   No. of     Tons.   Men.
+                                    vessels.                  vessels.                  vessels.
+Year ending the 5th January 1788,   63         4964    319    90         5520    396    12         1236    202
+                5th ditto   1789,   64         5039    324    92         5075    350    8          1115    180
+                5th ditto   1792,   69         5553    350    89         5811    334    12         1313    193
+                5th ditto   1791,   73         5507    527    94         6578    853    12         1293    185
+                5th ditto   1792,   44         3265    192    139        9417    673    7          1110    160
+                5th ditto   1793,   48         3650    203    134        9200    673    11         1079    134
+                5th ditto   1794,   37         3212    170    162        11126   869    11         998     121
+                5th ditto   1795,   34         2984    165    168        11802   824    7          785     98
+
+</TABLE>
+
+

@@ -1,0 +1,45 @@
+
+400                EDINBURGHSHIRE.
+
+   According to the authority of Knox and Ainslie, and other
+data, I would calculate the run of Galawater at Stow to be 480
+feet above the level of the sea, and the Position of my thermometer
+500. The surveyors mentioned agree in stating the rise of the
+water at 34 feet 6 inches a mile.
+   Meteorology.-Having kept an exact register of the thermome-
+ter without the omission of a day, beginning with February 1821
+onward, I am enabled to present the results of eighteen years' ob-
+servations on that instrument. The register having been trans-
+mitted for some years to the Royal Society of Edinburgh, the
+hours of marking are those desired by that learned body. A re-
+gister of the barometer has been kept for the same period, mark-
+ed once a day about 10 A.M. The above notices, it is presumed,
+will be found sufficiently explicit.
+
+TABLE=I.-Monthly and Annual Averages of the Thermometer
+  at the Manse of Stow, for eleven years, viz. February 1821-
+  January 1832. Elevation of the instrument above the level of
+  the sea, 500 feet; distance from the sea, 20 miles.>
+<TABLE>
+         January.       February.         March.           April.
+ 	A.M.   P.M.    A.M.    P.M.     A.M.   P.M.      A.M.    P.M.
+
+1821,                  37.767 34.75     40.8   36.2      49.9    42.5    10 A.M.
+1822,  38.7    38.77   39.71  39.1      41.83  40.       46.5    41.93     and
+1823,  31.29   30.80   33.25  31.10     38.83  36.12     43.3    38.5    10 P.M.
+1824,  37.74   88.74   35.86  36.89     34.22  35.43     39.90   41.13    7 1/2 A.M. and
+1825,  36.25   37.45   37.45  35.80     35.30  37.90     42.21   43.5     8 1/2 P.M.
+1826,  30.91   31.3    39.6   38.89     39.77  39.96     45.56   43.01
+1827,  33.77   33.88   32.3   32.03     38.41  36.56     45.53   41.03
+1828,  37.25   33.77   38.17  37.       42.12  40.51     44.1    41.      9 1/2 A.M.
+1829,  30.01   29.80   37.05  37.19     38.    36.22     41.55   38.51      and
+1830,  32.79   32.70   33.50  33.92     43.80  42.03     46.5    43.46    8 1/2 P.M.
+1831,  32,24   33.4    36.28  36.03     40.93  40.48     46.5    44.08
+1832,  36.177  36.08
+
+Aver.  34.28   34.244  36.29  35.78     39.46  38.31     44.68   41.60
+Even.
+and            34.268         36.03            38.88             43.18
+Morn.
+
+

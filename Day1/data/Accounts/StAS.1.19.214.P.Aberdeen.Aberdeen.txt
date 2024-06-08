@@ -1,0 +1,40 @@
+
+     Statistical Account
+
+   PORT of ABERDEEN.-An Abitract Account of all Goods Imported and Exported, brought and sent Coast-
+way, to and from this Port, and shewing the Tonnage of Shipping and Number of Men employed in each
+Trade, from 5th January 1790 to 5th January 1795, distinguishing each Year.
+
+<TABLE>
+
+                                        Vessels.   Tonnage.      Men.     Barley.    Meal.       Coals.     Coals.         Wine.       Spirits.     Bricks.
+                                        No. of     No. of tons   No. of   Quarters   quarters    Chalders   Tons.          Gallons     Gallons      No. of
+Year ending   Foreign trade outwards,     57        5066          381     2211 7/8    3053 7/8               123             1513                    93200
+5th January   Ditto towards,              81        7461          524                   50                                  21185                       
+   1790       Coast trade outwards,      662       27938         2334     3572        8215                                   7509         2348           
+              Ditto inwards,             981       66704         3086     1002        2036        7741      4029             6960       121212           
+   1791       Foreign trade outwards,     23        2460          211                                                        1320                       
+              Ditto inwards,              93        7889          528                                                       29547          512 1/2
+              Coast trade outwards,      817       31086         2534      756       19552          10        11             8026         4797           
+              Ditto inwards,             993       45224         3975     1817 1/2     347        6964      4000             5912        43168
+   1792       Foreign trade outwards,     33        3560          273                               36                       2764 4/6
+              Ditto inwards,              83        7199          463       78                                              32524 1/2      764
+              Coast trade outwards,      901       34857         7292     4900       20870                    13 1/2 3/6     9590 1/2     8825 1/2
+              Ditto inwards,            1011       46506         3221      450         103        6852      3638             4795        52695           
+                                                                                                                                                         
+   1793       Foreign trade outwards,     38        3136          231      349 1/4                                            624                       
+              Ditto inwards,             100        9239          552                                                       11244         1843           
+              Coast trade outwards,      699       35305         2935     6268       23203                                   9-03         3922           
+              Ditto inwards,             936       51874         3725      352         400        7985      3156            44256        78626           
+   1794       Foreign trade outwards,     28        2541          195                                8                                                
+              Ditto inwards,              68        5951          392       94         320                                   9547          753           
+              Coast trade outwards,      891       37680         3030     6801       32093                                   4518         1588           
+              Ditto inwards,            1095       54027         3839      405         700        9693      2992            21400        63376           
+   1795       Foreign trade outwards,     29        3251          226       12 1/2                  70                        110                       
+              Ditto inwards,              73        6991          432        0 1/8                                           5772          230           
+              Coast trade outwards,      955       37361         3112     8206       31956                                   6205        24541           
+              Ditto inwards,            1180       56373         4206     4215        1903        9347      4318           426637        75556           
+
+</TABLE>
+
+

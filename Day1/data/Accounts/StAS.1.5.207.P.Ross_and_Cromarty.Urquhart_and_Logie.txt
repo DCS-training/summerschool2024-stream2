@@ -1,0 +1,44 @@
+
+     of Urquhart.
+
+<TABLE=State of the Population for 1792.>
+
+Males,                                 1357
+Females,                               1544 2901
+                                     -------
+Below   10 year of age,                 814
+Between 10 & 20,                        609   
+        20 & 50,                        984
+        50 & 70,                        437
+        70 & 100,                        56
+Above 100,                                1
+                                       ------
+                                       2901
+
+</TABLE>
+
+<TABLE>
+
+69 houses occupied,                      Total.
+     each by          1 inhabitant,          69
+86                    2 inhabitants,        172
+89                    3                     267
+79                    4                     316
+90                    5                     450
+83                    6                     498
+61                    7                     427
+33                    8                     264
+18                    9                     162
+10                   10                     100
+ 6                   11                      66
+ 3                   12                      36
+ 1                   13                      13
+ 2                   14                      28
+ 1                   15                      15
+ 1                   18                      18
+---                                        ------
+632                                         2901
+
+</TABLE>
+
+

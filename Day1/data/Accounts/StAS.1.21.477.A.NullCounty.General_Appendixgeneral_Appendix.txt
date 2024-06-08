@@ -1,0 +1,41 @@
+
+     The Statistical Account.
+
+<TABLE>
+
+Alva, about           600   Cockenzie & Port Setonn  430
+Biggar,               589   Blairgowrie,             425
+Oban,                 586   Grangemouth,             410
+Galashiels,           581   Cambudnethan,            409
+Galston,              573   Cuminestoun,             404
+Camelon,              568   Muthil,                  400
+Mid Calder,           562   Buckie,                  400
+Easter Wemyss,        557   Gargunnock,              400
+Creetown,             551   Garvock, about           400
+Ayton,                529   Duff, about              400
+East Kilbride,        524   Inverury, about          400
+Blantyre,             520   New Galloway, about      400
+Kilmaurs,             514   Ely, about               400
+Portpatrick,          512   Torphichen, about        400
+Queensferry,          505   Isle of Whithorn,        396
+Largs,                502   Innerleithen,            388
+Bucklivie, about      500   Athelstaneford,          387
+Stanley, about        500   Kippen,                  380
+Aberlady,             386   Seaton,                  378
+Glammis,              500   Riccartoun,              372
+Laurencekirk,         500   Inchture,                360
+Carnwath,             500   Colinsburghs             357
+Whiteburn, about      500   Swinton,                 357
+Dornoch,              500   Linton,                  351
+Yetholm,              490   Earlsferry,              350
+Freuchie,             476   Cramond,                 343
+Neilston,             472   Auchinleck,              340
+Tarbolton,            450   Newtoun of Newmill,      330
+Garlieston,           450   Thornhill,               325
+Chanonry,             445   Anstruther Welter,       324
+Barhead,              439   Methil,                  314
+Galaton,              432   North
+
+</TABLE>
+
+

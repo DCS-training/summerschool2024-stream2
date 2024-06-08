@@ -1,0 +1,45 @@
+
+     Statistical Account
+
+     TABLE,
+
+   Shewing the number of deaths in 29 years, and the age at
+which each individual died respectively, in periods of 10
+years, from 20 to 50 excepted.
+
+<TABLE>
+
+From their birth to 10 years of age.     Number of Deaths.
+                    20                                66
+                    50                                31
+                    70                                41
+                    80                                70
+                    90                                66
+                   100                                29
+             above 100                                 3
+                                                       2
+                                                     ----
+                                               Total 308
+
+</TABLE>
+
+<TABLE=Present State of the Population.>
+
+              The Village of   Village of Tor-   Country part   Total  
+                 Roucan.        thorwald.        of the Parish
+Individuals         143          135               382            660   
+Families             41           34                77            152
+Average number in
+a family          3 1/4            4                 5          4 1/2
+Minister                                             1              1
+Surgeon               1                                             1
+Schoolmasters         1            1                                2
+Farmers              11           13                44             68
+Tradesmen            14           13                 9             36
+Apprentices           6            1                 6             13
+Blacksmiths           1            1                 1              3
+Mason                 1                                             1
+
+</TABLE>
+
+

@@ -1,0 +1,42 @@
+
+     Statistical Account
+
+   Mr Wilkie (the writer of the preceding observations) is the
+person alluded to, in the Statistical Account of Scotland, vol. I.
+(Parish of Kettle), page 377:  In justice to whom, it is proper
+to mention, that there was a very material error of the press.
+Instead of "This table, upon trial, is found to answer better
+for Scotland than any yet published by Mr Wilkie," it ought
+to have been printed thus:   "This table, upon trial, is found
+by Mr Wilkie, to answer better for Scotland, than any yet
+published."  The fact is, Mr Wilkie himself constructed that
+very important table.-It may be proper to add, that in
+a letter from mr Wilkie on the subject of annuities, he
+communicates the following particulars, which seem to be
+highly worthy of being laid before the public.-"I have
+had an opportunity (says he) of forming a table of the proba-
+bilities of life, for the country of Fife, from the bills of morta-
+lity in the neighbouring parish of Kettle; in which the seve-
+ral ages of the deceased, have been accurately recorded.-
+This table, I find, differs materially from all the English table,
+upon the same subject.  For example,
+
+<TABLE>
+
+         By my table                    By Dr Halley's table.
+1/10 of infants die the 1st year   1/5 of infants die the 1st year.
+1/11 die the 2nd year              1/7 die the second year.
+Expectation of an infant's life    Expectation of an infant's life
+   =40.6 years.                       =28 years.
+Greatest value of a life at 4      Greatest value of a life at 4 
+  per cent. corresponding to 5       per cent. corresponding to 
+  years of age = 18.1.               10 years of age = 16.4.
+
+</TABLE>
+
+   "My table not only agrees exactly with the present popula-
+tion of the parish of Kettle, but with the lives of ministers and
+of their widows in Scotland at large :  Supposing their mean
+age of ordination and of widowhood, to be respectively, 30
+
+

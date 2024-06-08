@@ -1,0 +1,44 @@
+
+     of Kettle.
+
+A Table, showing the number dead in 20 years, viz. 625,
+and the number who have died at each age.
+
+<TABLE>
+
+Age,  dead.  Age,  dead.  Age,  dead.  Age,  dead.  Age,  dead.
+ 0     20    20      7    40      3    60     10    80      4
+ 1     40    21      7    41      3    61     10    81      4
+ 2     35    22      7    42      3    62     10    82      4
+ 3     20    23      6    43      3    63     10    83      4
+ 4     15    24      6    44      3    64     10    84      3
+ 5     10    25      6    45      3    65     10    85      3
+ 6      8    26      5    46      3    66     10    86      3
+ 7      6    27      5    47      3    67     10    87      2
+ 8      4    28      5    48      4    68     10    88      2
+ 9      3    29      4    49      5    69     10    89      2
+10      3    30      4    50      6    70     10    90      2
+11      3    31      4    51      6    71     10    91      2
+12      3    32      4    52      6    72     10    92      2
+13      4    33      4    53      6    73      9    93      2
+14      4    34      4    54      6    74      8    94      1
+15      5    35      4    55      7    75      7    95      1
+16      5    36      4    56      8    76      6                    
+17      6    37      4    57      9    77      5          625
+18      6    38      4    58      9    78      5
+19      7    39      4    59      9    79      4
+
+</TABLE>
+
+   625-20=31.25 medium deaths in the parish.  This
+Table, upon trial, is found to answer better for Scotland
+than any yet published by Mr Wilkie.
+
+   By this Table, there will be found living together 25392
+souls, so that, supporting the number of deaths and births e-
+qual, viz. 625 yearly, the population would be 25392.
+Hence 1 birth and 1 death would give a population of 40.6,
+
+     VOL. I. 3 B
+
+

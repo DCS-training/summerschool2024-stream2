@@ -1,0 +1,47 @@
+
+     [vii]
+
+<TABLE=CONTENTS.>
+
+  No.   Name.        Population in1755.   in 1794-5.   Increase.   Dec   Page.
+
+   1   Inveresk,                  4645       5392        747               1
+   2   Heriot,                     209        300         91              50
+   3   Castletown,                1507       1418                   89    60
+   4   Forgan,                     751        875        124              88
+   5   Killearn,                   957        973         16             100
+   6   Newburn,                    438        456         18             130
+   7   Portree,                   1385       1980        595             138
+   8   Assint,                    1934       3000       1066             163
+   9   Essie and Nevay,            625        630          5             212
+  10   Strath,                     943       1579        636             222
+  11   Bowden,                     672        860        188             230
+  12   Anstruther Easter,         1000       1000                        243
+  13   Hoy and Gr‘msay,            680        410                 270    245
+  14   Westray,                   1290       1629        339             251
+  15   Glenelg,                   1816       2746        930             265
+  16   Whithorn,                  1300       1890        590             275
+  17   Bothwell,                  1561       2707       1146             299
+  18   Rafford,                   1313       1072                 241    338
+  19   Whitsom and Hilton,         399        590        191             348
+  20   Peterculter,                755       1002        247             358
+  21   Sandwick and
+        Stromness,                3000       3012         12             409
+  22   Deer,                      2813       3267        454             469
+  23   Legerwood,                  398        422         24             484
+  24   Temple,                     905        593                 312    497
+  25   Morbattle,                  789        789                        504
+  26   Wemyss,                    3041       3025                  16    513
+  27   S1eat,                     1250       1788        538             534
+  28   Peterhead,                 2487       4100       1613             541
+  29   Lonmay,                    1674       1650                  24    631
+  30   Premnay,                    448        450          2             637
+                                ------      -----      -----      ----  
+                  Totals,        40985      496o5       9572       952
+                                            40985        952
+                                            -----      -----
+   Increase in 1794-5,                       8620       8620
+
+</TABLE>
+
+

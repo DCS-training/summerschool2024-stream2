@@ -1,0 +1,48 @@
+
+     County of Dumfries
+
+     COUNTY OF DUMFRIES.
+
+<TABLE>
+
+Parish                Population   Populaltion in   Increase   Decrease
+                       in 1755       1790-1798.
+
+1  Annan                1498          2500            1002       
+   Aplegirth             897           741                       156
+   Caerlaverock          784           955             171
+   Cannobie             1733          2725             992
+5  Closeburn             999          1490             491
+   Cummertrees           631          1056             415
+   Dalton                451           615             164
+   Dornock               716           738              22
+   Drysdale             1097          1600             503
+10 Dumsries             4517          5600            1083
+   Dunscore              651          1033             382
+   Durrisdeer           1019          1031              12
+   Eskdalemuir           675           619                        56
+   Ewes                  392           320                        72
+15 Glencairn            1794          1700  
+   Grantney             1051          1810             759    
+   Hoddam               1393          1198                       195
+   Holywood              596           736             120   
+   Hutton                993           583                       410
+20 Jonston               494           565              71      
+   Keir                  495           520              25
+   Kirkconnell           899          1000             101   
+   Kirkmahoe            1098          1200             102
+   Kirkmichael           894           950              56
+75 Kirkpatrick Fleming  1147          1542             395
+   Kirkpatrick Juxta     794           617                        177     
+   Langholm             1833          2582             749
+   Lochmaben            1395          3000            1605
+   Middlebre             991          1404             413
+30 Moffat               1612          1600                         12         
+   Morton                435           908             473
+   Mousewald             553           628              75
+   Penpont               838           800                         38
+   Ruthwell              599          1061             462
+
+</TABLE>
+
+

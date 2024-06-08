@@ -1,0 +1,55 @@
+
+     Satistical Account
+
+<TABLE>
+
+Married persons,             438
+Widowers,                     23
+Widows,                       46
+Batchellors above 50           7
+Unmarried women above 45,      5
+
+                             519
+
+</TABLE>
+
+<TABLE>
+
+Minister,        1   Shoemakers,                    7
+Schoolmaster,    1   Blacksmiths,                   8
+Surgeon,         1   Wrights,                      16
+Excise officer   1   Weavers,                      61
+Butcher,         1   Male servants of all deno-
+Baker,           1     minations,                 136   
+Brewers,         2   Female servants of all de-
+Coopers,         2     nominations, above          80
+Masons,          2   Farmers paying L. 100
+Inkeepers,       2     per ann. and upwards,       15
+Alehouses,       4   Do. paying L. 50 per           
+Lint-dressers,   3     annum to L. 100,            10
+Gardeners,       5   Do. from L. 20 to L. 50,       7
+Lint-millers,    6   Do. from L. 10 to L. 20,      18
+Corn-millers,    6   Do. from L.  5 to L. 10,      28
+Tailors,         6   
+
+</TABLE>
+
+<TABLE>
+
+Families in the village                  126
+Ditto in the rest of the parish,         181
+                                         ---
+                               Families  307
+
+</TABLE>
+
+<TABLE>
+
+Seceders of all denominations,                                40
+Episcopalians,                                                12
+Inhabitants of the village of Longforgan, at 5 per family,   630
+Inhabitants of the whole parish at the above calculation,   1535
+
+</TABLE>
+
+

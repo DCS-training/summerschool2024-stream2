@@ -1,0 +1,46 @@
+
+<TABLE=CONTENTS.>
+
+No.        Name.     Population in 1755. in 1792-4  Increa.  Decr.  Page.
+1.  Lanark                         2294      4751    2457              1
+2.  Shotts                         2322      2041             281     49
+3.  Lockwinnoch                    1530      2613    1083             65
+4.  Twyneholm & Kirk-Christ         519       620     101             75
+5.  Urquhart                       1110      1050              60     93
+6.  Oyne                            640       630              10    105
+7.  Rayne                          1131      1173      42            110
+8.  Kirkbean                        529       660     131            119
+9.  St Fergus                      1271      1240              31    134
+10. Dollar                          517       510               7    155
+11. Mordington                      181       335     154            173
+12. Tillicoultry                    787       909     122            189
+13. Benholme                       1367      1557     190            217
+14. Monzie                         1192      1136              56    241
+15. Dalgety                         761       869     108            260
+16. Baldernock                      755       620             135    271
+17. Longside                       1979      1792             187    282
+18. South Ronaldsay & Burray      *1954      1954                    298
+19. Campsie                        1400      2517    1117            314
+20. Stronsay and Eday             +1015       887             128    387
+21. Glencross                       557       385             172    435
+22. Alford                          990       663             327    447
+23. Kilbarchan                     1485      2506    1021            482
+24. Kirkmichael                    2689      2200             489    506
+25. Redgorton                      1074      2123    1049            523
+26. Kirkmabreck                     858      1088     230            543
+27. Bedrule                         297       259              38    556
+28. Foulis Wester                  1706       224             482    594
+29. Avoch                          1457      1380              77    610
+                     Totals,     34,367    39,692    7805    2480
+                                           34,367    2480
+
+        Increase in 1792-4,                 5,325    5325
+
+</TABLE>
+
+<FOOTNOTE>
+
+*This is supposed to be the population in 1755.
++This was the population in 1772.
+
+

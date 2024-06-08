@@ -1,0 +1,42 @@
+
+     County of Argyle
+
+<TABLE=COUNTY OF ARGYLE.>
+
+    Parish            Population   Population in   Increase.   Decrease.
+                      in 1755.    1790-1798.
+
+1   Ardchattan           2195         2400           205
+    Ardnamurchan         5000         4542                      458
+    Campbelltoun         4597         8700          4103
+    Craignish             769          770             1
+    Dunoon               1757         1683                       74
+5   Glassary             2751         2568                      183
+    Glenorchy            1654         1869           215
+    Inveraray            2751         1832                      919
+    Inverchaolin          944          504                      440
+    Kilbrandon           1492         2060           568
+10  Kilcalmonel          1925         2448           523
+    Kilchrenan           1030         1124            94
+    Kilsinan             1793         1417                      376
+    Killean              2391         1911                      480
+    Kilmadan              806          351                      455
+15  Kilmartin            1150         1537           387
+    Kilmore              1200         1886           686
+    Kilninver            1045         1178           133
+    Knapdale, North      1369         1009                      360
+    Knapdale, South      1292         1524           232
+20  Lismore              2812         3526           714
+    Lochgoylhead         1505         1012                      493
+    Morcven              1223         1764           541
+    Saddel               1369         1341                       28
+    Southend             1391         1300                       91
+25  Strachun             1193         1061                      132
+                       ------       ------          ----       ----
+Total of the con-
+  tinental part of     17,404       51,317          8420       4489
+  Argyleshire
+
+</TABLE>
+
+

@@ -1,0 +1,36 @@
+
+     County of Clackmannan, etc.
+
+<TABLE=COUNTY OF CLACKMANNAN.>
+
+Parish.         Population   Population in   Increase.   Decrease.
+                 in 1755.       1790-1798.
+
+1 Alloa           5816             4822         615       1014
+  Clackamnan      1913             2528  
+  Dollar           517              510                      7
+4 Tillicoultry     757              909         152 
+                  ----             ----         ---       ----
+                  9003             8749         767       1021
+                  8749                                     767
+                  ----                                    ----   
+     Decrease,     254                                     254
+
+</TABLE>
+
+     COUNTY OF CROMARTY.
+
+<TABLE>
+
+1 Cromarty   2096   2184    88         
+  Fodderty   1483   1730   247
+2 Tarbat     1584   1370         214
+
+             5103   5284   335   224
+                    5163   214
+
+          Increase,  121   121
+
+</TABLE>
+
+

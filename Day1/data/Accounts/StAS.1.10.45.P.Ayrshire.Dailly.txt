@@ -1,0 +1,54 @@
+
+     of Dailly.
+
+<TABLE>
+
+Years                 Births.              Deaths.       
+              Mal.   Fem.   Tot.   Mal.  Fem.   Tot.    Mar.
+
+1751 - 1760   207    181    388    165   143    308     76
+1761 - 1770   182    205    387    135   142    277     84
+1771 - 1780   198    206    404    126   143    269    103
+1781 - 1790   280    262    542    157   180    337    106
+             ----------------------------------------------
+   Total      867    854   1721    583   608   1191    369
+             ----------------------------------------------
+   Average,  21.6   21.3    43.   14.5   152   29.7    9.2
+          
+</TABLE>
+
+   From the above table, and from the register of births for
+preceeding years which remain, may be collected, according
+to the common rule of calculation*, the following statement
+of the progress of population in the parish for the last hundred
+years.
+
+<TABLE>
+
+Births Death Births Deaths Average of
+  for  for    for    for   births for
+Year from
+Inclusive
+                                               Souls.
+             4       1693 to 1696     34 X 26 = 884
+            20       1711 to 1730   26.7 X 26 = 694
+            20       1731 to 1750   32.7 X 26 = 850
+            20       1751 to 1770   38.7 X 26 = 1006
+            20       1751 to 1770   29.9 X 36 = 1051
+            20       1771 to 1790   47.3 X 26 = 1229
+            20       1771 to 1790   30.2 X 36 = 1087
+            10       1781 to 1790   54.2 X 26 = 1409
+             5       1786 to 1790     60 X 26 = 1560
+
+</TABLE>
+
+   According to this statement, the number of inhabitants
+appears, during the first twenty or thirty years of the present
+century, to have been decreasing.  For this decrease, if it ever
+
+<FOOTNOTE>
+
+*That is, multiplying the number of births by 26, and of
+deaths by 36.
+
+

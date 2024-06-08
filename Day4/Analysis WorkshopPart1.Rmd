@@ -1,0 +1,719 @@
+---
+title: "Analysis Workshop"
+author: "Rhys Davies"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+  toc: TRUE
+  toc_float: true
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+### Install packages
+
+On Noteable
+
+```{r install Noteable, include=FALSE, warning=FALSE, message=FALSE, results='hide'}
+
+#install.packages("rstatix")
+#install.packages("pwr")
+#install.packages("gghalves")
+#install.packages("ggpubr")
+#install.packages("gtsummary")
+
+```
+
+On Posit
+
+```{r install Posit, include=FALSE, warning=FALSE, message=FALSE, results='hide'}
+#install.packages("tidyverse")#Only if not there anymore
+#install.packages("rstatix")
+#install.packages("pwr")
+#install.packages("broom")
+#install.packages("gt")
+#install.packages("gghalves")
+#install.packages("ggpubr")
+#install.packages("gtsummary")
+
+```
+
+### Load the libraries
+
+NB - make sure to go on session \> restart R before running the libraries
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, results='hide')
+library(tidyverse) # data tidying
+library(rstatix) # pipe friendly stats
+library(pwr) # power analysis
+library(broom) # tidy analysis outputs
+library(gt) # pretty tables
+library(gghalves) # pretty plots
+library(ggpubr) # side by side plots
+library(gtsummary) # easy stratified tables
+
+```
+
+## Session aims:
+
+-   Explore the purpose of null hypothesis testing.
+-   Ponder on Power and *p* values (a lesser known Jane Austin Novel...).
+-   Consider if we've got *p*-hacking wrong?
+-   Tip our toes into data simulation and power analyses in R.
+-   Using R to conduct null hypothesis tests, including: T-tests, ANOVA, and Nested ANOVA.
+-   Understand why statisticians should **not** be allowed to name things.
+
+## Why use null hypothesis testing?
+
+-   Simply put - to determine if the observed effect significantly differs from no effect.
+-   This is done by determining the probability of observing our data, assuming that the null hypothesis is true. This probability is our *p* value.
+-   This can help us increase our confidence about our inferences of our research. Especially if we use confidence intervals ;)
+-   **Important:** *p* \> .05, is not the same as "no difference".
+-   In fact, it is very difficult to statistically prove "no difference" (and is a very good reason to be cynical about assumption tests...).
+
+## Useful Reading
+
+This book is a goldmine for any researcher - beyond discussing quantitative methods, they also set very clear guidelines on what should be the expected standards of quantitative methods for a wide range of analyses.
+It is my go-to when planning and writing up my own work, and when critically evaluating research of others.
+And so it will likely be useful for scrutinising these materials today...
+
+-   [The Reviewer's Guide to Quantitative Methods in the Social Sciences](https://www.taylorfrancis.com/books/edit/10.4324/9781315755649/reviewer-guide-quantitative-methods-social-sciences-gregory-hancock-ralph-mueller-laura-stapleton?context=ubx&refId=2be97ebb-df58-483a-b7c0-42b4d5cd2b3a)
+
+### Power and *p*-values...
+
+-   Through the Neymann and Pearson method, "significance" is determined if the *p* value is below the set "$\alpha$" value.
+-   Neyman and Pearson argued that good scientists should justify the "$\alpha$" value used to minimise the risk of a **Type 1 error** (False Positive)...
+-   We tend to hope that *p* \< .05 will do the trick...
+-   Meanwhile, to avoid a **Type 2 error** (False Negative), we have to ensure that our sample is sufficiently powered (i.e., large enough) to ensure that our effect size will be significant.
+-   This means there is a constant balance in managing the risks of Type 1 and Type 2 errors (as "$\alpha$" decreases, so does our power... as our power increases, so does our risk of a Type 1 error...).
+
+### A note on p-values and power analyses...
+
+There are **more important factors** to consider than just the *p* value:
+
+1)  Is the effect size meaningful?
+    Your expertise and experience in a domain will help you to determine this.
+
+2)  A larger sample is more likely to be generalisable to the total population.
+
+3)  Missing a true effect is generally more detrimental than finding a false effect - good science tends to repeat and retest significant results, whilst ignoring non-significant results.
+
+4)  Power analyses are used to minimise any risk/inconvenience/costs associated with the data collection process.
+
+5)  Is the research design and analysis design appropriate for the inferences we are making?
+
+### My controversial take
+
+-   **p-hacking** is only an issue if you believe *p* \< .05 is sacred in generating and confirming knowledge.
+-   There are many other factors we need to pay attention to, spanning conceptual theory/expertise of the topic area, methodology, and analysis design.
+-   *p*-values are still a good indicator as to the extent to which we should pay attention to a given effect size.
+-   It is our role as researchers to interpret and evaluate the meaningfulness of our effect sizes, and *p* values are one of many tools to do this.
+-   For further reading on the debate: [Statistics:*P*-values are the tip of the iceberg](https://www.nature.com/articles/520612a)
+
+## Simulating data to showcase healthy skepticalness
+
+-   This is an exaggerated simulation, used to make a point.
+-   I've devised a new treatment to improve jumping ability.
+-   To test the treatment, I sampled 100 participants for each group, both with a random sampling method, and both groups were normally distributed.
+-   Don't worry, you're all in the "control" treatment. ;)
+-   I want to determine if this treatment is effective or not.
+-   Initially, we perform an exploratory trial run.
+-   Lets have a look at the results.
+
+### Trial Run data
+
+```{r simulated_data, echo = TRUE}
+# Our "underpowered" effect
+set.seed(42)
+Treatment_group <- rnorm(n = 100, mean = 50, sd = 10)
+set.seed(42)
+Control <- rnorm(n = 100, mean = 49, sd = 10)
+
+sim_data <- data.frame(Treatment_group, Control) %>% 
+  pivot_longer(cols = c(Treatment_group, Control), names_to = "Group", values_to = "Jump_height_cm") %>% 
+  mutate(Group = as.factor(Group))
+
+sim_data %>% 
+  group_by(Group) %>%
+  summarise(n = n(),
+            sd = sd(Jump_height_cm),
+          #  se_jump_height = se(Jump_height_cm),
+            ci = list(enframe(Hmisc::smean.cl.normal(Jump_height_cm)))) %>% 
+  unnest(cols = c(ci)) %>% 
+  spread(name, value) %>%
+  dplyr::select(Group, n, Mean, sd, # reordering and re-naming
+         `95%CI lower` = Lower, `95%CI upper` = Upper) %>%
+  gt() %>% 
+  fmt_number(decimals = 2)
+```
+
+### Trial Run analysis
+
+```{r simulated_data_t_test, echo = TRUE}
+t_test(Jump_height_cm ~ Group, data =sim_data)
+```
+
+```{r}
+cohens_d(Jump_height_cm ~ Group, data =sim_data)
+```
+
+```{r}
+
+plot_a <- ggplot(data = sim_data,
+       aes(x = Group, y = Jump_height_cm)) +
+  geom_half_violin(aes(fill = Group), alpha = .4) +
+  stat_summary(geom = "errorbar", fun.data = "mean_cl_normal", 
+               width = 1.1, linewidth = 1.1, fun.args = list(mult = 1),
+               aes(color = Group)) +
+  stat_summary(geom = "point", fun = "mean", size = 3,
+               aes(color = Group))+
+   coord_cartesian(ylim = c(0, 85)) +
+  labs(title = "Underpowered - Full range") +
+  theme(legend.position = "none")
+
+plot_a
+```
+
+```{r}
+plot_1 <- ggplot(data = sim_data,
+       aes(x = Group, y = Jump_height_cm)) +
+  geom_half_violin(aes(fill = Group), alpha = .4) +
+  stat_summary(geom = "errorbar", fun.data = "mean_cl_normal", 
+               width = 1.1, linewidth = 1.1, fun.args = list(mult = 1),
+               aes(color = Group)) +
+  stat_summary(geom = "point", fun = "mean", size = 3,
+               aes(color = Group)) +
+  coord_cartesian(ylim = c(45, 55)) +
+  labs(title = "Underpowered - Zoomed") +
+  theme(legend.position = "none")
+  
+ggarrange(plot_a, plot_1)
+```
+
+### Interpretation
+
+-   Is there a significant difference?
+-   Is there a meaningful difference?
+
+### Follow up trial
+
+-   From the initial trial, I've been able to determine the sample size required to demonstrate there is a significant effect from the intervention.
+-   Assuming the old sample is representative of what I can expect in the follow up study, to achieve to detect a significant effect at a estimated Cohen's D of .09 and a power of .80, we need a sample size of 1705 participant per group.
+-   Let's have a look at the results of the follow up "powered" trial.
+
+### Power analysis
+
+```{r}
+pwr.t.test(n = NULL, d = -.096, sig.level = 0.05, power = .8,
+           type = "two.sample", alternative = "two.sided")
+```
+
+### Follow up data
+
+```{r simulated_data_2, echo = TRUE}
+# Our "powered" effect
+set.seed(42)
+Treatment_group_l <- rnorm(n = 1705, mean = 50, sd = 10)
+set.seed(42)
+Control_l <- rnorm(n = 1705, mean = 49, sd = 10)
+
+sim_data_l <- data.frame(Treatment_group_l, Control_l) %>% 
+  pivot_longer(cols = c(Treatment_group_l, Control_l), names_to = "Group", values_to = "Jump_height_cm") %>% 
+  mutate(Group = as.factor(Group))
+
+sim_data_l %>% 
+  group_by(Group) %>%
+  summarise(n = n(),
+            sd = sd(Jump_height_cm),
+            ci = list(enframe(Hmisc::smean.cl.normal(Jump_height_cm)))) %>% 
+  unnest(cols = c(ci)) %>% 
+  spread(name, value) %>%
+  dplyr::select(Group, n, Mean, sd, # reordering and re-naming
+         `95%CI lower` = Lower, `95%CI upper` = Upper) %>%
+  gt() %>% 
+  fmt_number(decimals = 2)
+```
+
+### Follow up Analysis
+
+```{r simulated_data_t_test_2, echo = TRUE}
+t_test(Jump_height_cm ~ Group, data =sim_data_l)
+```
+
+```{r}
+cohens_d(Jump_height_cm ~ Group, data =sim_data_l)
+```
+
+```{r}
+
+plot_b <- ggplot(data = sim_data_l,
+       aes(x = Group, y = Jump_height_cm)) +
+  geom_half_violin(aes(fill = Group), alpha = .4) +
+  stat_summary(geom = "errorbar", fun.data = "mean_cl_normal", 
+               width = 1.1, linewidth = 1.1, fun.args = list(mult = 1),
+               aes(color = Group)) +
+  stat_summary(geom = "point", fun = "mean", size = 3,
+               aes(color = Group)) +
+    coord_cartesian(ylim = c(0, 85)) +
+  labs(title = "Powered - Full range") +
+  theme(legend.position = "none")
+
+
+plot_2 <- ggplot(data = sim_data_l,
+       aes(x = Group, y = Jump_height_cm)) +
+  geom_half_violin(aes(fill = Group), alpha = .4) +
+  stat_summary(geom = "errorbar", fun.data = "mean_cl_normal", 
+               width = 1.1, linewidth = 1.1, fun.args = list(mult = 1),
+               aes(color = Group)) +
+  stat_summary(geom = "point", fun = "mean", size = 3,
+               aes(color = Group)) +
+  coord_cartesian(ylim = c(45, 55)) +
+  labs(title = "Powered - Zoomed") +
+  theme(legend.position = "none")
+
+ggarrange(plot_b, plot_2)
+```
+
+### Comparing plots
+
+```{r}
+
+figure <- ggarrange(
+  plot_a, plot_b,
+  plot_1, plot_2
+  )
+figure
+
+
+```
+
+### How do we interpret this?
+
+-   Is there a *significant* difference?
+-   Is there a *meaningful* difference?
+-   What do we think is happening here?
+-   What else does this research need to make a meaningful interpretation of the treatment?
+-   What does this tell us about *p*-values?
+-   What does this tell us about power?
+
+## Tea (test) Task time
+
+In your tables, work together to conduct a t-test comparing `review.score` of the distilleries established pre 1900's, with those established after 1900's.
+
+Your first step will be to do some data wrangling to create a new variable using the `case_when()` function within `mutate()`.
+If you get stuck at this step, you can double check the code from **Bonus material - Other uses for data wrangling** section of the `Data Wrangling` session from Day 1.
+(Or ask one of us).
+
+You have 10 minutes... go!
+
+```{r wrangle_data}
+Whisky_data <- read_csv(url("https://raw.github.com/DCS-training/SummerSchoolStream2ContentTesting/main/Day1/RMD_file_data/tidied_whisky_data.csv")) %>% 
+  mutate(
+         # Wrangle your new variable here
+         ) %>%
+  mutate_if(is.character, as.factor)
+```
+
+```{r summary_table}
+
+```
+
+```{r analyis}
+
+```
+
+```{r data_visualisation}
+
+```
+
+## Time for ANOVA dram of Whisky?!
+
+Let's move on from theory to some practical research with our tidied whisky data from Monday.
+Our goal will be to investigate how the **Whisky ratings** differ by **Whisky Region**.
+
+```{r}
+
+# Summary table of Review Score by Region
+Summary_table <- Whisky_data %>% 
+  group_by(Region) %>% 
+  summarise(n = n(),
+            sd = sd(review.point),
+            ci = list(enframe(Hmisc::smean.cl.normal(review.point)))) %>% 
+  unnest(cols = c(ci)) %>% 
+  spread(name, value) %>%
+  select(Region, n, Mean, sd, # reordering and re-naming
+         `95%CI lower` = Lower, `95%CI upper` = Upper) %>%
+  arrange(desc(n)) %>%
+  gt() %>% 
+  fmt_number(decimals = 2)
+
+Summary_table
+```
+
+### Whisky Theory
+
+As we have emphasised the importance of **theory** when discussing the *t-test*, it's time for us to cover some theory for our analysis on the Whisky dataset.
+This will help to inform our hypotheses, and also help us interpret our results with greater clarity.
+
+As you will have gathered from the summary table above, there are 6 distinct Whisky Regions in Scotland.
+These are:
+
+-   *Speyside* - A densely packed Whisky region, found along the river Spey on the North East of Scotland.
+-   *Highland* - The largest Whisky region, spanning from Perthshire to John o' Groats. Due to its size, the region has plenty of diversity in its flavour profile.
+-   *Islay* - This region is all within one Island. Famed for its distinctive smokey (i.e., **peaty**) Whisky.
+-   *Island* - A Whisky region within the Highland region, and home to historic (and often illegal) distilling traditions of the many islands of Scotland.
+-   *Lowland* - This region may lack the romanticised wilderness of the Highlands, but its still home to many high quality Whisky's. As the Lowland region contains the populous central belt, Stirling, Dundee and St Andrews, it is home to many up and coming new distilleries.
+-   *Campbeltown* - Used to be famed for being Scotland's most productive Whisky region. By now only a handful remain, but they are famed for their distinct flavours.
+
+### Whisky Data Collection Methods
+
+Another important aspect of our analysis is to acknowledge the data collection methods.
+
+### Analysis Question and Hypothesising
+
+-   How does review scores differ by Whisky Region?
+-   We expect a significant difference of review scores between Whisky regions.
+-   On the basis of Campbeltown being a historic centre, having a disctinct flavour profile, and having increased rarity (i.e., fewer distilieries), we expect it to have the highest mean rating in comparison to the other groups.
+-   On the basis of Lowlands being less romanticised than the other Whisky regions, we expect it to have a lower mean rating in comparison to the other groups.
+
+### Analysis time
+
+So our previous analysis involved using the *t-test* to compare the means of an outcome variable between **two** groups.
+Yet, as we can see here, sometimes we find ourselves needing to compare more than two groups... Or in this case, 6.
+
+And so, we need to use the inappropriately named **analysis of variance**, aka, the **ANOVA**.(ANOVA joins the prestigious list of reasons why statisticians should not be allowed to name things. The ANOVA is rarely used to analyse variance. Rather, the ANOVA is used to analyse mean values).
+
+### Assumption Testing
+
+Before jumping into the ANOVA, it's important that we pay attention to some of it's assumptions.
+Otherwise, we risk interpreting misleading results.
+Rather than relying on statistical tests, we are going to visualise the data to inspect the assumptions.
+
+This is linked to my rant about power and Null Hypothesis tests.
+I am not a fan of using statistical tests for assumption testing, as the tests all frame the ideal assumption as the **"null"** condition.
+This forces a scenario where we commit the cardinal sin of all statistics modules, as we find ourselves "accepting the null hypothesis" to state that our data meets our assumptions... As someone who has lost marks for writing this exact statement in their stats coursework, I find this very hypocritical.
+
+There is also debate about the extent to which violations of these assumptions influence our analyses.
+That being said, these tests can help provide us with additional confidence in our decision making.
+
+There is also the issue that often our data is stratified between different groups - particularly if there is a large difference between them.
+Remember, we want the data to be normally distributed within each of the group's that we're comparing.
+
+### Normally distributed data assumption
+
+#### Histogram total data
+
+```{r}
+
+ggplot(Whisky_data,
+       aes(x = review.point)) +
+         geom_histogram(bins = 35) +
+         geom_vline(aes(xintercept = mean(review.point)), 
+                    color = "red", size = 1, linetype = "dashed")
+```
+
+#### Historgram Statafied Data
+
+```{r}
+mean_values <- Whisky_data %>% 
+  group_by(Region) %>%
+  summarise(Mean_review = mean(review.point, na.rm = TRUE))
+
+ggplot(Whisky_data,
+       aes(x = review.point, fill = Region)) +
+         geom_histogram(bins = 35, position = "dodge", alpha = .6) +
+         facet_wrap(~Region, scale = "free_y")+
+         geom_vline(data = mean_values,
+                    aes(xintercept = Mean_review, color = Region), 
+                     size = 1, linetype = "dashed") +
+         theme(legend.position = "none")
+
+```
+
+#### Normality test (To prove a point)
+
+To make a point, below we will be conducting the Shapiro Wilk test to determine if our data differs significantly from being normally distributed.
+This will be done for both the total sample, and for the stratified samples.
+
+##### Total Sample
+
+```{r}
+# Total data 
+Whisky_data %>% shapiro_test(, review.point)
+```
+
+##### Stratified samples
+
+```{r}
+# Campbeltown
+Whisky_data %>% 
+  filter(Region == "Campbeltown") %>% 
+  shapiro_test(, review.point)
+```
+
+```{r}
+# Islay
+Whisky_data %>% 
+  filter(Region == "Islay") %>% 
+  shapiro_test(, review.point)
+```
+
+```{r}
+# Highland
+Whisky_data %>% 
+  filter(Region == "Highland") %>% 
+  shapiro_test(, review.point)
+```
+
+```{r}
+# Lowland
+Whisky_data %>% 
+  filter(Region == "Lowland") %>% 
+  shapiro_test(, review.point)
+```
+
+```{r}
+# Island
+Whisky_data %>% 
+  filter(Region == "Island") %>% 
+  shapiro_test(, review.point)
+```
+
+```{r}
+# Speyside
+Whisky_data %>% 
+  filter(Region == "Speyside") %>% 
+  shapiro_test(, review.point)
+```
+
+#### Reflections on normality
+
+-   The histograms show the data approximates normality.
+-   However, the regions with the larger samples all "violate" the normality assumption according to the Shapiro Wilk test.
+-   Considering what we have learnt about **power**, what might be going on here? And why
+
+### Equal variance assumption
+
+The histogram is our best friend for visualising and assessing normality.
+For variance, we will use the trusty boxplot.
+As the focus this time is on comparing variance between groups, we will only focus on the statified sample.
+
+#### Boxplot
+
+The aim here is to compare the boxplot tails and outliers between groups.
+If they're about the same, we can use a regular ANOVA.
+If they're different, we can use Welch's ANOVA.
+
+```{r}
+
+ggplot(Whisky_data,
+       aes(x = Region, y = review.point, fill = Region)) +
+          geom_boxplot() +
+          theme(legend.position = "none")
+```
+
+#### Statistical test of variance
+
+And here is the statistical test for a point of reference.
+
+```{r}
+Whisky_data %>%
+  levene_test(,formula = review.point ~ Region)
+
+```
+
+#### Equal Variance assumption conclusions
+
+-   It is safe to say that our data does not have equal variance. And to be honest, it is rare to encounter in the wild world of humanities and social science data.
+-   However, we have tools to manage this - namely the Welch's ANOVA.
+-   Welch's ANOVA also has the benefit of being [**robust** under conditions of equal variance as well as unequal variance](https://tue.elsevierpure.com/nl/publications/taking-parametric-assumptions-seriously-arguments-for-the-use-of-).
+-   This has led to some researchers calling for the Welch's version to be the default option for ANOVA, as it can be used more flexibly with less risk of Type 1 error.
+-   The keen eyed among you may have noticed early that R applies the Welch's *t-test* as the default. This is because the Welch's method and benefits also applies to *t-tests*. For ANOVA, we need to apply it ourselves.
+-   If the Welch's ANOVA is significant, we will apply the Games-Howell post-hoc test to compare between groups, as this post-hoc test is also robust to unequal variance.
+
+## Welch's ANOVA
+
+```{r}
+Welch_ANOVA_result <- Whisky_data %>% 
+  welch_anova_test( review.point ~ Region )
+
+Welch_ANOVA_result %>% gt() %>% 
+  fmt_number(decimals = 3)
+```
+
+### Posthoc test
+
+```{r}
+Games_Howell_Result <- Whisky_data %>% 
+  games_howell_test( review.point ~ Region )
+
+Games_Howell_Result
+
+Sig_post_hoc <- Games_Howell_Result %>% 
+  filter(p.adj < .05)
+
+Sig_post_hoc %>% gt() %>% 
+  fmt_number(decimals = 3)
+```
+
+### Summary table
+
+```{r}
+Summary <- Whisky_data %>% 
+  group_by(Region) %>% 
+  summarise(n = n(),
+             Mean = round(mean(review.point),2),
+            sd = round(sd(review.point),2)
+            ) %>%
+  arrange(desc(Mean))
+
+Summary %>% gt()
+
+```
+
+### Reporting the ANOVA
+
+Here, we will use in-line coding to report our analyses.
+This may look intimidating, but it has the benefit of simplifying the reporting of our analyses, improving the reproducibility of our reporting, and reducing our potential for human error.
+
+Welch's ANOVA demonstrates there is a significant difference (*F* (`r round(Welch_ANOVA_result$DFn, digits = 3)`, `r round(Welch_ANOVA_result$DFd, digits = 2)`) = `r round(Welch_ANOVA_result$statistic, digits = 2)`, *p* \< `r plyr::round_any(Welch_ANOVA_result$p , .001, ceiling)`) between Whisky Regions in the Review Points.
+
+Games-Howell posthoc tests were used to further investigate differences between groups.
+The **Lowland** Whisky (*M* = `r Summary %>% filter(Region == "Lowland") %>% select(Mean)`, `r Summary %>% filter(Region == "Lowland") %>% select(sd)`) reported lower mean values of review scores in comparison to all the other Whisky Regions .
+There were no other significant differences in review scores between Regions in this dataset.
+
+### Visualising the analysis
+
+```{r}
+
+# generating appropiate confidence intervals
+
+conf_data <- confint(lm(review.point ~ 0 + Region, Whisky_data), level = .99)
+
+ggplot(Whisky_data,
+       aes(x = Region, y = review.point)) +
+  geom_half_violin(aes(fill = Region), alpha = .7)+ 
+          stat_summary(geom='errorbar', fun.data = "mean_cl_normal",
+                       fun.args = list(conf.int = 0.975)) +  # confidence interval adjusted to reflect Tukey correction in Games Howell Posthoc test
+  stat_summary(geom = "point", fun = "mean", size = 3,
+               color = "black")+
+  coord_cartesian(ylim = c(75, 97)) +
+  theme(legend.position = "none")
+```
+
+## Task Time
+
+-   Behind the scenes of every distillery is a company that runs them.
+-   However, within our dataset there is an overwhelming number of Owners.
+-   Rather than comparing each one, we will focus on the 3 that own the most distilleries.
+-   Your task is to conduct and report an analysis to compare Whisky review points between 3 Owner's with the most distilleries, whilst accounting for the different Regions.
+-   That is, to evaluate if reviews differ by region between the Owners with the most distilleries.
+-   This will initially involve some initial data wrangling. You are welcome to try and figure this out for yourselves if you want the challenge. However, if you want to skip straight to the analysis, then please use the pre-wrangled `Challenge_data` (but make sure to have a study of the code to understand what is happening). The `Challenge_data` is found right at the end of this document, so you will to navigate to this first if you want to use it.
+-   For the challenge wrangling, you will need to use the following functions: `count()`, `top_n()`, and `inner_join()`
+-   To conduct a **nested** **ANOVA**, you'll need to use the `/` symbol inbetween your categorical variables.
+-   Good luck! The code solutions are at the end of the document, so only peek if you are truly stuck.
+
+### Data preparation
+
+```{r wrangle_your_own_data}
+
+
+```
+
+### Assumption tests
+
+```{r test_analysis_assumptions}
+
+
+```
+
+### Analysis
+
+```{r conduct_analysis}
+
+
+```
+
+### Interpretation
+
+So what have seen here?
+
+What can we say about the differences in `review.point` between regions across the 3 largest owners of Whisky?
+
+## Challenge data
+
+```{r challenge_data}
+Challenge_data <- Whisky_data %>% 
+            count(Owner) %>%
+            top_n(n = 3) %>% # set n
+  left_join(Whisky_data) %>% 
+  filter(category == "Single Malt Scotch")
+
+summary(Challenge_data)
+```
+
+## Challenge Analysis Solutions
+
+So this task was a little trickier, as we were conducting a 2 layered nested ANOVA.
+This is because we need to determine if there are differences between Owners within each region, and between each region!
+Whilst this is a head burner, R makes light work of it using the `/` between our variables.
+
+### Challenge ANOVA
+
+```{r}
+
+model_data <- Challenge_data %>% welch_anova_test(review.point ~  Region/Owner)
+
+model_data 
+```
+
+As we can see from the results, the nested ANOVA shows there is a significant difference in review scores between Owners when accounting for Region (*F* (`r round(model_data$DFn, 2)`, `r round(model_data$DFd, 2)`) = `r round( model_data$statistic, 2)`, *p* \< `r plyr::round_any(model_data$p , .001, ceiling)`).
+
+### Challenge Post Hoc Results
+
+```{r}
+Challenge_post_hoc <- Challenge_data %>% group_by(Region) %>% games_howell_test(review.point ~ Owner )
+
+Challenge_post_hoc %>% gt()
+```
+
+```{r}
+Challenge_summary_data <- Challenge_data %>% 
+  group_by( Region, Owner) %>%
+  summarise(n = n(),
+            mean_review = mean(review.point),
+            sd_review = sd(review.point),
+            )%>%
+           mutate(across(where(is.numeric), round, 2)) %>% # round all numeric variables to 2 decimal places
+            arrange(Region, desc(n)) 
+
+Challenge_summary_data %>% gt()
+```
+
+Games-Howell posthoc tests were used to further investigate differences between groups.
+Within the **Speyside** Region, Edrington (*n* = `r Challenge_summary_data %>% filter(Region == "Speyside" & Owner == "Edrington") %>% ungroup() %>% select(n)`, *M* = `r Challenge_summary_data %>% filter(Region == "Speyside" & Owner == "Edrington") %>% ungroup() %>% select(mean_review)`, *sd* = `r Challenge_summary_data %>% filter(Region == "Speyside" & Owner == "Edrington" ) %>% ungroup() %>% select(sd_review)`) had significantly higher review points (*p* = `r Challenge_post_hoc %>% filter(Region == "Speyside") %>% select(p.adj)`) in comparison to Diageo (*n* = `r Challenge_summary_data %>% filter(Region == "Speyside" & Owner == "Diageo") %>% ungroup() %>% select(n)`, *M* = `r Challenge_summary_data %>% filter(Region == "Speyside" & Owner == "Diageo") %>% ungroup() %>% select(mean_review)`, *sd* = `r Challenge_summary_data %>% filter(Region == "Speyside" & Owner == "Diageo") %>% ungroup() %>% select(sd_review)`).
+
+There were no other significant differences in review scores between Owners within Regions in this dataset.
+
+### Challenge Plot
+
+```{r}
+ggplot(Challenge_data, aes(x = Region, y = review.point, 
+                           fill = Owner)) +
+  geom_violin(aes(fill = Owner), alpha = .2) +
+  stat_summary(geom = "errorbar", fun.data = "mean_cl_normal", 
+               width = .7, linewidth = 1.1, fun.args = list(mult = 1),
+               aes(color = Owner), alpha = .6) +
+  stat_summary(geom = "point", fun = "mean", size = 3,
+               color = "black") +
+  coord_flip() +
+  labs(title = "Analysis comparing Review Scores of Whisky Regions between Owners",
+       x ="",
+       y = "Review Points") +
+  theme_bw()
+
+```
+
+### End of Part 1

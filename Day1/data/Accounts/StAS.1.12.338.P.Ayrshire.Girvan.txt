@@ -1,0 +1,54 @@
+
+     Statistical Account
+
+<TABLE>
+
+YEARS            BIRTHS.          YEARS             BIRTHS.
+          Males.   Fem.   Total            Males   Fem   Total.
+1734       21       16     37     1781      26      28    54 
+1735        9       18     27     1782      24      23    47
+1736       16       12     28     1783      16      23    39
+1737       14       12     26     1784      24      28    52
+1738       17       16     33     1785      26      36    62
+1739       14       19     33     1786      31      20    51
+1740       16       17     33     1787      31      35    66
+1741       19       13     32     1788      29      26    55
+1742        9       13     22     1789      25      35    60
+1743       23       14     37     1790      33      27    60
+           ---     ---    ---              ---     ---   --- 
+Totals,   158      150    308   Totals,    265     281   546
+
+Average,  15.8     15.    30.8  Average,   26.5    28.1  54.6
+
+YEARS.            DEATHS.         YEARS.    MARRIAGES.   
+          Males.   Fem.  Total       
+ 1784       9      17     26      1784       11         
+ 1785      18      15     33      1785        9
+ 1786      11      18     29      1786        8
+ 1787      12      10     22      1787       13
+*1788      30      30     60      1788       13
+           --      --    ---                 --
+Totals,    80      90    170      Totals,    54
+           --      --    ---                 ------    
+Average,   16      18     34      Average,   10 4/5+   
+
+</TABLE>
+
+<FOOTNOTE>
+
+*A great number of children died this year of the small-pox.  All of them
+had the disease in the natural way.  There is still, in this parish, a considerable
+prejudice against inoculation.
++From the foregoing tables, it appears, that the annual average of births for
+30 years, preceding January 1744, was 30.8.  This, if multiplied by 26,
+gives 800, as the average number of inhabitants during that period.  If multi-
+plied by 28, the number must be stated at 862; and, if by 29, at 893.  From
+the register of births, it is found, that the annual average for 5 years, preceding
+1756, was 40.  This, when multiplied by 26, gives only 1040, as the number
+about the period of Dr. Webster's reports: but when multiplied by 23, the
+number at that period is brought to 1120.  The annual average of births, for
+5 years prior to 1791, was 58 2-5ths.  It is necessary this should be multiplied
+by 29, before the population can, in this way, be brought nearly to correspond
+with what it was in 1791.
+
+

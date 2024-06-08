@@ -1,0 +1,44 @@
+
+     The Statistical Account.
+
+<TABLE>
+
+Peterhead,          2,550 Prestonpans,              1,492
+St Andrews,         2,519 Peebles,                  1,480
+Forres,             2,398 Cromarty,                 1,457
+Saltcoats,          2,325 Kinross,                  1,437
+Dunse,              2,324 Bathgate,                 1,400
+Hawick,             2,320 Tranent,                  1,380
+Linlithgow,         2,282 Catrine,                  1,350
+Lanark,             2,260 Stromness,                1,344
+Pathhead,           2,089 Inverkeithing,            1,330
+Crieff,             2,071 Kilwinning,               1,260
+Kirkwall,           2,000 Crail,                    1,236
+Dunbar, about       2,000 Kilsyth,                  1,202
+Huntly, about       2,000 Dunblane, about           1,200
+Jedburgh,           2,000 Govan, about              1,200
+Dunbarton,          1,850 Tain, above               1,200
+Airdrie,            1,762 Torryburn, about          1,200
+Beith,              1,754 Moffat, about             1,200
+Dysart,             1,736 Renton, about             1,200
+Kirkcudbright,      1,641 Maryburgh, co. Inver-
+Rutherglen,         1,631    ness, & Fortwilliam,   1,200
+Annan,              1,620 Balfron,                  1,181
+Thurso,             1,612 Coldstream,               1,162
+Strathaven,         1,610 Gatehouse of Fleet,       1,150
+Cupar Angus         1,604 Charlestown and Lime-
+Stranraer,          1,602   kilns,                  1,145
+Kilbarchan,         1,584 Pittenweem,               1,137
+Kirriemuir,         1,584 Auchtermuchty,            1,134
+Newburgh,           1,552 Kinghorn,                 1,118
+Kirkintilloch,      1,536 Lochwinioch,              1,114
+New Lanark,         1,519 Newton Stewart,           1,100
+Langholm, above     1,500 Nairn,                    1,100
+Kincardine, about   1,500 Dunkeld,                  1,086
+Melrose, about      1,500 New Keith,                1,075
+
+</TABLE>
+
+     3 O 2
+
+

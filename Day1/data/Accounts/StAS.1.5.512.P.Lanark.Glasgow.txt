@@ -1,0 +1,53 @@
+
+     Statistical Account
+
+     TABLE I.
+
+   Number of males and females, who have died within 9 years,
+from 1763 to 1771, and in the same space from 1783 to
+1791, inclusive, together with their average, and the propor-
+tion that average bears to 1000, taken from the register of
+the burying grounds within the city, where the particulars 
+have been accurately marked.
+
+<TABLE>
+
+             Real Numbers.           Average.              Prop. to 1000.
+           Males. Fem.   Tot.   Males.   Fem.    Tot.      Males.   Fem.
+From 1763  5178   5595  10773  575 1/9  621 6/9  1197      480.646  579.354
+ to 1771 
+From 1783  6198   6559  12757  688 6/9  728 7/9  1417 4/9  485.851  514.149
+ to 1791
+
+</TABLE>
+
+     TABLE II.
+
+   Ages of those who have died within these periods; together
+with their average, and the proportion they bear to 1000,
+taken from the same date.
+
+<TABLE>
+
+                 From 1763 to 1771.          From 1783 to 1791
+                Real   Aver.    Prop.     Real   Aver.      Prop.
+                Num.            to 1000   Num               to 1000.
+                                                                    
+Under  2.       4797   533      445.280   5321   591 2/9    417.104
+From   2 to  5. 1345   149 4/9  124.849   1521   169        119.224
+       5 to 10.  447    49 6/9   41 492    490    54 4/9     38.410
+      10 to 20   307    40 7/9   34 067    526    50 4/9     41 232
+      20 to 30   514    57 1/9   47.712    741    82 3/9     58 086
+      30 to 40   491    54 5/9   45 577    685    76 1/9     53 696
+      40 to 50   536    59 5/9   49.754    744    82 6/9     58.321  
+      50 to 60   570    63 3/9   52.910    773    85 4/9     60.594
+      60 to 70   656    72 8/9   60.893    908   100 8/9     71.177 
+      70 to 80   659    73 2/9   61.171    748    83 1/9     58.635
+      80 to 90   326    36 2/9   30.261    268    29 7/9     21.008
+Above 90          65     7 2/9    6.034     32     3 5/9      2.508
+                -----------------------   --------------------------
+               10773  1197     1000      12757  1417 4/9   1000
+
+</TABLE>
+
+

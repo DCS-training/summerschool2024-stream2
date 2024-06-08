@@ -1,0 +1,45 @@
+
+<TABLE=CONTENTS.>
+
+No.    Name.    Population in 1755,   in 1794-5.   Incease.   Dec.   Page.
+ 1 Coupar of Angus           1491        2076         585               1
+ 2 Kettins                   1475        1100                 375      13
+ 3 Latheron                  3675        4006         331              19
+ 4 Pencaitland                910        1033         123              33
+ 5 Lecropt                    577         420                 157      45
+ 6 Prestonpans               1596        2028         432              61
+ 7 Cavers                     993        1300         307              89
+ 8 Polwarth                   251         288          37              93
+ 9 Colvend and Southwick      898         964          66              98
+10 Buittle                    899         855                  44     114
+11 Cupar of Fife             2192        3702        1510             137
+12 Lilliesleaf                521         630         109             173
+13 Edlestown                  679         710          31             182
+14 Blair Gowrie              1596        1651          55             191
+15 Cardross                   795        2194        1399             209
+16 Shapinshay                 642         730          88             224
+17 Luss                       978         917                  61     238
+18 Small Isles                943        1339         396             272
+19 Bothkennar                 529         600          71             299
+20 Whitburn                  1121        1322         201             298
+21 Mearns                     886        1430         541             305
+22 Walls and Flota           1000         991                   9     312
+23 Killearnan                 945        1147         202             337
+24 Boharm                     835        1294         459             358
+25 Killin                    1968        2360         392             368
+26 Arbuthnot                  997        1041          44             385
+27 Turreff                   1897        2029         132             394
+28 Mortlach                  2374        1918                 456     413
+29 Forres                    1998        2987         994             447
+30 Kenmore                   3067        3463         396             456
+31 Kinloch                    331         372          41             468
+32 Insch                      995         900                  95     482
+33 Queensferry                400         505         105             489
+34 Nesting                   1169        1535         300             498
+35 Largs                     1164        1025                 139     503
+
+   Carried over,            42782       50862        9416    1336
+
+</TABLE>
+
+

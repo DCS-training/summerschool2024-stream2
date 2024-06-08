@@ -1,0 +1,32 @@
+
+     of Aberdeen.
+
+   PORT of ABERDEEN.-An Account of the total Number of British and Foreign Ships, their Tonnage
+and Number of Men, including their repeated Voyages, that have entered at this Port, or cleared
+outwards to and from each foreign Kingdom or State, in the Year ending the 5th day of January 1795,
+shewing the countries to which the foreign Vessels belong.
+
+<TABLE>
+
+                                           Countries to which                   Inwards.                                      Outwards.
+                                           foreign vessels be
+To or from what foreign kingdom or state   long.                     BRITISH.               FOREIGN.                BRITISH.                FOREIGN. 
+                                                                Ships.   Ton.   Men.   Ships.   Tons.   Men.   Ships.   Tons.   Men.   Ships.   Tons.   Men.   
+Granada,                                                                                                         1       18      12
+Denmark and Norway,                              Norway,         15       875    49      11      890     64      6      334      18      1       100     6
+Gibraltar,                                                                                                       1      102       6
+Greenland,                                                        3       653    85                              3      653      83
+Holland,                                                         14      1460    73                              3      280      15
+Ireland,                                                          1        88     5
+Italy,                                                                                                           1       90       6
+Poland,                                                           4       343    10
+Portugal,                                                         2       161     9
+Germany,                                         Prussia,         1        81     5
+Prussia,                                                          4       870    34      1        60      5      1      243       9
+Russia,                                                           8       803    44                              6      799      42
+Sweden,                                                           9       907    39                              6      465      27
+                                                    Total,       61      6041   363     12       950     69     28     3151     220      1       100     6
+
+</TABLE>
+
+

@@ -1,0 +1,35 @@
+
+<TABLE>
+
+                                              1837                                                                               1838
+
+                          Winds *                     Thermon          Barometer                    Winds                       Thermom          Barom
+                           Days                                                                      Days
+
+         Southerly  Easterly  Northerly  Westerly  Highest  Lowest  Highest  Lowest  Southerly  Easterly  Northerly  Westerly  Highest  Lowest  Highes
+
+January,     23        0         3         5        48       24     30.25   28.35       22         6        1          2        45       19     30.70
+February,    24        0         2         2        49       28     29.92   28.20       16         5        5          2        39        9     30.70
+March,       15        0        10         6        47       17     30.34   28.25       21         3        5          2        55       29     30.67
+April,       12        4         9         5        53       27     30.30   28.25       11         1       14          4        54       27     30.35
+May,         16        4         8         3        62       34     29.94   28.26       13        11        5          2        74       31     30.63
+June,        23        1         6         0        76       41     29.92   28.54       16         7        4          3        66       39     30.35
+July,        19        5         6         1        68       41     29.97   28.15       21         2        6          2        72       50     30.30
+August,      17        5         6         3        72       40     30.4    28.47       20         1        6          4        69       39     30.18
+September,   19        5         6         0        62       37     30.60   28.50       19         2        8          1        65       39     30.45
+October,     28        0         0         3        61       29     30.75   28.45       21         0        6          4        57       29     30.74
+November,    27        1         0         2        54       29     30.30   28.43       18         6        3          3        50       27     30.43
+December,    25        2         2         2        51       28     30.75   28.80       28         0        2          1        55       30     30.50
+
+            248       27        58        32                                           226        44       65         30
+
+<FOOTNOTE>Under term southerly are comprehended the points from south-east to south-west; easterly, the points from south-east
+          to north-east; northerly, the points from north-east to north-west; and westerly, the points from north-west to south-west.
+	+ This depression took place on 7th January 1839 during a gate, with snow, from south-vest, correspending in time with a
+          hurricane, attended with disastrorts consequences, on the west coasts of England and Scotland.
+       ++ This depression happened during the memorable hurricane form north-west on the 11th of October 1838, when great da-
+          mage was done to crops, plantations, and buildings. On General Forbes's estate, in this parish, many thousand tree were ap-
+          reoted or broken down, same of them vigorous beeches and ashes, which had withstood the blasts for more than 100 years.
+       SS This occurred during a violent storm, with heavy rain, from south-south-east on 29th November 1888.
+
+

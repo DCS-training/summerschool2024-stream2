@@ -1,0 +1,67 @@
+
+<TABLE>
+				KINFAUNS			1209
+
+  Weather			 Days     Wind.               Times.
+Fair,				  204 North and north-east,       38
+Rain or snow,                     161 East and south-east,        95
+                                  ___ South and south-west,      108
+                                  365 West and north-west,       124
+								 ___
+								 365
+<TABLE>
+		Extreme cold and heat by Six's Thermometer.
+       Coldest, 9th January, wind north-west,               3&deg;
+       Hottest, 20th August, wind south-east,              72&deg;
+       Mean temperature for the year 1841,                 45&deg;888
+                        Result of two Rain-Guages.
+
+<TABLE>
+									  Inches.
+1. Centre of Kinfauns garden, about 20 feet above the level of the sea,     31.10
+2. Square tower, Kinfauns Castle, 180 feet,				    30.89
+
+   The following tables are also extracted from the above-men-
+tioned register. The first contains the average mean heights of
+the barometer and thermometer, the depth of rain, &c. for each
+of the eight years preceding 1842. The second refers to the va-
+rious directions of the wind for those years.
+
+<TABLE>
+    Years  Morn. 3/4 past 8, Evening 8,     Mean.    Depth of No. of Days.
+	   Mean height of    Mean height of Temp.    Rain in  Rain of  Fair.
+	   Barom. Ther.      Barom. Ther    by Six's Garden.  Snow.
+	       			            Ther.
+
+     1834, 29.744 49.653     29.740 47.162  48.587   23.10    159      206
+     1835, 29.696 48.003     29.643 45.427  46.840   25.60    164      200
+     1836, 29.486 47.076     29.486 44.626  45.425   33.88    179      187
+     1837, 29.707 47.434     29.711 44.458  45.507   27.80    140      225
+     1838, 29.682 45.302     29.690 42.348  44.106   30.60    141      224
+     1839, 29.688 46.429     29.689 43.246  45.233   32.23    172      196
+     1840, 29.732 45.717     29.741 44.238  46.220   25.17    142      224
+     1841, 29.563 44.963     29.595 43.805  45.888   31.10    161      204
+
+<TABLE=WIND.>
+
+
+Years,    N. and N. E.    E. and S. E.   S and S. W.    W and N. W.
+1834,    .     29 times.     87 times.      138 times.   111 times.
+1835,    .     37            84             119          125
+1836,    .     42            64             142          118
+1837,    .     30            86             124          125
+1838,    .     33           115             103          114
+1839,    .     39           108             117          101
+1840,    .     44            98              92          132
+1841,    .     38            95             108          124
+              __________    __________      __________   __________
+8 years,      292 times.    737 times.      943 times.   950 times.
+
+   From the above tables it will be seen, that the prevailing winds
+are from the west. These are sometimes very boisterous, blowing
+violently, as through a funnel, between the hills of Kinnoull and
+Mordun; at times, stripping the roofs of houses, and overturning
+stacks of corn. Our most uncongenial weather, however, is from
+the east. Cold piercing winds frequently blow from that direc-
+
+

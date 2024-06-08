@@ -1,0 +1,50 @@
+
+     General Appendix to
+
+   Note 2d.  Seeing there is manifestly a very considerable
+increase of population in Scotland these 40 years past, and
+the number of adventurers is very great during the same pe-
+riod, into England, the army, and navy, the continent,
+the coast of Africa, the East and West Indies, and Ameri-
+ca; therefore it will be proper to place them in a ratio of
+equality.
+   Again, from these data, to find the amount of the popula-
+tion of Scotland, anno 1792, that is, the increase of popula-
+tion in 37 years, from the year 1755.  See note 3.
+   As every addition to the number of inhabitants, from the
+excess of the births above the deaths, produces a proportion-
+ably greater number of births; an increasing population will
+exactly resemble the accumulation of money at compound
+interest, where PR+ = S the amount.  Therefore let the
+
+<TABLE>
+
+                                                   5829         1
+ratio of increase to the population, (P,) viz.   -------   =   ---
+                                                 1265380       217,
+                1      r+1
+be expressed by - then --- is equivalent to R, the amount
+                r       r
+                             r+1 
+of 1 l. in one year, and P x --- = S, the amount of population
+                              r 
+                        
+in the time t.  Hence, from L217+1   =   2.3384565.
+         Subtract             L217   =   2.3364597.
+                                         ----------        r+1  
+          Their difference           =    .0019968   =   L ---
+                                                            t.                                
+          multiplied by                         37   =   t.
+                                          --------         r+1 t
+          produces                         .0738816  =   L ----
+                                                            r.
+
+</TABLE>
+
+   Note 3 d.  Although Dr Webter's medium survey might
+be about 43 years ago, anno 1749, yet as he had every in-
+ducement to make the population of Scotland rather large
+than otherwise, that his native country might appear, in the
+eyes of governments in as favourable and respectable a light as
+
+

@@ -1,0 +1,38 @@
+
+<TABLE>
+
+No.                                  Page
+24. Parish of Troquire                194
+25.           Muiravonside            200
+26.           Penpont                 203
+27.           Cramond                 211
+28.           Dalmeny                 227
+29.           Sorbie                  242
+30.           Kiltearn                259
+31.           Rothsay                 301
+32.           Kingarth                308
+33.           Houston and Kilallan    315
+34.           Biggar                  332
+35.           Dunsyre                 337
+36.           Yester                  342
+37.           Bathgate                348
+38.           Stranraer               357
+39.           Kettle                  369
+40.           Delting                 385
+41.           Kilrennie               409
+42.           Arngask                 414
+43.           Dunnichen               419
+44.           Carmylie                435
+45.           Panbride                438
+46.           Lunan                   441
+47.           Auchterderran           449
+48.           Kinloss                 462
+49.           Oathlaw                 465
+50.           Gamrie                  469
+51.           Gask                    479
+52.           Lismore and Appin       482
+53.           Meigle                  503
+
+</TABLE>
+
+

@@ -1,0 +1,65 @@
+
+                        OLD MONKLAND.	                      637
+
+1800 to January 1820, including a period of 20 years, or 7304
+days.  Only the four cardinal points, with the four intermediate
+points of the compass, are given.  When the winds were variable,
+they are set down for the day in the direction in which they gene-
+rally blew.  With these qualifications, the other results may be
+relied on.  The letters at the top denote the points of the com-
+pass, and the figures below the number of days in which the wind
+blew in that direction.  The periods of observation are divided
+into two portions, namely, from 1800 to 1810, and from 1810 to
+1820.  Observations are also given for each particular month.
+
+<TABLE>
+                      Days.      N.   S.    E.    W.   S.W.   S.E.   N.E.   N.W.
+Jan. First IO years winds blew,  5    55    63    88    32     49     8     12
+     Second do.                  3    15   102   144    23      5     5     11
+Feb. First 10 years,             3    29    89   116    24     85     6     50
+     Second do.                  0    15    42   176    25      6     7    111
+Mar. First 10 years,	           2    12   120    91    22     22     9     82
+     Second do.	                 2     7     8   196    12      4     5      3
+April First 10 years,	           6    34    72   101    23     10    10     44
+     Second do.	                 1    16   112   127    15      8     7     14
+May First 10 years,             10    17    77    87    33      9    12     65
+     Second do.	                 0     8    24   146    15      2     2     13
+June First 10 years,	           3    23    52   100    25      9     3     85
+     Second do.	                 5    21    83   146    14      1     1     87
+July First 10 years,	           3    21    68   109    18     23     6     62
+     Second do.	                 1    18    44   202    20      7     2     17
+Aug. First 10 years,	           1    29    40   156    42     18     4     20
+     Second do.	                 2    14    44   209    22      6     3     10
+Sept. First 10 years,            8    36    45   110    28     24     4     49
+     Second do.	                 8    32    50   141    27     18    19     15
+Oct. First 10 years,	           4    24    61   110    27     24     4     56
+     Second do.	                 4    32    67   122    28     15    12     50
+Nov. First IO.Years,	           6    19    67   104    16     24    18     46
+      Second do.                11    23    62   106    42     20    13     15
+Dec. First 10 Years,	           2    24    44   124    29     45     4     34
+     Second do.	                 6    24    84   188    24     12    12     12
+                                --   ---  ----  ----   ---    ---   ---    ---
+Total days,                     96   548  1643  3149   586    306   166    720
+
+   The following table will give the sum total for the particular
+months for the whole 20 years included between 1800 and 1820,
+
+<TABLE>
+                       N.    S.     E.     W.     S.W.   S.E.  N.E.  N.W.
+
+January,	            8    70    165    2312     55	    54    18    28
+February,	            3    44     81     292	   49	    41    13    41
+March,                4    19    201     287     34     26    14    05
+April,                7    50    164     228     38     18    17    58
+May,                 10    25    201     233     48     11    14    78
+June,                 8    44    135     246     39     10     4   122
+July,                 4    30    112     311     38     30     8    79
+August,               3    43     84     365     64     24     7    30
+September,           15    68     95     251     55     39    13    64
+October,              8    56    128     232     55     39    16    86
+November,            17    42    129     210     58     44    31    61
+December,             8    48    128     265     53     57    16    46
+                     --   ---   ----    ----    ---    ---   ---   ---
+Days wind in 20 years, 96   548   1643    3140    586    393   166   723
+
+

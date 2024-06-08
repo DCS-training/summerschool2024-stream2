@@ -1,0 +1,47 @@
+
+     County of Roxburgh.
+
+<TABLE=COUNTY OF ROXBURGH.>
+
+     Parish.    Population    Population in   Increase.   Decrease.
+   -              in 1755.      1790-1798.
+1  Ancrum            1066            1146            80
+   Askirk             629             539                        90
+   Bedrule            297             259                        38
+   Bowden             672             860           188 
+5  Castleton         1507            1418                        89
+   Cavers             993            1300           307
+   Crailing           387             672           285
+   Ednam              387             600           213   
+   Eckfoord          1083             952                       131 
+10 Hawick            2713            2928           215
+   Hobkirk            530             700           170
+   Hownam             632             365                       267
+   Jedburgh          5816            3288                      2528
+   Kelso             2781            4324          1543
+15 Kirktoun           330             342            12
+   Lessuden           309             500           191
+   Liliesleaf         521             630           109
+   Linton             413             383                        30
+   Makerston          165             255            90
+20 Maxton             397             326                        71
+   Melrose           2322            2446           124
+   Minto              395             513           118
+   Morbattle          789             789
+   Oxnam              760             690                        70
+25 Roberton           651             629                        22
+   Roxburgh           784             840            56
+   Smailholm          551             421                       130
+   Southdean          669             714            45
+   Sproustoun        1089            1000                        89
+30 Wilton             936            1215           279
+31 Yetholm            699             976           277
+                   ------          ------          ----        ---- 
+                   31,273          32,020          4302        3555
+                                   31,273          3555
+                                   ------          ----
+                      Increase,       747           747
+
+</TABLE>
+
+

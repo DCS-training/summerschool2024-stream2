@@ -1,0 +1,32 @@
+
+     Statistical Account
+
+     An Account of the Population, taken in 1791.
+
+<TABLE>
+
+Divisions                             Houses   Families                                    Males                                                                                                     Females                                                            Religion
+
+                                                          Under 10 Years   From 10 to 16   From 16 to 30   From 30 to 70   From 70 to 100   Total   Under 10 years   From 10 to 16   From 16 to 50   From 50 to 70   From 70 to 100   Total   Grand Total   Burghers   Antiburghers   Episcopals
+
+Town of Alloa,                           391        833              374             170             620             181               35    1380              321             151             792             261               36    1561          2941        194            311           17
+Coal Bridge,                               5         13               11               4               8               4                0      27               11               5              10               4                0      30            37          0              6            0
+Glass Work,                               13         33               15               9              33               4                2      63               26               6              36               2                1      71           134          1              2            8
+Alloa, Coal Bridge, and Glass Work,      409        879              400             183             661             189               37    1470              358             162             838             267               37    1662          3132        195            319           25
+Country,                                  90        113               79              46             141              18               13     285               63              35             155              19                3     275           560         27             27            7
+Village of Tallibody,                     89         91               46              17              70              14               14     148               39              23             100              22                4     188           336         37             21            0
+Ditto of Cambus,                          35         35               15               4              28               8                0      55               11              11               2              13                0      67           122          2             91            0
+The Colliery,                            143        152               75              52             141              27               12     297               95              47             166              36               11     355           632          2              0            0
+The whole parish,                        766       1270              615             302            1041             256               41    2255              566             278             1291            357               55    2547          4802        263            376           32
+The return to Dr. Webster, in 1755, 
+is stated at                                                                                                                                                                                                                                         5816         
+Decease,                                                                                                                                                                                                                                             1014
+
+</TABLE>
+
+<FOOTNOTE>
+
+*Prior to the year 1788, there was every reason to believe, that the parish was increasing, as many new houses had been erected, and
+the glass-house and dry dock established, where many hands are employed, and the colliery eonsiderably extended; all which must certainly more than male
+
+

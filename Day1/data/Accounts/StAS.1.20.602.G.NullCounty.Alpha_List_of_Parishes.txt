@@ -1,0 +1,44 @@
+
+     County of Elgin, etc.
+
+<TABLE=COUNTY OF ELGIN.>
+
+Parish.           Population   Population in   Increase.  Decerease.
+                   in 1755.      1790-1798.
+                   
+1  Alves              1691          1111                     580
+   Birnie              525           402                     123
+   Dallas              700           888          188
+   Drainy             1174          1040                     134
+5  Duffus             1679          1800          121
+   Duthil             1785          1110                     675
+   Dyke and Moy       1826          1529                     297
+   Edinkeithe         1443          1800          357    
+   Elgin              6306          4534                    1772 
+10 Forres             1993          2987          994   
+   Kinloss            1191          1031                     160
+   Knockndow          1267          1500          233
+   Knockandow         1267                                    
+   Rafford            1313          1072                     241
+15 St Andrews         1132           777                     355
+   Speymouth           994          1347          353      
+   Spynnie             865           602                     263
+18 Urquhart           1110          1050                      60
+                    ------        ------         ----       ----                  
+                    28,934        26,080         2246       5100
+                    26,080                                  2246
+                    ------                                  ----
+     Decrease,        2854                                  2854
+
+</TABLE>
+
+<TABLE=COUNTY OF FIFE.>
+
+1   Abbotshall          1348        2136   788
+                         822         494         328
+    Aberdour            1198        1280    82
+    Anstruther, Easer   1100        1000         100
+
+</TABLE>
+
+

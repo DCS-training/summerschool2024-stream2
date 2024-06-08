@@ -1,0 +1,41 @@
+
+     County of Aberdeen.
+
+     TABLE of the POPULATION of SCOTLAND, by
+     Counties and Parishes, as it stood in 1755, and
+     in 1790-1798*
+
+<TABLE=COUNTY OF ABERDEEN.>
+
+Parish.             Population        Population in        Increase.         Decrease
+                    in 1755.          1790-1798.
+
+1  Aberdeen, Old,
+   or Old Machar      4945               8107                  3161       
+   Aberdeen, New,
+    including Foot-  10785              16120                  5335
+   Aberdour           1397               1306                                    91
+   Aboyne             1695               1050                                   645
+5  Alford              990                663                                   327
+   Auchindote          839                590                                   249
+   Auchterless        1264               1264               
+   Belhelvie          1471               1381                                   153
+   Birse              1116               1300                  174          
+
+</TABLE>
+
+     VOL. XX. 4 F
+
+<FOOTNOTE>
+
+*Although, in some instances, the same parish lies in two or three diffe-
+rent counties, it was judge expedient, in the following Table, to slate the
+total population of all parishes in that situation under only one of the
+counties to which they respective belong, as no distinction was made in
+the returns.  It is also to be observed, that where the population of pa-
+rishes in the following Table differs from that in the Statistical Returns,
+it was occasioned by corrected statements of the number of inhabitants ha-
+ving been received subsequent to the publication of the account of each
+such parish.
+
+

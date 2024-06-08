@@ -1,0 +1,43 @@
+
+     CONTENTS,
+
+<TABLE>
+
+No.   Name.      Population in 1755   In 1790-7.   Increase   Decrease.   Page.
+
+1     Halkirk,                 3075    3180          105                      1
+2     Falkirk,                 3932    8020         4088                     71
+3     Roxburgh,                 784     840           56                    114
+4     Aberdeen *,             15433   24493         9060                    140
+5     Alness,                  1090    1121           31                    234
+6     Stornoway,               1812    2639          827                    241
+7     Barvas,                  1995    2006           11                    263
+8     Lochs,                   1267    1768          501                    274
+9     Uig,                     1312    1898          586                    280
+10    Rhynie and Essie,         836     681                     155         289
+11    Aboyne and Glen
+      tanar                    1695    1050                     645         296
+12    Boyndie,                  994    1260          266                    305
+13    South Knapdale,          1292    1524          232                    308
+14    Kinclaven,                993    1150          157                    327
+15    Bendothy,                1293     878                     415         334
+16    Tannadice,               1491    1491 +                               372
+17    Rothiemay,               1190    1125                      65         385
+18    Orphir,                   855     826                      29         394
+                             -------- -------    --------     ------- 
+         Carried over         41339   55950        15920       1309
+
+</TABLE>
+
+<FOOTNOTE>
+
+* In the APPENDIX there is additional communication re-
+specting the Town of Aberdeen.
+
+<FOOTNOTE>
+
++ Stated at the same number as in 1755, no return of the
+population having been given in, in consequence of the living
+being vacant, though probably increased.
+
+

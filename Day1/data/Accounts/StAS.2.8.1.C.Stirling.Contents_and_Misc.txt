@@ -1,0 +1,31 @@
+
+
+<TABLE>
+                   CONTENTS.
+
+AIRTH,		.	.	.	.	PAGE 280
+ALVA,	.	.	.	.	.	.    175
+BALDENNOCK,	.	.	.	.	.    169
+BALFRON, .        .        .        .        .       288
+BOTHKENNAR,	.	.	.	.	.    201
+BUCHANAN,	.	.	.	.	.     89
+CAMPSIE, .        .        .        .        .       231
+DENNY,		.	.	.	.	.    115
+DRYMEN,		.	.	.	.	.     99
+IDUNIPACE,	.	.	.	.	.    379
+FALKIRK, .        .        .        .        .         1
+FINTRY,         .       .       .       .       .     38
+GARGUNNOCK,	.	.	.	.	.     48
+KILLEARN,	.	.	.	.	.     60
+KILSYTH, .        .        .        .        .        38
+KIPPEN,		.	.	.	.	.    264
+LARBERT, .        .        .        .        .       340
+LOGIE,		.	.	.	.	.    214
+MUIRAVONSIDE,	.	.	.	.	.    205
+POLMONT, .        .        .        .        .       191
+SLAMANAN,	.	.	.	.	.    273
+STIRLING,	.	.	.	.	.    390
+ST NINIANS,	.	.	.	.	.    303
+STRATHBLANE,	.	.	.	.	.     71
+
+

@@ -1,0 +1,54 @@
+
+     Alphabetical List
+
+<TABLE>
+
+No. Parish.     Presbytery.   County.     Vol.   No.  Page
+
+790 Rothes      Aberlour      Elgin       III.   33   250
+791 Rothesay    Dunoon        Bute        I.     31   301
+792 Rothiemay   Strathbogie   Banff       XIX.   17   385
+793 Rousay      North Isles   Orkney      VII.   33   336
+794 Row         Dunbarton     Dumbarton   IV.    54   405
+795 Roxburgh    Kelso         Roxburgh    XIX.    1     1
+797 Ruthven     Meigle        Forfar      XII.   23   290
+798 Ruthwell    Annan         Dumfries    X.     17   218
+799 Rynd        Perth         Perth       IV.    23   178
+
+</TABLE>
+
+     S
+
+<TABLE>
+
+800-802, Saint An-       Saint Andrews   Fise              XIII.    15   187
+   drews and Saint
+   Leonards, 3 mins.
+803 St Andrews           Kirkwall        Orkney            XX.      12   258
+804 St Andrs. Lhanbryd   Elgin           Elgin             IX.      13   172
+805,806, St Cuthberts    Edinburgh       Edinburgh         VI.      57   559
+   2 ministers, 
+807 St Cyrus             Fordoun         Kincardine        XI.       6    89
+808 St Fergus            Deer            Banff             XV.       9   134
+809 St Madois            Perth           Perth             III.     78   568
+810 St Martins           Perth           Perth             XIII.    31   500
+811 St Monance           St Andrews      Fise              IX.      22   334
+812 St Mungo             Lochmaben       Dumfries          XI.      29   383
+813 St Ninians           Stirling        Stirling          XVIII.   14   385
+814 St Quivor            Air             Air               VII.     35   353
+815 St Vigeans           Aberbrothock    Forfar            XII.     15   165
+816 Saddel               Kintyre         Argyle            XII.     33   475
+817 Saline               Dunfermline     Fise              X.       25   307
+818 Salton               Haddington      Haddington        X.       20   251
+819 Sanfling             Zetland         Orkney & Shetl.   VII.     53   580
+820 Sanquhar             Penpont         Dumfries          VI.      47   443
+821 Scone                Perth           Perth             XVIII.    2    65
+822 Scoonie              Kirkaldy        Fife              V.        7   106
+823 Selkirk              Selkirk         Selkirk & Koxb.   II.      39   434
+824 Shapinsbay           North Isles     Orkney & Shetl.   XVIII.   16   224
+825 Shotts               Hamilton        Lanark            XV.       2    49
+826 Skens                Aberdeen        Aberdeen          IV.       7    57
+
+</TABLE>
+
+

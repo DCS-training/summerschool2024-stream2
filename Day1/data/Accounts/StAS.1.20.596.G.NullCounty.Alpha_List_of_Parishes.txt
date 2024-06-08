@@ -1,0 +1,49 @@
+
+     County of Berwick.
+
+<TABLE=COUNTY OF BERWICK.>
+
+Parish.           Population   Population in   Increase.     Decrease.
+                   in 1755.      1790-1798.
+
+1  Abbey              80              164           84
+   Ayton             797             1245          448
+   Buncle            691              622                        69
+   Channelkirk       531              600           69
+5  Chirnside         383              961          578    
+   Colbrandspath     919              883                        36 
+   Coldmgham        2313             2391           78          
+   Cranshaws         214              164                        50
+   Dunsen           2593             3324          731
+10 Earlston         1197             1351          154      
+   Eccles           1489             1780          291
+   Edrom             898             1336          438
+   Eymouth           792             1000          208           
+   Fogo              566              450                       116
+15 Fouldean          465              344                       121 
+   Gordon            737              912           175
+   Greenlaw          895             1210           315
+   Home              959             1000            41
+   Hutton            751              910           169
+20 Ladykirk          386              590           204
+   Langton           290              435           145
+   Lauder           1795             2000           205
+   Lennel           1493             2521          1028
+   Litgertwood       398              422            24
+25 Longformacus      399              452            53
+   Mertoun           502              557            55
+   Mordiagton        181              335           154
+   Nenthorn          497              400                    97
+   Polwarth          251              288             37
+30 Swinton           494              898            404
+   Westruther        591              730            139
+32 Whitsome          399              590            191
+                  ------           ------           ----   ---
+                  24,946           30,875           6418   489
+                                   24,946            489
+                                   ------           ---- 
+                        Increase,    5929           5929                         
+
+</TABLE>
+
+

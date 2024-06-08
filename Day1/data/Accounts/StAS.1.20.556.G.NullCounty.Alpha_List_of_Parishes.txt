@@ -1,0 +1,51 @@
+
+     Alphabetical List
+
+<TABLE>
+
+No. Parish.           Presbytery.   Country.        Vol.   No.  Page.
+
+24 Anth               Stirling      Stirling        III    69   486
+25 Alford             Alford        Aberdeen        XV.    22   447
+26 Alness             Dingwall      Rois            XIX.    5   234
+27 Alloa              Stirling      Clackmanuan     VIII.  40   592
+28 Alva               Stirling      Stirling        XVIII.  4   125
+29 Alvah              Turreff       Banff           IV.    52   393
+30 Alves              Elgin         Elgin           VI.    43   508
+31 Alvie              Abernethy     Inverness       XIII.  26   375
+32 Alyth              Meigle        Perth           VI     43   397
+33 Ancrum             Jedburgh      Roxburgh        X.     23   289
+34 Annan              Annan         Dumsnes         XIX.   22   447
+35 Anstruther Easter  St Andrews    Fise            XVI.   12   243
+36 Anstruther Wester  St Andrews    Fise            III.    6    77
+37 Anwoth             Kirkcudbright Kirkcudbright   VIII.  23   343
+38 Applecross         Lochcarron    Ross            III.   56   369
+39 Applegarth         Lockmaben     Dumsries        VIII.  16   308
+40 Arbirlot           Aberbrothwick Forfar          III.   67   467
+41 Arbuthnot          Fordoun       Kincardine      XVII.  26   385
+42 Ardchattan         Lorn          Argyle          VI.    23   174
+43 Ardclach           Nairn         Nairn           IV.    19   151
+44 Ardersict          Nairn         Inverness       IV.    11    88
+45 Ardnamurchan       Mull          Argyle & Inver. XX.    15   286
+46 Ardrossan          Irvine        Air             VII.    2    42
+47 Arngask            Perth         Perth           I.     42   414
+48 Artoquhar          Dunbarton     Dunbarton       III.   63   430
+49 Ashirk             Selkirk       Roxb. & Selk.   III.   24   213
+50 Assint             Dornoch       Sutherland      XVI.    8   163
+51 Athelstaneford     Haddington    Haddington      X.     11   161
+52 Auchindoir         Alford        Aberdeen        XII.   34   490
+53 Auchmleck          Air           Air             XI.    34   430
+54 Auchterarder       Auchterarder  Perth           IV.     4    33
+55 Auchterderran      Kirkaldy      Fise            I.     47   449
+56 Aughtergaven       Dunkeld       Perth           XVII.  40   551
+57 Auchterhouse       Dundee        Forfar          XIV.   31   516
+58 Auchterless        Turriff       Aberdeen        XII.   24   306
+59 Auchtermuchty      Cupar         Fise            VI.    38   338
+60 Auchtertoul        Kirkaldy      Fise            VIII.   8   110
+61 Auldearn           Nairn         Nairn           XIX.   31   616
+62 Avendale           Hamilton      Lanark          IX.    25   382
+63 Avoch              Chanonry      Ross            XV.    29   610
+
+</TABLE>
+
+

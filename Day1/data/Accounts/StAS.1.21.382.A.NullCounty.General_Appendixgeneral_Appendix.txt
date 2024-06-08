@@ -1,0 +1,43 @@
+
+     General Appendix to
+
+A Table of the probabilities of life adapted to Scotland in
+general, and corresponding to Dr Webster's surveys, anno
+1755.
+
+<TABLE>
+
+       Liv-                 Liv-                 Liv-                 Liv-
+Age.   ing.   dead   Age.   ing.   dead   Age.   ing.   dead   Age.   ing.   dead
+   0    680     50     24    361     5      48    206     7      72     59     5
+   1    630     43     25    356     5      49    199     7      73     54     5
+   2    587     38     26    351     6      50    192     7      74     49     5
+   3    549     22     27    345     6      51    185     6      75     44     5
+   4    527     22     28    339     6      52    179     6      76     39     4
+   5    505     22     29    333     6      53    173     6      77     35     4
+   6    483     19     30    327     6      54    167     6      78     31     4
+   7    464     18     31    321     6      55    161     6      79     27     4
+   8    446     18     32    315     6      56    155     6      80     23     3
+   9    428     13     33    309     6      57    149     6      81     20     3
+  10    415      6     34    303     7      58    143     6      82     17     3
+  11    409      4     35    296     7      59    137     6      83     14     2
+  12    404      4     36    289     7      60    131     6      84     12     2
+  13    401      4     37    282     7      61    125     6      8      10     1
+  14    397      3     38    275     7      62    119     6      86      9     1
+  15    394      3     39    268     6      63    113     6      87      8     1
+  16    391      3     40    262     6      64    107     6      88      7     1
+  17    388      3     41    256     7      65    101     6      89      6     1
+  18    385      3     42    249     7      66     95     6      90      5     1
+  19    382      4     43    242     7      67     89     6      91      4     1
+  20    378      4     44    235     7      68     83     6      92      3     1
+  21    374      4     45    228     8      69     77     6      93      2     1
+  22    370      4     46    220     7      70     71     6      94      1     1
+  23    366      5     47    213     7      71     65     6      95      0     0
+
+</TABLE>
+
+   In the construction of the foregoing table, each of Dr
+Webster's decades is divided by 60, making in all 21430, in-
+cluding the addition of 340 to the first decade, for the pur-
+
+

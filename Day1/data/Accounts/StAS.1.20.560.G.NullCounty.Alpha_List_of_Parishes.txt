@@ -1,0 +1,53 @@
+
+     Alphabetical List
+
+<TABLE>
+
+No. Parish.                 Presbytery.      County.            Vol.   No.  Page.
+
+179 Corstorphine            Edinburgh         Edinburgh          XIV.   26   446
+180 Cortachy                Forfar            Forfar             X.     36   568
+181 Coull                   Kinkard. O'Niel   Aberdeen           III.   22   198
+182 Coupar Angus            Meigle            Perth & Forfar     XVII.   1     1
+183 Covington               Biggar            Lanark             I.     23   190
+184 Coylton                 Air               Air                I.     12   101
+185 Craig                   Brechin           Forfar             II.    44   495
+186 Craigie                 Air               Air                V.     24   369
+187 Craignish               Inveraray         Argyle             VII.   45   436
+188 Crail                   St Andrews        Fise               IX.    30   439
+189 Crailing                Jedburgh          Roxburgh           II.    25   322
+190 Cramond                 Edinburgh         Edinburgh          I.     27   211
+191 Cranshaws               Dunse             Berwick            VI.    46   436
+192 Cranston                Dalkeith          Edinburgh          IX.    18   277
+193 Crathy                  Kinkard. O'Niel   Aberdeen           XIV.   20   334
+194 Crawford                Lanark            Lanark             IV     66   505
+195 Crawford-John           Lanark            Lanark             VI.    32   274
+196 Crichton                Dalkeith          Edinburgh          XIV.   24   433
+197 Criech                  Cupar             Fise               IV.    30   227
+198 Criech                  Dorroch           Sutherland         VIII.  21   362
+199 Crieff                  Auchterarder      Perth              IX.    38   583
+200 Crimond                 Deer              Aberdeen           XI.    32   409
+201 Cromarty                Chanonry          Cromarty           XII.   20   245
+202 Cromdale                Abernethy         Inverness & Elg.   VIII.  13   251
+203 Cross                   North Isles       Oikney             VII.   46   450
+204 Crossmichael            Kirkcudbught      Kirkcudbught       I.     21   167
+205 Croy                    Nairn             Invern. & Nairn    XI.    21   560
+206 Cruden                  Ellon             Aberdeen           V.     30   431
+207 Cullen                  Fordyce           Banss              XII.   13   143
+208 209 Cultofs, 2 minists   Dunfermline       Perth              X.      9   131
+                                                                 XVIII  Ap.  649
+210 Culfalmond              Garioch           Aberdeen           III.   30   240
+211 Culter                  Biggar            Lanark             VI.    10    75
+212 Cults                   Cupar             Fise               II.    35   407
+213 Cumbernauld             Glasgow           Dunbar'on          VI.    48   462
+214 Cummertrees             Annan             Dumsries           VII.   28   304
+215 Cumnock (New)           Air               Air                VI.    14    98
+216 Cumnock (Old)           Air               Air                VI.    44   407
+217 218 Cupar Fise,          Cupar             Fise               XVII.  11   137
+      2 ministers
+219 Currie                  Edinburgh         Edinburgh          V.     20   313
+220 Cushnie                 Alford            Aberdeen           IV.    22   173
+
+</TABLE>
+
+

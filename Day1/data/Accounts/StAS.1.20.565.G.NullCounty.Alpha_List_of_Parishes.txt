@@ -1,0 +1,51 @@
+
+     of the Parishes, etc.
+
+<TABLE>
+
+No. Parish               Presbytery.     County.           Vol.   No.   Page.
+
+389 Glasford             Hamilton         Lanark            VII.    12   142
+390-397 Glasgow          Glasgow          Lanark            V.      37   488
+  8 mininsters
+398 Glasgow (Gorbals)    Glasgow          Lanark            V.      38   539
+399 Glasgow (Barony)     Glasgow          Lanark           XII.    10   109
+400 Glasgow (New Port)   Parsley          Rensiew           V.      39   544
+401 Glass                Strathbogie      Banff & Aberd.    VII.    40   399
+402 Glassary             Inveraray        Argyle            XIII.   42   653
+403 Glasserton           Wigton           Wigton            XVII.   43   581
+404 Glenbervie           Fordoun          Kincardine        XI.     36   449
+405 Glenbucket           Alford           Aberdeen          XIX.    29   607
+406 Glencairn            Penpont          Dumfries          II.     27   339
+407 Glenecross           Dalkeith         Edinburgh         XV.     21   435
+408 Glendovan            Auchterarder     Perth             X.      18   229
+409 Gleneig              Lochcarion       Inverness         XVI.    15   265
+410 Glenholm             Biggar           Peebles           IV.     57   429
+411 Glennsla             Mengle           Forfar            VI.     42   390
+412 Glennmick            Kincard O'Neil   Aberdeen          XII.    18   215
+413 Glenoreby            Lorn             Argyle            VIII.   20   335
+                                                            VIII.  App.  651
+414 Glensheil            Lochcarron       Rois              VII.     9   124
+415 Golspy               Dornoch          Sutherland        IX.      3    26
+416 Gordon               Lauder           Berwick           V.       5    88
+417 Govan                Glasgow          Lanark & Renfr.   XIV.    17   281
+418 Grantney             Annan            Dumsries          IX.     35   518
+419 Grange,              Strathbogie      Banff             IX      39   550
+420 Greenlaw             Dunfe            Berwick           XIV.    30   501
+421, 422 Greenock,       Parsley          Rensiew           V.      43   559
+     ministers
+423 Guthrie              Aberbrothock     Forfar            VIII.   19   329
+424, 425 Haddington,     Haddington       Haddington        VI.     53   535
+     2 ministers
+426 Halkirk              Caithness        Caithness         XIX.     1     1
+427, 428 Hamilton,       Hamilton         Lanark            II.     15   177
+     2 ministers
+429 Harrya               Canston          Orkney            XIV.    19   311
+430 Harns                Uist             Inverness         X.      28   342
+431 Hawick               Jedburgh         Roxburgh          VIII.   32   521
+432 Heriot               Dalkeith         Edinburgh         XVI.     2    50
+433 Hobkirk              Jedburgh         Roxburgh          III.    46   311
+
+</TABLE>
+
+

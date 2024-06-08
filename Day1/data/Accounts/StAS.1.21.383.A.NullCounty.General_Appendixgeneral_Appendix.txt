@@ -1,0 +1,54 @@
+
+     The Statistical Account.
+
+pose of retaining the tabular number entire, when half the
+number of infants, born in any one year, is subtracted.
+   By this table, the number of births or burials is to that of
+inhabitants, as 680 is to 21,430-340, that is, as 1 to 31.
+Of those who are born, 1 out of 30 arrives at 80 years of
+age; and the expectation of life is as follows.
+
+<TABLE>
+
+Age.   Expectat.   Age.   Expectat.   Age.   Expectat.   Age.   Expectat.
+  0       31.00     25       28.47     50       16.66     75        6.65
+  5       36.05     30       25.77     55       14.46     80        5.63
+ 10       38.37     35       23.20     60       12.13     85        5.00
+ 15       35.30     40       20.90     65       l0.00     90        2.50
+ 20       31.68     45       18.63     70        8.16     95        0.00
+
+</TABLE>
+
+   Now, supposing that the annual number of births (a), and
+of burials (b), are to one another as 4 to 3; see the following
+note 1st; and that the annual increase of population and
+number of emigrants are in a ratio of equality, (note 2d.)
+Thus,
+
+<TABLE>
+
+An. No. of
+anno 1755.
+       7  :  4  :  :  680X2  :  777 1/7 &c. then,
+  a = 777 1/7            46,629   burials,
+  b = 582 6/7            34,971   births,
+a-b =  97 1/7   X 60 =    5,829   incr. popul.
+ 2  =  97 1/7             5,829   emigrants,    
+
+</TABLE>
+
+   Note 1st.  As the country parishes in Scotland may con-
+tain about 1,200,000 inhabitants, wherein the ratio of the
+burials to the births is, in fact, 2/3; and as the larger towns
+may comprehend 300,000 souls, wherein the burials and
+births are in a ratio of equality, or 3/3.
+
+<TABLE>
+
+     12x2        3x3    33       3
+Hence       +   ----    --   =   -   =   , the mean ratio.     
+     15x3       15x3    45       4
+
+</TABLE>
+
+

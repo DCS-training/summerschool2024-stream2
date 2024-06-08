@@ -1,0 +1,42 @@
+
+     County of Banff.
+
+<TABLE=COUNTY OF BANFF.>
+
+    Parish,   Population    Population in   Increase.   Decrease
+              in 1755       1790-1795.
+
+1   Aberlour       1010        910                         90
+    Alva           1161       1070                         95
+    Banff          3000       3510            510 
+    Bellie         1730       1919            189    
+5   Boharm          835       1294            459      
+    Botnphnie       953        630                        313
+    Boyndie         994       1260            266    
+    Cullen          900       1214            314        
+    Deskford        940        752                        188
+10  Fordyce        3212       3425            213         
+    Forglen         607        600                          7
+    Gamrie         2083       3000            917       
+    Grange         1797       1572                        225
+    Inveraven      2464       2244                        220
+25  Inverkiethnie   571        460                        111
+    Keith          2683       3057            374
+    Kirhmichael    1288       1276                         12
+    Marnoch        1894       1960             66     
+    Mortlich       2374       1918                        456      
+20  Ordiquhill      666        517                        149
+    Rathven        2898       3524            626
+    Rothremay      1190       1125                         65
+23  St Fergus      1271       1240                         31 
+                 ------     ------           ----        ----
+                 36,521     38,487           3934        1968  
+                            36,521           1968
+                            ------           ----    
+                Increase,     1966           1966 
+
+</TABLE>
+
+     VOL.XX 4 C
+
+

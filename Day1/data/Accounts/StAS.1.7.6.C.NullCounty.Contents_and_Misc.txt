@@ -1,0 +1,49 @@
+
+<TABLE=CONTENTS.>
+
+No.     Name.          Population in 1755.   in 1791-2.   Increase   Dec.   Page.
+            Brought over,          39627         62320      24354   1661
+31   Dunblane,                      2728          2750         22            323
+32   Inverury,                       730           372               358     331
+33   Rousay and Eglishay,            978          1072         94            336
+34   Arbroath,                      2098         *4676       2578            340
+35   St Quivox,                      499          1450        951            353
+36   Cabrach,                        960           700               260     361
+37   Banchory Tarnan,               1736          1340               396     369
+38   West Monkland,                 1813          4000       2187            375
+39   Dunrossness,                   2295          3327       1032            391
+40   Glass,                         1000           970                30     399
+41   Oldhamstocks,                   622           498               124     402
+42   Fodderty,                      1483          1730        247            410
+43   Strichen,                      1158          1400        242            416
+44   Lesmahagoe,                    2996          2810               186     420
+45   Craignish,                      769           770          1            436
+46   Cross, Burness, and
+     North Ronaldshay,              1250          1389        139            450     
+47   Ladykirk,                       750          +803         53            462     
+48   Yarrow,                        1180          1230         50            500
+49   Carsefairn,                     609           461               148     513
+50   Bower,                         1287          1592        305            521
+51   Kirkwall and St ola,           1989          2550        561            529
+52   Reay,                          2262          2298         36            570
+53   Aithsting and Sansting,         911          1285        374            580
+54   Muirkirk,                       745          1100        355            598
+55   Dundonald,                      983          1317        334            615
+                                   ------       ------      ------  -----
+                        Total,     73458        104210      33915   3163
+            Population in 1755,                  73458       3163
+                                                -------     ------
+            Increase in 1792,                    30752      30752
+
+</TABLE>
+
+<FOOTNOTE>
+
+*In this number, 638 inhabitants of that part of Arbroath,
+which belongs to the parish of St Vigeans, are not included.  The
+addition of that number would make the increase 3216
+
++This was the population in 1787.  The parish being now va-
+cant, no return is made for 1791-2.
+
+

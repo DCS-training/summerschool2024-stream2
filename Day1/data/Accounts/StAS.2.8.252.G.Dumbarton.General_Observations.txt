@@ -1,0 +1,17 @@
+
+252     <TABLE=GENERAL OBSERVATIONS, &C.>
+
+
+TABLE II.--Showing the Fiars Prices of Dumbartonshire from
+	          1832 to 1838 inclusive.
+	
+           1832.       1833.      1834.     1835.    1836.    1837.    1838.    Average.
+           s. d.       s. d.      s. d.     s. d.    s. d.    s. d.    s. d.     s. d.
+Wheat,     51  1      47  9      39   9	    36  5    48  6    48  8    58 11    47  3 1/4
+Oats,	   18  7      19  11     20   3	    20  9    25  3    20  9    25 11    21  6 1/2	
+Bear,      27  5 3/4  25  9 1/4  23  10     23 11    27  5    27  3    31 10    26  9 1/2
+Barley,    29 10 1/2  28  6 1/2  28   1     27  0    30  7    30  3    38  0    30  4  
+Pease &      
+Beans,     31  4 1/2  31  0 1/2  32   0     33  0    44  6    36 10    48  4    36  8 1/4
+Oatmeal,   14  8      14  7      15   6     16  2    22  8    16  2    20  9    17  2 1/4    
+

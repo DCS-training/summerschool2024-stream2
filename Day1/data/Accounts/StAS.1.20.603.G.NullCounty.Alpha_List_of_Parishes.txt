@@ -1,0 +1,54 @@
+
+     County of Fife.
+
+<TABLE>
+
+Parish.                 Population      Population in      Increase.      Decrease
+                         in 1755.        1790-1798.
+
+5  Anstruther, Wester        385             370                              15                 
+   Auchterdeman             1143            1200              57
+   Auchtcrmuchty            1308            1439             131  
+   Auchtertool               389             334                              55
+   Ballingry                 464             220                             244
+10 Balmerino                 565             703             138
+   Beath                    1099             450                             649
+   Burntisland              1390            1210                             180
+   Cameron                  1295            1105                             130
+   Carnbee                  1193            1941
+15 Carnock                   583             970              387
+   Ceres                    2540            2320
+   Colessie                  989             949
+   Crail                    2173            1710       
+   Creich                    375             306
+20 Cult                      449             540               85
+   Cupar                    2192            3702              1510
+   Dainsie                   469             540                              71
+   Dalgety                   761             869               108
+   Denbog
+25 Denino                    255             235                           
+   Dunfermline              8552            9550                998
+   Dysart                   2367            4862               2495
+   Elie                      642             620 
+   Falkland                 1795            2198                403
+30 Ferrie                    642             620                254       
+   Flisk                     318             331                 13
+   Forgan                    751                                124
+   Inverkeithing            1694             875          
+   Kemback                   420             588                168
+35 Keunoway                 1240            1500                260
+   Kettle                   1621            1759                138
+   Kalconquhar              2131            2013
+   Kilmaney                  781             869                 88
+   Kilrenny                 1348            1086
+40 Kinghorn                 2389            1768
+   Kinglassie                998            1200                201
+   Kingsbarns                871             807      
+   Kukaldy                  2296            2673                377
+   Largo                    1396            1913                517
+
+</TABLE>
+
+     VOL. XX. 4 H
+
+

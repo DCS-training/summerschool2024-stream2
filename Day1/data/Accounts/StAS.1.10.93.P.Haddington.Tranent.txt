@@ -1,0 +1,54 @@
+
+     of Tranent.
+
+   Fines for irregular marriages, exactions for private baptisms,
+marriage, &c. go for private uses, for which no funds are
+
+<TABLE>
+
+                                        Males.   Fem.
+
+Births in the same period of 30 years   1094     1055
+Deduct deaths                            794      826
+
+Difference, mostly emigrated             300      229
+
+</TABLE>
+
+TABLE II. showing the probability of the duration of life, at
+all ages, among males and females, in the parish of Tranent,
+taken from the foregoing abstract of deaths for a period of
+30 years, the deaths taken as a radix.
+
+<TABLE>
+
+Age.   Males.   Deaths.   Fem.   Deaths.   Age.   Males.   Deaths.   Fem.   Deaths.
+ 0      794        101    826       110     25     391         4     498       4
+ 1      693         85    716        71     26     387         4     494       4
+ 2      608         53    645        35     27     383         3     490       4
+ 3      555         44    610        23     28     380         3     486       4
+ 4      511         20    587        18     29     377         3     482       3
+ 5      491         14    569        12     30     374         3     479       3
+ 6      477         10    557         6     31     371         4     476       3
+ 7      467          8    551         4     32     367         4     473       3
+ 8      459          6    547         2     33     363         4     470       3
+ 9      453          3    545         2     34     359         4     467       4
+10      450          3    543         2     35     355         4     463       4
+11      447          3    541         3     36     351         4     459       4
+12      444          3    538         3     37     347         4     455       4
+13      441          3    535         3     38     343         3     451       4
+14      438          3    532         3     39     340         3     447       4
+15      435          3    529         3     40     337         3     443       4
+16      432          3    526         3     41     334         3     439       4
+17      429          3    523         3     42     331         3     435       4
+18      426          3    520         3     43     328         3     431       4
+19      423          4    517         3     44     325         3     427       4
+20      419          5    514         3     45     322         3     423       4
+21      414          6    511         3     46     319         3     419       4
+22      408          6    508         3     47     316         3     415       4
+23      402          6    505         3     48     313         3     411       4
+24      396          5    502         4     49     310         4     407       4
+
+</TABLE>
+
+

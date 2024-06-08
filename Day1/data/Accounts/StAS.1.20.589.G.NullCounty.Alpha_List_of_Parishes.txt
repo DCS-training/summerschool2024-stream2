@@ -1,0 +1,48 @@
+
+     County of Aberdeen.
+
+<TABLE>
+
+Parish                 Population           Population in          Increase          Decrease
+                        in 1755.             1790-1798  
+
+45  Keith-hall            1111                  838                                     273
+    Kemmay                 643                  611                                      31
+    Kildrummie             562                  426                                     136
+    Kincardine O'Niel     1706                 2075                    369
+    King Edward           1352                 1577                    225    
+50  Kinnellar              398                  342                                      56
+    Kinnethmont            791                  830                     39         
+    Kintore                973                  812                                     161
+    Leochel, inclu 
+      ding Cushnie        1286                  642                                     644
+    Leslie                 319                  418                    99 
+55  Logie Buchan           575                  509                                      66
+    Longside              1979                 1792                                     187
+    Lonmay                1674                 1650                                      24
+    Lumphanan              682                  621                                      61
+    Machar, New           1191                 1030                                     161
+60  Meldrum, Old          1603                 1490                                     113
+    Methlick              1385                 1035                                     350
+    Midmar                 979                  945                                      34
+    Montquhitter           997                 1500                  503
+    Monymusk              1005                 1130                  125
+65  Newhills               959                 1181                  222
+    Oyne                   643                  630                                      13
+    Peterculter            755                 1002                  247                     
+    Peterhead             2487                 4100                 1613
+    Pitshgo               1224                 1300                   76
+70  Premnay                448                  450                    2
+    Rathen                1527                 1730                  203
+    Rayne                 1131                 1173                   42
+    Rhynie and Essey       836                  681                                    155
+    Skene                 1251                 1233                                     18
+75  Slains                1286                 1117                                    169
+    Strathdon             1750                 1524                                    226
+    Strichen              1158                 1400                 242            
+    Tarland               1300                 1050                                    250
+    Tarvas                2346                 1690                                    656
+
+</TABLE>
+
+

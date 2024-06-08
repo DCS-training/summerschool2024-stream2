@@ -1,0 +1,32 @@
+
+     CONTENTS.
+
+<TABLE>
+
+No.   Name.      Population in 1755   In 1790-7.   Increase   Decrease.   Page.
+
+           Brought over,      41339   55950        15920       1309
+19    Kilmany,                  785     869           84                    420
+20    Dunning,                 1491    1600          109                    434
+21    Tundergarth,              625     510           56        115         443
+22    Annan,                   1498    2500         1002                    447
+23    Tarbolton,               1365    1200                     165         458
+24    Longforgan,              1285    1526          241                    459
+25    Madderty,                 796     631                     165         563
+26    Minto,                    396     513          117                    570
+27    Collington,               792    1395          603                    579
+28    Innerleithen,             559     560            1                    592
+29    Glenbucket,               430     449           19                    607
+30    Yetholm,                  699     976          277                    609
+31    Auldearn,                1951    1406                     545         616
+32    Killean and Kil-                                                         
+       chenzie,                2391    1911                     480         627
+                             -------  -------     -------     -----  
+                   Total,     56102   71996        18373       2779
+      Population in 1755,             56402         2779
+                                     --------     -------
+       Increase in 1790-7,            15594        15594
+
+</TABLE>
+
+

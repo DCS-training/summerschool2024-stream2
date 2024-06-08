@@ -1,0 +1,36 @@
+
+     CONTENTS.
+
+<TABLE>
+
+ No. Name of the     Population   Ditto in   In crease. Decrease. Page.
+      parish          in 1755      1791
+ 1   Torthorwald         584        660          76         0       1
+ 2   Dornock             716        738          22         0      14
+ 3   Kirkmahoe          1098       1200         102         0      30
+ 4   Lochrutton          564        528           0        36      36
+ 5   Kirkcolm            765        945         180         0      46
+ 6   Stonykirk          1151       1365         214         0      51
+ 7   Colmonell          1814       1100           0       714      57
+ 8   Galston            1013       1577         564         0      71
+ 9   Kilmarnock         4403       6776        2373         0      84
+10   Machlin            1169       1800         631         0     109
+11   Eaglesham          1103       1000           0       103     119
+12   Newabbey            634        649          15         0     125
+13   Nielston           1274       2230        1056         0     141
+14   Renfrew            1091       1628         537         0     166
+15   Hamilton           3815       5017        1202         0     177
+16   Blantyre            496       1040         544         0     213
+17   Stonehouse          823       1060         237         0     223
+18   Libberton           708*       750          42         0     233
+                      ------      -----       -----      ----
+                       23221      30163        7795       853
+
+</TABLE>
+
+<FOOTNOTE>
+
+*The minister supposes, that these were only examinables,
+and not souls; but it was Dr Webster's practice, when examina-
+
+

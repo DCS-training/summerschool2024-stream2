@@ -1,0 +1,34 @@
+
+     SCOTLAND
+
+<TABLE=SCOTLAND>
+
+    Counties.        Population    Population in    Increase.   Decrease.
+                       in 1755.      1790-1798.
+
+1   Aberdeen          116,836        122,921          6085
+    Air                59,268         75,544        16,276
+    Argyle             63,291         76,101        12,810
+    Banss              36,521         38,487          1966
+5   Berwick            24,946         30,875          5929
+    Bute and Arran       6866         10,563          3697
+    Caithness          22,215         24,802          2587
+    Clackmannan          9003           8749                        254
+    Cromarty             5163           5284           121
+10  Dumfries           41,913         52,329        10,416
+    Dunbarton          13,857         18,408          4551
+    Edinburgh          90,412        122,655        32,243
+    Elgin              28,934         26,080                       2854
+    Fife               81,570         87,250         5,680
+15  Forfar             68,297         91,001        22,704
+    Haddington         29,709         28,966                        743
+    Inverness          64,656         73,979          9323
+    Kincardine         24,346         26,799          2453
+    Kinross              4889           5302           413
+20  Kirkcudbright      21,205         26,959          5754
+    Lanark             81,726        125,254        43,528
+    Linlithgow         16,829         17,570           741
+
+</TABLE>
+
+

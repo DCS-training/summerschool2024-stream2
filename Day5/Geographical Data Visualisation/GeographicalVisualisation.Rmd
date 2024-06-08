@@ -1,0 +1,622 @@
+---
+title: "Geographical Data Visualisation"
+author: "Ki Tong"
+date: "`r Sys.Date()`"
+output: html_document
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Setting up
+
+Below is the setting up for this class (install packages, mount packages, import data)
+
+#### Install Packages
+
+Libraries we need to install (remember to uncomment before running)
+
+On Noteable
+
+```{r Install}
+# Set a CRAN mirror
+options(repos = c(CRAN = "https://cran.r-project.org"))
+
+#install.packages("tmap")
+#install.packages("adehabitatHR")
+
+```
+
+On Posit
+
+```{r Install Posit}
+# Set a CRAN mirror
+options(repos = c(CRAN = "https://cran.r-project.org"))
+
+#install.packages("tmap")
+#install.packages("adehabitatHR")
+#install.packages("rgdal")
+#install.packages("rgeos")
+l#install.packages("sp")
+#install.packages("tmap")
+#install.packages("tidyverse")
+#install.packages("RColorBrewer")
+#install.packages("classInt")
+#install.packages("maptools")
+#install.packages("png")
+#install.packages("raster")
+#install.packages("tmaptools")
+```
+
+#### Load Libraries
+
+Load the packages we need
+
+```{r load, results='hide', warning=FALSE, message=FALSE}
+library(rgdal)
+library(rgeos)
+library(sp)
+library(tmap)
+library(dplyr)
+library(RColorBrewer)
+library(classInt)
+library(maptools)
+library(png)
+library(raster)
+library(adehabitatHR)
+library(tmaptools)
+library(readr)
+```
+
+#### Import Data
+
+Import the data that we will need
+
+First the CSV that we cleaned on Monday and used Tuesday for text analysis
+
+```{r csv}
+
+Parish <- read_csv("data/parish.csv")
+summary(Parish)
+```
+
+Then we import the first GeoPackage.
+A GeoPackage is an open, standards-based format designed for the efficient storage, transfer, and exchange of geospatial data.
+Developed by the Open Geospatial Consortium (OGC), it serves as a container for various types of geospatial information, including vector features, raster maps, and attribute data, all within a single file <https://www.geopackage.org/>.
+
+readOGR Function: \* from rgdal package that reads vector spatial data.
+\* dsn = data source name, essentially the file name and the folder path
+
+```{r Gpkg1, warning=FALSE}
+ParishesGeo <- readOGR(dsn = "data/Spatial/Parishes.gpkg")
+plot(ParishesGeo, main = "Scottish Parishes")
+```
+
+As you can see from the plot, the dataset is made up of vector polygons.
+You can also change the basic presentation, such as the colour of the fill, line width and colour.
+
+```{r Gpkg2 }
+plot(ParishesGeo,
+     col = "black",
+     lwd = 1,
+     border = "white",
+     main = "Scottish Parishes")
+```
+
+Besides the parish boundaries, we will also need the location of distilleries across Scotland.
+Load geospatial information for the location of distilleries.
+This is a vector point dataset.
+
+```{r Gpkg4}
+PointsDistilleries<- readOGR(dsn = "data/Spatial/ScottishDistilleries.gpkg")
+plot(PointsDistilleries, main = "Scottish Parishes")
+```
+
+We will work with first, the vector polygons containing the parish boundaries.
+At the moment, the vector polygon dataset contains only info from the Geopackage.
+To add the info from the parish dataset (i.e. information from the csv file) we need to merge the geopackage with it.
+
+## Work on Illness Mentions
+
+### Extract Informations from the textual data
+
+We will have to do similar steps to those that we take on Tuesday when we were working on the Keywords in context
+
+The first topic we are going to look at is Illness.
+So we are creating a new variable that would contain yes if the text contains one of the keywords or no if it does not
+
+1.Search keywords
+
+```{r }
+Parish$Ilness<- ifelse(grepl("ill|ilness|sick|cholera|smallpox|plague|cough|typhoid|fever|measles|dysentery", Parish$text,
+                             ignore.case = T), "yes","no")
+```
+
+2.  Group by Illness and geographical area
+
+```{r }
+IlnessGroup <- Parish %>%
+  group_by(Area) %>%
+  summarise(Total = n(),
+            count = sum(Ilness == "yes")) %>%
+  mutate(per = round(count/Total, 2))
+```
+
+3.Merge the two datasets
+
+```{r }
+MergedGeo <-merge(ParishesGeo,IlnessGroup,
+                  by.x="JOIN_NAME_",
+                  by.y="Area",
+                  all.x = TRUE) # nb this is left join cause I want to preserve all the records present in ParishGeo
+```
+
+4.Check data to have merged properly
+
+```{r }
+head(MergedGeo, max.level = 2)
+```
+
+### Visualise the new dataset
+
+1.Create a continuous color palette
+
+```{r }
+color.palette <- colorRampPalette(c("white", "red"))
+```
+
+2.  Spatial plot using ssplot (from sp package)
+
+-   col.regions = color.palette(100): specifies the colour to fill the polygon, now set to generate a palette with 100 distinct colours.
+-   key.space = "right": places the legend (colour key) on the right
+-   scales = list(draw = TRUE): ensures axes and scale info are drawn on the plot)
+
+```{r }
+spplot(MergedGeo,
+       "per",
+       col.regions = color.palette(100),
+       main = "Ilness Report",
+       key.space = "left", 
+       scales = list(draw = TRUE))
+
+```
+
+### Work with map colours
+
+We have an issue with the colour white because some polygons have missing values rather small percentage.
+We can fix this by using tm_shape instead of ssplot.
+tm_shape is a function in the tmap package (Thematic maps).
+Thematic maps can be generated with great flexibility.
+The syntax for creating plots is similar to that of ggplot2, but tailored to maps.
+To plot a tmap, you will need to specify firstly tm_shape, layers then can be added with the + operator.
+tm_fill specifies the presentation of the polygons.
+To differentiate NA values from other valid entries, colorNA is added.
+
+```{r }
+tm_shape(MergedGeo) +
+  tm_fill("per", palette = color.palette(100), colorNA = "grey") +
+  tm_borders(col = "black")+
+  tm_layout(title = "Illness report", legend.text.size = 0.75, legend.title.size = 1, frame = FALSE)
+```
+
+Let's try changing the colour of the filled regions using predifined colours.
+There are predifined colour palettes you can use directly.
+Commonly used palettes include: rainbow(), heat.colors(), topo.colors(), and terrain.colors() Beware of the representation of colours.
+You might need to reverse the colour band to make the representations more intuitive.
+
+```{r }
+spplot(MergedGeo,
+       "per",
+       col.regions = rev(heat.colors(100)),
+       main = "Ilness Report",
+       key.space = "right",
+       scales = list(draw = TRUE))
+```
+
+You could also change the colour using RColorBrewer
+
+```{r }
+display.brewer.all()
+color.palette <- brewer.pal(n = 9, name = "YlOrRd")
+```
+
+Replot using the new palette.
+
+```{r }
+spplot(MergedGeo, 
+       "per", 
+       cuts = 8,
+       col.regions = color.palette,
+       main = "Ilness Report",
+       sp.layout = list("sp.polygons", MergedGeo, col = "black"),
+       scales = list(draw = TRUE))
+
+```
+
+### Exercise
+
+Try to re-plot the map using a different colour range.
+Add your code below.
+
+```{r }
+
+```
+
+### Exercise
+
+Try to re-plot the map using a different colour range using tmap Add your code below
+
+```{r }
+
+```
+
+### Work on the legend intervals
+
+Change the spacing of the interval.
+You can use classInt to make custom cuts if you don't want evenly spaced cutoffs between colors.
+For style, there are three basic methods ("equal", "sd" and "quantile").
+"Equal" divides the range of values into n equal-sized intervals.
+"sd" represents how much values of a given variable varies from its mean, with each interval having a constant width of the standard deviation.
+"quantile" creates several classes with exactly the same number of objects (e.g., spatial features), but having intervals of various lengths.
+Number of intervals can be controlled with n.
+
+```{r }
+breaks <- classIntervals(MergedGeo$per, n = 5, style = "equal")breakpoints <- breaks$brks
+spplot(MergedGeo, 
+       "per", 
+       col.regions = color.palette, 
+       colorkey = list(at = breakpoints)
+       )
+
+```
+
+For tmap, the intervals can be keyed in directly using n.
+
+```{r }
+tm_shape(MergedGeo) +
+  tm_fill("per", style = "equal", n = 5, palette = color.palette, colorNA = "grey") +
+  tm_borders(col = "black")+
+  tm_layout(title = "Illness report", legend.text.size = 0.75, legend.title.size = 1, frame = FALSE)
+```
+
+Style could also be adjusted based on quantile and at different 'cuts'.
+
+### Exercise
+
+Try adjusting these values and explore the effects.
+Write your code below.
+
+```{r }
+
+```
+
+## Now we can work on a different subject: Witches
+
+The steps are always the same first we need to search keywords and then we merge the results with our map of Scotland.
+
+### Preparing the dataset
+
+```{r }
+Parish$witches<- ifelse(grepl("witch|spell|witches|enchantemt|magic", Parish$text, ignore.case = T), "yes","no")
+```
+
+Can you think to other keywords?
+just add them to the code above.
+
+Then we group by
+
+```{r }
+WitchGroup <- Parish %>%
+  group_by(Area) %>%
+  summarise(Total = n(), count = sum(witches == "yes")) %>%
+  mutate(per = round(count / Total, 2))
+
+```
+
+And finally we merge
+
+```{r }
+MergedGeo2 <-merge(ParishesGeo,WitchGroup, by.x="JOIN_NAME_", by.y="Area", all.x = TRUE) # nb this is left join cause I want to preserve all the records present in ParishGeo
+```
+
+Let's create a more "witchy" Palette
+
+```{r }
+color.palette2 <- colorRampPalette(c("white", "purple"), alpha = 0.5)
+```
+
+### Plot the result
+
+```{r }
+spplot(MergedGeo2,
+       "per",
+       col.regions = color.palette2(100),
+       main = "Witches Reports",
+       key.space = "right",
+       scales = list(draw = TRUE)
+)
+```
+
+### Refine the results:Adding scale bar and north arrow
+
+1.  Check dimensions of the boundary box to help guide where to put the labels.
+
+```{r }
+MergedGeo2@bbox 
+```
+
+2.  Design a Scale Bar. layout.scale.bar() generates the default layout for a scale bar. Scale sets the length of the scale bar to 100,000 units (100km in this case). Fill sets the colors for the scale bar. Offset specifies the location of the scale bar using x and y coordinates. Text 1 and 2 are labels for the scale bar with coordinates. Last part cex sets the size of the text to 0.7 times of the default size.
+
+```{r }
+scalebar1 <- list("SpatialPolygonsRescale", layout.scale.bar(), scale = 100000, fill = c("transparent", "black"), offset = c(50000, 1100000))
+
+text1 <- list("sp.text", c(50000, 1120000), "0km", cex = 0.7)
+text2 <- list("sp.text", c(150000, 1120000), "100km", cex = 0.7)
+```
+
+3.  Define a north arrow.
+
+```{r }
+arrow <- list("SpatialPolygonsRescale", layout.north.arrow(), offset = c(50000, 1150000), scale = 50000)
+```
+
+4.  Now we can add all to the map
+
+```{r }
+spplot(MergedGeo2,
+       "per", 
+       col.regions = color.palette2(100),
+       sp.layout = list(scalebar1, text1, text2, arrow),
+       scales = list(draw = TRUE))
+
+```
+
+Adding the scale bar and north arrow to the map using tmap is a lot simplier.
+
+```{r }
+tm_shape(MergedGeo2) +
+  tm_fill("per", style = "equal", n = 5, palette = color.palette2(100), colorNA = "grey") +
+  tm_borders(col = "black")+
+  tm_layout(title = "Witches Reports", legend.text.size = 0.75, legend.title.size = 1, frame = FALSE) +
+  tm_scale_bar(position = "left") +
+  tm_compass(size = 1.5)
+```
+
+## Alchool consumption
+
+Let's connect back to the one of the main topics of this week and look at alchool consumption across Scotland.
+
+Unsurprisingly the first steps remain the same.
+
+1.  Search the keywords
+
+```{r }
+Parish$Booze<- ifelse(grepl("illicit still|illicit distillery|drunk|intemperance|wisky|whisky|whiskey|whysky |alembic",Parish$text, ignore.case = T), "yes","no")
+```
+
+2.  Group by the new column and area
+
+```{r }
+BoozeGroup <- Parish %>%
+  group_by(Area) %>%
+  summarise(Total = n(), count = sum(Booze == "yes")) %>%
+  mutate(per = round(count / Total, 2))
+
+```
+
+3.  Merge back
+
+```{r }
+MergedGeo3 <-merge(ParishesGeo,BoozeGroup, by.x="JOIN_NAME_", by.y="Area",all.x = TRUE) # nb this is left join cause I want to preserve all the records present in ParishGeo
+
+```
+
+4.  Create a Palette
+
+```{r }
+color.palette3 <- colorRampPalette(c("white", "Brown"))
+
+```
+
+5.  Plot with ssplot
+
+```{r }
+spplot(MergedGeo3,
+       "per",
+       col.regions = color.palette3(100),
+       main = "Booze Reports",
+       key.space = "right",
+       scales = list(draw = TRUE))
+
+```
+
+### Work with multiple datasets
+
+Add the second dataset i.e. the punctual datasetwith the location of the modern day distilleries.
+
+```{r }
+spplot(MergedGeo3,
+       "per", 
+       col.regions = color.palette3(100),
+       main = "Booze Reports",
+       key.space = "right",
+       sp.layout = list("sp.polygons",
+                        PointsDistilleries,
+                        col = "black", pch = 16, labels = PointsDistilleries$Name),
+       scales = list(draw = TRUE))
+```
+
+sp.polygons adds an additional layer to the plot, which displays the locations of distilleries (represented by PointsDistilleries).
+scales = list(draw = TRUE) ensures axes and scale are drawn on the plot.
+pch controls the symbology of point data.
+Here are the most common ones: pch = 1: Circle (default); pch = 2: Triangle point up; pch = 3: Plus sign; pch = 4: Cross; pch = 5: Diamond; pch = 6: Square; pch = 7: Cross rotated 45 degrees; pch = 8: Asterisk; pch = 9: Circle filled; pch = 10: Triangle point up filled Size can be adjusted using cex.
+
+Try changing the symbology to a different style, you could also adjust the size using cex
+
+```{r }
+spplot(MergedGeo3,
+       "per", 
+       col.regions = color.palette3(100),
+       main = "Booze Reports",
+       key.space = "right",
+       sp.layout = list("sp.polygons",
+                        PointsDistilleries,
+                        col = "black", pch = 16, labels = PointsDistilleries$Name, cex = 1),
+       scales = list(draw = TRUE))
+```
+
+### Density Plot with R
+
+Density visualisation using KDE
+
+KDE for PointsDistilleries
+
+```{r }
+kde.output <- kernelUD(PointsDistilleries, h="href", grid = 1000)
+plot(kde.output)
+```
+
+kernelUD is a function from adehabitatHR package, which is to calculate a kernel density estimation(KDE), essentially a heat map based on the density of spatial points.The h="href" parameter tells the kernelUD() function to use the "href" (reference bandwidth) method to automatically determine the appropriate bandwidth (smoothing parameter) for the KDE.The grid = 1000 parameter specifies that the KDE should be calculated on a 1000 x 1000 grid.
+
+Convert output to raster
+
+```{r }
+kde <- raster(kde.output)
+```
+
+sets projection to British National Grid
+
+```{r }
+projection(kde) <- CRS("+init=EPSG:27700") # please proceed even though it doesn't work. 
+```
+
+skewed values make it difficult to represent, check if rescale is needed
+
+```{r }
+summary(kde$ud)
+min_ud <- cellStats(kde, stat = 'min')
+max_ud <- cellStats(kde, stat = 'max')
+if (max_ud - min_ud < 1e-9) {
+  kde <- kde * 1e9  # Scaling the values
+}
+
+```
+
+The summary provides information such as the minimum, maximum, mean, and other statistics of the utilization distribution values.min_ud and max_ud calculate the minimum and maximum values of the utilisation distribution using the cellStats() function from the raster package.
+
+The last block of code checks if the difference between the maximum and minimum utilisation distribution values is less than a very small value (1e-9, which is close to 0).
+If the difference is indeed very small, it suggests that the utilisation distribution values are too small and will need to be scaled up for better visualisation.
+In this case, the code multiplies the entire kde.output object by 1e9 (1 billion) to scale up the values.
+
+Plot to see if rescaling makes sense
+
+```{r }
+tm_shape(kde) + 
+  tm_raster("ud") +
+  tm_layout(main.title = "Kernel Density Estimate", main.title.position = "center")
+
+```
+
+Overlay findings back to main map creates a bounding box based on the extents of the Output.Areas polygon
+
+```{r }
+bounding_box <- bb(MergedGeo3)
+
+```
+
+Maps the raster within the bounding box
+
+```{r }
+tm_shape(kde, bbox = bounding_box) + tm_raster("ud")
+
+```
+
+Mask the raster by the output area polygon
+
+```{r }
+masked_kde <- mask(kde, MergedGeo3)
+
+```
+
+Maps the masked raster, also maps white output area boundaries
+
+```{r }
+tm_shape(masked_kde, bbox = bounding_box) + tm_raster("ud", style = "quantile", n = 5, legend.show = TRUE, palette = "YlGnBu") +
+  tm_shape(MergedGeo3) + tm_borders(alpha=.3, col = "black") +
+  tm_layout(frame = TRUE)
+
+```
+
+We can also use bespoke symbols for distilleries locations
+
+```{r }
+iconfile1 <- download.file("https://www.iconarchive.com/download/i123361/pictogrammers/material/bottle-tonic.512.png", destfile = "icon1.png", mode = "wb")
+icon1 <- readPNG('icon1.png')
+
+```
+
+Plot again
+
+```{r }
+spplot(MergedGeo3,
+       "per", 
+       col.regions = color.palette3(100),
+       main = "Booze Reports",
+       key.space = "right",
+       sp.layout = list("sp.polygons",
+                        PointsDistilleries,
+                        col = "black", pch = "icon1", labels = PointsDistilleries$Name, cex = 2),
+       scales = list(draw = TRUE))
+
+```
+
+### Exercise
+
+Try another symbol yourself that looks more like a wine bottle maybe!
+Also try to add a scale bar and a north arrow Write your code below
+
+```{r }
+
+```
+
+Solution
+
+```{r }
+## Check dimensions of the boundary box to help guide where to put the labels
+MergedGeo3@bbox 
+
+## Code for scale bar (you could adjust size of text just like how you can adjust the size of symbols)
+scalebar <- list("SpatialPolygonsRescale", layout.scale.bar(), scale = 100000, fill = c("transparent", "black"), offset = c(50000, 1100000))
+
+text1 <- list("sp.text", c(50000, 1120000), "0km", cex = 0.7)
+text2 <- list("sp.text", c(150000, 1120000), "25km", cex = 0.7)
+
+## Code for north arrow
+arrow <- list("SpatialPolygonsRescale", layout.north.arrow(), offset = c(50000, 1150000), scale = 45000)
+geo3_layout <- list(c("sp.polygons",
+                      PointsDistilleries,
+                      col = "black", pch = 19, labels = PointsDistilleries$Name), scale, text1, text2, arrow)
+
+geo3_layout <- list(
+  list("sp.polygons", PointsDistilleries, col = "black", pch = 19, labels = PointsDistilleries$Name), 
+  scalebar, 
+  text1, 
+  text2, 
+  arrow
+)
+
+## Code for adding everything to the map
+spplot(MergedGeo3,
+       "per", 
+       col.regions = color.palette3(100),
+       sp.layout = geo3_layout,
+       scales = list(draw = TRUE)
+)
+
+```
+
+**This is the End of our Week! Congratulations! you made till the very end**

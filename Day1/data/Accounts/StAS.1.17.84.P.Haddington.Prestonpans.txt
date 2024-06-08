@@ -1,0 +1,53 @@
+
+     Statistical Account
+
+<TABLE>
+
+                                      Males.   Females.
+                 Carried forward       492       449
+From 20 to 60                          357       527
+     60    70                           63        82
+     70    80                           21        29
+     80    90                            3         5
+                                       -------------
+                                       936      1092
+                                       -------------
+                                    Total       2028
+
+</TABLE>
+
+<TABLE=HERITORS.>
+
+Proprietors of land residing                             8
+Ditto non-residing                                      12
+Proprietors of houses residing                          55
+Ditto non-residing                                      18
+
+</TABLE>
+
+<TABLE=PROFESSIONS.>
+
+Clergyman                                                1
+Schoolmaster                                             1
+Private teachers                                         3
+Surgeon                                                  1
+Officers of the customs                                 19
+Ditto of the excise                                      2
+Farmers above 50 l. per annum*                          11
+Ditto under 50 l.                                       18
+Brewers                                                  5
+Employed at a distillery in a neighbouring parish        9
+Licensed to sell British spirits and ale+               32
+Salters and salt agents                                 14
+Shopkeepers                                             23
+Gardners                                                18
+Barbers                                                  2
+
+</TABLE>
+
+<FOOTNOTE>
+
+*These of these do not reside in the parish.
++Two of these are licensed to felt foreign spirits.
+
+

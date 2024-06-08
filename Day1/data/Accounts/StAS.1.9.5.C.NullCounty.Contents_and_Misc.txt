@@ -1,0 +1,49 @@
+
+     CONTENTS.
+
+<TABLE>
+
+  No.   Name.   Population in 1755.   in 1791-3.   Increase.   Decr.   Page.
+
+   1    Rutherglen,             988         1860         872               1
+   2    Buchanan,              1699         1111                 588      12
+   3    Golspy,               *1790         1700                  90      26
+   4    Logie and Pert,         696          999         303              33
+   5    Erskine,                829          808                  21      58
+   6    Melrose,               2322         2446         124              77
+   7    Innerkip,              1590         1280                 310      94
+   8    Birse,                 1126         1253         127             103
+   9    Kingoldrum,             780          600                 180     131
+  10    Abernyte,               258          345          87             138
+  11    Birnie,                 525          402                 123     155
+  12    Kilmory,               2277         3259         982             165
+  13    Lhanbryd,               690          777          87             172
+  14    New Deer,              2313         2800         487             184
+  15    Kinnettles,             616          621           5             197
+  16    Balmerino,              565          703         138             216
+  17    Clunie,                 905         1037         132             225
+  18    Cranston,               725          839         114             277
+  19    Kilconquhar,           2131         2013                 118     287
+  20    Muckart,                535          526                   9     303
+  21    Tongland,               237          520                  17     312
+  22    St Monance,            +780          832          52             334
+  23    Kilmaurs,              1094         1147          53             350
+  24    Stewartown,            2819       ++3000         181             377
+                              -----       ------        ----    ----        
+           Carried over,      28590        30878        3744    4156
+
+</TABLE>
+
+<FOOTNOTE>
+
+This seems to be exaggerated, as Mr Keith says the
+number in 1750 was only 1302.
++This, for the reasons assigned by Mr Gillies, seems to be
+exaggerated.
++Mr Maxwell does not ascertain the precise number; but
+as he mentions that the town of Stewartown "has increased
+some hundreds, since he was settled," (which was in 1758)
+the population in 1793 is probably rather above than below
+3000.
+
+

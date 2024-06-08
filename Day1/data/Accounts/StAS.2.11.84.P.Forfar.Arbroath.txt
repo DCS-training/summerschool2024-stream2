@@ -1,0 +1,57 @@
+
+<TABLE=Forfarshire>
+
+84			FORFARSHIRE.
+
+		Tabular view of the number of families and houses.
+                            1801.    1811.     1821.       1823    1831.
+	Families,           1285     1367      1494        1564    1727
+        Inhabited houses,    622      638       726         832    1171
+        Uninhabited houses,    3        3         5          --      11
+        Houses building,                5         3          --       7
+
+	The following is a tabular view of the employments of the whole
+population of the parish of Arbroath. *
+
+<TABLE>
+                                     Males             Female          Total
+                                 above under total  above under total above under Total
+                                  20.    20.          20.   20.         20.   20.
+Agriculture,                       40     16    56     13     6    19    53    22     75
+Manufactures'                     473    134    607   359   175   534   832   309   1141
+Retail trade and handicraft,      616    145    761   155    25   180   771   170    941
+Wholesale, capitalists, bankers, }
+ professional, and other educat- }110     13    123    21          21   131    13    144
+ ed persons,                     }
+Labourers not agricultural,        88      2     90    33          33   121     2    123
+Shipmasters and mariners,         216     67    283                     216    67    283
+Household servants,                 3      1      4   151   101   252   154   102    256
+All other persons,                 99   1180   1279  1488  1213  2701  1587  2393   3980
+
+Total,                           1645   1558   3203  2220  1520  3740  3865  3078   6943
+
+	It may be here remarked, that the parish can boast of no family
+of noble blood; and that almost all depend, more or less, on some
+line of business as a means of subsistence. The number of pro-
+prietors of land of the yearly value of L. 50 and upwards, who are
+resident in the parish, and have property within the same, is two;
+and even these are only feuars from the corporation of Arbroath.
+        The people do not appear to be remarkable for any peculiarity
+in strength, size, or complexion, or other personal quality. As is
+common in most places, the appearance of a man indicates in some
+measure the trade or occupation which he follows; and, perhaps,
+a degree of huskiness in the voice may be viewed as characteristic
+of the females employed at spinning-mills. In the census of 1831,
+9 males and 15 females were returned as insane orfatuous; 2
+males and 3 females as blind; and 1 male and 3 females as deaf
+and dumb.
+	Language, Habits, and General Character of the People.-- The
+language generally spoken is the Forfarshire dialect of the Scot-
+tish tongue, with a peculiarity of accent distinct from that which
+is observable in the neighbouring towns of Dundee and Montrose.
+Amongst the genteeler classes, however, correct pronunciation is
+
+<FOOTNOTE>On this subject, some more minute tabular details will be found in the original
+MS.
+
+

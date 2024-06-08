@@ -1,0 +1,60 @@
+
+			APPLEGARTH ANID SIBBALDBIE.       171
+
+        Meteorology.-The following table exhibits the average tem-
+perature of the atmosphere for the last seven years, as ascertained
+by a thermometer at Applegarth manse, 180 feet above the level
+of the sea, from which is distant 10 miles; longitude, 3&deg;1 12 W.
+latitude, 55&deg;1 13 N. The observations were taken at nine o'clock,
+morning at evening.
+
+<TABLE>
+Mean monthly	1825.	1826.	1827.	1828.	1829.	1830.	1831.	Medium	   Medium of
+Temperature 								7 years	    seasons
+
+ Feb.		36.75	38.66	31.75   38.54	38.12	33.75	36.10	36.28	 } Spring
+ March.		37.66	38.63   38.16   41.06   38.36	43. 0   42.10	39.90    } 40.31
+ April,		42.16   45.40   46.32   44.08   42.12 	46.50   46.70 	44.65    }
+ May,		49. 0   50.75   51.87   52.75   56.50	52. 0   52.27	52.16    } Summer
+ June,		52.66   63.18   57.33   57.75   58.50   53.80	60.30	37.93    } 56.86
+ July,		58.16   64.30   63.97   59.66   58.15	58.90	60.30	60.49    }
+ Aug.      	56. 0	60.86	60. 0	57.66	55.90	55.20	60.70	59.47    } Autum
+ Sept.		54.25   55.37   57. 0   55.16	50.20	52.10	54.80	54.12    } 54.18
+ Oct.		47.85   48.88   51.37   47.16   45.50	48.20	52.50	48.84    }
+ Nov.		34.55   38.48   41.18   45.08   39.56	42.25	39.40	47.18    } Winter
+ Dec.		36.66   42.33   41.60   44.60	35.50	34.40	39.90	39.27    } 38.92
+ Jan.		34.52   30.67   34.25   38.25	30. 0   32.50	33. 0	33.31    }
+
+An Temp.	45.01   48.12   47.91   48.51   45.70   46.05   48.57
+
+	The following table exhibits the quantity, in inches, of rain fallen
+at Applegarth manse, for the last five years, ascertained by a rain-
+gage placedon a garden wall 10 feet high.
+
+<TABLE>
+			1827.	1828.	1829.	1830.	1831.	Average
+								5 years
+		Jan.	3.60	3.84	0.25	0.20	1.75 	1.92
+		Feb. 	1.06	2.20	1.15 	1.80	2.25	1.69
+		Mar.	3.06	1.12	1.35 	1.80	3.90	2.24
+		Apr.    1.84	2.60	3.50	3.90	1.20	2.60
+                May,    2.40    1.40    1.25    2.60    0.12    1.57 *
+	        June,	2.75	2.01	4.00	1.20	2.90	2.53
+		July,   1.84	7.50	2.60    4.40	2.60	3.78
+		Aug.    3.40	5.75	4.50	2.70	2.20	3.70
+                Sept.   3.15    2.75    3.75    6.50    3.60    3.95 +
+		Oct.	2.09	3.00	5.00	1.50	7.25	3.84
+		Nov.    3.255	3.20	2.50	5.70	3.703.73
+		Dec.    5.33	4.50	1.50	1.70	4.25	3.45
+
+		Total	33.77	39.87	31.33	34. 0	35.72
+           		General Average, 34.93 inches.
+        Climate, &c.-It may be remarked, that the temperature must be
+considerably influenced by the nakedness of the country, which from
+the N. W. round to N. E. is generally destitute of growing wood; a
+deficiency, however, which is now in the way of being suppllied. In
+the meantime, the cold winds from these quarters recieve no check,
+
+<FOOTNOTE>Driest month.  Wettest month.
+
+

@@ -1,0 +1,48 @@
+
+     CONTENTS.
+
+<TABLE>
+
+No. Name          Population in 1755.    in 1792-3.   Increase.    Dec.    Page
+
+ 1 Wick                        3938          5000       1062                  1
+ 2 Dailly                       830          1607        768                 34
+ 3 Kilcalmonell and
+     Kilberry                  1925          2449        523                 53
+ 4 Kirkliston                  1461          1504         43                 68
+ 5 Kirktoun                     330           342         12                 78
+ 6 Tranent                     2459          2732        273                 83
+ 7 Fdzell                       862           963         10                100
+ 8 Aberfoyl                     895           790                  105      113
+ 9 Culross                     1695          1442                  253      131
+10 Morton                       435           908        473                150
+11 Athelstaneford               691           927        23                 161
+12 Kirkurd                      310           288                   22      177
+13 Botriphnie                   953           620                  333      187
+14 Bressay and Burray          1098          1225        127                194
+15 Lessudden or St.
+     Boswell's                  309           500        191                204
+16 Newbattle                   1439          1295                  144      212
+17 Ruthwell                     599          1061        462                218
+18 Glendovan                    220           240         20                229
+19 Cluny                        994           885                  199      235
+20 Salton                       761           830         69                251
+21 Morven                      1223          1764        541                262
+22 Laswade                     2190          3000        810                277
+23 Ancrum                      1066          1140         80                289
+24 Clyne                       1406          1660        254                297
+25 Saline                      1285           950                  335      307
+26 Kilninver & Kil
+      milford                  1045          1178        133                315
+27 Carnwath                    2390          3000        610                326
+28 Harris                      1969          2536        567                342
+29 Tiry                        2702          3457        755                393
+30 Pennycuik                    890          1721        831                419
+31 Kirkconnell                  899          1000        101                433
+32 Lochbroom                   2211          3500       1289                401
+                            ---------     --------    -------    -----        
+   Carried over,             41,489        50,519     20,331      1311
+
+</TABLE>
+
+

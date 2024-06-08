@@ -1,0 +1,29 @@
+
+<TABLE=CONTENTS.>
+
+No.   Name.   Population in 1755.   in 1791-2.   Increased.   Dec.   Page.
+
+     Brought over,        57193        59306       7954       5841    
+34 Brechin,                3181         5000       1819               457   
+35 Inverchaolain,           944          504                   440    464
+36 Dunbar,                 3281         3700        419               474 
+37 Glasgow,               23546        61945      38399               488  
+38 Gorbals,*                            5000      *5000               539  
+39 Port-Glasgow,           1695         4036       2341               544 
+40 Greenock,               3858        15000      11142               569
+                          -----       ------      -----      -----   
+                 Total,   93698       154491      67074       6281
+    Population in 1755,                93698       6281
+                                      ------      -----
+    Increase in 1791-2,                60793      60793
+
+</TABLE>
+
+<FOOTNOTE>
+
+**This parish having been erected in 1771, whatever number of people it
+contained, in 1755, must have been enumerated in the population of Glasgow,
+and therefore the whole number of its present inhabitants is stated under the
+head of Increase.
+
+

@@ -1,0 +1,29 @@
+
+     of Aberdeen.
+
+   PORT of ABERDEEN.-An Account of the Quantity of English Coals and Cinders, Scotch Coals and Culm,
+brought Coastwy as into this Port, Between the 5th day of January 1782 and the 5th day of January
+1793, distinguishing each Year, and shewing the Account of Duties paid or payable thereon.
+
+<TABLE>
+
+                                       Quantities of English               Quantities of Scoth.       Duty on Scotch     Duty on English
+                                       COALS.             CINDERS.         COALS.       CULM          Coals and Culm.    Coals and Cinders
+                                       Chalders. Bushels. Chald.  Bush.    Tons. Cwt.   Chal. Bush.   L.    s.    d.     L.    s.    d.
+>From 5th Jan. 1782 to 5th Jan. 1783,   7927      17       350     27 1/2   3989  5 1/2  124   4       700   5     3      2167  3     8
+>From ditto    1783 to ditto    1784,   7500      12       333     30       3288  0 1/2  253   26      596   13    4      2087  7     7 1/2
+>From ditto    1784 to ditto    1785,   9476      23       330     0        3721  1 1/2  306   8       675   18    7      2667  16    8 3/4
+>From ditto    1785 to ditto    1786,   8768      13 1/2   277     0        3265  16 1/2 369   8       596   5     6      2610  1     0 3/4
+>From ditto    1786 to ditto    1787,   10,663    9        264     0        3440  2      356   27      633   3     0      2929  15    3 1/2
+>From ditto    1787 to ditto    1788,   11,024    18 3/4   342     31 1/2   3793  16 1/2 385   8       710   11    7      3225  0     9 1/2
+>From ditto    1788 to ditto    1789,   14,481    22 1/2   283     9 1/2    3544  10     432   7       674   12    6      4060  15    5
+>From ditto    1789 to ditto    1790,   13,674    7 3/4    423     4        4157  10     412   17      783   5     5 3/4  3877  0     5 1/2
+>From ditto    1790 to ditto    1791,   13,127    11 3/4   459     31 3/4   3955  13     470   32      750   3     5 1/4  3713  18    9 1/2
+>From ditto    1791 to ditto    1792,   12,944    33 1/2   327     4 1/2    3650  2      693   33      721   4     6      3647  15    5 1/2
+>From ditto    1792 to ditto    1793,   15,471    20 1/2   290     13 1/2   3275  10 1/2 702   29      641   10    10 1/4 4313  18    8 3/4
+
+                             Total,    124,060   91/4     3682    8 1/4    40081 8 1/4  4507  19      7483  14    0 3/4  35300 13    11 3/4
+
+</TABLE>
+
+

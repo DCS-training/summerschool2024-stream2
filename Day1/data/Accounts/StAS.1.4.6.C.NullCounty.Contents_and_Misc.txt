@@ -1,0 +1,49 @@
+
+<TABLE=CONTENTS.>
+
+No.   Name.      Population in 1755.   in 1790.   Inc.    Dec.   Page.
+
+      Brought over,       29531         33030     5012    1513
+34 Kingsbarns,              871           807               64     254
+35 Kells,                   784           869       85             259
+36 Kilmalcolm,             1495           951              544     274
+37 Dreghorn,                887           830               57     280
+38 Bolton,                  359           235              124     285
+39 Fearn,                  1898          1600              298     288
+40 Knockandow,             1267          1500      233             302
+41 Dalrymple,               439           380               59     305
+42 Duthil and Rothie-
+        murchus,           1785          1110              675     308
+43 Methlick,               1385          1035              350     320
+44 Kilbucho,                279           362       83             324
+45 Aberdour,               1198          1280       82             327
+46 Kilmadan,                806           351              455     338
+47 Monikie,                1345          1278               67     343
+48 Calder,                  882          1062*     180             349
+49 Deskford,                940           752              188     358
+50 Pittenweem,              939          1157      218             369
+51 Dunse,                  2593          3324      731             378
+52 Alvah,                  1161          1070                91    393
+53 Strathmiglo,            1095           980              115     400
+54 Row,                     853          1000      147             405
+55 Coldstream+,            1493          2521     1028             410
+56 Logie Buchan,            575           538               37     421
+57 Glenholm,                392           300               92     429
+58 Falkland,               1795          2198      403             437
+59 Banchory Davinick       1495          1700      205             450
+60 Durisdeer,              1019          1031       12             457
+61 Torphichen,             1295          1069               226    465
+         Carried over,    ------        -------    -----   -----
+                          60856         64320      8419    4955 
+
+</TABLE>
+
+<FOOTNOTE>
+
+*Mr Grant having only stated the number of examinable
+persons, a proportional addition is here made for children un-
+der that age, at the rate of 1/4.
++A similar addition is made to Dr Bell's report of this pa-
+rish, whose examination roll was made up in 1785-6.
+
+

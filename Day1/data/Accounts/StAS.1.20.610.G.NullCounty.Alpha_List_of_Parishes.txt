@@ -1,0 +1,59 @@
+
+<TABLE=County of Lanark, etc.>
+
+     Parish.        Population    Population in   Increase.   Decrease
+                     in 1755.      1790-1798.
+20   Douglas              2009           1715                    294
+     Dunsyre               359            360           1
+     Glasford              559            788         229
+     Glasgow            27,451         58,401      30,950
+     Do Barony          27,451         58,401      30,950
+25   Gorbals              4389           9066        4677
+     Govan                4389           9066        4677
+     Hamilton             3815           5017        1202
+     Kilbride             2029           2359         330
+     Lamington             599            417                    182
+30   Lanark               2294           4751        2457
+     Lesmahago            3996           2810                   1186
+     Libberton             738            750          12
+     Monkland, New        2713           3560         847
+     Monkland, Old        1813           4000        2187
+35   Pettinain             330            386          56
+     Robertoun            1102            740                    362
+     Rutherglen            988           1860         872
+     Shotts               2322           2041                    281
+     Stonehouse            823           1060         237
+40   Symington             264            307          43
+41   Walston               479            427                     52
+                        ------         ------      ------       ----        
+                        81,726        125,254      47,930       4402
+                                       81,726        4402
+                                      -------      ------               
+                          Increase,    43,528      43,528
+
+</TABLE>
+
+<TABLE=COUNTY OF LINLITHGOW.>
+
+ 1   Abercorn            1037      870           167
+     Bathgate            1594     2309    715
+     Borrowstounness     2668     3178    510  
+     Carriden            1164     1450    286
+ 5   Dalmeny             1103      907           196
+     Ecclesmachan         351      215           136
+     Kirklistoun         1461     1504     43
+     Linlithgow          3296     3221            75
+     Livingstone          598      420           178
+10   Queensferry          451      505     54
+     Torphichen          1295     1069           226
+     Uphall               690      600            90
+13   Whiteburn           1121     1322    201
+                       ------   ------   ----   ----                  
+                       16,829   17,570   1809   1068
+                                16,829   1068
+                                ------   ----
+                     Increase,     741    741
+
+</TABLE>
+
+

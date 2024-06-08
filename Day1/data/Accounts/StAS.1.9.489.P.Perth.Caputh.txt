@@ -1,0 +1,45 @@
+
+     of Caputh.
+
+<TABLE=ABSTRACT of the STATE of the THERMOMETER at DELVIN for 10 Years.>
+
+                 1783.             1784.              1785.              1786.              1787.              1788               1789.              1790.              1791.              1792.
+
+            Great   Least     Great    Least     Great    Least     Great    Least     Great    Least     Great    Least     Great    Least     Great    Least     Great    Least     Great    Least
+            height  height.   height.  height.   height.  height.   height.  height.   height.  height.   height.  height.   height.  height.   height.  height.   height.  height.   height.  height.
+
+January       46      25        41       12        48       18        50       13        50       28        50       25        46        5        46       29        49       29        43       21
+February      49      20        40       23        42       18        45       21        48       31        43       29        48       31        49       33        46       29        48       28
+March         47      22                           48       29        45       19        48       29        47       21        37       24        49       32        48       28        46       21
+April         53      37                           55       28        52       39        48       34        51       34        48       31        46       30        48       34        51       30
+May           54      36        56       41        54       38        55       37        52       40        60       35        52       37        56       40        53       38        51       38
+June          56      47        56       41        67       44        61       46        57       35        55       47        56       43        57       42        60       37        56       43
+July          64      51        57       47        64       50        59       44        67       47        60       46        56       48        60       48        58       50        62       48
+August        66      48        60       43        59       41        59       46        60       49        63       48        60       48        61       46        60       42        60       40
+September     58      42        60       40        60       38        53       41        64       40        58       44        58       40        55       40        58       36        57       36
+October       57      34        49       30        56       28        55       32        52       33        55       35        55       31        54       31        56       32        53       32
+November      49      31        47       24        49       27        45       27        48       21        50       31        46       29        46       22        48       30        56       30
+December      47      10        52       19        43       22        45       24        51       18        44        8        48       32        48       23        39       17        52       26
+
+</TABLE>
+
+<TABLE=ABSTRACT of the STATE of the THERMOMETER at Queen-street, Edinburgh for 10 Years.>
+
+January       48      24        48       17        47       24        52       17        51       30        48       26        52       23        49       34        47       31        47       20
+February      51      25        47       21        39       20        47       25        48       32        45       28        49       34        51       36        46       26        50       33
+March         49      26        42       26        42       21        74       23        48       34        49       22        40       28        52       37        48       30        49       27
+April         55      37        45       32        56       27        57       32        49       34        59       34        51       32        48       35        50       37        52       35
+May           55      33        56       42        52       36                           57       41        67       42        59       39        52       44        55       37        52       39
+June          67      39        58       46        71       43                           58       36        61       49        57       46                           62       36        58       47
+July          67      51        99       48        65       52        61       48        60       48        62       51        59       49        50       46        63       49        61       49
+August        64      49        61       40        60       48        61       48                           64       52        62       48        63       50        64       40
+September     58      44        59       41        62       37        56       37        58       43                           59       44        55       43                           56       39
+October       59      35        48       30        58       29        57       34        53       41        54       47        57       36        59       40        55       38        53       37
+November      53      31        49       25        51       29        46       31        49       28        55       32        48       34        49       31        52       33        56       31
+December      48      11        84       21        45       18        51       20        54       29        43       26        51       33        48       28        41       19        51       29
+
+</TABLE>
+
+     VOL. IX. 3 Q
+
+

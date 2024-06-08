@@ -1,0 +1,29 @@
+
+<TABLE=I. QUADRUPEDS.>
+
+    Latin Names.                  English.             Scotch.           Gaelic.
+Cervus dama.  Lin.             Fallow deer                         Fiadh 
+Cervus capreolus.  Lin.        Roe                                 Earba
+Canis vulpes.  Lin.            Fox                     Tod         Stonnaeh, balgaire
+Catus sylvestris.  Klein.      Wild cat                            Cat sheadhaich
+Ursus meles.  Lin.             Badger                  Brock       Broc
+Martes abietum.  Raii.         Pine martin                         Taghan
+Mustela putorius.  Lin.        Polecat                 Foumart     Foclan
+Mustela vulgaris.  Klein.      Common weasel           Whitret     Neas
+Mustela erminea.  Lin.         Sloat, or ermine
+Mustela lutra.  Lin.           Otter                               Doran, dor-chit
+Lepus timidus.  Lin.           Common hare             Mawkin      Maigheach  
+Lepus hieme albus.  Forst.     Alpine, or white hare               Margheach gheal
+Mus rattus.  Lin.              Rat                                 Radan
+Mus amphibius.  Lin.           Water rat                           Radan uisge
+Mus sylvaticus.  Lin.          Field mouse
+Mus musculus.  Lin.            Common mouse                        Luch
+Mus agrestis.  Lin.            Short-tailed mouse
+Sorex araneus.  Lin.           Foetid shrew mouse                  Dallag
+Talpa europaeus.  Lin.         Mole                    Modewart    Famh, iur-reathabh
+Erinaceus, europaeus.  Lin.    Urchin                  Hedge-hog   Graineag
+Vespertilis murinus.  Lin.     Common bat.                         Ialtag, dialtag.
+
+</TABLE>
+
+

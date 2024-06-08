@@ -1,0 +1,52 @@
+
+     County of Haddinton, etc.
+
+<TABLE=County of Haddington>
+
+Parish.            Population      Population in      Increase.      Decrease.
+                   in 1755.         1790-1798.
+
+1  Aberlady          739             800                61
+   Athelstaneford    691             927               236
+   Bolton            359             235                               124
+   Dirleton         1700            1200                               500
+5  Dunbar           3281            3700               419
+   Garvald           774             730                                44
+   Gladsmuir        1415            1380                                35
+   Haddington       3975            3915                                60
+   Humbie           1570             676                               894
+10 Innerwick         941             960                 19
+   Morham            245             190                                55
+   Northberwick     1412            1300                               112
+   Oldhamstocks      622             498                               124
+   Ormnton           810             864                  54
+15 Pencartland       910            1033                 123     
+   Prestonpans      1318            1176                               142
+   Prestonpans      1596            2028                 432 
+   Salton            761             830                  69          
+   Spot              727             619                               108
+20 Stenton           631             624                                 7
+   Tranent          2459            2732                 273 
+   Whitekirk         968             994                  26
+   Whittingham       714             655                                59
+24 Yester           1091             900                               191
+                  ------          ------                ----          ---- 
+                  29,709          28,966                1712          2455
+                  28,966                                           
+                  ------                                              ----
+       Decrease      743                                               743
+
+</TABLE>
+
+<TABLE=County of Inverness.>
+
+1  Abernethy               1670   1769    99        
+   Alvie                   1021   1011          10
+   Ardersier                428   1298   870    
+   Bolerskine              1961   1741         220
+5  Conveth or Koltarlity   1964   2495   531  
+   Cromdale                3063   3000          63
+
+</TABLE>
+
+

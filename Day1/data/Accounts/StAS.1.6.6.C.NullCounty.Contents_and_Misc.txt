@@ -1,0 +1,53 @@
+
+<TABLE>
+
+                                   Popula-   Popula-
+                                   tion in   tion in    Increase   Decr.   Page.
+No          Name                   1755      1791-2.
+                                  -------   ---------  ---------  -------  -----
+            Brought over           29120     31708      4481       1893
+24. kilmuir Easter                  1095      1975       880               183
+25. Kinness                          856      1000       142               197
+26. Leochel                          786       571                  215    212
+27. Tarland*                        1300      1100                  200    222
+28. Kinnaird                         290       401       114               233
+29. Kintail*                         693      1000       307               242
+30. North Knapdale                  1309      1009                  360    255
+31. Kilchrenan and Da-
+      lavich                        1030      1124        94               266
+32. Crawford-John                    765       590                  175    274
+33. Eddorachylis                     869      1024       155               278
+34. Wistoun and Robert
+     toun                           1102       740                  362    306
+35. Loth                            1193      1370       177               311
+36. Swinton and Simprin              494       898       404               322
+37. Nenthorn                         497       400                   97    336
+38. Auchtermuchty                   1308      1439       131               338
+39. Ordiquhill                       666       517                  149    348
+40. Little Dunkeld                  2919      2705                  214    354
+41. Lumphanan                        682       621                   61    382
+42. Glenisla                        1852      1018                  834    390
+43. Alyth                           2680      2723        43               397
+44. Old Cumnock                     1336      1632       296               407
+45. Tarbat                          1584      1370                  214    417
+46. Cranshaws                        214       164                   50    436
+47. Sanquhar                        1998      2600       602               443
+48. Cumbernauld                     2303      1600                  703    402
+49. New-Machar                      1191      1030                  161    465
+50. Kincardine                      1250      2068       818               477
+51. Liberton                        2793      3457       664               506
+52. Forfar                          2450      4756      2306               510
+53. Haddington                      3975      3910                   60    535
+54. Uphall                           690       600                   90    543
+                                   -----     -----     -----       ----                      
+                    Carried over   71352     77128     11614       5838         
+
+</TABLE>
+
+<FOOTNOTE>
+
+*The ministers of these parishes not having given any account of the 
+population of one district in each, an addition is therefore made to the num-
+bers returned by them.
+           
+

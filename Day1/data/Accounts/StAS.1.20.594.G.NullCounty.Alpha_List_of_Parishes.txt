@@ -1,0 +1,36 @@
+
+     County of Argyle
+
+<TABLE>
+
+    Parish                    Population   Population in   Increase.   Decrease.
+                              in 1755.     1790-1798.
+
+     ARGYLESHIRE ISLAND
+
+           Torosay                1012          1733           721
+    Mull   Kilfinichen            1685          3002          1321
+           Kilmman                2590          3281           691
+           Kilarow
+    Islay  Kilchoman              5344          9500          4156
+           Kildalton
+    Jura and Colonsay, &c.       1097          1858           761
+    Coll and Tiry                 2702          3457           755
+    Gigha and Cara                 514           614           100
+35  Small Isles                    943          1339           396
+
+    Total of Argyle-            15,887        24,784          8897
+      shire island
+    Total of the con-
+      tinental part of          47,404        51,317          8401        4489
+      Argyleshire
+
+    Total of the
+      whole county              63,291        76,101        17,299       4489
+                                              63,291          4489
+
+                               Increase,      12,810        12,810
+
+</TABLE>
+
+

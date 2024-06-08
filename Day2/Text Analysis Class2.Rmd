@@ -1,0 +1,308 @@
+---
+title: "Text Analysis 2"
+author: "Jessica Witte"
+date: "`r Sys.Date()`"
+output: html_document
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Install and Load the packages that we need
+
+Before we start playing around we need to install the needed packages and load all the packages we need for the session
+
+On Noteable
+
+```{r Install Packages, results='hide',warning=FALSE, message=FALSE}
+#install.packages("tm") # Text analysis package for corpus creation, cleaning, creation of document matrices, etc.
+#install.packages("topicmodels") #Ready-to-use topic modelling tools and models
+```
+
+On Posit
+
+```{r Install Packages Posit, results='hide', warning=FALSE, message=FALSE}
+#install.packages("tidyverse")#only if not on the server already from yesterday
+#install.packages("tm") # Text analysis package for corpus creation, cleaning, creation of document matrices, etc.
+#install.packages("topicmodels") #Ready-to-use topic modelling tools and models
+```
+
+```{r Load Packages, echo=FALSE, results='hide', warning=FALSE, comment=FALSE}
+library(tidyverse)
+library(tm)
+library(topicmodels)
+
+```
+
+## Load our data
+
+```{r data}
+Parish <- read_csv("data/parish.csv")
+```
+
+## Pre-process
+
+The first thing to do is to extract the text column from the parish data.
+Because the dataset is very large and we have limited power for this task, we will look at a subset of the original dataset: just the data from Edinburgh.
+
+The pre-processing steps in this block might look a bit clunky.
+This is because the tm package maps each step of the cleaning process individually onto the corpus, and corpus objects themsleves are a bit clunky!
+When using other packages, such as tidyverse, these steps are almost always performed together in a loop.
+
+```{r filter }
+ParishText<-Parish$text[Parish$Area=='Edinburgh']
+
+head(ParishText,2)
+```
+
+Prepare the data for analysis, creating and cleaning a tm Corpus object:
+
+```{r pre process1}
+ParishCorpus <- VCorpus(VectorSource(ParishText))# transform our data set to a corpus object
+
+```
+
+Remove capitalisation
+
+```{r pre process2 }
+ParishCorpus<- tm_map (ParishCorpus, content_transformer(tolower))
+```
+
+Remove punctuation
+
+```{r pre process3 }
+ParishCorpus <- tm_map (ParishCorpus, removePunctuation)
+```
+
+Remove English stopwords
+
+```{r pre process4 }
+ParishCorpus<- tm_map (ParishCorpus, removeWords, stopwords('english')) 
+```
+
+Remove numbers
+
+```{r pre process5 }
+ParishCorpus <- tm_map (ParishCorpus, stripWhitespace)
+```
+
+Now that our texts are tokenised and pre processed, we can explore our corpus with topic modelling.
+
+### Create a document term matrix (dtm) of the corpus.
+
+A DTM is a mathematical matrix that describes the frequency of terms that occur in a collection of documents.
+Rows correspond to documents in the collection and columns correspond to terms.
+
+Let's summarise the occurrence of each word in the corpus, create a matrix, and print the 30 most frequent keywords.
+
+```{r tp1 }
+LdaDtmParish <- DocumentTermMatrix(ParishCorpus)
+inspect(LdaDtmParish) 
+```
+
+```{r tp2 }
+LdaDtmParishMx<- as.matrix(LdaDtmParish)
+term_freq_P <- colSums(LdaDtmParishMx)
+term_freq_P <- sort(term_freq_P, decreasing=TRUE)
+term_freq_P[0:30]
+```
+
+### Discussion
+
+What can term frequencies tell us?
+
+## Topic Modelling
+
+Add some text in here to describe what it is happening
+
+```{r tp3 }
+min_freq <- 50
+LdaDtmParish <- DocumentTermMatrix(ParishCorpus, control = list(bounds = list(global = c(min_freq, Inf))))
+```
+
+```{r tp4 }
+dim(LdaDtmParish) #print the dimensions of the dtm 
+Terms(LdaDtmParish) #print terms in the dtm
+```
+
+Remove null rows that contain no text:
+
+```{r tp5 }
+complete_rows <- slam::row_sums(LdaDtmParish) > 0
+LdaDtmParish_complete <- LdaDtmParish[complete_rows, ]
+
+```
+
+### Create the Topic Model
+
+LDA (Latent Dirichlet Allocation) topic models are a type of statistical model that can help us identify ideas or patterns within a collection of documents.
+LDA models assume each document contains a number of topics and that each word in a document can be "sorted" into one of the document's topics.
+
+We'll fit an LDA model on 5 topics:
+
+```{r tp6 }
+lda_model_5 <- LDA(LdaDtmParish_complete, k = 5, method = "Gibbs") #k is the number of topics to be created, and method is the type of LDA that will be performed
+```
+
+View the top 15 terms for each topic.
+
+```{r tp7 }
+top_terms_5 <- terms(lda_model_5, 15)
+top_terms_5
+```
+
+Now let's try with 10 topics using the Gibbs sampling method.
+(In short, the Gibbs method uses a probability distribution to identify topics in a set of documents.)
+
+```{r tp8}
+lda_model_10 <- LDA(LdaDtmParish_complete, k = 10, method = "Gibbs")
+```
+
+View the top 15 terms for each topic
+
+```{r tp11}
+top_terms_10 <- terms(lda_model_10, 15)
+top_terms_10
+
+```
+
+### Discussion
+
+What can we observe about the effect of adding more topics?
+With your table, come up with a label for each topic.
+What can we learn about our data using LDA?
+
+Let's refine the results by removing some of the words in the corpus that aren't telling us much about the data.
+Then, we will re-run LDA:
+
+```{r tp12 }
+ParishCorpus2 <- tm_map(ParishCorpus, removeWords, c('edinburgh', 'parish', 'may', 'many', 'now', 'two', 'also', 'per', 'several'))
+LdaDtmParish2 <- DocumentTermMatrix(ParishCorpus2)
+```
+
+Let's see what happen with 5 topics again on the cleaned dataset
+
+```{r tp13 }
+lda_model_2 <- LDA(LdaDtmParish2, k = 5, method = "Gibbs")
+top_terms_2 <- terms(lda_model_2, 15)
+```
+
+Let's compare the results
+
+```{r tp14 }
+top_terms_5
+top_terms_2
+
+```
+
+### Discussion
+
+Discuss the results with your table.
+From a human perspective, did removing extra words improve the topic modelling analysis?
+
+## Words Relationships
+
+### Explore association with a series of topics.
+
+Keyword associations show us which terms typically occur close to one another in a corpus.
+Therefore, we can use this method to identify patterns in our dataset.
+
+Print the terms associated with a keyword by correlation coefficient: (A correlation coefficient shows the strength of the relationship between two items on a scale of 0 to 1)
+
+First I need to reduce the min_freq, which will limit the analysis to words that occur at least two times in the dataset.
+When working with very large datasets---such as the full Parish data---you might find that a higher minimum frequency could generate more meaningful results.
+
+```{r WRel1 }
+min_freq <- 2
+LdaDtmParish <- DocumentTermMatrix(ParishCorpus, control = list(bounds = list(global = c(min_freq, Inf))))
+```
+
+Then I can check the terms correlations across three areas of Edinburgh
+
+```{r WRe2 }
+findAssocs(LdaDtmParish, "morningside", 0.25)
+findAssocs(LdaDtmParish, "abbeyhill", .25)
+findAssocs(LdaDtmParish, "newhaven", .25)
+```
+
+### Comparing two complete lists of associations
+
+One way to further explore keyword association is to explore the highest and lowest associations with a particular word.
+Let's try it:
+
+1.  Association with sea
+
+```{r WRel3 }
+AssociationSea<-data.frame(findAssocs(LdaDtmParish, "sea", .01))
+AssociationSeaCleaned<- data.frame(Term=rownames(AssociationSea), ValueSea=AssociationSea[,1], Association= "Sea")
+```
+
+2.  Association with the city
+
+```{r WRel4 }
+AssociationCity<-data.frame(findAssocs(LdaDtmParish, "city", .01))
+AssociationCityCleaned<- data.frame(Term=rownames(AssociationCity), ValueCity=AssociationCity[,1], Association="City")
+```
+
+Combining the data sets with the "merge" function (or "join" in database theory, in this case an inner join. You can read more about this function in tidyverse syntax here: <https://r4ds.hadley.nz/joins>)
+
+```{r WRel5 }
+Merged_datasets <- merge(AssociationSeaCleaned, AssociationCityCleaned, by.x = 'Term', by.y = 'Term') 
+
+MoreSea<-subset(Merged_datasets,ValueSea>0.1 &ValueCity<0.1)
+MoreSea
+
+Merged_datasets$Comparison <- ifelse(Merged_datasets$ValueSea > 0.15 & Merged_datasets$ValueCity < 0.1, "Sea", 
+                                     ifelse(Merged_datasets$ValueCity> 0.15 & Merged_datasets$ValueSea < 0.1, "City", 
+                                            "Undefined"))
+```
+
+Subset only the words associated with the keywords "sea" or "city"
+
+```{r WRel6 }
+Extreme<-subset(Merged_datasets, Comparison!="Undefined")
+```
+
+Now I need to have one single value for each
+
+```{r WRel7 }
+Extreme$Value<-ifelse(Extreme$Comparison == "Sea association", Extreme$ValueSea, Extreme$ValueCity)
+```
+
+Visualise our results
+
+```{r WRel8 }
+ggplot(Extreme, aes(y=Term, x=Value, colour=Comparison))+
+  geom_point(size=5)+
+  theme_bw()
+```
+
+### Discussion
+
+How do you interpret the graph above?
+
+### Exercise
+
+So far, we worked on the parish dataset for Edinburgh.
+Let's have a look at the data for another area of Scotland.
+With your table, repeat the process of subsetting the Parish data by an area of your choice.
+Then, repeat the exercises using this data.
+
+Write your code below.
+Hint: You can copy and paste the code above and modify it to subset a different part of the dataset
+
+```{r WRel9 }
+
+
+```
+
+## Wrap-up Discussion
+
+1.  What are the pros and cons of the methods we have used in this block?
+2.  What can text analysis tell us about datasets? What information do we not have? How could we find it?
+
+## End of the Text Analysis day

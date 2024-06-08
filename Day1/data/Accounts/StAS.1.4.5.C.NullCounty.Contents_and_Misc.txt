@@ -1,0 +1,44 @@
+
+<TABLE=CONTENTS.>
+
+No.   Name.   Population in 1755.   in 1790-1.   Inc.   Dec.   Page.
+
+1  Lethnot,              635            505                130    1
+2  Dumbarton,           1427           2003         576          21
+3  Tullynessle,          269            396         127          27
+4  Auchterarder,        1194           1670         476          33
+5  Aberlemno,            943           1033          90          47
+6  Drumblade,           1125            886                239   52
+7  Skene,               1251           1233                 18   57
+8  Aberlour,            1010            920                 90   64
+9  Roseneath,            521            394                127   71
+10 Drainy,              1174           1040                134   77
+11 Arderfier,            428           1298        870           88
+12 Tealing,              735            802         67           92
+13 Dallas,               700            888        188          105
+14 Kirkhill,            1360           1570        210          111
+15 Inverarity,           996            929                 67  124
+16 Duirinish,           2568           3000        432          130
+17 Kirkinner,            792           1152        360          138
+18 Rattray,              751            500                251  148
+19 Ardclach,            1163           1186        23           151
+20 Udny,                1322           1137                185  156
+21 Ormistoun,            810            864        54           166
+22 Cushnie,              500            430                70  173
+23 Rynd,                 498            495                 3  178
+24 Abbot's Hall,        1348           2136      788           185
+25 Inchture,             893           1000      107           191
+26 Hutton,               751            920      169           196
+27 Kilspindie,           828            718               110  202
+28 Strickathrow,         529            672      143           209
+29 Johnston,             494            565       71           216
+30 Criech,               375            306                69  227
+31 Dunbog,               255            235                20  233
+32 Barrie,               689            796      107           236
+33 Earlstoun,           1197           1351      154           248
+                       ------         ------    -----    ----  
+       Carried over,   29531           33030    5012     1513
+
+</TABLE>
+
+

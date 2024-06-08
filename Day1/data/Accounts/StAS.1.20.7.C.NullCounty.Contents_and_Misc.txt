@@ -1,0 +1,39 @@
+
+<TABLE=CONTENTS>
+
+No.   Name of the Parish.   Population   Population   Increase.   Decrease.   Page
+                             in 1755.     in 1797
+
+  1   Livingstone,             598          420                      178        1
+  2   Boleskine and A
+        bertarf,              1961         1741                      220       19
+  3   Kilmadock,              2730         3209          479                   40
+  4   Walls and sandness,     1450         1723          273                   97
+  5   Forteviot,              1164          970                      194      117
+  6   Orwell,                 1891         1705                      186      126
+  7   Sorn,                   1494         2779         1285                  138
+  8   Kirkowen,                795          690                      105      186
+  9   Dryke and Moy,          1826         1529                      297      192
+ 10   Collace,                 499          473                       26      235
+ 11   Evie and Rendal,        1798         1564                      234      247
+ 12   St Andrew's and
+         Deerness,            1650         1335                      315      258
+ 13   Fogo,                    566          450                      116      270
+ 14   Tingwall,               1412         1786         374                   277
+ 15   Ardnamurchan,           5000         4542                      458      286
+ 16   Urquhart,               1943         2355         412                   297
+ 17   Banff,                  3000         3510         510                   319
+ 18   Abercorn,               1037          870                      167      383
+ 19   Kilmorack,              2830         2318                      512      401
+ 20   Dunkeld and Dow-    
+         ally,                1298         1773         475                   410
+ 21   Thurso,                 2963         3146         183                   493
+                             -----       ------        ----         ----      
+         Total,             37,905       38,888        3991         3008
+                                         37,905        3008
+                                         ------       -----
+         Increase,                          983         983
+
+</TABLE>
+
+

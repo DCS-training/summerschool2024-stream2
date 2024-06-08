@@ -1,0 +1,46 @@
+
+     Statistical Account
+
+     TABLE Of Seed-time and Harvest.
+
+<TABLE>
+
+     Crops.         Seed-time.             Harvest.
+                    Carse clay.
+
+Wheat,          30. September 1795.   11. August    1796.
+Beans,          6.  March       96.   In September    96. 
+Oats,           20. March       96.   15. September   96.  
+Peas,           30. March       96.   In September    96.
+Barley, with
+  grass and     15. May         96.   25. August      96.
+  clover,       15. May         96.   In June       1797.
+
+                      Loam.
+
+Oats,           30. March       96.   In September    96.
+Peas,           16. April       96.   In ditto        96.
+Barley, with
+  grass and     30. May         96.   In August       96. 
+  clover,       30. May         96.   In June       1797.
+ 
+                      Till.
+
+Oats,           30. March       96.   In September    96.
+Peas,           16. April       96.   In ditto        96.
+Barley, with
+  grass and     30. May         96.   In August       96.  
+  clover.       30. May         96.   In June       1797.   
+
+                    Sandy soil.
+
+Oats,           20. March       96.   1. September    96.  
+Peas,           16. April       96.   In ditto        96.
+Barley, with
+  grass and     20. May         96.   12. June        96. 
+  clover        20. May         96.   In June       1797. 
+Potatoes,       10. April       96.   1. September    96.
+
+</TABLE>
+
+

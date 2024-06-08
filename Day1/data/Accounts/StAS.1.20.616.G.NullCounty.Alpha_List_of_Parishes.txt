@@ -1,0 +1,48 @@
+
+     County of Ross.
+
+<TABLE=COUNTY OF ROSS.>
+
+    Parish.        Population     Population in    Increase.   Decrease.
+                   in 1755.       1790-1798.
+
+1   Alness            1090             1121             31
+    Applecross         835             1734            899
+    Avoch             1457             1380                          77
+    Contin            1949             2500            551
+5   Dingwall          1030             1379            349
+    Eddertown          780             1000            220
+    Fearn             1898             1600                         298
+    Gairloch          2050             2200            150
+    Glensheil          509              721            212
+10  Killearnan         945             1147            202
+    Kilmuir, Easter   1095             1975            880
+    Kilmuir, Wester   1367             1805            438
+    Kiltearn          1570             1616             46
+    Kineardine        1743             1600                         143
+15  Kintail            698              840            142
+    Kirkmichael       1371             1234                         137
+    Lochalsh           613             1334            721
+    Lochbroom         2211             3500           1289
+    Lochcarron         771             1068            297
+20  Logie, Easter      850             1125            275
+    Nigg              1261             1133                         128
+    Rosekeen          1958             1700                         258
+    Rosemarkie        1140             1262            122
+    Tain              1870             2100            230
+25  Urquhart          2590             2901            311
+    Urray             2456             1860                         596
+ISLAND OF LEWIS.
+    Barvas            1995             2006             11
+    Lochs             1267             1768            501
+    Stornoway         1812             2639            827
+30  Uig               1312             1898            586
+                    ------           ------           ----         ----
+                    42,493           50,146           9290         1637
+                                     42,493           1637
+                                     ------           ----
+                      Increase,        7653           7653
+
+</TABLE>
+
+

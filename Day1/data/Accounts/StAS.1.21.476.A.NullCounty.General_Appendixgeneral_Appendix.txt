@@ -1,0 +1,42 @@
+
+     General Appendix to
+
+<TABLE>
+
+Stonehaven,          1,072   Eyemouth, about             800
+Culross,             1,072   Old Cumnock,                787
+Inveraray,           1,063   Old Meldrum,                783
+Alyth,               1,060   Wester Wemys,               769
+Wigton,              1,032   Stornoway,                  760
+Johnshaven,          1,019   Briansford,                 758
+Stevenston,          1,019   Whithorn,                   756
+Renfrew,             1,013   Gilmerton,                  755
+Girvan,              1,012   Dingwall,                   745
+Fraserburgh,         1,000   Ceres,                      740
+Mauchlin,            1,000   Coldingham,                 718
+Newmills, about      1,000   Ferry Parton Craig,         704
+Maybole, about       1,000   Turreff,                    701
+Portsoy, about       1,000   Airth, about                700
+Lauder, about        1,000   Castle Douglas, about       700
+Wick, about          1,000   Lochmaben,                  700
+Callander,           1,000   North Berwick,              700
+Burntisland, about   1,000   Auchterarder, about         700
+Selkirk,             1,000   Anstruther Easter, about    700
+Sanquhar, about      1,000   Glenluce, about             700
+Leadhills,             970   Douglas,                    684
+Wallaceton,            960   Clackmannan,                639
+Doune,                 939   Longforgan,                 630
+Falkland,              937   Thornhill,                  626
+Fochabers,             935   Kennoway, about             620
+Lerwick,               903   Chirnside,                  609
+Lauriston,             858   Bervie,                     607
+Aberdour,              840   Buckhaven,                  601
+Errol,                 828   Ormiston, about             600
+Dalry,                 814   Carmouth,                   600
+Leslie,                806   Greenlaw, about             600
+Scone, about           800   New Cumnock, about          600
+Cullen, about          800   Macduff, about              600
+
+</TABLE>
+
+

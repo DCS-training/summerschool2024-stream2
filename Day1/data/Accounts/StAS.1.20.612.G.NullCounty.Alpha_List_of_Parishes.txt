@@ -1,0 +1,55 @@
+
+     County of Orkney, etc.
+
+<TABLE>
+
+    Parish.                  Population    Population in   Increase.   Decrease
+                              in 1755.      1790-1798.
+20  Dunrossness                   2295             3327      1032 
+    Fitlar and North Yell         1098             1346       248
+    Lerwick                       1193             1259        66 
+    Nesting                       1169             1535       366
+    Northmaving                   1009             1786       777
+25  Sandsting                      911             1285       374            
+    South and Mid Yell             986             1422       436
+    Tingwall                      1412             1786       374
+    Unst                          1368             1988       620
+29  Walls and Sandness            1450             1723       273
+                                ------           ------      ----      
+          Total, Shetland,      15,210           20,186      4976
+                   Orkney,      23,381           23,053      1687         2015     
+                                ------           ------      ----         ----    
+                    Total,      38,591           43,239      6663         2015
+                                                 38,591      2015
+                                                 ------      ---- 
+                                  Increase,        4648      4648
+
+</TABLE>
+
+<TABLE=COUNTY OF PEEBLES.>
+
+1   Broughton         367     264           103
+    Drumelzier        305     270            35
+    Eddlestown        679     710     31
+    Glenholm          392     300            92
+5   Inverleithen      559     560      1
+    Kilbucho          279     362     83
+    Kirkurd           310     288            22
+    Linton            831     928     97
+    Lyne              265     160           105
+10  Mannor            320     229            91
+    Newlands         1009     891           118
+    Peebles          1896    1920     24
+    Skirling          335     234           101
+    Stobo             313     318      5
+15  Tiaquair          651     446           205
+16  Tweedsmuir        397     227           170
+                     ----    ----    ---   ---- 
+                     8908    8107    241   1042
+                     8107                   241
+                     ----                  ----
+          Decrease,   801                   801
+
+</TABLE>
+
+

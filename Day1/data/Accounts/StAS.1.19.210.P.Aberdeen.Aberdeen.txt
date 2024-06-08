@@ -1,0 +1,54 @@
+
+     Statistical Account
+
+   PORT of ABERDEEN.-An Account of the Quantity and
+Species of Merchandise exported from this Port in the
+Year 1712, shewing the particular Countries to which
+exported, the number of Vessels employed, their Ton-
+nage, and Number of Men.
+
+<TABLE>
+
+To what    No. of    No. of    No. of   Species and Quantities of Goods.
+country    vessels   tons.     men.
+exported   employed
+                                        1087 3-4ths quarters oatmeal.
+                                        1501 ditto barley.
+                                           4 ditto pease.
+Norway,      13      406        64      9513-8ths ditto malt.
+                                        146 hundred 1 qr. and 500 cod and ling fish at
+                                          6 score to the hundred.
+                                        7 trusses worsted stockings,
+                                        479 barrels salmon.
+                                        17 hogsheads tobacco.
+Holland,       6     238        38      359 one-half barrels pork.
+                                        104 trusses woollen cloth & worsted stockings.
+                                        10 casks hog lard.
+                                        398 bars lead.
+                                        10 chaldions coals.
+Portugal,      2      85        14      12 trusses worsted stockings,
+                                        380 cod and ling fish.
+                                        373 barrels salmon.
+                                        18,690 cod and ling fish.
+                                        115 3-8ths quarters oatmeal.
+Sweden,        2     100        13      197 3-8ths ditto malt.
+                                        90 barrels herrings.
+                                        69 one-half barrels salmon.
+                                        24,052 cod and ling fish.
+Spain,         2     150        17      31 parcels worsted stockings.
+                                        76 barrels herrings.
+                                        79 3-8ths quarters oatmeal.
+                                        100 quarters malt.
+Germany,       1      40         4      95 5-8ths ditto barley.
+                                        766 one-half barrels salmon.
+                                        2 boxes stockings.
+                                        90,000 stock fish.
+Italy,         4     300        53      47,160 cod and ling fish.
+                                        68 barrels herrings.
+                                        480 bars lead.
+
+Total,        30    1319       203
+
+</TABLE>
+
+

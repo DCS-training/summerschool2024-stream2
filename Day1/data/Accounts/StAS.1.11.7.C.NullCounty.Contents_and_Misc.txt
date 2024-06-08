@@ -1,0 +1,42 @@
+
+<TABLE=ERRATA>
+
+Page    17   line    3     for this           read these
+        20          27         Vessels             Number
+        21   col.    9         4                   1
+        22          24         250 L.              300 L.
+        36          30         workmanship          working it
+        40          25         the                  Shot
+        62          20         LOCH ORE             LOCH ORE
+        68          12     after Minerals,    add &c.
+        80          pen.        nescie        read an
+       124          21          Coasts             Coasts
+       160          16     for IOd.           read is od.
+       211           7     before houses      insert number of
+       260          25            it          delete Hence
+       377           8     for 248            read 348
+       453          25         than ifiliam        thani filiam
+       457          3 & 4 delete and have sold at 30 years purchase or
+                                   upwards.
+       480          12     for clums          read Clune
+                    15         912                 910
+                    16         929                 927
+                    18          58                  60
+       488          26     under 13         insert 13/202
+       574           6          Mr.           read Doctor.
+       576           3 from the foot of the large print, Trosaks
+                       read Trosaks.
+       577          10  for Glenfinlas        read Glenfinglas
+       585          last    fertility are          fertility is
+       597   line   19 12 L. 1000 l. to            12 L. to 100 L.
+       601   line   last, for bills                bulls
+       610          25        prideliction         predilection
+       611           9        sbubery              shrubs
+       614          18 of notes, Ness signifies, &c. This whole sen-
+        tence ought to be above Lenrich, and next the Rosses.
+       615   line    6  of notes, for Goirtean     read Goirtean
+       616          15 for subjunctive                  subjunctive
+
+</TABLE>
+
+

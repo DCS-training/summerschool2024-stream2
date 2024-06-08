@@ -1,0 +1,58 @@
+
+     of borrowstownnes.
+
+     Abstract of Baptismss, Deaths, and Marriages, for Seven Years
+     preceding preceding 1794.
+
+<TABLE=Baptisms.>
+
+Years.   Males.   Females.   Total.
+
+1787       60        69       129
+1788       61        47       108
+1789       68        51       119
+1790       54        51       105
+1791       47        39        86
+1792       42        54        96
+1793       38        45        83
+          ---       ---       ---                 
+          370       356       726
+                     Average  103 5/7
+
+</TABLE>
+
+<TABLE=Deaths.>
+
+Years.   Males.   Females.   Total.
+
+1787       32        38        70
+--88       28        27        55
+--89       47        36        83
+--90       32        25        57
+--91       22        33        55
+--92       38        37        75
+--93       28        33        61
+          ---       ---       --- 
+          227       229       456
+                      Average  65 5/7
+
+</TABLE>
+
+<TABLE=Mariages.>
+
+1787      37
+--88      28
+--89      21
+--90      27
+--91      23
+--92      25
+--93      19
+         ---        
+         180
+Averages  25 5/7
+
+</TABLE>
+
+     3 H 2
+
+

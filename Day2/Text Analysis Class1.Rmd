@@ -1,0 +1,415 @@
+---
+title: "Text Analysis"
+author: "Jessica Witte"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Install and Load the required Libraries
+
+Below is the list of the packages that are needed for this class. Remember that if you are working on your machine you only need to install the packages once, but need to upload them every time that you open a new RStudio environment. If you are working on Noteable, you will have to install the packages every time you open the environment.
+
+First, the package installation:
+
+For Noteable
+
+```{r Install Packages,echo=FALSE, results='hide', warning=FALSE, message=FALSE}
+#install.packages("quanteda")
+install.packages("quanteda.textplots")
+install.packages("quanteda.textmodels",dependencies = TRUE, INSTALL_opts = '--no-lock')
+#install.packages("lexicon")
+```
+
+For Posit
+
+```{r Install Packages Posit,echo=FALSE, results='hide', warning=FALSE, message=FALSE}
+#install.packages("tidyverse")#only if not on the server already from yesterday
+#install.packages("quanteda")
+#install.packages("quanteda.textplots")
+#install.packages("quanteda.textmodels")
+#install.packages("lexicon")
+```
+
+Import the packages:
+
+```{r Import the required packages, results='hide', warning=FALSE, message=FALSE}
+library(quanteda) #quanteda is an R package for managing and analysing text
+library(quanteda.textplots)#Plotting functions for visualising textual data. Extends 'quanteda' and related packages with plot methods designed specifically for text data
+library(quanteda.textmodels)#Scaling models and classifiers for sparse matrix objects representing textual data in the form of a document-feature matrix.
+library(lexicon)#A collection of lexical hash tables, dictionaries, and word lists
+library(tidyverse)# The tidyverse is a collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.https://www.tidyverse.org/
+```
+
+## Import the Dataset
+
+The first thing we need to do is to load the cleaned data set that we created yesterday
+
+```{r Dataset, echo=TRUE}
+Parish<-read_csv("data/parish.csv")
+```
+
+## Exploring the Dataset
+
+Let's review what's in our dataset:
+
+```{r summary, echo=TRUE}
+summary(Parish)
+```
+
+Because we are working with a fully textual dataset, these metrics don't tell us much. To explore the text itself, we'll need to create a corpus out of the text column (that contains the text of each parish report)
+
+```{r Corpus, echo=TRUE}
+CorpusStat<-corpus(Parish$text)
+```
+
+Some methods for extracting information about the corpus:
+
+Print the document in the fifth position of the corpus
+
+```{r First 5 texts, echo=TRUE}
+summary(CorpusStat, 5)
+```
+
+Check how many docs are in the corpus
+
+```{r Doc corpus, echo=TRUE}
+ndoc(CorpusStat) 
+```
+
+Check number of characters in the first 10 documents of the corpus
+
+```{r Doc corpus2, echo=TRUE}
+nchar(CorpusStat[1:10])
+```
+
+Check number of tokens in the first 10 documents
+
+```{r Doc corpus3, echo=TRUE}
+ntoken(CorpusStat[1:10]) 
+```
+
+Create a new vector with tokens for all articles and store the vector as a new data frame with four columns (Ntoken, title, Area, Parish)
+
+```{r Corpus Vector, echo=TRUE}
+NtokenStats<-as.vector(ntoken(CorpusStat))
+TokenScotland <-data.frame(Tokens=NtokenStats, title=Parish$title, Area=Parish$Area, Parish=Parish$Parish)
+```
+
+Now, we want to explore the parish data by geographic area. We can do that with pipes, which allow us to perform several tasks in one block of code:
+
+```{r Pipe1, echo=TRUE}
+BreakoutScotland<- TokenScotland %>%
+  group_by(Area)%>%
+  summarize(NReports=n(), MeanTokens=round(mean(Tokens)))
+
+summary(BreakoutScotland)
+  
+```
+
+We can now plot the trends using gpplot:
+
+```{r Plot1, echo=TRUE, ,fig.width=12, fig.height=8}
+ggplot(BreakoutScotland, aes(x=Area, y=NReports))+ # Select data set and coordinates we are going to plot
+  geom_point(aes(size=MeanTokens, fill=MeanTokens),shape=21, stroke=1.5, alpha=0.9, colour="black")+ # Type of graph I want 
+  labs(x = "Areas", y = "Number of Reports", fill = "Mean of Tokens", size="Mean of Tokens", title="Number of Reports and Tokens in the Scotland Archive")+ # Rename x/y labels and title
+  scale_size_continuous(range = c(5, 15))+ # Resize the dots (enlarge)
+  geom_text(aes(label=MeanTokens))+ # Add the mean of tokens in the dots
+  scale_fill_viridis_c(option = "plasma")+ # Change the colour coding
+  theme_bw()+ # B/W Background
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1), legend.position = "bottom")+ # Rotate x-axis labels and move them slightly down; move legend to the bottom 
+  guides(size = "none") # Remove the size from the legend 
+```
+
+## Discussion
+
+What is the graph telling us about our data?
+
+## Preparing your Data for Text Analysis
+
+Now, we can tokenise the corpus, which will break the textual data into separate words grouped by document. We are also remove symbols, URLs, and punctuation.
+
+```{r Tokenise1, echo=TRUE}
+Report_tokens <- quanteda::tokens(Parish$text, 
+                                  remove_symbols=TRUE, 
+                                  remove_url=TRUE, 
+                                  remove_punct=TRUE,
+                                  remove_numbers = FALSE,
+                                  split_hyphens = TRUE)
+```
+
+Take a look at our tokens list by printing the second document:
+
+```{r Token2, echo=TRUE}
+Report_tokens[2]
+```
+
+Remove tokens under 3 characters. (Shorter words won't tell us much about our data, and because we removed punctuation, we want to get rid of the truncated contractions--e.g. I'm --\>'I', 'm')
+
+```{r TokenRemove1, echo=TRUE}
+Report_tokens <- tokens_select(Report_tokens, min_nchar = 3)
+```
+
+Remove the stopwords in our corpus. Stopwords are a set of commonly used "filler" or modifying words in a language. Examples of stopwords in English are "a," "the," "is," "are," etc. Stopword removal is a common pre-processing task in natural language processing (NLP) that aims to improve the that are so widely used that they carry very little useful information.
+
+```{r StopWords, echo=TRUE}
+Report_tokens <-tokens_remove(Report_tokens, c(stopwords("english"), "statistical", "account", "parish", "one", "years"))
+```
+
+## Visualise the Results of the Tokenisation
+
+First I need to convert to document-feature matrix (aka "dfm")
+
+```{r set up for word cloud, echo=TRUE}
+dfm_Report <- dfm(Report_tokens)
+```
+
+```{r Wordcloud1, echo=TRUE}
+textplot_wordcloud(dfm_Report,
+                   max_words=100,
+                   color='black')
+```
+
+Let's improve the word cloud a bit
+
+```{r WordCloud2, echo=TRUE}
+textplot_wordcloud(dfm_Report, rotation = 0.25,
+                   max_words=50,
+                   color = rev(RColorBrewer::brewer.pal(10, "Spectral")))#adding some colour and rotating results
+```
+
+## Further Cleaning the Dataset
+
+Preprocessing steps known as stemming and lemmatisation may further improve the results of NLP for a dataset. Stemming aims to reduce a word to its "stem" in acknowledgment that word endings often don't tell us much about a particular corpus. So, for instance, stemming assumes "run" and "running" serve the same purposes for a particular research question. Lemmatisation follows the same logic behind stemming, but aims to be more accurate and truer to the language.
+
+Stemming
+
+```{r Stemming, echo=TRUE}
+nostop_toks <- tokens_select(Report_tokens, pattern = stopwords("en"), selection = "remove")
+stem_toks <- tokens_wordstem(nostop_toks, language=quanteda_options('language_stemmer'))
+stem_dfm <- dfm(stem_toks)
+topfeatures(stem_dfm, 30)# Let's see the top 30 words past stemming
+
+```
+
+### Lemmatisation
+
+```{r Lemmatisation, echo=TRUE}
+lemmas <- tokens_replace(nostop_toks, pattern = lexicon::hash_lemmas$token, replacement = lexicon::hash_lemmas$lemma)
+lemma_dfm <- dfm(lemmas)
+topfeatures(lemma_dfm, 30)
+```
+
+Compare the results
+
+```{r Compare, echo=TRUE}
+topfeatures(stem_dfm, 20)
+topfeatures(lemma_dfm, 20)
+
+```
+
+## Discussion 2
+
+What can we observe about stemming and lemmatization? Which method (if any) do you prefer, and why?
+
+Make a word cloud of the lemmatized results:
+
+```{r Wordcloud3, echo=TRUE}
+textplot_wordcloud(lemma_dfm, rotation = 0.25,
+                   max_words=50,
+                   color = rev(RColorBrewer::brewer.pal(10, "Paired")))
+```
+
+## Plot the Frequency of Words
+
+Plot the top 20 words (lemmatized) in another way:
+
+```{r Frequency, echo=TRUE}
+top_keys <- topfeatures (lemma_dfm, 20)
+data.frame(list(term = names(top_keys), frequency = unname(top_keys))) %>% # Create a data.frame for ggplot
+  ggplot(aes(x = reorder(term,-frequency), y = frequency)) + # Plotting with ggplot2
+  geom_point() +
+  theme_bw() +
+  labs(x = "Term", y = "Frequency") +
+  theme(axis.text.x=element_text(angle=90, hjust=1))
+```
+
+## Keywords in Context
+
+keyword search examples (using kwic aka "keyword in context") Let's search what is around words connected with whisky production and consuption
+
+```{r whisky, echo=TRUE}
+Whisky<-kwic(Report_tokens , #on what
+             c("drunk","intemperance","wisky|whisky|whiskey|whysky", "alembic", "spirit"), # Regex pattern
+             valuetype = "regex",# use Regex to do so
+             window = 30)
+
+```
+
+Add them back to our main data set
+
+First we need to create a column that would match the doc name
+
+```{r Merge back, echo=TRUE}
+TokenScotland<-rownames_to_column(TokenScotland, var = "ID")
+TokenScotland$ID<-paste0("text",TokenScotland$ID)#add text to the ID
+```
+
+Merge the two datasets
+
+```{r merge 2, echo=TRUE}
+Merged <-merge(Whisky,TokenScotland, by.x="docname", by.y="ID")
+# Merge the text before and after the keyword
+Merged$NewText<-paste(Merged$pre,Merged$keyword, Merged$post)
+```
+
+Now I want to see which area of Scotland contains the most keyword matches for drunk","intemperance","wisky\|whisky\|whiskey\|whysky", "alembic", "spirit". I can do this by using pipes again:
+
+```{r Pipe witches, echo=TRUE}
+BreakoutWhisky<- Merged %>%
+  group_by(Area,pattern)%>%
+  summarize(NMention=n())
+```
+
+Now we can plot the trends. Again, I am using ggplot to do so
+
+```{r Visualise witches, echo=TRUE,fig.width=10, fig.height=12}
+ggplot(BreakoutWhisky, aes(x=Area, y=NMention, colour=pattern))+ # Select data set and coordinates we are going to plot
+  geom_point(aes(alpha=NMention), size=5)+ # Which graph I want 
+  labs(x = "Areas", y = "Number of Keywords", colour = "Keyword matching", title="Whisky Keywords in the Scotland Archive")+ # Rename labs and title
+  facet_wrap(~pattern, ncol=2)+
+  theme_bw()+ # B/W Background
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1), legend.position = "bottom")+ # Rotate labels of x and move them slightly down. Plus move the position to the bottom 
+  guides(size = "none")+# Remove the Size from the Legend 
+  scale_alpha(guide = 'none') #Remove alpha from legend
+```
+
+Something is off...there are definitely more "spirit" than what I would expect let's have a check
+
+```{r Spirits, echo=TRUE}
+spirits<-subset(Merged, keyword=="spirit")
+
+spirits$NewText[1:10]
+```
+
+There is a problem: a spirit can be booze but can also refer to the holy spirit or the human spirit! For now, let's just remove it from the pool but this is a clear example on where blank computational text analysis may fail
+
+```{r Whisky cleaned, echo=TRUE}
+Whisky2<-kwic(Report_tokens , #on what
+             c("drunk","intemperance","wisky|whisky|whiskey|whysky", "alembic"), # Regex pattern
+             valuetype = "regex",# use Regex to do so
+             window = 30)
+
+# Merge the two datasets
+Merged3<-merge(Whisky2,TokenScotland, by.x="docname", by.y="ID")
+# Merge the before and after the keyword
+Merged3$NewTextWithKeyword<-paste(Merged3$pre,Merged3$keyword, Merged3$post)
+Merged3$NewText<-paste(Merged3$pre, Merged3$Keyword, Merged3$post)
+
+```
+
+Now I want to see in which area of Scotland there are more instances of the keywords to see if anything has changed after removing "spirit." I can do this by using pipes again:
+
+```{r Pipe, echo=TRUE}
+BreakoutWhisky2<- Merged3 %>%
+  group_by(Area,pattern)%>%
+  summarize(NMention=n())
+```
+
+And print it
+
+```{r PrintWhisky2, echo=TRUE,fig.width=10, fig.height=12}
+ggplot(BreakoutWhisky2, aes(x=Area, y=NMention, colour=pattern))+ # Select data set and coordinates we are going to plot
+  geom_point(aes(alpha=NMention), size=5)+ # Which graph I want 
+  labs(x = "Areas", y = "Number of Keywords", colour = "Keyword matching", title="Whisky Keywords in the Scotland Archive")+ # Rename labels and title
+  facet_wrap(~pattern, ncol=2)+
+  theme_bw()+ # B/W Background
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1), legend.position = "bottom")+ # Rotate labels of x and move them slightly down. Plus move the position to the bottom 
+  guides(size = "none")+# Remove the Size from the Legend 
+  scale_alpha(guide = 'none') #Remove alpha from legend
+```
+
+## Exercise 1:
+
+Try to do the same with Witches related words
+
+Here is a starting list for you but you can add more
+
+c("witch", "spell", "enchantment","magic"), \# Regex pattern
+
+```{r Exercise, echo=TRUE}
+# Add here your solution. Tip: copy and paste the previous blocks and adapt the code
+
+```
+
+## Check what is around the keywords
+
+Next step is to look at what is around our keywords. We will start by creating a new dataframe:
+
+```{r New Token, echo=TRUE}
+Merged3$NewTextNoKeywords<-paste(Merged3$pre, Merged3$post)# Remove the keywords from the column we want to analyse (otherwise they would skew our wordcloud)
+KWIC_tokens <- quanteda::tokens(Merged3$NewTextNoKeywords, 
+                                  remove_symbols=TRUE, 
+                                  remove_url=TRUE, 
+                                  remove_punct=TRUE,
+                                  remove_numbers = FALSE,
+                                  split_hyphens = TRUE)
+```
+
+Remove tokens under 3 characters. (Shorter words won't tell us much about our data, and because we removed punctuation, we want to get rid of the truncated contractions--e.g. I'm --\>'I', 'm')
+
+```{r TokenRemove2, echo=TRUE}
+KWIC_tokens <- tokens_select(KWIC_tokens, min_nchar = 3)
+```
+
+Remove stop words
+
+```{r StopWords2, echo=TRUE}
+KWIC_tokens <-tokens_remove(KWIC_tokens, c(stopwords("english"), "statistical", "account", "parish", "one", "years", "year"))
+```
+
+Create a DFM
+
+```{r DFM2, echo=TRUE}
+KWIC_dfm <- dfm(KWIC_tokens)
+
+```
+
+Make a word cloud of the results
+
+```{r Wordcloud, echo=TRUE}
+textplot_wordcloud(KWIC_dfm , rotation = 0.25,
+                   max_words=50,
+                   color = rev(RColorBrewer::brewer.pal(10, "Paired")))
+
+```
+
+Or if we prefer the frequency
+
+```{r TopFeatures, echo=TRUE}
+top_keys2 <- topfeatures (KWIC_dfm, 20)
+data.frame(list(term = names(top_keys), frequency = unname(top_keys))) %>% # Create a data.frame for ggplot
+  ggplot(aes(x = reorder(term,-frequency), y = frequency)) + # Plotting with ggplot2
+  geom_point() +
+  theme_bw() +
+  labs(x = "Term", y = "Frequency") +
+  theme(axis.text.x=element_text(angle=90, hjust=1))
+
+```
+
+## Wrap-up activity: practice & table discussion
+
+1.  Subset the 'Parish' dataset by rows containing data about the Edinburgh area.(Hint: Edi_data \<- subset(Parish, Area == 'Edinburgh'))
+
+2.  Perform a keyword search on the Edinburgh data 'text' column for a keyword (or series of keywords) of your choice. (Don't forget to tokenise the text first!)
+
+3.  Plot the keyword matches by 'Parish,' following the steps outlined in the lesson (performing the keyword search, merging the rows with a keyword match with the full dataset, using pipes to organise the data, and plotting with ggplot).
+
+4.  With your table, examine your plot. What does the visualisation show us about the topics related to your keyword(s) in the Edinburgh dataset? What do we still not know?
+
+5.  Thinking about the text analysis methods we practiced today, can you think of an example (perhaps from your research) of a use case for one of these methods?
+
+### End of this Block

@@ -1,0 +1,30 @@
+
+     County of Air.
+
+<TABLE>
+
+   Parish           Population      Population in   Increase.   Decrease.
+                     in 1755          1790-1798
+
+   Monktown            582              717           135 
+35 Muirkirk            745             1100           355
+   Newtoun on Air      581             1689          1108
+   Ochiltree          2210             1150                        60 
+   Riccartoun          745             1300           555
+   St Quivox           499             1450           951  
+40 Sorn               1494             2779          1285
+   Stair               369              518           149
+   Stevenstoun        1412             2425          1013
+   Stewartoun         2819             3000           181
+   Straitoun          1123              934                       189
+45 Symonton            359              610           251
+   Tarbolton          1365             1200                       165
+
+         Total,     59,168            75,544       18,898        2622
+                                      59,268        2,622
+
+          Increase,                   16,276       16,276
+
+</TABLE>
+
+

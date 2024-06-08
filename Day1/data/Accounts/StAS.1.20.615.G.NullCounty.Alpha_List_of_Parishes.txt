@@ -1,0 +1,47 @@
+
+     County of Perth, etc.
+
+<TABLE>
+
+      Parish.        Population    Population in    Increase.   Decrease.
+                      in 1755       1790-1798.
+
+      Trinity Gask        913             795                        118
+75    Tulliallan         1321            2430           1109
+76    Weem               1295            1364             69
+                      -------         -------         ------        ----
+                      118,903         133,274         22,546        8175
+                                      118,903           8175
+                                      -------         ------
+                           Increase,   14,371         14,371
+
+</TABLE>
+
+<TABLE=COUNTY OF RENFREW.>
+
+1   Cathcart          499      697      198
+    Eaglesham        1103     1000              103
+    Eastwood         1142     2642     1500
+    Erskine           829      808               21
+5   Greenock         3858   15,000    11,142
+    Houstoun          947     1034        87
+    Inchinnan         397      306               91
+    Innerkip         1590     1280              310
+    Kilbarchan       1485     2506      1021
+10  Kilmalcolm       1495      951              544
+    Lochwinioch      1530     2613      1083
+    Mearns            886     1430       544
+    Neilston         1299     2330      1031
+    Palsley          4290   13,800      9510
+15  Degree Abbey     2509   10,791      8283
+    Port-Glasgow     1695     4036      2341
+17  Renfrew          1091     1628       537
+                   ------   ------    ------   ----
+                   26,645   62,853    37,277   1069
+                            26,645      1069
+                            ------    ------ 
+                 Increase   36,208    36,208
+
+</TABLE>
+
+

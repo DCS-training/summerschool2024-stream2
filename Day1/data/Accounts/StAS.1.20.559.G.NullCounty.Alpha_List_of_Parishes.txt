@@ -1,0 +1,51 @@
+
+     of the Parishes, etc.
+
+<TABLE>
+
+No. Parish              Presbytery.       County.               Vol.    No.  Page
+
+139 Cardross            Dunbarton         Dunbarton          XVII.   15   209
+140 Cargill             Dunkeld           Perth              XIII.   33   529
+141 Carluke             Lanark            Lanark             VIII.    9   120
+142 Carmichael          Lanark            Lanark             XIII.   25   364
+143 Carmunnock          Glasgow           Lanark             XVIII.   6   158
+144 Carmylie            Aberbrothwick     Forfar             I.      44   435
+145 Carnbee             St Andrews        Fise               XIII.    3    23
+146 Carnock             Dunfermline       Fise               XI.     40   479
+147 Carnwath            Lanark            Lanark             X.      27   326
+148 Careston            Brechin           Forfar             II.     42   483
+149 Carnden             Linlithgow        Linlithgow         I.      11    97
+150 Carrington          Dalkeith          Edinburgh          XIV.    25   438
+151 Carsesairn          Kirkcudbright     Kirkcudbright      VII.    49   513
+152 Carstairs           Lanark            Lanark             XVIII.   7   176
+153 Castletown          Langholm          Roxburgh           XVI.     3    60
+154 Catheart            Glasgow           Rensr. & Lan.      V.      22   336
+155 Cavers              Jedburgh          Roxburgh           XVII.    7    89
+156 Ceres               Cupar             Fise               V.      26   379
+157 Chanelkirk          Lander            Berwick            XIII.   27   384
+158 Chapel of Garioch   Garioch           Aberdeen           XI.     41   500
+159 Chirnside           Chirnfide         Berwick            XIV.     1     1
+160 Cimbraes            Irvine            Air                XI.     30   391
+161 Clackmannan         Stirling          Clackmannan        XIV.    37   605
+162 Clatt               Alford            Aberdeen           VIII.   33   535
+163 Cleish              Dunfermline       Kinross            III.    76   549
+164 Closeburn           Penpont           Dumsries           XIII.   17   232
+165 Clunie              Dunkeld           Perth              IX.     17   225
+166 Clunie              Kinkard. O'Niel   Aberdeen           X.      19   235
+167 Clyne               Dornoch           Sutherland         X.      24   298
+168 Cockburnspath       Dunbar            Berwick            XIII.   16   221
+169 Cockpen             Dalkeith          Edinburgh          II.     24   317
+170 Coldingham          Chirnside         Berwick            XII.     4    43
+171 Colstream           Chirnside         Berwick            IV.     55   410
+172 Collace             Perth             Perth              XX.     10   235
+173 Collessie           Cupar             Fise               II.     36   416
+174 Collington          Edinburgh         Edinburgh          XIX.    27   579
+175 Colmonell           Stranraer         Air                II.      7    57
+176 Colvend             Dumsries          Kirkeudbright      XVII.    9    98
+177 Comrie              Auchtenarder      Perth              XI.     11   178
+178 Contin              Dingwall          Ross & Crom.       VII.    16   161
+
+</TABLE>
+
+

@@ -1,0 +1,75 @@
+
+768                                LANARKSHIRE.
+
+<TABLE>
+               January 1831.                               February 1831.
+       Thermometer.	Weather.	            Thermometer.	  Weather.
+       Morn.  Even.	                         Morn.  Even.
+
+    1  34&deg;   36&deg;      Thaw.                  1  33&deg;   32&deg;             Snow, windy.
+    2  33     37  Drizzling rain.            2  32     33              Do. cold wind.
+    3  40     40  Wettish.                   3  33     32             Snow.
+    4  40     41	  Do.	                     4  34     32              Do.
+    5  39     42  Clear.                     5  33     31             Roads blocked up.
+    6  32     33  Frost.                     6  35     40             Clear and pleasant.
+    7  32     33   Do.                       7  44     47             Rain.
+    8  35     39  Clear, mild.               8  52     51             Heavy rain.
+    9  39     40  Dull, wettish.             9  54     52              Do.
+   10  40     41  Clear.                    10  48     46             Snow gone.
+   11  40     42   Do.                      11  45     42             Pleasant.
+   12  32     36  Frost.                    12  48     47             Clear, bright.
+   13  35     37  Clouds low.               13  50     49               Do.
+   14  35     36  Dense fog.                14  42     47             Clear, east wind.
+   15  35     38     Do.  very dark.        15  45     41               Do.	     do.
+   16  35     37     Do.     do.            16  39     42             Droughty.
+   17  35     37     Do.     do.            17  43     44             Gusty, with showers.
+   18  35     37     Do.     do.            15  40     35               Do.       do.
+   19  35     37     Do.     do.            19  38     43             Fine, rain at 5 P. m.
+   20  36     39     Do.     do.            20  32     36             Frosty.
+   21  37     40     Do.  but lighter.      21  36     43             Slight fall of snow.
+   22  34     36  Mist gone.                22  41     44             Sunny.
+   23  35     36  Cold, wet.                23  36     40             Dull, coldish.
+   24  37     39  Pleasant.                 24  38     46             Clear,  Do.
+   25  37     40  Heavy snow morn.          25  37     34             Snow.
+   26  37     41  Pleasant, clear.          26  38     38             Pleasant.
+   27  32     36  Frost, with snow.         27  38     35             Clear, bail.
+   28  16     30  Hard frost.	              28  40     34             Ploughing.
+   29  22     32    Do.
+   30  32     33  Misty.
+   31  30     30  Snow at 10 P. M.
+
+               March 1831.                        April 1831.
+
+    1  40&deg;   48&deg;   Cold, chilly.         1  45&deg;   40&deg;       Very pleasant.
+    2  45     48      Do. rain.            2  46     42         Very droughty.
+    3  49     46     Showery.	             3  44     37              Do.
+    4  47     43     Pleasant.             4  46     44         Pleasant.
+    5  50     49     Dull.                 5  50     46              Do.
+    6  50     47     Frogs croaking.       6  48     44              Do.
+    7  48     41     Pleasant.             7  53     44              Do.
+    8  42     44     Very pleasant.	       8  49     45         Wet all day.
+    9  46     40         Do.               9  52     49         Clear.
+   10  47     48         Do.              10  50     47         Mild, showery.
+   11  50     42	       Do.	            11  55     46         Very fine.
+   12  45     44     High wind.           12  54     44             Do.
+   13  45     44         Do.              13  48     45         Showery.
+   14  41     42     Wet, stormy.         14  52     48         Fine.
+   15  43     47	       Do.              15  61     47         Very fine.
+   16  53     51     Unsettled.           16  56     46             Do.
+   17  52     44     Dark, stormy.        17  57     56         Pleasant.
+   18  49     45         Do.              18  57     50         Fine.
+   19  46     49     Not so bad.          19  57     40         Very fine.
+   20  54     48     Very pleasant.	      20  48     41             Do.
+   21  54     46         Do.              21  51     46         Lowering, wet.
+   22  45     44         Do.              22  52     49         Fine.
+   23  46     42         Do.              23  54     42         Dull.
+   24  41     48         Do.              24  51     49         Pleasant.
+   25  43     39         Do.              25  56     48            Do.
+   26  41     45      Sowing.	            26  51     49         Wet.
+   27  53     44      Very pleasant.      27  50     50         Showery.
+   28  47     42         Do.	            28  50     47         Unsettled.
+   29  45     43         Do.              29  54     46            Do.	     E. wind.
+   3O  5O     45         Do.              30  52     49            Do.	       Do.
+   31  43     38         Do.
+
+

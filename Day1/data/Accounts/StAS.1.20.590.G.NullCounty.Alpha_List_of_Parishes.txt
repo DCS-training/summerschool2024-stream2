@@ -1,0 +1,23 @@
+
+     County of Aberdeen.
+
+<TABLE>
+
+    Parish           Population   Population in   Increase.   Decrease.
+                      in 1755.      1790-1798.
+
+80  Tillynessle         335            412           77          10
+    Tough               570            560                      106
+    Towie               656            550    
+    Turress            1897           2029          132 
+    Tyrie               596            949          353            
+35  Udny               1322           1137                      185
+                    -------        -------       ------      ------      
+          Total,    116,836        122,921       16,904      10,819
+                                   116,836       10,819
+                                   -------       ------
+                       Increase,     6,085        6,085
+
+</TABLE>
+
+

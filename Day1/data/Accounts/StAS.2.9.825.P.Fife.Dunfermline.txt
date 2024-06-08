@@ -1,0 +1,63 @@
+
+                        DUNFERMLINE.                        825
+
+years specified, viz. from the beginning of 1825 to the end of
+1834, derived from observations made daily at nine o'clock in the
+morning. There is also a column to indicate the deviations in
+excess or defect of the means for each mouth from the mean
+height of the barometer, during the whole period of observation.
+
+<TABLE>
+                                                     Aberrations
+                 MONTHS. 	      Height at       of Monthly
+                                      9. A.M .	        Means.
+
+                                       Inches.	        Inches.
+             January    .    .    .     29.49	         +.05
+	     February	.    .    .     29.40	         -.04
+             March      .    .    .	29.43	         -.01
+             April	.    .    .     29.41	         -.03
+             May        .    .    .	29.55	         +.11
+             June	.    .    .     29.48	         +.04
+             July	.    .    .     29.51	         +.07
+             August     .    .    .	29.46	         +.02
+             September	.    .    .     29.45	         +.01
+             October	.    .    .     29.44	         =.00
+             November	.    .    .     29.35	         -.09
+             December	.    .    .     29.31	         -.13
+                                        -----                       
+                       Average Mean	29.44
+
+   Thus it appears that the average mean pressure, taken from
+the means of the months, is 29.44 ; that the means in excess are
+one more than in defect; that the former obtain in five conse-
+cutive months, from May to September, both inclusive; and that
+in the month of October there was an equality.
+   The mean height of the barometer during the twelve months,
+and the highest and lowest state of it in the course of each year
+of the above specified period, as also its annual range or difference
+between these two conditions, was as follows:-
+
+<TABLE>
+                   Mean Height
+       	YEARS     of Barometer    Highest.   Lowest.   Annual
+                  during Twelve		  	       Range.
+                     Months.
+        1825	     29.655        29.68     28.75      .93
+  	1826	     29.287	   29.56     29.11      .45
+	1827	     29.437	   29.57     28.90      .67
+	1828	     29.293	   29.64     29.01      .63
+	1829	     29.550	   29.73     29.18      .55
+	1830	     29.478	   29.80     29.25	.55
+	1831	     29.491	   29.69     29.29	.40
+	1832	     29.565	   29.74     29.42	.82
+	1833	     29.471	   29.87     29.02	.85
+	1834	     29.614	   29.87     29.19	.68
+                     ------        -----     -----      ---
+        Means	     29.403	   29.59     29.26	.50
+
+   2. The Temperature.-The following table shows the mean
+height of the thermometer during the twelve months of each of
+the years in the fore-mentioned period as also its highest and
+lowest state in each year of it:-
+

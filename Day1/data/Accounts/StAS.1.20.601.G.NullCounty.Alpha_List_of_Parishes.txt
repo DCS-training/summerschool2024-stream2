@@ -1,0 +1,48 @@
+
+     County of Edinburgh.
+
+<TABLE=COUNTY OF EDINBURGH.>
+
+Parish           Population   Population in   Increase   Decrease
+                   in 1755       1790-1798
+
+1  Borthwick        910             858                       52 
+   Calder, West     1294           1289
+   Canongate        4500           6200             1700       5
+   Carringtoun       555            329                      226
+5  Cockpen           640           1123               
+   Colingtown        792           1395              603
+   Corstorphine      995           1037               42
+   Cramond          1455           1485               30
+   Cranstoun         725            839              114
+10 Crichton          611            900              289 
+   Currie           1227           1300               73
+   Dalkeith         3110           4366             1256
+   Duddingston       989            910                      79
+   Edmburgh       31,112         31,898              776
+15 Falm              312            372               60 
+   Glencross         557            385                     172
+   Heriot            209            300               91
+   Inveresk         4645           5392              747
+   Kirknewton       1157            812                     345      
+20 Laswade          2190           3000              810      
+   Leith, North     2205           2409              204     
+   Leith, South     7100         11,432             4232      
+   Libbertoun       2793
+   Midcalder        1369           1251                     118
+25 Newbottle        1439           1295                     144
+   Newton           1199           1135                      64
+   Pennycuick        890           1721              831           
+   Ratho             930            825                     105
+   St Cuthberts    12,193        32,947           20,754     
+30 Stow              1294          1400              106
+31 Temple             905           593                     312
+                   ------       -------           ------   ----
+                   90,412       122,655           33,865   1622
+                                 90,412              612
+
+                  Increase,      32,245           32,243
+
+</TABLE>
+
+

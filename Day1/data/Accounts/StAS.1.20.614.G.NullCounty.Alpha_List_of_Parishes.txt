@@ -1,0 +1,51 @@
+
+     County of Perth.
+
+<TABLE>
+
+     Parish.     Population    Population in    Increase.   Decrease.
+                  in 1755.      1790-1798.
+
+     Gask             385             486             101
+     Glendovan        220             240              20
+     Inchture         893            1000             107
+40   Kenmore         3067            3463             396
+     Killin          1968            2360             392
+     Kilmadock       2730            3209             479
+     Kilspindie       828             718                        110
+     Kincardine      1250            2068             818
+45   Kinclaven        993            1150             157
+     Kinfauns         639             628                         11
+     Kinloch          331             372              41
+     Kinnaird         557             404                        153
+     Kinnoul         1163            1465             302
+50   Kirkmichael     2689            2200                        489
+     Lecropt          577             420                        157
+     Lethendy         346             367              21
+     Logie           1985            1500                        485
+     Logierait       2487            2200                        287
+55   Longforgan      1285            1526             241    
+     Maderty          796             631                        165
+     Meigle          1285            1148                        137
+     Methven         1790            1786                          4
+     Monedie         1492            1320                        172
+60   Monivaird       1460            1025                        435
+     Monzie          1192            1136                         56
+     Moulin          2109            1749                        360
+     Muckhart         535             526                          9
+     Muthil          2902            2948              46
+65   Perth           9019          19,871          10,852
+     Port            1865            1765                        100
+     Rattray          751             500                        251
+     Redgorton       1074            2123            1049
+     Rhind            498             495                          3
+70   St Madoes        189             300             111
+     St Martins      1083            1090               7
+     Scone            889            1442             553
+     Tippermuir       988            1280             292        
+
+</TABLE>
+
+     3
+
+

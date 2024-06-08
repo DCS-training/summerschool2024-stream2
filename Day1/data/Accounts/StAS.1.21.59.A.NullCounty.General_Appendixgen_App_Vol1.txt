@@ -1,0 +1,35 @@
+
+<TABLE>
+
+MEAN HEIGHTS of the THERMOMETER and BAROMETER, WEATHER, etc.  etc.  at Belmont Castle,
+                           for ten years, ending 1790.
+
+             Thermometer's              Barometer's		                   Days                   Wind Days       Coldest    Warmest        Mean Temperature               
+	       Height                     Height                  Rain       						   Month      Month     In the 3 win-   In the 3 sum-
+       Greatest   Least     Mean    Greatest   Least   Mean                Fair  Rain  Frost  Snow   Westerly  Easterly				ter months.     mer months.
+          Deg.     Deg.   Deg. Dec.  In Dec    In Dec  In Dec   In. Dec.								         Deg. Dec.        Deg. Dec.
+1781      82       10      48,7      30,56     28,04   29,64      27,80     196   158     9    11      216        134       Jan.       July.      36,  6          60,  7
+			   May.
+1782      81       16      44,6      30,30     28,32   29,58      34,40     178   142    37    45      193        153       Febr.      July       38,  0          57,  2
+			  October
+1783      80        0      47,2      30,47     28,10   29,61      30,40     199   143    24    23      223        125       Dec.       July.      36,  7          59,  6   
+                          October
+1784      76       10      44,6      30,33     28,42   29,64      23,80     192   121    52    53      189        146       Jan.       July.      32,  0          56,  7
+                          October
+1785      84       10      46,0      30,63     28,28   29,66      26,30     188   148    50    29      219        144       Febr.      July.      33,  0          60,  0
+                          October
+1786      79       12      45,3      30,29     28,16   29,60      29,25     179   155    34    31      215        143       Jan.       June.      34,  8          58,  9
+                           April
+1787      74       16      47,7      30,44     28,22   29,65      32,40     184   160    23    21      217        133       Dec.       Aug.       38,  9          57,  0
+                          October
+1788      74       17      46,8      30,61     28,60   29,75      24,50     212   132    35    22      213        136       Dec.       July       35,  7          58,  5
+                          October
+1789      76       12      46,5      30,73     28,01   29,55      43,40     155   191    21    19      213        135       Jan.       Aug.       34,  7          58,  2
+                          October
+1790      70       25      47,1      30,52     28,35   29,67      31,75     189   160    11    16      223        116       Dec.       Aug.       41,  6          57,  0
+                          October
+Mean      77,6     12,9    46,35     30,49     28,25   29,63      30,40     187   151    30    27      212        163                             36,  2          58,  4
+
+</TABLE>
+
+

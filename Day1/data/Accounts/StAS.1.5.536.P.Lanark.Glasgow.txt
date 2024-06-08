@@ -1,0 +1,43 @@
+
+     Statistical Account
+
+<TABLE>
+
+COMMON NAMES.                 SYNONIMA LINNEI.
+
+               AMPHIBII NANTES.
+
+                        Genera.                Species.
+Lamprey,                Petromyson,           Fluviatilis.
+Skate,                  Raja,                 Batis.
+Thornback,              Ibid,                 Clavata.
+Basking Shark,          Squatus,              Maximus.
+Piked Dog-fish,         Ibid.                 Spinax.
+Rough Dog-fish,         Ibid.                 Catulus.
+Smooth Dog-fish,        Ibid.                 Musterus.
+Sturgeon,               Accipenser,           Sturio.
+Lump Fish, or Sea Owl,  Cyclopefus,           Lumpus.
+Pipe Fish,              Syngnathus,           Barbatus.
+
+                      APODES.
+
+Eel,                         Muroena,               Anguilla.
+Sand Eel, or Launce,         Ammodytes,             Tobianus.
+
+                    JUGULARES.
+Dragonet,             Callionymus,          Lyra.
+Sordid Dragonet,      Ibid.                 Dracunulus.
+Weaver,               Trachinus,            Draco. 
+Cod,                  Gadus,                Morhua.
+Haddock.              Ibid.                 Oglefinus.
+Whiting Pout, or
+  Gildee,             Ibid.                 Barbatus.
+Blinds, or Miller;s   
+Thumb,                Ibid.                 Luscus.
+Seath,                Ibid.                 Carbonarius.
+Lythe,                Ibid.                 Pollachius.
+Whithing,             Ibid.                 Mertangus.
+
+</TABLE>
+
+

@@ -1,0 +1,33 @@
+
+     Statistical Account
+
+<TABLE=II. BIRDS.-LAND-BIRDS.>
+
+    Latin Names.                    English.             Scotch.         Gaelic.
+Fringilla domestica.  Lin.        Sparrow                               Gealbhan
+Linaria. Gesner.                  Linnet                Lintwhite       Gealan-lin
+*Muscicapa grisola.  Lin.         Fly catcher
+Alauda arvensis.  Lin.            Sky lark              Laverock        Uiseag
+Alauda arborea.  Lin.             Wood lark                             Riabhag choille    
+Alauda pratensis.  Lin.           Tit lark              Titling         Riabhag mhonaidh
+Motacilla alba.  Lin.             White wagtail                         Breac-ant-sil
+Motacilla flava.  Lin.            Yellow wagtail
+*Motacilla phaenicurus.  Lin.     Red start                             Ceann-dearg
+Motacilla rubecula.  Lin.         Red breast                            Broinn-dearg
+Motacilla trochilus.  Lin.        Yellow wren
+Motacilla regulus.  Lin.          Golden crested wren
+Motacilla troglodytes.  Lin.      Wren                                  Dreathan
+*Motacilla Onanthe.  Lin.         Wheat-ear
+*Motacilla rubetra.  Lin.         Whin-chat
+Motacilla rubicula.  Lin.         Stone-chatter                         Cloichearan
+*Motacilla sylvia.  Lin.          White throat
+Parus major.  Gesner.             Great titmouse
+Parus caeruleus.  Gesner.         Blue titmouse          Ox-eye
+Parus ater.  Lin.                 Colemouse                             Cailcheag chean-dubh
+Parus caudatus.  Lin.             Longtailed titmouse
+*Hirundo rustica.  Lin.           House swallow                         Gobhlan-gaoith
+*Hirundo riparia.  Lin.           Sand martin                           Gobhlan-gainbhich
+
+</TABLE>
+
+

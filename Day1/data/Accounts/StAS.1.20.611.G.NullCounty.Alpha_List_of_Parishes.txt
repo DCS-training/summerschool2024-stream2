@@ -1,0 +1,57 @@
+
+     County of Nairn, etc.
+
+<TABLE=COUNTY OF NAIRN.>
+
+   Parish.       Population     Population in    Increase.   Decrease.
+                  in 1755.        1790-1798.
+
+1  Ardclach           1163            1186            23
+   Auldearn           1951            1406                      545
+   Calder              882            1062           180
+ 4 Nairn              1698            2400           702
+                      ----            ----           ---         ---
+                      5694            6054           905         545
+                                      5694           545
+                                      ----           ---        
+                       Increase,       360           360
+
+</TABLE>
+
+<TABLE=COUNTY OF ORKNEY AND SHETLAND.
+ORKNEY.>
+
+1   Cross, Burness, etc.         1250     1389      139
+    Dearness and St Andrew's     1650     1335              315
+    Evie and Rendall             1798     1564              234
+    Firth and Stenness           1108     1186       78
+5   Harray and Birsay            2200     2013              187
+    Holm                         1185      702              483
+    Hoy and Gremsay               520      410              110
+    Kirkwall                     1989     2550      561
+    Ladykirk                      750      803       53
+10  Orphir                        855      826               29
+    Rousay and Eglishay           978     1072       94
+    Shapinshay                    642      730       88
+    South Ronaldshay, etc.       1996     1954               42
+    Stromness and Sandwick       2677     3012      335
+15  Stronsay and Eday            1493      887              606
+    Walls and Flota              1000      991                9
+    Westray and Papa Westray     1290     1629      339
+                               ------   ------     ----    ----     
+           Total, Orkney,      23,381   23,053     1687    2015
+
+</TABLE>
+
+     SHETLAND.
+
+<TABLE>
+
+Bressay and Burray             1098    1223   127
+Delting                        1221    1504   283
+
+</TABLE>
+
+     VOL. XX.   4 I
+
+

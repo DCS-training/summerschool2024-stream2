@@ -1,0 +1,40 @@
+
+     of Longforgan.
+
+   Annexed is a Meteorological Table, extracted from the register of a very ingenious gentleman in the neighbourhood, tak
+at his house upon the northern banks of the Tay, and within two miles of the eastern boundaries of this parish, and which ca
+not very much from the state of the weather in part of the Carse which lies between the hills and the river Tay.
+
+<UNREADABLE>
+
+<TABLE>
+
+                                           Thermometer
+Years.   Barometer, height                                                        Number of days in the                              Winds, Number of days.                                 Rain
+                                  Height.               Mean  Heat                year.                                                                                                     fallen
+         Greatest   Least    Greatest   Least   3 winter   3 summer   Through     With    With                                                                                  Most pre-   Quant. in
+                                                months.    Months.    the year.   rain.   snow.   Fair    North   N. East   East   S. East   South   S. West   West   N. West   valent in   inches
+                                                                                                                                                                                a year
+
+         degree     degree   degree     degree  degree     degree     degree
+1785,    30,90      28,30      83         21    41 2/3     57         50 1/2       91      14     260       25      30       59        6        5      125      86      29      S. W.       17 1/4
+1786,    30,34      28,59      75         16    41 1/12    54 1/5     49           87      33     245       20      51       46       21       10       86      97      34      W.          19 3/8      
+1787,    30,40      28,27      73         23    37 2/3     61 1/10    49 1/2       99      26     240       19      34       71       14        7      104     100      16      S. W.       24 1/2
+1788,    30,61      28,59      73         21    35 1/2      1 1/2     48 1/2       85      32     249       18      26       71        9       10      108     113      11      W.          16
+1789,    30,72      28,10      73         20    34         64 1/4     50 2/3      124      34     207       26      26       74       11        8       94     116      10      W.          29 1/4
+1790,    30,41      28,34      70         28    39 2/3     63 1/5     51          111      16     238       22      33       54       10        5       91     140      10      W.          22
+1791,    30,40      28,18      71         20    36 1/3     61 1/4     50          114      17     234       40      29       49       10        8       82     125      22      W.          23 1/2
+1792,    30,40      28,60      74         21    33 3/4     63 1/3     53 1/4      138      28     200       35      36       61        7       10      104      88      25      S. W.       34
+1793,    30,35      28,35      78         29    35 1/2     63 1/2     50          107      18     240       19      29       69       10        8      129      88      13      S. W.       28
+1794,    30,19      28,40      77         20    38         66         51 3/4      108      14     243       25      19       68       14       17      111      94      17      S. W.       30
+1795,    30,70      28,53      74         19    32 2/3     60 1/5     49 3/4      122      38     205       39      35       70        9       13       98      81      20      S. W.       28
+
+     REGISTER AT CASTLE-HUNTLY, FOR
+
+1796,    30,70      28,16      77         17    40 1/6     60 2/3     50          141      22     203       15      13       46       45        6      122      97      22      S. W.       20
+
+</TABLE>
+
+</UNREADABLE>
+
+

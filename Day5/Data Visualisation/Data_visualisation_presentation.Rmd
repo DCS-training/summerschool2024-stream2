@@ -1,0 +1,481 @@
+---
+title: "Plot Presentation"
+author: "DCS"
+date: "`r Sys.Date()`"
+output: 
+  slidy_presentation:
+    incremental: true
+---
+
+### Install and Set up
+
+On Noteable
+
+```{r Install, echo = FALSE}
+#install.packages("plotly")
+#install.packages("extrafont")
+#install.packages("gghalves")
+```
+
+On Posit
+
+```{r Install Posit, echo = FALSE}
+#install.packages("tidyverse")# Only if not there anymore
+#install.packages("plotly")
+#install.packages("extrafont")
+#install.packages("gghalves")
+```
+
+Load libraries and files
+
+```{r Load , echo = FALSE, warning=FALSE, comment=FALSE}
+library(extrafont) #additional fonts - will not work in noteable, but useful for own device! 
+# font_import() #gain access to additional fonts - WARNING - will take a long time
+#loadfonts(device = "win") #load fonts into R - Mac users: change "win" to "all".
+library(tidyverse) # data tidying
+library(plotly) # interactive plot
+library(gghalves) # half plots - useful for layering distribution plots
+
+
+Whisky_data <- read_csv(url("https://raw.github.com/DCS-training/SummerSchoolStream2ContentTesting/main/Day1/RMD_file_data/tidied_whisky_data.csv")) %>%
+  mutate_if(is.character, as.factor)
+
+```
+
+## Grammar of Graphics {#sec-grammar-of-graphics}
+
+-   A set of rules to facilitate data visualisation developed by [Leland Wilkinson](https://link.springer.com/book/10.1007/0-387-28695-0).
+-   It allows us to think of plot generation by following a step by step recipe (and like all good recipes, can be modified when needed).
+-   For a full overview, check out [Hadley Wickham's free textbook](https://ggplot2-book.org/layers#introduction) on using ggplot.
+-   For inspiration on more complex plots and advanced techniques, [Cedric Sherer's blog](https://www.cedricscherer.com/tags/ggplot2/) is full of great ideas!
+
+## Grammar of Graphics
+
+The recipe of a nice tasty plot includes:
+
+1)  The data
+2)  Aesthetic Mapping
+3)  Geometric Objects and Statistical transformations
+4)  Scaling and Faceting
+5)  Themes
+
+## What does this mean? {#sec-what-does-this-mean}
+
+-   [GGplot (grammar of graphics plot)](https://www.tandfonline.com/doi/abs/10.1198/jcgs.2009.07098) has the grammar of graphics built into its structure.
+-   This allows us to build plots in layers.
+-   The plots start from the data, and build all the way up to the decorations.
+-   This provides us with a lot of control to get the plots exactly as we want them.
+
+## What does this mean?
+
+```{r fancyplot, echo = FALSE}
+
+fancy_plot <-  Whisky_data %>% # assigning our code to "plot object"
+  filter(category  == "Single Malt Scotch")%>% 
+  count(Owner) %>%
+  top_n(n = 2) %>% 
+  left_join(Whisky_data) %>%
+ggplot(
+  aes(x = Region, y = review.point, fill = Region)) + 
+ # geom_violin() +
+  geom_boxplot()+
+  stat_summary(fun.data = mean_se,
+    color = "black", linewidth = 1, size = 1)+
+  stat_summary(fun.data = mean_se,
+    color = "white", linewidth = .7, size = .7)+
+  facet_wrap(~reorder(Owner, -n), 
+    ncol = 1, 
+    scales = "free_y", 
+    strip.position = "top") +#
+  coord_flip()+
+  scale_fill_manual(
+    values = c(Speyside = "#6072A0", Lowland = "#C7AC59", Highland = "#6F3A7E", 
+               Islay = "#A84046", Island = "#D40A9F", Campbeltown = "#3A8259" )) + 
+  theme_bw() + 
+  theme(strip.background = 
+    element_rect(fill="#EAF3FD",
+    color = "black",
+    linewidth = .7),
+    axis.title.y = element_blank(),
+    axis.text.y = element_blank(),
+    axis.ticks.y = element_blank(),
+    panel.background = element_rect(fill = '#F9F9F9', colour = 'black'),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    legend.position = "top",
+    text= element_text( # command to control text
+    size=12, #font size
+    family="Franklin Gothic Medium", #font style
+    face = "bold")) + # choose bold/italics/default
+  labs(x = "",
+    y = "Online Review Scores",
+    title = "Whisky Review Scores by Region from the Top 3 largest Producers")
+  fancy_plot
+ggplotly(fancy_plot) 
+
+```
+
+## Building our Plot
+
+-   Our first call is to use the function `ggplot()`
+-   By itself, it looks like this:
+
+```{r ggplot_function, echo = TRUE}
+
+ggplot()
+```
+
+## Data layer
+
+-   From there, we need to specify the data we need.
+-   We can feed in the data as it is.
+-   Or we can wrangle the data specifically for the visualisation.
+-   However, at this stage our plot is still blank.
+
+## Data Layer
+
+```{r data_layer, echo = TRUE}
+
+
+# Regular data
+ggplot(data = Whisky_data)
+
+
+```
+
+## Adding our coordinates
+
+-   Our plots are empty as we've not told *R* what variables to use.
+-   Thankfully, the command is very simple, using the `aes()` command after specifying the data.
+-   Here we simply label our *x* and *y* coordinates.
+-   But as we will see, we still don't have any visual ques in the plot itself.
+
+## Adding our coordinates
+
+```{r coordinates, echo = TRUE}
+
+
+# Standard version
+ggplot(data = Whisky_data,
+  aes(x = Region, y = review.point)) # setting x and y
+
+```
+
+## Graphic element of the plot
+
+-   Here we link the **coordinates** from our **data** to visual geometries.
+-   We use geoms (geometric functions) to decide how to shape the coordinates.
+-   This allows us to shape our plot with our determined coordinates.
+-   We can also apply statistical functions with the geoms.
+-   We can place multiple geom layers.
+-   The order of our layers is determined by the order we code.
+
+## Graphic element of the plot {#sec-graphic-element-of-the-plot}
+
+```{r geoms, echo = TRUE}
+
+
+# First Layer
+ggplot(data = Whisky_data,
+  aes(x = Region, y = review.point)) + # setting x and y 
+  geom_half_boxplot()
+```
+
+```{r geoms_2, echo = TRUE}
+
+# Second Layer
+ggplot(data = Whisky_data,
+  aes(x = Region, y = review.point))+
+  geom_half_boxplot(size = .5, width = .2)+ # scaling size and width
+  geom_half_violin(side = "r") #choosing right side for aesthetics
+
+
+```
+
+## Adding statistical layers
+
+-   Here we can model visualise any model we've used in our analyses.
+-   This is a vital step for communicating our research.
+-   It's also a fundamental step in validating our findings.
+-   R has so many options for visualising our models! From loess and linear models, to means and standard deviations.
+
+## Adding statistical layers
+
+```{r geoms_3, echo = TRUE}
+
+# Second Layer
+ggplot(data = Whisky_data,
+  aes(x = Region, y = review.point))+
+  geom_half_boxplot(size = .5, width = .2)+ # scaling size and width
+  geom_half_violin(side = "r") + #choosing right side for aesthetics
+  stat_summary(fun.data = mean_se,
+    color = "black", linewidth = 1.2, size = 1.2)+ # adjusting size
+  stat_summary(fun.data = mean_se, 
+    color = "white", linewidth = .7, size = .7) # making smaller for a white centre
+
+```
+
+## Scaling our plots
+
+-   This is closer, but we can see that our plots need some serious work.
+-   We have an influential outlier that's causing havoc.
+-   We can also account for other influential variables (like like owners).
+-   We can focus our data for a clearer narrative.
+-   We can also tweak the coordinates.
+
+## Scaling our plots
+
+```{r scaled_geoms, echo = TRUE}
+
+
+Whisky_data %>% # 
+  filter(category  == "Single Malt Scotch") %>% #filter to include only single malt
+  count(Owner) %>% # counting Owner
+  top_n(n = 2) %>% # so we get top 2 Owners by count
+  left_join(Whisky_data) %>%  # joining back to data
+ggplot(
+  aes(x = Region, y = review.point))+
+  geom_half_boxplot(size = .5, width = .2)+ 
+  geom_half_violin(side = "r") +
+  stat_summary(fun.data = mean_se, 
+    color = "black", linewidth = 1.2, size = 1.2)+
+  stat_summary(fun.data = mean_se,
+    color = "white", linewidth = .7, size = .7)
+  
+```
+
+## Scaling our plots
+
+```{r scaled_geoms_2, echo = TRUE}
+
+
+Whisky_data %>% # 
+  filter(category  == "Single Malt Scotch") %>% 
+  count(Owner) %>% 
+  top_n(n = 2) %>% 
+  left_join(Whisky_data) %>% 
+ggplot(
+  aes(x = Region, y = review.point, 
+      fill = Region))+
+  geom_half_boxplot(size = .5, width = .2)+ 
+  geom_half_violin(side = "r") +
+  stat_summary(fun.data = mean_se, 
+    color = "black", linewidth = 1, size = 1)+
+  stat_summary(fun.data = mean_se, 
+    color = "white", linewidth = .6, size = .6) +
+  facet_wrap(~reorder(Owner, -n), # faceting by Owner, ranking by descending n
+    ncol = 1, # number of columns 
+    scales = "free_y", #changed to "free_y" to drop unused labels
+    strip.position = "bottom") + #label position +
+  coord_flip() # flipping chart on its side
+```
+
+## Setting themes and color schemes
+
+-   Some journals will require certain stylistic designs for your figures.
+-   This will include colour schemes, but also includes fonts and other design features.
+-   Thankfully ggplot allows us to control these aspects of the plot with full customisation options as well.
+-   Here we will inspire our colour scheme from The Scotch Whisky Experience tour material colour palate (and I use Power Point to get the colour hex codes).
+
+## Setting themes and color schemes
+
+-   Pre-made colour and theme options also exist:
+-   [Journal color schemes](https://cran.r-project.org/web/packages/ggsci/vignettes/ggsci.html#Introduction)
+-   [Theme options](https://yutannihilation.github.io/allYourFigureAreBelongToUs/ggthemes/)
+-   [Wes Anderson Color Scheme](https://github.com/karthik/wesanderson)
+
+## Setting themes and color schemes
+
+### Decluttering our code
+
+```{r taming_code, echo = TRUE}
+
+plot <- Whisky_data %>% 
+  filter(category  == "Single Malt Scotch") %>% 
+  count(Owner) %>% 
+  top_n(n = 2) %>% 
+  left_join(Whisky_data) %>% 
+ggplot(
+  aes(x = Region, y = review.point, fill = Region))+
+  geom_half_boxplot(size = .5, width = .2)+ 
+  geom_half_violin(side = "r") +
+  stat_summary(fun.data = mean_se, 
+    color = "black", linewidth = 1, size = 1)+
+  stat_summary(fun.data = mean_se,
+    color = "white", linewidth = .6, size = .6) +
+  facet_wrap(~reorder(Owner, -n), 
+    ncol = 1, 
+    scales = "free_y", 
+    strip.position = "bottom") + 
+  coord_flip()
+
+plot
+```
+
+## Setting themes and color schemes
+
+```{r themes_and_color_schemes, echo = TRUE}
+
+plot +
+  scale_fill_manual(
+    values = c(Speyside = "#6072A0", Lowland = "#C7AC59", Highland = "#6F3A7E", 
+               Islay = "#A84046", Island = "#D40A9F", Campbeltown = "#3A8259" )) + #setting to discrete variables
+  theme_bw() + # from ggthemes
+  theme(strip.background = # play with facet label
+    element_rect(fill="#EAF3FD",# facet label fill
+    color = "black"), #facet label border
+    legend.position = "bottom", # change legend position,
+    panel.background = element_rect(fill = '#F9F9F9', colour = 'black'), # background and border
+    panel.grid.major = element_blank(), # removing gridlines
+    panel.grid.minor = element_blank()  # removing gridlines
+        ) 
+```
+
+## Setting themes and color schemes - font
+
+```{r, font, echo = TRUE}
+#initialising fonts - 
+## Uncomment and copy + paste, and run this step in console
+## Its too slow and intensive to run through quatro/markdown itself
+# library(extrafont) # library for fonts tools
+# font_import() #gain access to additional fonts
+# loadfonts(device = "win") #load fonts into R
+```
+
+## Setting themes and color schemes: Font
+
+```{r themes_and_color_schemes_font, echo = TRUE}
+
+
+better_plot <- plot +
+  scale_fill_manual(
+    values = c(Speyside = "#6072A0", Lowland = "#C7AC59", Highland = "#6F3A7E", 
+               Islay = "#A84046", Island = "#D40A9F", Campbeltown = "#3A8259" )) + 
+  theme_bw() + 
+  theme(strip.background = 
+    element_rect(fill="#EAF3FD",
+    color = "black"),
+    legend.position = "bottom",
+    panel.background = element_rect(fill = '#F9F9F9', colour = 'black'),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    text= element_text( # command to control text
+    size=16, #font size
+    family="Comic Sans MS") #font style
+        ) 
+
+better_plot
+```
+
+## Setting themes and color schemes - font
+
+```{r lFont_change, echo = TRUE}
+
+better_plot <- plot +
+  scale_fill_manual(
+    values = c(Speyside = "#6072A0", Lowland = "#C7AC59", Highland = "#6F3A7E", 
+               Islay = "#A84046", Island = "#D40A9F", Campbeltown = "#3A8259" )) + 
+  theme_bw() + 
+  theme(strip.background = 
+    element_rect(fill="#EAF3FD",
+    color = "black"),
+    legend.position = "none", # dropping legend, as label is clear
+    panel.background = element_rect(fill = '#F9F9F9', colour = 'black'),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    text= element_text( # command to control text
+    size=16, #font size
+    family="Franklin Gothic Medium", #font style
+    face = "bold"), # choose bold/italics/default
+        ) 
+
+better_plot
+```
+
+## Labelling our plot
+
+-   Our plot is now almost ready to go!
+-   We just need to customise our labels.
+-   This helps make our plots more informative
+
+## Labelling our plot
+
+```{r labelled_plot, echo = TRUE}
+
+fancy_plot<- better_plot +
+  labs(
+       x = "",
+       y = "Review Scores",
+       title = "Whisky Review Scores by Region from the Top 3 largest Producers")
+
+fancy_plot
+```
+
+## Labelling our plot
+
+```{r}
+
+fancy_plot
+```
+
+## Bonus - Interactive plot
+
+-   Using the `plotly` package, we can make our plots interactive when in html format.
+-   This can be very useful for presenting our data to a live audience.
+-   It can also be useful for teaching purposes - to help students understand what our coefficients mean visually.
+-   Note that some features of the plot maybe lost, as `plotly` uses a slightly different structure to ggplot.
+-   Otherwise, it is very easy to convert our plot with the `ggplotly()` function
+
+## Bonus - Interactive plot
+
+```{r interactive_plot, echo = TRUE}
+
+p <-  Whisky_data %>% # assigning our code to "plot object"
+  filter(category  == "Single Malt Scotch")%>% 
+  count(Owner) %>%
+  top_n(n = 2) %>% 
+  left_join(Whisky_data) %>%
+  ggplot(
+    aes(x = Region, y = review.point, fill = Region))+
+      geom_boxplot()+ 
+  scale_fill_manual(
+    values = c(Speyside = "#6072A0", Lowland = "#C7AC59", Highland = "#6F3A7E", 
+               Islay = "#A84046", Island = "#D40A9F", Campbeltown = "#3A8259" )) +
+    stat_summary(fun.data = mean_se, 
+      color = "black", linewidth = 1, size = 1)+
+    stat_summary(fun.data = mean_se, 
+      color = "white", linewidth = .6, size = .6) +
+  facet_wrap(~reorder(Owner, -n) , 
+      ncol = 1, 
+      scales = "free_y", 
+      strip.position = "bottom") + 
+  coord_flip() + 
+  theme_bw()+
+  theme(strip.background = 
+    element_rect(fill="#EAF3FD",
+    color = "black",
+    linewidth = .4),
+    text= element_text( # command to control text
+    size=16, #font size
+    family="Franklin Gothic Medium", #font style
+    face = "bold"), # choose bold/italics/default
+    panel.background = element_rect(fill = '#F9F9F9', colour = 'black'),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank()
+        ) + 
+  labs(x ="",
+       y = "Online Review Scores",
+       title = "Whisky Review Scores by Region from the Top 3 largest Producers")
+
+p # ggplotly(p)
+```
+
+## Bonus - Interactive plot
+
+```{r}
+
+ggplotly(p)
+# this is the code
+# We had to comment it out, as plotly didnt play nicely.
+
+```

@@ -1,0 +1,43 @@
+
+     Statistical Account
+
+tisms for ten years, commencing in 1627, and of baptisms,
+marriages, and deaths, for ten years, commencing in 1700
+and 1780.  The account of the baptisms since 1780 may not
+be perfectly exact; because, since the duty was laid upon the
+registration of their names, some have neglected to get them
+registered, but they are not many.
+
+<TABLE>
+
+   Years.   Bapt.   Years.   Bapts.   Mar.   Deaths.
+   1627,     38     1700,      36      9       16
+   1628,     24     1701,      33     15       14
+   1629,     32     1702,      39      8       14
+   1630,     24     1703,      37     14       20
+   1631,     42     1704,      50     25       30
+   1632,     59     1705,      39     10       22
+   1633,     50     1706,      36     12       20
+   1634,     32     1707,      50     13       13
+   1635,     20     1708,      51     14       18
+   1636,     31     1709,      49      6       24
+            ----             ----   -----    -----
+            352               420    126      191
+
+   
+                    1780,      37     12       37
+                    1781,      28     12       23
+                    1782,      28      9       25
+                    1783,      23     14       36
+                    1784,      30     12       32
+                    1785,      37     15       30
+                    1786,      18     11       18
+                    1787,      31     10       14
+                    1788,      28      8       19
+                    1789,      38      7       16
+                             -----  -----    -----
+                              298    110      250
+
+</TABLE>
+
+

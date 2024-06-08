@@ -1,0 +1,61 @@
+
+     County fo Kincardine, etc.
+
+<TABLE>
+
+Parish.          Population   Population in   Increase.   Decrease
+                  in 1755.       1790-1798.
+
+5  Bervie          655           1200         545
+   Conveth         757           1200         443
+   Dunnotter      1570           1962         392
+   Durris          889            651                    238 
+   Fettercairn    1950           2000          50 
+10 Fetteressoe    3082           3370         288
+   Fordun         1890           2258         368
+   Garvock         755            460                    295
+   Glenbervie      958           1307         349
+   Kinneff         858           1000         142
+15 Maryculter      746            719                     27
+   Marykirk       1285           1481         196
+   Nigg           1289           1090                    199
+   St Cyrus       1271           1763         492
+19 Strachan        796            700                     96
+                ------         ------        ----       ----
+                24,346         26,799        3704       1251
+                               24,346        1251
+                               ------        ----
+                     Increase,   2453        2453
+
+</TABLE>
+
+<TABLE=COUNTY OF KINROSS.>
+
+1 Cleish           692             653                    39
+  Kinross         1310            1839         529   
+  Orwell          1891            1705                   186                        
+4 Portmoak         996            1105         109
+                  ----            ----         ---       ---                   
+                  4889            5302         638       225
+                                  4889         225
+                                  ----         ---
+                      Increase,    413         413
+
+</TABLE>
+
+<TABLE=COUNTY OF KIRKKCUDBRIGHT.>
+
+1  Anwoth           531            495          36
+   Balmaclellan     534            495          39
+   Balmacghie       697            862         165   
+   Borg             697            771          74   
+5  Buittle          899            855          44
+   Carsefairn       609            461         148
+   Colvend          898            964          66   
+   Crossmichael     613            772         159
+   Dalry            891           1100         209
+10 Girthon          367           1730        1363
+
+</TABLE>
+
+

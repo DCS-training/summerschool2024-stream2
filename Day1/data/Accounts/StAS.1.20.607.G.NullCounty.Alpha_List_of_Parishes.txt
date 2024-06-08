@@ -1,0 +1,58 @@
+
+     County of Inverness, etc.
+
+<TABLE>
+
+Parish.        Population      Population in      Increase.     Decrease.
+                in 1755.        1790-1798.
+
+   Croy             1901             1552                             349
+   Daviot           2176             1697                             479
+   Durris           1520             1365                             155
+10 Glenelg          1816             2746             930
+   Inverness        9730           10,527             797
+   Kilmanivang      1995             2400                             595
+   Kilmalie         3093             4031             938           
+   Kalmorack        2830             2318                             512
+25 Kinguslie        1900             1983              83  
+   Kukhill          1360             1570             210          
+   Laggan           1460             1512              52
+   Moy              1693             1813             120
+   Petty            1643             1518                             125
+20 Urquhart         1943             2355             412
+
+Continental part  46,167           48,701             5042           2508
+ISLANDS.  
+       Bracadale    1907             2250              343
+       Diurinish    2568             3000              432
+       Kilmuir      1572             2065              493
+Sky    Portree      1385             1980              595
+25     Sleat        1250             1788              538
+       Smzort       1627             1808              181
+       Strath        943             1579              636
+
+                  11,252           14,470             3218
+       Barray       1150             1604              454
+       South Uist   2209             3450             1241
+30     North Uist   1909             3218             1309
+31     Harris       1969             2536              567
+                  ------           ------             ----        
+    Total island  18,489           25,278             6789
+                  ------           ------           ------           ----
+           Total  64,656           73,979           11,831           2508
+                                   64,656             2508  
+                                   ------           ------
+                 Increase            9323             9323
+
+</TABLE>
+
+<TABLE=COUNTY OF KINCARDINE.>
+
+1   Arbuthnot            997          1041              44       
+    Banthory Devenich    1495         1700             205 
+    Banchonry Ternan     1736         1340                           396
+    Benholm              1367         1557             190
+
+</TABLE>
+
+

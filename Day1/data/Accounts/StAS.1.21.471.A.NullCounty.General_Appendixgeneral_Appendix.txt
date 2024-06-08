@@ -1,0 +1,48 @@
+
+     The Statistical Account.
+
+     TABLE
+
+     OF THE
+
+     REAL AND VALUED RENT
+
+     OF
+
+     SCOTLAND,
+
+     BY COUNTIES.
+
+<TABLE>
+
+		   Real rent,	           Valued rent,
+		    Sterling. 	             Scotch.
+
+Aberdeen,     	  L. 135,652    -     L. 235,665   8   11
+Air,                 165,800    -        191,605   0    7
+Argyle,              112,752    -        149,595  10    0
+Banff,                43,490    -         79,200   0    0
+Berwick,             118,800    -        178,365   7    3 1/2
+Bute and Arran,        9,000    -         15,022  13    8
+Caithness,            19,960    -         37,256   2   10
+Clackmannan,          14,200    -         26,482  10   10
+Cromarty,              7,000    -         12,897   2    8
+Dumfries,            109,700    -        158,627  10    0
+Dunbarton,            34,250    -         33,327  19    0
+Edinburgh,           151,500    -        191,054   3    9
+Elgin,                41,420    -         65,603   0    5
+Fife,                174,900    -        362,584   7    5
+Forfar,              122,000    -        171,636   0    0
+Haddington,           86,960    -        168,878   5   10
+Inverness,            70,530    -         73,188   9    0
+Kincardine,           38,500    -         74,921   1    4
+Kinross,              12,710    -         20,192  11    2
+Kirkcudbright,        96,730    -        114,571  19    3
+Lanark,              127,000    -        162,118  16   10
+Linlithgow,           44,330    -         74,931  19    2
+                    --------            ------------------- 
+                   L 737,184           2,597,725  19   11 1/2
+
+</TABLE>
+
+

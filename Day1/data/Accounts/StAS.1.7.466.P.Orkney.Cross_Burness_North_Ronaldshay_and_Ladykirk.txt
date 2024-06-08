@@ -1,0 +1,43 @@
+
+     Statistical Account
+
+<TABLE>
+
+Years.   Males.   Fem.   Males more   Fem. more     Total.
+                         than Fem.    than Males.
+1771,     14       17        0            3           31
+1772,     13       13        0            0           26
+1773,     21       13        8            0           34
+1774,     19       20        0            1           39
+1775,      8       18        0           10           26
+1776,     16       15        1            0           31
+1777,     27       15       12            0           42
+1778,     14       14        0            0           28
+1779,     15       18        0            3           33
+1780,     21       19        2            0           40
+1781,     21       18        3            0           39
+1782,     25       21        4            0           46
+1783,     23       19        4            0           42
+1784,     10       16        0            6           26
+1785,     25       18        7            0           24
+1786,     17       16        1            0           33
+1787,     20       26        0            6           46
+1788,     22       15        7            0           37
+1789,     19       23        0            4           42
+         ---      ---       --           --          ---
+         350      334       49           33          684
+
+In this period of 19 years, from 1771 1789 inclusive, the
+yearly average of males is 181 8/10.  The yearly average of fe-
+males 17 11/19.  The yearly average of both 36.  The propor-
+tion of males to females as 23, say 23 males to 22 females.
+These are the births in the united parishes of Cross, Burness,
+and North Ronaldshay, the population of which is 1353; so
+that the births are to the population as 1 to 37 22/36.
+
+</TABLE>
+
+   By the foregoing statement, it appears that the population
+can scarcely be supported, although there are few that emi-
+
+

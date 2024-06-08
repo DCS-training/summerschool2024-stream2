@@ -1,0 +1,55 @@
+
+     County of Forfar
+
+<TABLE>
+
+Parish.            Population         Population in       Increase.      Decrease
+                    in 1755.           1790-1798
+
+   Essie and Nevay        500                 630              130
+   Fearn                  500                 490                             10
+   Fernell                799                 620                            179
+   Forfar                2450                4756             2306
+10 Glammis               1780                2040              260       
+   Glenisla              1852                1018                            834
+   Guthne                 584                 571                             10 
+   Innerarity             996                 929                             67
+   Inverkerlon           1286                1747              461 
+25 Kettins               1475                1100                            375
+   Kingoldrum             780                 600                            180
+   Kinnel                 761                 830               69     
+   Kinnettles             616                 621                5
+   Kirkden                585                 727              142 
+30 Kirrymuir             3409                4352              949
+   Lentrathen            1165                 900                            165
+   Lethnot                635                 505                            130     
+   Liff                  1311                1790              479   
+   Lochlee                686                 608                             78
+35 Logie Pert             696                 999              303 
+   Lunan                  208                 291               83  
+   Mains                  709                 878              169
+   Maryton                633                 529                            104
+   Menmuir                743                 900              157  
+40 Moncikie              1345                1278                             67
+   Moniseith             1421                1218                            203
+   Montrose              4150                6194             2044       
+   Muirhouse              623                 462                            161
+   Newtyle                913                 594                            319
+45 Oathlaw                435                 430                              5
+   Panbrade              1259                1460              201        
+   Rescobie               798                 934              136  
+   Ruthven                280                 220                             60
+   St Vigean             1592                3336             1744     
+50 Strathmartine          368                 340                             28        
+   Strickathro            529                 672              143
+   Tannadyce             1470                1470               
+53 Tealing                735                 802               67
+                       ------              ------           ------         ----                  
+                       68,297              91,001           26,354         3650
+                                           68,297             3650     
+                                           ------           ------
+                          Increase,        22,704           22,704
+
+</TABLE>
+
+

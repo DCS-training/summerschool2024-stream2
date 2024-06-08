@@ -1,0 +1,26 @@
+
+<APPENDIX>
+
+<TABLE>
+
+   Crops.      Carfe clay    Till per      Loam per      Sandy soil
+                per acre.      acre.        acre.         per acre.
+  
+Wheat,          8 bolls.     none used.    none used.    none used.
+Rye,            8 ditto.     none used.    none used.    none used.
+Oats,           7 ditto.      6 bolls.      6 bolls.      5 bolls.
+Barley,         7 ditto.      6 ditto.      6 ditto.      5 ditto.
+Peas and 
+  beans,        7 ditto.      6 ditto.      5 ditto.      5 ditto.
+Clover and
+  rye-grass,   200 stone.    200 stone.   150 stone.    150 stone.
+   
+   Crops.                     Increase per acre.
+
+Flax,
+Turnips,
+Potatoes,
+
+</TABLE>
+
+

@@ -1,0 +1,60 @@
+
+<TABLE=CONTENTS.>
+
+No.    Name.                        Population in 1755.    1791-3.    Increase.    Decrease.   Page.         
+ 1. Chirnside,                                     383        961        578                      1
+ 2. Fenwick,                                      1113       1281        168                     51
+ 3. Daviot and Dunlichty,                         2176       1697                    479         67
+ 4. Slamannan,                                    1209       1010                    199         78
+ 5. Kirkmichael and Cullicudden,                  1371       1234                    137         88
+ 6. Dalton,                                        451        615        164                    101
+ 7. Dolphington,                                   302        200                    102        107
+ 8. Abdie,                                         822       +494                    328        115
+ 9. Firth and Stenness,                           1108       1186         78                    125
+10. Kilniman,                                     2590       3281        691                    139
+11. Killbrandon and Killchattan,                  1492       2060        568                    157
+12. Kisinichen and Kilviceuen,                    1685       3002       1317                    170
+13. Kinfauns,                                      639        628                     11        212
+14. Kilfinan,                                     1793       1417                    376        229
+15. Bellie,                                       1730       1919        189                    263
+16. Tynron,                                        464        500         36                    273
+17. Govan,                                        4389       8318     ++3929                    281
+18. Kemback,                                       420        588        168                    297
+19. Birsay and Harray,                            2200       2013                    187        311
+20. Crathy and Braemar,                           2671       2251                    420        334
+21. Mid-Calder,                                    760       1251        491                    353
+22. Speymouth,                                     994       1347        353                    374
+23. Canoby,                                       1733       2725        992                    407
+24. Crichton,                                      611        900        289                    433
+25. Primrose,                                      555        329                    226        439
+26. Corstorphine,                                  995       1037         42                    447
+27. Ewes,                                          392        320                     72        465*
+28. Wigton,                                       1032       1350        318                    470
+29. Old Luce,                                     1509       1200                    309        490
+30. Greenlaw,                                      895      ^1210        315                    501
+31. Auchterhouse,                                  600        600                               516
+32. Forglen,                                       607        600                      7        530
+33. Linlithgow,                                   3296       3221                     75        547
+34. Langton,                                       290        435        145                    577
+35. Mertoun,                                       502        557         55                    586
+36. Rescobie,                                      798        934        136                    594
+37. Clackmannan,                                  1913       2528        615                    605
+                                                ------     ------     ------       -----                        
+                                     Totals,    46,490     55,199     11,637       2,928                                          
+                                                          46,490       2,928            
+                                                          ------      ------            
+                        Increase in 1791-3.                8,709       8,709
+
+</TABLE>
+
+<FOOTNOTE>
+
+*This is, on the supposition, that there are 5 1/4 in each family.  Mr.
+Boyd says, there are about 244 families, and that the average, in each,
+will be 5, or rather more.
++This was the number in 1789.
+++This is the increase, of both Govan and Gorbals, since 1755.  The
+increase of 5000, stated to Gorbals in Vol. V., must be a mistake.
+^This was the number in 1785.
+  
+

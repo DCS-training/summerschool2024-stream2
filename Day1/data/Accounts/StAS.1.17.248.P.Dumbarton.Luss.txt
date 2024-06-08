@@ -1,0 +1,33 @@
+
+     Statistical Account
+
+<TABLE=II. BIRDS.-LAND-BIRDS.>
+
+    Latin Names.                  English.             Scotch.           Gaelic.
+Falco sulvas  Lin.              Ringtail eagle        Black eagle     Iolair dhubh
+Falco ossitrugus.  Lin.         Sea eagle                             Iolair
+Falco Halraetus.  Lin.          Osprey                                Iolair visge
+Falco milvus.  Lin.             Kite                  Glead           Clamhan-gabhlach, croman-lochaidh
+Falco buteo.  Lin.              Common buzzard                        Clamhan
+Falco aeruginolus.  Lin.        Moor buzzard
+Falco cyaneus  Lin.             Henharrier                            Ant-eum fionn
+Pygargus accipiter.  Raii.      Ringtail                              Breid-air fionn
+Falco tinnunculus  Lin.         Kaltrel                          
+Falco subbuteo  Lin.            Hobby
+Falco nifus.  Lin.              Sparrow hawk                          Speir-sherg
+Strix otus.  Lin                Long-eared owl      
+Strix stridula.  Lin.           Tawny owl
+Strix ulula.  Lin               Brown owl             Howlet          Cumhachag, cailleach-oidhcl
+Strix flammea.  Lin.            White owl                             Catlleach o.dhone gheal
+*Lanius excubitor  Lin.         Great shrike
+Corvus corax  Lin.              Raven                 Corby           Fitheach
+Corvus frugilegus  Lin.         Rook                  Craw            Creumhach, rocus
+Corvus cornix  LIn.             Hooded crow           Hoody           Fionnag
+Corvus pica.  LIn.              Magpie                Piet            Pioghaid
+Corvus glandaricus.  Lin.       Jay                   jay piet        Scriathag choille
+Corvus monedula.  Lin.          Jackdaw               Daw             Cathag
+*Cuculus canorus.               Cuckoo                Gouk            Cuthag, cuack
+
+</TABLE>
+
+

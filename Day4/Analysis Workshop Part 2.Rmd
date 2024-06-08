@@ -1,0 +1,404 @@
+---
+title: "Analysis Workshop 2"
+author: "Rhys Davies"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    df_print: paged
+---
+### Install the Libraries 
+
+On Noteable
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#install.packages("ggplot2", dependencies = TRUE) #This needs to run first, so that `interactions` will work.
+#install.packages("easystats")
+#install.packages("sjPlot")
+#install.packages("correlation")
+#install.packages("report")
+#install.packages("interactions")
+#install.packages( "naniar")
+#install.packages("flextable")
+```
+
+On Posit
+```{r setup2, include=FALSE}
+#knitr::opts_chunk$set(echo = TRUE)
+#install.packages("tidyverse") #Only if not there already
+#install.packages("easystats")
+#install.packages("broom")
+#install.packages("gt")
+#install.packages("gt")
+#install.packages("sjPlot")
+#install.packages("correlation")
+#install.packages("report")
+#install.packages("interactions")
+#install.packages( "naniar")
+#install.packages("flextable")
+#install.packages("Jtools")
+```
+
+### Load the libraries
+```{r, setup_2, include=FALSE, echo = FALSE}
+library(tidyverse) # data tidying
+library(broom) # tidy analysis outputs
+library(gt) # pretty tables
+library(easystats) # A package of useful stats packages! 
+library(correlation) # easy correlation tables
+library(report) # prints a standardised analysis report of your model (in APA)
+library(interactions) # make fancy interaction analyses easier
+library(naniar) # Missing data analysis
+library(readr) # read csv files
+library(flextable)
+library(jtools)
+
+tidied_whisky_data <- read_csv(url("https://raw.github.com/DCS-training/SummerSchoolStream2ContentTesting/main/Day1/RMD_file_data/tidied_whisky_data.csv")) %>% 
+  mutate(
+         # Wrangle your new variable here
+         ) %>%
+  mutate_if(is.character, as.factor)
+```
+
+This morning, we covered null hypothesis testing, critically explored *p* values, t-tests, ANOVAs, and nested ANOVAS. We wont blame you if your brain is getting wiped out, and cant stand the thought of seeing ANOVA ANOVA (sorry, not sorry for the pun...).
+
+This afternoon we are going to cover general linear models and generalised linear models - vital tools for anyone who needs further proof that statisticians should not be allowed to name things. For one, the general linear model is a specific form of a generalised linear model...
+
+Anyhow, to cut down on the brain power this afternoon, we are also going to play with the `report` package. [Report](https://easystats.github.io/report/) is a very cool package, which provides automatic reporting of our data, ready in APA format! Not only does this save us time, but it also ensures standardization and higher quality in the reporting of our results.
+
+Now of course, a critical eye and understanding of the limitations of your model is still required. When you're not on the tail end of Summer School, it worth playing and practising with manual reporting of your data.
+
+## Session Aims
+
+-   Using `report()` to report our analyses.
+-   Working with **general** linear models.
+-   Applying and interpreting interaction terms.
+-   Working with **generalised** linear models in R.
+-   Running exploratory analyses with GLM.
+
+### Theory for analyses
+
+So now we have our session aims planned out, lets get ready to run our analyses! Before jumping in, we need to make sure we have a solid theoretical grounding in our whisky knowledge to direct our analysis plan.
+
+For the general linear model, we will focus on `review.point` as our outcome variable once again. And like all good analyses, we will make sure there is a strong theoretical basis to our analyses.
+
+(Fun fact to irritate your supervisor - choosing appropriate control variables can actually **increase** our statistical power, as they can reduce the standard error of the variables we are interested in).
+
+### Theory and Hypotheses
+
+-   Once again we want to examine the extent to which `Region` influences the `review.point`.
+-   As Whisky is a very traditional industry, we expect older distilleries to be associated with a higher `review.point`.
+-   Expensive whisky is expected to be associated with a higher `review.point`
+-   Older Whisky has had more time for the complex reaction between the spirit, during this time more flavours develop. And so Older whisky is expected to be associated with a higher `review.point`.
+-   But we will need to be careful... as older whisky will also be more expensive...
+-   To test these hypotheses, and account for the effects of each variable, we will use linear regression.
+
+## Preparing the data
+
+So now we have our theory informed hypotheses, we need to do a quick final preparation of our data to help conduct our later analyses. First off we are going to scale our continuous variables to help make our interaction analyses easier. This will be followed by the re-transforming our character variables into factors (This inforrmation cannot be saved by csv files unfortunately). Finally, we are going to filter our data to only include `Single Malt Scotch`.
+
+```{r cars}
+
+df <- tidied_whisky_data %>% 
+  select(Region, Owner, review.point, price, log_price, ABV, Age_of_Whisky, Founded,  category, Age_of_Distillery) %>%
+  mutate(
+         Age_of_Whisky_Z = scale(Age_of_Whisky),
+         Age_of_Distillery_Z = scale(Age_of_Distillery),
+         log_price_Z = scale(log_price),
+         Log_price_levels = as.factor(case_when(log_price < median(log_price) ~ "lower",
+                                log_price >= median(log_price) ~ "upper")),
+          Founded_levels = as.factor(case_when(Founded <= 1900 ~ "Pre 1900 Distillery",
+                                               Founded > 1900 ~ "Post 1900 Distillery"))
+         ) %>%
+  mutate_if(is.character, as.factor) %>% 
+  filter(category == "Single Malt Scotch",
+       #  Region != "Lowland"
+         )
+
+summary(df)
+
+```
+
+## Analysis time
+
+Let's crack on with the linear modelling of our data!
+
+Our first step will be to define our model. This is very simple in R, as we simply use the `+` sign, and type in the name of our variable.
+
+### Defining Our Model
+
+```{r}
+
+m <- lm(review.point ~ log_price + Age_of_Whisky + Age_of_Distillery +Region, df)
+```
+
+### Viewing results
+
+Now we will use the `as_flextable()` function to print our model into a beautiful publication ready format.
+
+To prepare the text element of the report, we will use the `report()` function of the `report` package. From there, we can copy and paste our results.
+
+```{r, echo = FALSE, warning= FALSE,message = FALSE }
+flextable::as_flextable(m)
+report(m)
+```
+
+### Plotting Results
+
+```{r}
+df %>% na.omit(Age, Age_levels) %>%
+ggplot(
+       aes(x = Age_of_Whisky, y = review.point)) +
+  geom_point(aes(colour = log_price)) +
+  geom_smooth(method = "lm") +
+  scale_color_viridis_c()+
+  facet_grid(~Region) +
+  labs(x = "Age of Whisky Bottle")
+```
+
+### Model Assumptions
+
+#### Model fit assumptions
+
+Inspecting our residuals in `R` is nice and simple. No need to memorise which combination is needed. Instead, simply pop your model into the `plot()` function:
+
+```{r}
+plot(m)
+
+```
+
+There are a few issue here. Namely that our QQ residual plot is nowhere near linear, and our scale location plot is looking a little odd. Now it may not be possible to address all of these issues within our model, but we can address them we discuss the implications of our analyses. For a thorough overview, the following discussion on [Stack Exchange](https://stats.stackexchange.com/questions/16381/what-is-a-complete-list-of-the-usual-assumptions-for-linear-regression) is a gold mine of critical nerdiness.
+
+#### Multicolinearity
+
+Another issue that is likely to be starring in our model is the causal relationship between `Age_of_Whisky` and the `log_price`. As implied by it's name, aging whisky takes time, and time is money. Additionally, aged whisky is rarer to find, and will lose its volume to the [Angels Share](https://en.wikipedia.org/wiki/Barrel#Beverage_maturing).
+
+Let's inspect to see if this causal relationship is a problem to our model.
+
+```{r}
+
+df %>% 
+  select(review.point , log_price , Age_of_Whisky , Age_of_Distillery , Region) %>%
+  correlation() %>% 
+  summary(redundant = TRUE) %>% 
+  plot()
+
+# Variance Inflation Factor test (VIF)
+car::vif(m)
+```
+
+Thankfully the VIF scores aren't too high (the cut off level is recommended at \>5), but the correlation coefficients are approaching the uncomfortable level.
+
+## Second Analysis - Interaction model
+
+Given the theoretical considerations of the causal association between `Age_of_Whisky` and `log_price`, and the expectation that both will be predictive of a higher `review.point`, we can address the issue using an interaction.
+
+An interaction (also called **moderation** in some fields) occurs when the association between a **predictor** variable (`Age_of_Whisky`) and the **outcome** variable (`review.point`), is dependent on **another predictor** variable (`log_price`).
+
+### Interaction Hypotheses
+
+Before including our interaction term, we need to update our hypothesis. Interaction hypotheses get a little tricky, as it involves thinking about the change in association. The key is to break it down into steps. Luckily, we will guide you through:
+
+-   `Age_of_Whisky` and `log_price` are expected to interact in predicting `review.point`.
+-   At lower levels of `log_price`, `Age_of_Whisky` will have a positive, but weak association with `review.point`.
+-   At the levels of `log_price` increases, the association between `Age_of_Whisky` and `review.point` is expected to strengthen.
+
+### Setting our interaction model
+
+Setting interaction models in R also simple. To do so, we include `*` in between the variables that we want to examine the interaction at.
+
+```{r}
+
+m_int <- lm(review.point ~ Age_of_Whisky * log_price   + Age_of_Distillery  + Region  , df)
+
+```
+
+### Model results
+
+```{r warning=FALSE, message=FALSE}
+flextable::as_flextable(m_int)
+report(m_int)
+```
+
+### Interpreting Interactions
+
+So we have a significant interaction! But what does that mean? What is going on with our model. Traditionally, some rather complicated and time consuming mathematics would need to be calculated to determine the next steps. This is why interactions are rare in the literature, despite being them being **very** prominent in the world around us.
+
+Ironically, contemporary methods of working with these analyses have been around for around 20 years - so it's a shame our curriculums struggle to teach these cool analytical methods. For further reading on the topic, please dig into the following literature:
+
+-   [Probing Interactions in Fixed and Multilevel Regression: Inferential and Graphical Techniques (Bauer & Curran, 2005)](https://www.tandfonline.com/doi/abs/10.1207/s15327906mbr4003_5).
+-   [Mediation and Moderation (Jose, 2018)](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315755649-18/mediation-moderation-paul-jose?context=ubx&refId=cebaadc6-aedf-43c4-a03d-07b386eda55d)
+-   [Regression-based statistical mediation and moderation analysis in clinical research: Observations, recommendations, and implementation (Hayes & Rockwood, 2017)](https://www.sciencedirect.com/science/article/abs/pii/S0005796716301887)
+
+However, this complex and time consuming mathematical nature of interactions is no longer the issue it once was. And this is because we have very useful tools to help to probe and interpret our models. One of my favourites is the `interactions` package, as it contains a multitude of useful functions to probe and investigate our analysis.
+
+We will do this in 3 steps - with the `interact_plot()`, `sim_slopes()`, and `johnson_neyman()` functions.
+
+#### Interaction plot
+
+We will start with `interact_plot()`, as it clearly visualises the how the association between `Age_of_Whisky` and `review.point` changes as `log_price` increases. This makes it the perfect starting point for interpreting our results.
+
+```{r ,echo = FALSE}
+
+interact_plot(m_int, 
+              modx= log_price, 
+              modx.values = "terciles",
+              pred = Age_of_Whisky,
+              plot.points = TRUE,
+             # colors = "CUD Bright",
+              jitter = TRUE
+              ) +
+theme_dark()
+
+```
+
+#### Simple slopes analysis
+
+Now we will move on to the `sim_slopes()` function, to view the statistical output at different probing points. This is achieved through a simple slopes analysis, using "Johnson-Neyman" intervals. This analysis allows us to see how the slope coefficients change across the values of the moderator.
+
+```{r ,echo = FALSE}
+sim_slopes(model = m_int, 
+           modx= log_price, # our moderator
+           modx.values = "terciles",
+           pred = Age_of_Whisky, # Our x variable
+           confint = TRUE, # set to TRUE to see confidence intervals
+         #  robust = TRUE # We can compare robust TRUE/FALSE to examine if interaction effect is influenced by outliers
+           ) 
+```
+
+#### Johnson Neyman Intervals
+
+Finally we will use the `johnson_neyman()` function to both quantify and visualise changes in the slope of `Age_of_Whisky` as `log_price` increases. This builds on the simple slopes analysis of the `sim_slopes()` function, by showing us changes in slope across the entire range of the moderator.
+
+```{r ,echo = FALSE}
+johnson_neyman(model = m_int, 
+               modx = "log_price",
+               pred = "Age_of_Whisky")
+
+
+```
+
+### Model Assumptions
+
+Before getting carried away with the discussions and implications of our analyses, we need to remember to check the assumptions once again. We will start the `vif` test again, to see inspect how adding the interaction term has addressed potential issues of multicollinearity. From there, we can check our assumption plots again.
+
+```{r ,echo = FALSE}
+
+car::vif(m_int, type = "predictor")
+plot(m_int)
+
+```
+
+### Model interpreation
+
+So what does this analysis tell us? And how should we consider the results considering our visualisation of the analysis? What can we do about this?
+
+Of course, you will notice that our assumption plots still show that the model has some imperfections, even with the interaction term added. And so, it is time to consider the possible reasons why the analysis is not completely robust, and the extent to which we find the results to generalisable.
+
+#### Data limitations
+
+-   There is likely variances in the individual differences of the individuals reviewing the whisky - Those buying and reviewing the very expensive whiskies will be different people to those buying the cheaper whiskies. The criteria for rating the whiskies will differ between these groups.
+-   Missing data problems: Remember when we wrangled the data on Day 1, and inspected the missing values for `Age_of_Whisky`? The MCAR test came up significant, and there was a high proportion of missing values. It is highly likely these missing values will have biased the results. For more details, see [Craig Enders' work on missing data](https://www.appliedmissingdata.com/).
+-   Whisky is a traditional industry, and factors such as marketing, tradition, and romanticised views will also have an influence on perception of whisky.
+
+#### Ok, so what can we actually infer considering the limitations?
+
+Truth is, every dataset will have it's limitations and influences of bias. Especially when we work with data generated by us humans. But despite these limitations, the overall trend seems to be:
+
+-   Even at the cheapest level, at the lowest age range (of the data available), Whisky mean review scores will range from of 73.73 (Lowland), to 76.55 (Campbeltown). There is not much difference here.
+-   Expensive and older whiskies do tend to be associated with higher review scores, but this association plateaus as the whiskies get older/more expensive. However, the association for the age of whisky may not be robust, due to the missing values here.
+-   People tend to associate higher review scores with older distilleries.
+
+## Move over *general* linear model, its **generalised** linear model time.
+
+Time to get frustrated with statisticians naming things! Much like ANOVA's being used to analyse **means**, and the simple slopes analysis not being all that simple... the general linear model can not be generalised to all shapes of data... in fact, it's somewhat specific to continuous data with normally distributed residuals (and other assumptions). In a master stroke of bad naming practice, the general linear model is in fact a specific form of the **generalised linear model**. They all share the same structure, which is this:
+
+-   The **Random component**: This refers to the probability distribution of the response variable (Y); e.g. the normal "Gausian" distribution for Y in the general linear model, or the binomial distribution for Y in the binary logistic regression.
+-   The **Structural component**: refers to the explanatory variables (X1, X2, ... Xk) as a combination of linear predictors; e.g. β0 + β1x1 + β2x2.
+-   The **Link function**: This specifies the link between random and systematic components. It says how the expected value of the response relates to the linear predictor of explanatory variables. This is the key difference between each glm. In the general linear model, it's simply "1" or "identitiy" (as multiplying a value by 1 does not change the identity).Whilst for the logistic regression, the link function is "logit".
+
+This structure allows us to work with any outcome variable, so long as we can find the appropriate link function. This provides a great deal of flexibility to approach a wide range of research questions.
+
+## Fitting Generalised Linear Models in R
+
+Generalized linear models are fit using the `glm( )` function. The form of the glm function is
+
+```{r}
+# glm(Outcome ~ predictor_1 + predictor_2 , 
+#     family= familytype(link=linkfunction), 
+#     data= df)
+
+
+```
+
+Meanwhile, the table below gives an overview of the `glm()` family commands along with their associated link functions. To make the table,we will be using the `gt()` functions once again, as `gt()` makes things pretty and readable.
+
+```{r glm_family_table}
+Family <- c("binomial", "gaussian", "Gamma", "inverse.gaussian", "poisson", "quasi", "quasibinomial", "quasipoisson")	
+Link_Function <- c('(link = "logit")','(link = "identity")', '(link = "inverse")','(link = "1/mu^2")', '(link = "log")', '(link = "identity", variance = "constant")' , '(link = "logit")','(link = "log")')	
+	
+Family_and_link_function <- data.frame(Family, Link_Function)	
+	
+Family_and_link_function %>% gt() %>%
+  tab_header(
+    title = md("*Generalised Linear Model Help Sheet*"),
+    subtitle = md("Copy and paste the appropriate **family** and associated **Link Function** into your glm")
+  ) %>%
+  cols_label(
+    Family = md("**Family**"),
+    Link_Function = md("**Link Function**")
+  ) %>%
+  cols_align(align = "center")
+	
+	
+	
+
+```
+
+## Task time
+
+In your tables, conduct a `glm()` and interpret an analysis of your own choice using our `df` of Whisky Data. As a follow up task, see if you can visualise your model!
+
+The aim of this task is to play and get comfortable with the `glm()` function and it's outputs. So don't worry about achieving the "perfect" analysis. Especially as we are approaching the end of Day 4, and so our brains are likely a little fried.
+
+If you are stuck for ideas, one interesting challenge will be see if we can predict the missing values for the `Age_of_Whisky` variable. You will need to do some initial wrangling and use the `bind_shadow()` function first to conduct this particular analysis.
+
+Here are some resources that might be useful if you wish to `glm()` with greater rigour:
+
+-   [Beyond Multiple Linear Regression - Applied Generalized Linear Models and Multilevel Models in R (Roback & Legler, 2021)](https://bookdown.org/roback/bookdown-BeyondMLR/).
+-   [Data Analysis in R - Generalised Linear Models Chapter (Midway, 2022)](https://bookdown.org/steve_midway/DAR/glms-generalized-linear-models.html)
+-   [Stack Exchange Discussion on which glm family to use](https://stats.stackexchange.com/questions/190763/how-to-decide-which-glm-family-to-use).
+-   [Plotting GLM's (and other regression models!) is simple and easy with sjPlot](https://strengejacke.github.io/sjPlot/articles/plot_marginal_effects.html).
+-   [Plotting and making GLM tables with prettyglm](https://jared-fowler.github.io/prettyglm/)
+
+### Off you go!
+
+```{r glm_data_wrangling}
+
+```
+
+```{r glm_analysis}
+#m <- glm(.... ~ ... + ... ,
+         #family = ...(link="..."), 
+         #data = ...)
+
+#tab_model(m,  show.est = TRUE, show.se = TRUE, use.viewer = TRUE)
+```
+
+```{r glm_visualisation}
+library(sjPlot)
+#plot_model(model = m , 
+    #type = "pred", 
+    #terms = c("...",
+            #  "...")
+          # )
+
+
+
+```
+
+```{r glm_assumption_check}
+plot(m)
+
+```
+
+### This is the end of this block

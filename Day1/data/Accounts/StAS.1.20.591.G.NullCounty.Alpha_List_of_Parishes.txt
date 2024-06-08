@@ -1,0 +1,45 @@
+
+     County of Air.
+
+<TABLE=COUNTY OF AIR.>
+
+   Parish             Population     Population in   Increase.   Decrease.
+                       in 1755.        1790-1798.
+
+1  Air                   2964             4647         1683    
+   Ardrossan             1297             1518          221
+   Auchinleck             887              775                     112
+   Ballantrae            1049              770                     279
+   Barr                   858              750                     108
+5  Beith                 2064             2871          808
+   Cimbraes               259              509          250
+   Colmonell             1814             1100                     714
+   Coylton                527              667          140     
+   Craigie                551              700          149
+10 Cumnock, New          1497             1200                     297
+   Cumnock, Old          1336             1632          296
+   Dailly                 839             1607          768
+   Dalmellington          739              681                      58
+   Dalry                 1498             2000          502
+15 Dalrymple              439              380                      59
+   Dreghorn               887              830                      57
+   Dundonald              983             1317          334 
+   Dunlop                 796              779                      17
+   Fenwick               1113             1281          168   
+20 Galsbun               1013             1577          564               
+   Irvine                4025             4500          475
+   Kilbirny               651              700           49
+   Kalbride, West         885              698                    187
+25 Kilmarnock            4403             6776         2373 
+   Kilmauis              1094             1147           53
+   Kilwinning            2541             2360                    181
+   Kirkmichael            710              956          246 
+   Kukoswald             1168             1335          167 
+30 Largs                 1164             1025                    139
+   Loudoun               1494             2308          814
+   Mauchlien             1169             1820          631
+   Mavbole               2068             3750         1692
+
+</TABLE>
+
+

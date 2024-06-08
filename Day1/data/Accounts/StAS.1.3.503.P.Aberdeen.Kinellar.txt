@@ -1,0 +1,27 @@
+
+<TABLE=POPULATION TABLE >
+
+         Dwelling                 Births.                                    
+Years.   houses.    Souls.   Mal.  Fcm.  Tot
+1774       92        402      78    93   171                                                                                    o
+1775       96        406       3     3     6    There are two births in this lift, which are not in the parish register,        f
+1776       91        412      11     5    16    two boys having been baptized by a Nonjurant clergyman. 
+1777       84        383       5     5    10                                                                                    K  
+1778       85        392       9     6    15    In the 11 years, in which there is a lift of deaths, the baptisms               i
+1779       82        365       7     4    11         were                                             116                       n
+1780       85        387       2     6     8    Deaths,                                                84                       n
+1781       84        391       5     7    12                                                         -----                      e
+1782       82        364       7     1     8    Increase of population by this parish in 11 years,     32                       l
+1783       84        368     ----------------   The burials in the church yard of Kinnellar, are generally more than            l
+1784       91        388     127   130   257    the deaths in the parish; there being several families, whose connections       a
+1785       78        353                        are buried here from other parishes, particularly those of the name of Keith,   r  
+1786       75        332                        Biffet, Abel, Wood, Moir, Leith, and Fowler; but the above list contains         
+1787       79        352                        the number of deaths only.
+1788
+1789                                            The minister was indisposed and not able to go through the parish.
+1790       67        317
+1791       74        342
+
+</TABLE>
+
+

@@ -1,0 +1,45 @@
+
+     County of Dumfires, etc.
+
+<TABLE>
+
+Parish            Population   Population in   Increase       Decrease
+                   in 1755.     1790-1798
+
+35 St Mungo           481          640            159
+   Sanqubar          1998         2600            601  
+   Tinwald            795          850             55
+   Torthorwald        584                          76  
+   Tunnergarth        625          510                         115
+40 Tynron             464          500             36  
+   Waruphyray         458          487             29
+42 Westerkirk         544          655            111
+                   ------       ------         ------         ----   
+                   41,913       52,913         11,741         1325
+                                41,913           1325    
+                                ------         ------
+                    Increase,    10416          10416
+
+</TABLE>
+
+<TABLE=COUNTY OF DUNBARTON.>
+
+1  Arroguhar          466     379               87
+   Bonhill            901     2310    1409    
+   Cardross           795     2194    1399
+   Cumbernauld        2303    1600             703
+5  Dumbarton          1480    2003     523     
+   Kilmaroneck        1193     820             373
+   Kilpatrick, New    1390    1700     310  
+   Kilpatrick, Old    1281    2452    1171    
+   Kirkintilloch      1696    2639     943
+10 Luss                978     917              61
+   Roseneath           521     394             127
+12 Row                 853    1000     147    
+                    ------  ------   -----    ----
+                    13,857  18,408   5,901    1351
+       Increase,      4551            4551
+
+</TABLE>
+
+

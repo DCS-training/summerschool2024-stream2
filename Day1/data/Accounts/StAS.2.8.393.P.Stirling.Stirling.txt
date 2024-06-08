@@ -1,0 +1,70 @@
+
+                         <TABLE=STIRLING.>                   393
+
+                           Highest.         Lowest.
+
+	Months.	          1839.	1840.	  1839.  1840.
+	April,	   -      54	 58	  33	  37
+	May,    -	  57	 60	  39	  41
+	June,	    -     68	 66	  52	  51
+	July,	-         67	 63	  55	  55
+	August,	    -     64	 67	  49	  50
+	September,-   -   59	 60	  45	  43
+	October,    -	  58	 56	  35	  96
+	November  -   -	  50	 52	  22	  31
+	December,   -	  48	 47	  21	  28
+
+  The daily average for each month was as follows:--
+
+<TABLE>
+               Months.	       1839.	  1840
+	       January,   -    32.29	  36.9
+	       February,    -  35.32	  36.31
+	       March, -   -    36.67	  39.32
+               April,	-    - 43.26      48.26
+               May,  -     -   49.32	  50.32
+               June,    -    - 58.83	  57.36
+               July, -	   -   60.29	  58.58
+	       August,	-    - 57.97	  59.93
+	       September,   -  53.5	  51.26
+	       October,	-    - 46.67	  45.84
+	       November,   -   42.3	  40.8
+	       December,    -  36.03	  36.29
+                              _______    _______
+	Mean daily averages,  46.0375	 48.4308
+
+  The hottest day in 1839 was the 18th of June, when the tber-
+mometer stood 68&deg;; the coldest the 10th of February, when it
+was at 21&deg;. The hottest day in 1840 was the 7th of August,
+thermometer at 67&deg;; the coldest the 30th of January, thermome-
+ter at 22.
+  All the observations were made at 9 o'clock A. M. and 9 o'clock
+P. M.
+  Weather.--The following table shows the recurrence during
+1840 of the other particulars, which, along with the pressure and
+temperature of the atmosphere, combine to form the character of
+the weather:--
+
+<TABLE>
+
+                                       Days of
+   Months.             E. wind.  W. wind. Calm.  Rain.   Frost. Snow.
+   January,   .      .	  9	  12	   10	  17	   7	  8
+   February,	 .       12	  15	    2	  13	  12	  4
+   March,   .	   .      7	  21	    3	   6	  19	  0
+   April, .   .     .	 13	  12	    5	  12	   2	  0
+   May,	    .     .      16	  12	    3	  16	   0	  0
+   June,   .   .    .     5	  21	    4	  20	   0	  0
+   July,    .	 .        0	  23	    8	  19	   0	  0
+   August,    .     .     8	  15	    8	  13	   1	  0
+   September,	 .        7	  16	    7	  21	   3	  0
+   October,   .     .     4	  13	   14	  10	  11	  0
+   November,	 .        9	   4	   17	  15	   9	  2
+   December,   .    .     6	   5	   20	  10	  15	  2
+                         __      ____     ____   ____     __     __
+             		 96	 169	  101	 172	  79	 11
+
+  On twelve days of the year gales occurred; viz. in January, 4;
+February, 1; May, 1; June, 4; consecutively; November, 1.
+
+

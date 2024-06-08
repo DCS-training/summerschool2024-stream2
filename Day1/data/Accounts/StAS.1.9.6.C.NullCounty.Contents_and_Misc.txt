@@ -1,0 +1,44 @@
+
+     CONTENTS.
+
+<TABLE>
+
+No.   Name.   Population in 1755.   in 1791-3.   Increase.   Dec.   Page
+
+      Brought over,        28590       30878        3744     1456
+25 Avendale or
+   Strathaven,              3551        3343                  208    382
+26 Maryton,                  633         529                  104    399 
+27 Kirknewton,              1157         812                  345    407
+28 Dry'sdale,               1097        1600         503             418
+29 Bourtie,                  525         450                   75    434
+30 Crail,                   2173        1710                  463    439
+31 Fyvie,                   2528        2194                  334    459
+32 Dron,                     598         450                  148    466
+33 Caputh,                  2048        2045                    3    485
+34 Logie-Coldstone,         1243        1182                   61    510
+35 Graitney,                1051        1810         759             518
+36 Dunlop,                   796         779                   17    533
+37 Grange,                   1797       1572                  225    550
+38 Crieff,                   1414       2640        1226             583
+39 Inverness,                9730     *10527         797             603
+                             ----     ------        ----     -----
+   Totals,                  55931      59521        7029     3439
+                                       55931        3439
+                                       -----        ----
+   Increase in 1791-3,                  3590        3590
+
+</TABLE>
+
+<FOOTNOTE>
+
+*In the population table of Inverness, 2597 are denomi-
+nated married persons, probably instead of married couples; in
+which last case, the number is 5194; and which makes the
+whole population 10,527, in place of 7930.  This appears
+credible from the gradual increase of baptisms since the year
+1750, when according to Dr Webster's report, the population
+amounted to 9730.  In that year, the number of baptisms
+was only 165; in 1790, it was 254.
+
+

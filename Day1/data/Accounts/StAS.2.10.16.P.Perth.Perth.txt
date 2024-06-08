@@ -1,0 +1,47 @@
+
+             16                         PERTHSHIRE.
+
+             suppose that 7320 cubic inches of air contain two grains of mois-
+             ture in the vaporous state : If the temperature were exactly 53/d1
+             the air thus charged with humidity would be perfectly damp, or
+             contain its maximum quantity of moisture at that temperature;
+             but if the temperature of the same air were to be raised to 66/d1,
+             in which case it could hold in solution four grains of moisture, or
+             double of what it actually contained, the relative humidity would
+             be expressed by 2/4 or 1/3; complete dampness being denoted by
+             unity.  Moreover, if a hygrometer, whose indications were rigidly
+             conformable to the humidity of the surrounding air, should be ex-
+             posed to an atmosphere containing in solution the quantity of mois-
+             ture we have supposed; and if the scale of the instrument were
+             so graduated that zero was placed at perfect dryness and I OW at
+             perfect dampness, the index would point exactly to 50/d1.  More-
+             over, if the temperature of the same air were afterwards raised to
+             75/d1, the index of the hygrometer would desicend to 25/d1, now im-
+             plying that the moisture bontained in the aerial medium was only
+             one-fourth of the whole quantity it was capable of holding in the
+             vaporous state, at that elevated temperature. * It thus appears
+             that the relative humidity of air, containing the very same quanti-
+             ty nf moisture, might assume an unlimited variety of indications,
+             as given by a hygrometer: Nay, however paradoxical it may seem,
+             air may, in many cases, become absolutely drier, and yet be rela-
+             tively damper.
+               After the explanations which have been given of absolute and
+             relative humidity, we need scarcely remark, that whatever be the
+             quantity of moisture contained in a given volume of air, there will
+             always be a tdmperature, more or less depressed below that ofthe
+             atmosphere, which will be barely sufficient for maintaining that
+             moisture in the state of vapour.  The smallest depression of tem-
+             perature below that point, which is termed the point 0 Leon,
+             and by some the dew-point will. give rise to a separation of mois-
+             ture from the air, in the form of visible vapour, producing fog,
+             rain, or snow  according to the extent and rapidity of the change
+             of temperature; and according to the height in the atmosphere
+             at which the change takes place.
+                For ordinary purposes, the point of depositions may be deter-
+             mined with sufficient accuracy in the following manner: Fill a
+
+             <Footnote>It may be proper to menthon that theme is no hygroscopic substance known,
+             which a dilatation by moisture that is exactly proportional to the re-
+             lative humidity of the air, to which it may be exposed.
+
+

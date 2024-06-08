@@ -1,0 +1,37 @@
+
+     of Luss
+
+<TABLE=III. REPTILES.>
+
+    Latin Names.                       English.            Scotch.            Gaelic.
+Lacertus vulgaris.  Lin.             Brown lizard
+Coluber Berus.  Lin.                 Viper               Adder              Nathair
+Anguis fragilis.  Lin.               blind worm
+
+</TABLE>
+
+<TABLE=IV. FISH.>
+
+    Latin Names.                       English.            Scotch.            Gaelic.
+Lampetra.  Raii.                     Lamprey             Lamper-eel         Deala-tholl
+Muraena anguilla.  Lin.              Eel                                    Easgann
+Pleuronectes Leviniae                Lochlomond floun-
+                                        der              Fluke              Leabag
+Perca fluviatilis.  Lin.             Perch                                  Muc-lochaidh, creagag uisge
+Salmo Salar.  Lin.                   Salmon                                 Bradan
+Salmo trutta.  Lin.                  Sea-trout                              Gealag
+Salmo Fario.  Lin.                   Trout                                  Breac
+Salmo Alpinus.  Lin.                 Charr                                  Tarragheal
+Salmo Lavaretus.  Lin.               Gwiniad+            Powan              Pollag
+Salmulus.  Raii.                     Samlet              Parr               Gobhlachum
+Efox Lucius.  Lin.                   Pike                                   Geat-iasg
+Cyprinus Rutilus.  Lin.              Roach               Braise
+Cyprinus Phoxinus.  Lin.             Minow                                  Mion-iasg.
+
+</TABLE>
+
+<FOOTNOTE>
+
++PENNANT.
+
+

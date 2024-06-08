@@ -1,0 +1,64 @@
+
+     CONTENTS
+
+<TABLE>
+
+Num.  Name of the parish   Population     Ditto   Increase   Dec.   Page
+                             in 1755    in 1921
+ 1    Dornoch,                 2,780     2,541               239      1
+ 2    Eckford,                 1,081       952               131     20
+ 3    Gigha and Cara,            514       614      100              37
+ 4    Ladykirk,                  386       500      204              71
+ 5    Douglas,                 2,009     1,715               294     76
+ 6    Tweedsmuir,                397       227               170     86
+ 7    Kilmarun,                1,150     1,537      387              90
+ 8    Auchertoul,                389       354                55    110
+ 9    Carluke,                 1,459     1,730      271             120
+10    Canisbay,                1,481     1,950      469             142
+11    Newburgh,                1,347     1,664      317             170
+12    Dundee,                 12,477    23,500   11,023             192
+13    Cromdale,                3,063     3,000                63    251
+14    Tough,                     570       560                10    201
+15    Stirling,                3,951     4,698      747             271
+16    Kelton,                    811     1,600      789             297
+17    Applegarth,                897       741               156    310
+18    Berth,                   2,064     2,872      808             314
+19    Guthrie,                   584       571                13    329
+20    Genorchy and Inishail,   1,654     1,609       15             335
+21    Cricch,                  3,705     1,730       25             362
+22    Duffus,                  1,679     1,500               179    384
+23    Dumbarny,                  764     1,230      486             401
+24    Kilmalie,                3,093     4,031      938             407
+25    Torryburn,               1,635     1,600                35    448
+26    Ferry-Port-on-Craig,       621       875      254             456
+27    Logic,                     413       425       12             470
+28    Cadder,                  2,396     1,767               629    474
+29    Muthil,                  2,902     2,948       46             485
+30    Moy and Dalarossie,      1,693     1,813      120             499
+31    Lesly,                     319       392       73             511
+32    Hawick,                  2,713     2,928      215             521
+33    Clatt,                     559       425                134   535
+34    Drymen,                  2,789     1,607              1,182   546
+35    Edenkeillie,             1,443     1,800      357             553
+36    Monivaird and Strowman,  1,460     1,025                435   567
+37    Killbride, in Arran,     1,369     2,545    1,176             578
+38    Moonzie,                   249       171                 78   583
+39    Symington,                 264       307       43             585
+40    Alloa,                   5,816     4,802              1,014   592
+                              --------  -------- -------  --------   
+                               72,948    87,006  18,875     4,817
+Population in 1755                       72,948   4,817
+                                        -------- -------
+Increase,                                14,058  14,058
+
+</TABLE>
+
+<FOOTNOTE>
+
+*Doubts are entertained how far the parish of Alloa contained so great a
+number, as 5816 souls, in 1755: but the reader will easily perceive, that no fair
+comparison can be made, between the population in 1755, and at present, but by
+a strict adherence to Dr. Webster's account of the population at the former
+period.               
+                                     
+

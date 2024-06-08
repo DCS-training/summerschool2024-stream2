@@ -1,0 +1,59 @@
+
+<APPENDIX>
+
+lxxxvii
+
+believe, that computations, though, perhaps inaccurate in regard to parti-
+cular districts, may on the whole be right.  Where they are drawn upon a
+great scale, and on proper data, they may approach very near the truth,
+even where, in many of the minute particulars, there are considerable er-
+rors*.
+   In the following Statistical Tables there are 14 Columns.
+   Column 1.  This will merely contain the names of the different Parishes
+in each Country, arranged in alphabetical order, to which, if thought neces-
+sary, might be added, the volume of the Statistical Account of Scotland,
+where the description of each parish is to be found.  In several instances,
+parishes are situated in different countries.  Where that is the case, the whole
+district is included in that county, where either the Church or the greater
+part of the parish is situated.
+
+<FOOTNOTE>
+
+*The following example will explain the meaning of this observation.
+Let us suppose that there are 4 parishes, the valued rent of which is known,
+but only two of which have their real rent returned; for instance,
+
+<TABLE>
+
+   Valued Rent, Scotch money.       Real Rent, Sterling money.
+     No. 1      L. 5300                      L. 3100
+         2         3500                         1300
+                   ----                         ----
+                L. 8800                      L. 4400
+
+</TABLE>
+
+   It is evident, that the average of the two parishes, is at the rate of L. 2
+of valued, to L. 1 of real rent
+   Let us suppose, that the other two parishes, have their valued rent return-
+ed as follows.
+
+<TABLE>
+
+           Valued Rent
+   No.  3    L. 4200
+        4       7550
+               ----- 
+            L. 11750
+
+</TABLE>
+
+   According to the data above mentioned, the real rent of No. 3 ought
+to be L. 2100, and of No. 4 L. 3775, both of which may be wrong; the
+one may be too much, and the other too little, yet the one error may cor-
+rect the other, and the total result may be perfectly right.
+   So accurate, however, was the above mode of computation found, that
+the real rent of one parish, computed at L. 2450, was found, by the Mini-
+ster's return, to be L. 2460.
+
+

@@ -1,0 +1,34 @@
+
+     of Luss.
+
+<TABLE=II. BIRDS.-LAND-BIRDS.>
+
+    Latin Names.                   English.             Scotch.            Gaelic.
+*Hirundo apus.  Lin.             Swift
+*Caprimulgus Europaeus.  Lin.    Goatsucker
+
+</TABLE>
+
+<TABLE=WATER-FOWLS.>
+
+    Latin Names.                   English.             Scotch.            Gaelic.
+Ardea major.  Lin.               Heron                                   Corra riathach
+*Scolopax rusticola.  Lin.       Woodcock                                Coileach coille.
+Scolopax gallinago.  Lin.        Common snipe                            Croman loin
+Scolopax gallinula.  Lin.        Jack snipe
+*Tringa vanellus.  Lin.          Lapwing              Teuchit, peesweep  Curcag, adharcan-luachrack
+*Tringa hypoleucos.  Lin.        Common landpiper   
+*Charadrius morinellus.  Lin.    Dotterel                                Amadan mointich
+*Haematopus ostralegus.  Lin.    Pied oyster-catcher  Sea piet           Gille-bride
+*Rallus aquaticus.  Lin.         Water Rail
+*Colymbus cristatus.  Lin.       Great crested grebe
+*Colymbus minor.  Brisson.       Dusky grebe
+Colymbus auritus.  Lin.          Little grebe                            Spag-re-toin
+*Alea Arctica.  Lin.             Puffin               Tom-noddy          Fachach
+*Colymbus glacialis.  Lin.       Northern diver                          Bur-bhuachaill
+*Colymbus immer.  Lin.           Imber
+*Mergus stellatus.  Brunnich.    Speckled diver       Arran-ake
+
+</TABLE>
+
+
