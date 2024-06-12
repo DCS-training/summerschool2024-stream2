@@ -300,7 +300,7 @@ figure
 
 ## Tea (test) Task time
 
-In your tables, work together to conduct a t-test comparing `review.score` of the distilleries established pre 1900's, with those established after 1900's.
+In your tables, work together to conduct a t-test comparing `review.point` of the distilleries established pre 1900's, with those established after 1900's.
 
 Your first step will be to do some data wrangling to create a new variable using the `case_when()` function within `mutate()`.
 If you get stuck at this step, you can double check the code from **Bonus material - Other uses for data wrangling** section of the `Data Wrangling` session from Day 1.
