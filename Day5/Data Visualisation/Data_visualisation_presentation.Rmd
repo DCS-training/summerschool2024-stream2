@@ -186,7 +186,7 @@ ggplot(data = Whisky_data,
 # Second Layer
 ggplot(data = Whisky_data,
   aes(x = Region, y = review.point))+
-  geom_half_boxplot(size = .5, width = .2)+ # scaling size and width
+   geom_boxplot()+ 
   geom_half_violin(side = "r") #choosing right side for aesthetics
 
 
@@ -206,7 +206,7 @@ ggplot(data = Whisky_data,
 # Second Layer
 ggplot(data = Whisky_data,
   aes(x = Region, y = review.point))+
-  geom_half_boxplot(size = .5, width = .2)+ # scaling size and width
+  geom_boxplot()+ 
   geom_half_violin(side = "r") + #choosing right side for aesthetics
   stat_summary(fun.data = mean_se,
     color = "black", linewidth = 1.2, size = 1.2)+ # adjusting size
@@ -235,7 +235,7 @@ Whisky_data %>% #
   left_join(Whisky_data) %>%  # joining back to data
 ggplot(
   aes(x = Region, y = review.point))+
-  geom_half_boxplot(size = .5, width = .2)+ 
+   geom_boxplot()+  
   geom_half_violin(side = "r") +
   stat_summary(fun.data = mean_se, 
     color = "black", linewidth = 1.2, size = 1.2)+
@@ -257,7 +257,7 @@ Whisky_data %>% #
 ggplot(
   aes(x = Region, y = review.point, 
       fill = Region))+
-  geom_half_boxplot(size = .5, width = .2)+ 
+  geom_boxplot()+ 
   geom_half_violin(side = "r") +
   stat_summary(fun.data = mean_se, 
     color = "black", linewidth = 1, size = 1)+
@@ -297,7 +297,7 @@ plot <- Whisky_data %>%
   left_join(Whisky_data) %>% 
 ggplot(
   aes(x = Region, y = review.point, fill = Region))+
-  geom_half_boxplot(size = .5, width = .2)+ 
+   geom_boxplot()+ 
   geom_half_violin(side = "r") +
   stat_summary(fun.data = mean_se, 
     color = "black", linewidth = 1, size = 1)+
