@@ -179,7 +179,7 @@ spplot(MergedGeo,
        "per",
        col.regions = color.palette(100),
        main = "Ilness Report",
-       key.space = "left", 
+       key.space = "right", 
        scales = list(draw = TRUE))
 
 ```
