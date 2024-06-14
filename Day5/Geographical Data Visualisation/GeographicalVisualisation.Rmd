@@ -264,7 +264,8 @@ For style, there are three basic methods ("equal", "sd" and "quantile").
 Number of intervals can be controlled with n.
 
 ```{r }
-breaks <- classIntervals(MergedGeo$per, n = 5, style = "equal")breakpoints <- breaks$brks
+breaks <- classIntervals(MergedGeo$per, n = 5, style = "equal")
+breakpoints <- breaks$brks
 spplot(MergedGeo, 
        "per", 
        col.regions = color.palette, 
