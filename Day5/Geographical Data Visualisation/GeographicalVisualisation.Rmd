@@ -517,7 +517,7 @@ Plot to see if rescaling makes sense
 ```{r }
 tm_shape(kde) + 
   tm_raster("ud") +
-  tm_layout(main.title = "Kernel Density Estimate", main.title.position = "center")
+  tm_layout(main.title = "Kernel Density Estimate", main.title.position = "center", main.title.size = 1)
 
 ```
 
