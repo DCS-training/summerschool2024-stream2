@@ -42,7 +42,6 @@ options(repos = c(CRAN = "https://cran.r-project.org"))
 #install.packages("rgdal")
 #install.packages("rgeos")
 l#install.packages("sp")
-#install.packages("tmap")
 #install.packages("tidyverse")
 #install.packages("RColorBrewer")
 #install.packages("classInt")
@@ -113,7 +112,7 @@ This is a vector point dataset.
 
 ```{r Gpkg4}
 PointsDistilleries<- readOGR(dsn = "data/Spatial/ScottishDistilleries.gpkg")
-plot(PointsDistilleries, main = "Scottish Parishes")
+plot(PointsDistilleries, main = "Scottish Distilleries")
 ```
 
 We will work with first, the vector polygons containing the parish boundaries.
