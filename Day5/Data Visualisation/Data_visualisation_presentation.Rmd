@@ -95,7 +95,6 @@ ggplot(
   theme(strip.background = 
     element_rect(fill="#EAF3FD",
     color = "black"),
- #   linewidth = .7), # commenting out, as command won't work in noteable.
     axis.title.y = element_blank(),
     axis.text.y = element_blank(),
     axis.ticks.y = element_blank(),
