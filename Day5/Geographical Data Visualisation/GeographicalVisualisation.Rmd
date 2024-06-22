@@ -26,8 +26,8 @@ On Noteable
 # Set a CRAN mirror
 options(repos = c(CRAN = "https://cran.r-project.org"))
 
-#install.packages("tmap")
-#install.packages("adehabitatHR")
+install.packages("tmap")
+install.packages("adehabitatHR")
 
 ```
 
@@ -551,28 +551,20 @@ tm_shape(masked_kde, bbox = bounding_box) + tm_raster("ud", style = "quantile", 
 
 ```
 
-We can also use bespoke symbols for distilleries locations
+We can also use bespoke symbols for distilleries locations and plot it again. (This function is available with tmap only.)
 
 ```{r }
-iconfile1 <- download.file("https://www.iconarchive.com/download/i123361/pictogrammers/material/bottle-tonic.512.png", destfile = "icon1.png", mode = "wb")
-icon1 <- readPNG('icon1.png')
+icon <- tmap_icons("data/bottle.png") 
 
+tm_shape(MergedGeo3) +
+  tm_fill("per", style = "equal", n = 5, palette = color.palette3(100), colorNA = "grey") +
+  tm_borders(col = "black")+
+  tm_shape(MergedGeo3) + tm_symbols(shape = icon, size = 0.2, border.lwd = 0) +
+  tm_layout(title = "Booze Reports", legend.text.size = 0.75, legend.title.size = 1, frame = FALSE) +
+  tm_scale_bar(position = "left") +
+  tm_compass(size = 1.5)
 ```
 
-Plot again
-
-```{r }
-spplot(MergedGeo3,
-       "per", 
-       col.regions = color.palette3(100),
-       main = "Booze Reports",
-       key.space = "right",
-       sp.layout = list("sp.polygons",
-                        PointsDistilleries,
-                        col = "black", pch = "icon1", labels = PointsDistilleries$Name, cex = 2),
-       scales = list(draw = TRUE))
-
-```
 
 ### Exercise
 
@@ -597,12 +589,10 @@ text2 <- list("sp.text", c(150000, 1120000), "25km", cex = 0.7)
 
 ## Code for north arrow
 arrow <- list("SpatialPolygonsRescale", layout.north.arrow(), offset = c(50000, 1150000), scale = 45000)
-geo3_layout <- list(c("sp.polygons",
-                      PointsDistilleries,
-                      col = "black", pch = 19, labels = PointsDistilleries$Name), scale, text1, text2, arrow)
+
 
 geo3_layout <- list(
-  list("sp.polygons", PointsDistilleries, col = "black", pch = 19, labels = PointsDistilleries$Name), 
+  list("sp.polygons", PointsDistilleries, col = "black", pch = 20, labels = PointsDistilleries$Name), 
   scalebar, 
   text1, 
   text2, 
