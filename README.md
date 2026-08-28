@@ -75,7 +75,7 @@ For the Geographical Data Visualisation section, we are going to use edited data
 2. Login with your EASE credentials
 3. Select RStudio as a personal notebook server and press start
 4. Go to File >New Project>Version Control>Git
-5. Copy and Paste this repository URL [https://github.com/DCS-training/summerschool2024-stream2/](https://github.com/DCS-training/summerschool2024-stream2/) as the Repository URL
+5. Copy and Paste this repository URL [https://github.com/EFI-training/summerschool2024-stream2/](https://github.com/EFI-training/summerschool2024-stream2/) as the Repository URL
 6. The Project directory name will filled in automatically but you can change it if you want your folder in Notable to have a different name
 7. Decide where to locate the folder. By default, it will locate it in your home directory 
 8. Press Create Project
@@ -89,7 +89,7 @@ Now you can access every.R file in this repo
 2. Signup either via Gmail or GitHub
 3. Go on New Project
 4. New Project from Git Repository
-5. Copy and Paste this repository URL [https://github.com/DCS-training/summerschool2024-stream2/](https://github.com/DCS-training/summerschool2024-stream2/) as the Repository URL
+5. Copy and Paste this repository URL [https://github.com/EFI-training/summerschool2024-stream2/](https://github.com/EFI-training/summerschool2024-stream2/) as the Repository URL
 6. The Project directory name will filled in automatically
 
 
